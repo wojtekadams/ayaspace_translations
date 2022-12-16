@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root disp="Polish">
+    <!-- 导航栏 -->
+    <NavBar>
+        <Home>Home</Home>
+        <Game>Gry</Game>
+        <Asst>Asystent</Asst>
+        <QuitConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#C14D4E&quot;&gt;Are you closing AYASpace?&lt;/font&gt;&lt;/p&gt;</QuitConfirm>
+    </NavBar>
+
+    <DisplayChangedTip>
+        <KeyA>Restart</KeyA>
+        <KeyB>Ignore</KeyB>
+        <QuitConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;#C14D4E&quot;&gt;In order to ensure the user experience of AYASpace, &lt;/br&gt; you need to restart the software after switching the resolution&lt;/font&gt;&lt;/p&gt;</QuitConfirm>
+    </DisplayChangedTip>
+
+    <KeyboardCheckTip>
+        <KeyA>Restart</KeyA>
+        <ConfirmText>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;#C14D4E&quot;&gt;The driver updater has been installed, &lt;/br&gt;and the device needs to be restarted to experience full functionality.&lt;/font&gt;&lt;/p&gt;</ConfirmText>
+    </KeyboardCheckTip>
+
+    <!-- 底部状态栏 -->
+    <BottomBar>
+        <FirstUse>
+            <KeyDpad>Select</KeyDpad>
+            <KeyA>Ok</KeyA>
+            <KeyB>Cancel</KeyB>
+        </FirstUse>
+        <Home>
+            <KeyDpad>Select</KeyDpad>
+            <KeyA>Ok</KeyA>
+            <KeyB>Anuluj</KeyB>
+        </Home>
+        <Game>
+            <KeyA>Open</KeyA>
+            <KeyB>Cancel</KeyB>
+            <KeyR3>Filter</KeyR3>
+            <KeyStart>Manage</KeyStart>
+            <Move>Move</Move>
+        </Game>
+        <Asst>
+            <KeyDpad>Select</KeyDpad>
+            <KeyA>Ok</KeyA>
+            <KeyB>Cancel</KeyB>
+            <Replace>Replace</Replace>
+            <Remove>Remove</Remove>
+            <Back>GoBack</Back>
+        </Asst>
+    </BottomBar>
+
+    <!-- 状态栏 -->
+    <StatusBar>
+        <ExpandTitle>Expand</ExpandTitle>
+        <GameLaunch>
+            <Launch>&lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;launching&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;seconds&lt;/font&gt;&lt;/p&gt;</Launch>
+            <Run>&lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;running&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;seconds&lt;/font&gt;&lt;/p&gt;</Run>
+            <KeySelect>Collapse</KeySelect>
+            <KeyX>Close</KeyX>
+            <KeyA>Continue</KeyA>
+            <ReadyToStart>Preparing to start</ReadyToStart>
+            <Later>Later</Later>
+            <Close>Close</Close>
+            <ExitTheGame>Exit</ExitTheGame>
+            <ContinueTheGame>Continue</ContinueTheGame>
+            <SwitchHomePage>HomePage</SwitchHomePage>
+            <GameFail>The game did not launch successfully, please check the game launcher</GameFail>
+            <Press>Press</Press>
+            <OpenTheExe>Open the launcher</OpenTheExe>
+            <Decs>Enjoy your game</Decs>
+            <Running>Game running</Running>
+            <PutAway>Collapse</PutAway>
+            <MasterHandle>Master Controller</MasterHandle>
+        </GameLaunch>
+        <DownLoad>
+            <Title>Download queue</Title>
+            <ProgressTitle>Downloading</ProgressTitle>
+            <KeySelect>Collapse</KeySelect>
+            <KeyX>Try Again</KeyX>
+        </DownLoad>
+        <GameScan>
+            <StartScan>game scan ... </StartScan>
+            <LocalDir>scan local game directory</LocalDir>
+            <ImportSteamGames>scan steam games</ImportSteamGames>
+            <ImportXboxPlayedGames>scan played xbox games</ImportXboxPlayedGames>
+            <ImportXboxUwpGames>scan installed xbox games</ImportXboxUwpGames>
+            <LocalGameFinishScan>installed game scan finish</LocalGameFinishScan>
+            <FinishScan>%s games scan finish</FinishScan>
+            <LocalProgress>local game %s (%d/%d)</LocalProgress>
+            <SteamOwnedProgress>owned steam games %s (%d/%d)</SteamOwnedProgress>
+            <XboxPlayedProgress>played xbox games %s (%d/%d)</XboxPlayedProgress>
+            <XboxInstalledProgress>installed xbox games %s (%d/%d)</XboxInstalledProgress>
+            <ScanResult>Scan completed, new game: %d, unknow file: %d</ScanResult>
+        </GameScan>
+        <ImageDownload>
+            <Title>game image download</Title>
+            <Library>library image</Library>
+            <ClearLogo>clear logo</ClearLogo>
+            <Bkgd>background image</Bkgd>
+        </ImageDownload>
+        <GameSync>
+            <StartGameSync>Game data synchronization ... </StartGameSync>
+        </GameSync>
+    </StatusBar>
+
+    <!-- 黏贴提示栏 -->
+    <SnackBar>
+        <OkTitle>Ok</OkTitle>
+        <CancelTitle>Cancel</CancelTitle>
+    </SnackBar>
+
+    <!-- 小工具 -->
+    <TinyTool>
+        <AyaJoyStick>
+            <Enable>Enabled AYANEO joystick successfully</Enable>
+            <DisableStart>Disabling AYANEO joystick ...</DisableStart>
+            <DisableFinish>Disabled AYANEO joystick successfully</DisableFinish>
+        </AyaJoyStick>
+    </TinyTool>
+
+    <!-- 首次使用页 -->
+    <FirstUse>
+	<StepOne>
+		<Title>F i r s t   m e e t</Title>
+		<LongPress>Hold</LongPress>
+		<Next>skip</Next>
+		<NextStep>Next</NextStep>
+		<TextOne>Hello! AYANEO players</TextOne>
+		<TextTwo>AYA Space is for you PC handheld game content management software</TextTwo>
+		<TextThree>Maybe you are not familiar with it yet, don’t worry Now let’s make some simple settings</TextThree>
+		<Close>closure</Close>
+		<PreviousVersion>previous version</PreviousVersion>
+		<UpdateContent>update content</UpdateContent>
+	</StepOne>
+	<StepTwo>
+		<Title>G a m e    M a n a g e m e n t && P l a t f o r m</Title>
+		<LongPress>Hold</LongPress>
+		<Next>skip</Next>
+		<NextStep>Next, and download the selected game platform</NextStep>
+		<Press>Press</Press>
+		<Mark>mark</Mark>
+		<Selected>Selected</Selected>
+		<Piece></Piece>
+		<TextOne>We are already helping you&#x000A;organize the local game datas </TextOne>
+		<TextTwo>Local game scan</TextTwo>
+		<TextThree>If you still have a game platform that needs&#x000A;to be installed,You can choose from the&#x000A;right side, and we will help you download  </TextThree>
+	</StepTwo>
+	<StepThree>
+		<Title>F i n i s h i n g   t h e   f i n a l   w o r k</Title>
+		<LongPress>Hold</LongPress>
+		<Next>skip</Next>
+		<Switch>Switch</Switch>
+		<Finish>completed</Finish>
+		<TextOne>AYA Space is making final&#x000A;preparations for you</TextOne>
+		<TextTwo>Local game scan</TextTwo>
+		<TextThree>Startup optimization</TextThree>
+		<TextFour>Wait a moment, the fun game&#x000A;experience is coming soon </TextFour>
+	</StepThree>
+	<StepFour>
+		<Title>E n j o y   y o u r   A Y A N E O</Title>
+		<Switch>Switch</Switch>
+		<Finish>completed</Finish>
+		<TextOne>Enjoy your gamelife！</TextOne>
+		<TextTwo>Local game scan</TextTwo>
+		<TextThree>Startup optimization</TextThree>
+		<TextFour>Finish</TextFour>
+	</StepFour>
+        <Title>Welcome ~ Start to explore your AyaSpace</Title>
+        <QuickAsst>Quick Assistant</QuickAsst>
+        <ChoicePlat>
+            <Title>Please install the game plats</Title>
+            <BtnInstallTitle>Install</BtnInstallTitle>
+            <BtnInstallTips>total %d softwares</BtnInstallTips>
+            <FinishTitle>Finished</FinishTitle>
+            <LongPress>Pressed</LongPress>
+            <Next>skip</Next>
+        </ChoicePlat>
+
+        <CardGameScan>
+            <Title>Auto Scan, Auto Import</Title>
+            <GameTips>total find %d games</GameTips>
+            <ButtonA>next step</ButtonA>
+            <NotArrivedTitle>Not Arrived</NotArrivedTitle>
+            <FinishTitle>Finished</FinishTitle>
+        </CardGameScan>
+
+        <CardStep3>
+            <NotArrivedTitle>Not Arrived</NotArrivedTitle>
+            <FinishTitle>Finished</FinishTitle>
+        </CardStep3>
+    </FirstUse>
+
+    <!-- 首页 -->
+    <Home>
+        <LastPlay>Most Recent Games</LastPlay>
+        <QuickAsst>Quick Assistant</QuickAsst>
+
+        <!-- 游戏收集卡片 -->
+        <GameCollect>Games</GameCollect>
+
+        <!-- 随机玩玩卡片 -->
+        <RandomPlay>
+            <Title>Random&#x000A;Play</Title>
+            <NoInstallGame>You have no installed game</NoInstallGame>
+        </RandomPlay>
+
+        <!-- 一键升级卡片 -->
+        <OneClickUpdate>
+            <DriverUpdate>DriverUpdate</DriverUpdate>
+            <Title>OneClickUpdate</Title>
+            <Tips>Wow!&#x000A;Everything is updated</Tips>
+            <NoUpdateTip>Everything is latest</NoUpdateTip>
+            <BtnTitle>Check Update</BtnTitle>
+            <GoGames>go to games</GoGames>
+        </OneClickUpdate>
+
+        <CardHome>
+            <CommSoftBar>
+                <Title>Apps</Title>
+                <NoSelectedTitle>None Added</NoSelectedTitle>
+            </CommSoftBar>
+
+            <BatteryCharge>
+                <Quick>Smart</Quick>
+                <Preserve>Conserve</Preserve>
+            </BatteryCharge>
+
+            <PadVibration>
+                <PowerTitle>Vibration Intensity</PowerTitle>
+                <Gentle>Slight</Gentle>
+                <Violent>strong</Violent>
+                <Off>off</Off>
+            </PadVibration>
+
+            <Cpu>
+                <Game>Game</Game>
+                <Balance>Balance</Balance>
+                <PowerSaving>PowerSaving</PowerSaving>
+                <Custom>Custom</Custom>
+                <Pro>Pro mode</Pro>
+                <Setup>Setup</Setup>
+                <CustomTDP>Custom TDP</CustomTDP>				
+            </Cpu>
+
+            <Fan>
+                <ProTitle>Pro</ProTitle>
+                <WildTitle>MAX</WildTitle>
+                <SmartTitle>LOW</SmartTitle>
+                <MidTitle>MID</MidTitle>	
+                <Wild>Wild</Wild>
+                <Smart>Saving</Smart>
+                <Excellent>Exc.</Excellent>
+                <Balanced>BAL</Balanced>					
+            </Fan>
+
+            <Clean>
+                <Title>Optimize</Title>
+                <Succ>Optimization completed successfully</Succ>
+            </Clean>
+
+            <Ota>
+                <Title>OTA Game Config&#x000A;Keep best game status</Title>
+            </Ota>
+
+            <Explore>
+                <Title>Explore More</Title>
+            </Explore>
+
+            <WidgetPowerLevel>
+                <CurPowerTitle>current %0.1f W</CurPowerTitle>
+            </WidgetPowerLevel>
+
+            <Update>
+                <NoUpdateTitle>more</NoUpdateTitle>
+                <UpdateTitle>Updatable</UpdateTitle>
+            </Update>
+
+            <TinyTool>
+                <CustomTitle>Add</CustomTitle>
+            </TinyTool>
+        </CardHome>
+    </Home>
+
+    <Game>
+        <Title1>The game library seems a bit empty</Title1>
+        <Title2>Why not try what we designed for you</Title2>
+        <EasyToUse>Super easy to use</EasyToUse>
+        <GameMgr> Game management </GameMgr>
+        <Function>features?</Function>
+        <PressTitle>Press</PressTitle>
+        <ButtonBTitle>Start management game</ButtonBTitle>
+        <RemoveAll>Remove&#x000A;all</RemoveAll>
+        <QuickSearch>
+            <KeySelect>Find</KeySelect>
+            <KeySwitch>Switch</KeySwitch>
+            <KeyPutAway>Put away</KeyPutAway>
+            <FirstWord>INIT.</FirstWord>
+            <Label>TAG</Label>
+            <Platform>P.</Platform>
+        </QuickSearch>
+        <Sort>
+            <DisplayColNumber>DisplayColNumber</DisplayColNumber>
+            <DisplayOrder>DisplayOrder</DisplayOrder>
+            <PlayTime>Play time</PlayTime>
+            <StorageTime>Create time</StorageTime>
+            <GameName>Game name</GameName>
+            <Ascending>Ascending</Ascending>
+            <Descending>Descending</Descending>
+            <Back>GoBack</Back>
+        </Sort>
+        <InstructionsAndRemindersContent>
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;&lt;/br&gt;You are about to turn on the automatic upload screenshot function, which provides&lt;/br&gt;&lt;br&gt;a better experience for you to share game screenshots.At the same time, the uploaded&lt;/br&gt;&lt;br&gt;screenshot data will be saved in your personal database on the AYANEO server.&lt;/br&gt;&lt;br&gt;Your consent is required for usage data and synchronization functions. Please read the &lt;/br&gt;&lt;br&gt;&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;"Software License Agreement" and "Privacy Policy"&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;，in detail.Turning on the function &lt;/br&gt;&lt;br&gt;will mean that you understandand know our related policies.&lt;/font&gt;
+        </InstructionsAndRemindersContent>			
+    </Game>
+
+    <!-- 游戏助手页 -->
+    <Asst>
+        <LeftHelper>Game helper</LeftHelper>
+        <MiddleConfig>Func config</MiddleConfig>
+        <RightQuick>Quick Assistant</RightQuick>
+
+        <!-- 平台管理 -->
+        <CardPlat>
+            <KeyX>Hide Installed</KeyX>
+            <KeyX2>Show Installed</KeyX2>
+            <KeyY>Cancel Common Use</KeyY>
+            <BtnInstall>Install</BtnInstall>
+            <InstallStatus>Installed</InstallStatus>
+        </CardPlat>
+
+        <AppletEntrance>
+            <Title>application Center</Title>
+            <Market>application market</Market>
+            <Installed>installed</Installed>
+            <Newest>Recently updated</Newest>
+            <Shared>shared</Shared>
+            <Total>Total</Total>
+            <Open>Open</Open>
+            <Install>Install</Install>
+            <Download>Download</Download>
+            <Renew>Renew</Renew>
+            <Ison>activated</Ison>
+            <Isoff>Not Enabled</Isoff>
+            <RenewAll>Update all</RenewAll>
+            <Manage>manage</Manage>
+            <TurnOn>turn on</TurnOn>
+            <ReleaseDesc>Release description</ReleaseDesc>
+            <UseDesc>Use description</UseDesc>
+            <More>More</More>
+            <Version>Version</Version>
+            <Applet>Applet</Applet>
+            <Apply>Apply</Apply>
+        </AppletEntrance>
+		
+        <AppletConfig>
+            <Config>Config</Config>
+            <Control>Control configuration</Control>
+            <Library>Library configuration</Library>
+            <Applet>Applet configuration</Applet>
+            <Style>Style</Style>
+            <LongPress>Hold</LongPress>
+            <Close>Close</Close>
+            <Enable>Enable</Enable>
+            <Disable>Disable</Disable>
+            <Uninstall>Uninstall</Uninstall>
+            <UserDesc>Instructions for use</UserDesc>
+        </AppletConfig>
+        
+        <SoftwareCenter>
+            <Title>Software</Title>
+            <Total>A total of</Total>
+            <Application>software</Application>
+            <Disk>Disk</Disk>
+            <HideSystemSoft>Hide system software</HideSystemSoft>
+	    <Installed>Installed</Installed>
+        </SoftwareCenter>
+
+        <CardMasterPad>
+            <Title>Master Controller</Title>
+            <Comment>Unparalleled sense of control</Comment>
+            <Config>Configure your operating mode</Config>
+        </CardMasterPad>
+
+        <CardMaster>
+            <NewUpdateTitle>#Update  Added description of joystick calibration</NewUpdateTitle>
+            <ExploreAya>EVO - Configure AYANEO</ExploreAya>
+            <PalyAya>How to unleash the unlimited potential of &#x000A;AYANEO&#x000A;</PalyAya>
+            <GameScreenshots>Screenshot book</GameScreenshots>
+            <GameMoments>Keep the wonderful game moments</GameMoments>
+            <KnowMore>More</KnowMore>
+            <Help>QA</Help>
+        </CardMaster>
+
+        <CardTinyTool>
+            <Title>Homepage control</Title>
+            <QuickTool>AYAQuicktool</QuickTool>
+            <CommTool>Quicktool Commonly control</CommTool>
+            <Fold>Fold</Fold>
+            <CommonlyUsed>CommonlvUsed</CommonlyUsed>
+        </CardTinyTool>
+
+        <CardController>
+            <Title>Controller&#x000A;Helper</Title>
+            <Connected>Current Connected</Connected>
+            <Switch1P>Switch 1P</Switch1P>
+            <More>More</More>
+        </CardController>
+
+        <CardFeedBack>
+            <Title>Have feedback?&#x000A;contact us&#x000A;Please</Title>
+        </CardFeedBack>
+
+        <CardAsst>
+            <GameToolsTitle>Game Tools</GameToolsTitle>
+            <SystemToolsTitle>System Tools</SystemToolsTitle>
+
+            <Fan>
+                <Wild>Wild</Wild>
+                <Smart>Saving</Smart>
+            </Fan>
+        </CardAsst>
+    </Asst>
+
+    <!-- 快设小窗 -->
+    <PopAsst>
+        <PopAsstTitleBar>
+            <Title>AYAQuickTool</Title>
+        </PopAsstTitleBar>
+        <StatusBar>
+            <NormalApply>Action processed successfully</NormalApply>
+            <Disable>Disabled</Disable>
+            <Enable>Enabled</Enable>
+            <ScreenshotSucc>Screenshot successful</ScreenshotSucc>
+            <FsrTips>Scale frontmost window with FSR after 3 seconds</FsrTips>
+            <Prossimamente>Prossimamente</Prossimamente>
+        </StatusBar>
+        <CommSoftBar>
+            <Title>Select quick launch apps from Home page</Title>
+        </CommSoftBar>
+		<SystemMonitor>
+			<Gpu>GPU</Gpu>
+			<ThreeA>3A</ThreeA>
+			<Auto>Auto</Auto>
+			<BatteryLife>Saving</BatteryLife>
+			<Reboot>Need to restart the computer to take effect</Reboot>
+			<BtnX>Cancel</BtnX>
+			<BtnA>reboot</BtnA>
+		</SystemMonitor>
+    </PopAsst>
+
+    <PopSettings>
+        <Account>Account Safey</Account>
+        <StartUp>StartUp Update</StartUp>
+        <Data>Data</Data>
+        <Sync>Sync</Sync>
+        <Device>Device</Device>
+        <Language>Language</Language>
+        <Founders>Founders</Founders>
+        <OpenSources>Third Libs</OpenSources>
+        <Minimize>Minimize</Minimize>
+        <Sleep>Goto Sleep</Sleep>
+        <ClientVersionChina>Goto China</ClientVersionChina>
+        <ClientVersionGlobal>Goto Global</ClientVersionGlobal>
+        <SleepConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;Confirm&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;#C14D4E&quot;&gt;go to sleep？&lt;/font&gt;&lt;/p&gt;</SleepConfirm>
+        <Quit>Quit</Quit>
+        <SystemSetting>System setting</SystemSetting>
+
+        <PropertyMain>
+            <Account>Account&#x000A;security</Account>
+            <StartUp>Startup and Update</StartUp>
+            <Data>installation&#x000A;Datas</Data>
+            <Sync>Synchronize&#x000A;</Sync>
+            <Device>equipment&#x000A;information</Device>
+            <Language>Language Setting</Language>
+            <TitleGameData>Games&#x000A;datas</TitleGameData>
+        </PropertyMain>
+
+        <PropertyUpdate>
+            <TitleUpdate>System Update</TitleUpdate>
+            <Loading>Checking and updating online...</Loading>
+            <TitleButtonStart>UpdateAll</TitleButtonStart>
+            <NoUpdate>No Update</NoUpdate>
+            <TitleButtonDpad>Move</TitleButtonDpad>
+            <TitleButtonA>Update</TitleButtonA>
+            <TitleButtonB>GoBack</TitleButtonB>
+            <BtnCheckTitle>CheckUpdate</BtnCheckTitle>
+            <Retry>Retry</Retry>
+            <RetryTitle>Retry</RetryTitle>
+            <Finish>Finish</Finish>
+            <updateItems>%d Updatable</updateItems>
+            <updateFailItems>%d Failed</updateFailItems>
+            <WattingDownload>Waiting to download...</WattingDownload>
+            <DownloadingTip>Downloading, please wait</DownloadingTip>
+            <UpdateCloseTip>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;red&quot;&gt;The driver is being updated. Are you sure you want to close it?&lt;/font&gt;&lt;/p&gt;</UpdateCloseTip>
+            <Fail>Update failed</Fail>
+            <Updating>Updating</Updating>
+            <Installing>Installing..</Installing>
+            <ManualInstallation>Installation Instructions</ManualInstallation>
+            <Restart>Restart to take effect</Restart>
+            <RestartNow>Restart</RestartNow>
+            <PromemoriaImportante>Promemoria importante</PromemoriaImportante>
+            <PleaseWait>Please wait</PleaseWait>
+            <UpdateFinish>Update is complete, please restart</UpdateFinish>
+            <UpdateFail>Update failed, please try again</UpdateFail>
+            <UpdateTipTitle>&lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;The BIOS version of AYANEO is being upgraded. Please make sure that the host&lt;/font&gt;&lt;br&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;is turned on and connected to the power source. &lt;/font&gt;&lt;/br&gt;&lt;br&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;Please do not turn off the power, sleep, or close the software&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;during the upgrade process. &lt;br&gt;Follow the prompts after the upgrade is &lt;/br&gt;&lt;/font&gt;&lt;/br&gt;</UpdateTipTitle>
+            <Soft>Soft</Soft>
+            <Driver>Driver</Driver>
+            <Config>Config</Config>
+            <Bios>BIOS</Bios>
+            <TitleStartUp>Start Up</TitleStartUp>
+            <StartUp>StartUp</StartUp>
+            <MouseMode>MouseMode</MouseMode>
+            <Overlay>Overlay</Overlay>
+            <Hide>HideFeature</Hide>
+            <DebugConsole>Debug Console</DebugConsole>
+            <FullScreen>Full Screen</FullScreen>
+            <GameSync>Game data sync</GameSync>
+            <Admin>Admin</Admin>
+            <TitleBeta>Beta Test</TitleBeta>
+            <WaitMore>Coming soon</WaitMore>
+            <LaunchOpt>
+                <Title>Launch Optimization</Title>
+                <Look>Look</Look>
+                <Open>Open</Open>
+                <DisableFullScreen>Disable Full Screen Opt</DisableFullScreen>
+                <GPUScaling>Open GPU Scaling</GPUScaling>
+                <UsbSuspend>Disable USB Selective Suspend</UsbSuspend>
+                <OskReplace>OSK Replace</OskReplace>
+                <HighPower>Ultimate Performance</HighPower>
+                <EmptyClipboard>Empty Clipboard</EmptyClipboard>
+                <EngKeyboardLayout>Switch to English input method</EngKeyboardLayout>
+            </LaunchOpt>
+        </PropertyUpdate>
+
+        <PropertyAccountSafety>
+            <Title>Account Safey</Title>
+            <SetPassword>set password</SetPassword>
+	    <Name>Name</Name>
+	    <Phone>Phone</Phone>
+	    <Avatar>Avatar</Avatar>
+            <Exit>Sign out</Exit>
+            <ExitTip>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;red&quot;&gt;是否确认的退出登录？&lt;/font&gt;&lt;/p&gt;</ExitTip>
+	    <Web>&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;Personal information settings, it is recommended to go to &lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;https://ayaneo.com/user</Web>
+        </PropertyAccountSafety>
+
+        <PropertyData>
+            <TitleGameData>Game Data</TitleGameData>
+            <Image>Image</Image>
+            <Video>Video</Video>
+            <TitlePackage>Install Package or Firmware</TitlePackage>
+            <Soft>Soft</Soft>
+            <Firmware>Firmware</Firmware>
+            <Clean>One Click Clean</Clean>
+        </PropertyData>
+
+        <PropertyDevice>
+            <Family>Family: </Family>
+            <Sku>Sku: </Sku>
+            <SerialNumber>Serial Number: </SerialNumber>
+            <BiosVersion>Bios Version: </BiosVersion>
+            <EcFirmwareVersion>Ec Firmware Version: </EcFirmwareVersion>
+            <AoutDevice>Device</AoutDevice>
+        </PropertyDevice>
+
+        <PropertySync>
+            <Config>Sync Config File</Config>
+            <GameList>Sync Game List</GameList>
+            <LastSyncTime>Last Sync Time</LastSyncTime>
+            <BtnSteam>Goto Bind Steam</BtnSteam>
+            <BtnSteamFinish>Binded Steam</BtnSteamFinish>
+            <BtnSteamSave>Save</BtnSteamSave>
+            <SteamInvalidId>The provided steam account was not found, it may be that the steam platform is not installed</SteamInvalidId>
+            <SteamInvalidKey>appkey invalid</SteamInvalidKey>
+            <SteamTestFailed>The appkey test is invalid, please enter the correct appkey.</SteamTestFailed>
+            <BtnXbox>Goto Bind Xbox</BtnXbox>
+            <BtnXboxFinish>Binded %s</BtnXboxFinish>
+            <BrowserToolbarTitle>AYANEO sync assistant</BrowserToolbarTitle>
+	    <WhetherToUnbindXbox>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;Whether to unlink the Xbox account? &lt;/font&gt;&lt;/p&gt;</WhetherToUnbindXbox>
+	    <WhetherToUnbindSteam>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;Whether to unbind the Steam account? &lt;/font&gt;&lt;/p&gt;</WhetherToUnbindSteam>
+	    <LongPress>long press to unbind</LongPress>
+        </PropertySync>
+
+        <PropertyLanguage>
+            <Title>Language modification takes effect after restart</Title>
+            <Classic>Classic</Classic>
+            <BlackWhite>WhiteBlack</BlackWhite>
+            <Execute>save</Execute>
+        </PropertyLanguage>
+
+        <PopBindEmail>
+            <Title>AYANEO Account binding</Title>
+            <BindDesc>Bind AYA ID &#x000A;Enjoy your game space</BindDesc>
+            <Bind>Bind</Bind>
+            <InputEmailTip>Please enter your email</InputEmailTip>
+            <InputCodeTip>Please enter Code</InputCodeTip>
+            <InputAreaTip>Please enter area code</InputAreaTip>
+            <InputPhoneTip>Please enter phone number</InputPhoneTip>
+        </PopBindEmail>
+
+    </PopSettings>
+
+    <PopGameMgr>
+        <Title>Game management</Title>
+        <BtnControls>
+            <EmptyDesc>No Data</EmptyDesc>
+        </BtnControls>
+        <PropertyGameMgr>
+            <Title1>With your private game collection</Title1>
+            <Title2>Enjoy the best game management method</Title2>
+            <BtnAdd>
+                <Title>Add Game</Title>
+            </BtnAdd>
+            <BtnRemove>
+                <Title>UnInstall Game</Title>
+                <Desc>Games</Desc>
+            </BtnRemove>
+            <BtnUnknow>
+                <Title>Unknow File</Title>
+                <Desc>Like a Game</Desc>
+            </BtnUnknow>
+            <BtnShowHide>
+              <Show>Show All</Show>
+              <Hide>Hidden Item</Hide>
+            </BtnShowHide>
+        </PropertyGameMgr>
+
+        <PropertyGameMgrAdd>
+            <Title>Add New Game</Title>
+            <BtnScan>
+                <Title>Scan Game</Title>
+                <Desc>New Games</Desc>
+            </BtnScan>
+            <BtnManual>
+                <Title>Manual Add</Title>
+            </BtnManual>
+            <BtnPlat>
+                <Title>Bind Plat</Title>
+                <BindedWords>Bound</BindedWords>
+            </BtnPlat>
+        </PropertyGameMgrAdd>
+
+        <PropertyGameMgrUnInstall>
+            <Title>Please mark games you would like to delete</Title>
+            <MarkTitle>Mark</MarkTitle>
+            <DeleteTitle>Long press delete</DeleteTitle>
+            <FormatGameCount>Total selected %d games</FormatGameCount>
+            <SelectCount>Total selected</SelectCount>
+            <Games>games</Games>
+            <TimerContent>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;6&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;Seconds&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;Perform uninstall&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#ACC3CD&quot;&gt;Release the button to cancel&lt;/font&gt;&lt;/p&gt;</TimerContent>
+            <Loading>Delete the game directory。。。</Loading>
+            <Finish>Successfully deleted %d game directories</Finish>
+        </PropertyGameMgrUnInstall>
+
+        <PropertyGameMgrAddManual>
+            <Title>Please select the game startup file</Title>
+            <CommDir>Commonly used directory</CommDir>
+            <GameFile>Which file is Game?</GameFile>
+            <ButtonStart>Add directory</ButtonStart>
+            <ButtonA>Add to game library</ButtonA>
+            <ButtonY>try</ButtonY>
+            <RemoveDir>Remove directory</RemoveDir>
+        </PropertyGameMgrAddManual>
+
+        <PropertyGameMgrUnknow>
+            <Title>Which file bellow is game?</Title>
+            <FilePath>File Path</FilePath>
+            <ExcludeTitle>Long press exclude</ExcludeTitle>
+            <AddTitle>Append</AddTitle>
+            <TryRunTitle>Try a Run</TryRunTitle>
+            <TimerContent>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;6&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;Seconds&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;Perform exclude all&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#ACC3CD&quot;&gt;Release the button to cancel&lt;/font&gt;&lt;/p&gt;</TimerContent>
+        </PropertyGameMgrUnknow>
+    </PopGameMgr>
+
+    <PopAppGrid>
+        <LoadingTitle>Load installed soft list ...</LoadingTitle>
+        <ButtonXTitle>Save</ButtonXTitle>
+        <ButtonAdd>Add</ButtonAdd>
+        <ButtonCancel>Cancel</ButtonCancel>
+    </PopAppGrid>
+
+    <PopFileDialog>
+        <ButtonXTitle>Save</ButtonXTitle>
+        <ButtonXTitleDirectory>Save directory</ButtonXTitleDirectory>
+        <ButtonYTitle>Previous directory</ButtonYTitle>
+        <ButtonATitle>Enter</ButtonATitle>
+        <ButtonBTitle>Close</ButtonBTitle>
+    </PopFileDialog>
+
+    <PopUserRegister>
+        <Title1>With AYASpace&#8482;</Title1>
+        <Title2>Discover·Explore·Engage</Title2>
+        <Title3>Your Gaming Passion</Title3>
+        <RegisterTitle>Access your</RegisterTitle>
+        <RegisterTitle1>a new gaming experience</RegisterTitle1>
+        <AyaIdTitle>AYAid</AyaIdTitle>
+        <EmailTitle>Email</EmailTitle>
+        <CodeTiTle>Code</CodeTiTle>
+        <InputPhoneNumberTiTle>Your email address</InputPhoneNumberTiTle>
+        <InputCodeTiTle>Enter code</InputCodeTiTle>
+        <BtnSendCodeTitle>Request Code</BtnSendCodeTitle>
+        <BtnResendTitle>Resend</BtnResendTitle>
+        <PressTitle>Press</PressTitle>
+	<InputEmailTiTle>Enter your usual email address</InputEmailTiTle>
+        <EmailRegister>Email registration</EmailRegister>
+        <PhoneNumberRegister>Phone registration</PhoneNumberRegister>
+        <Next>Next</Next>
+        <Logining>Logging In...</Logining>
+        <CodeSendSucce>Verification code sent</CodeSendSucce>
+        <CodeSendError>Failed to send the verification code, please try again!</CodeSendError>
+        <Countdown>Verification code refresh countdown</Countdown>
+        <VerificationCodeError>Verification code error</VerificationCodeError>
+        <LoginFail>Login failed</LoginFail>
+        <InputCorrectPhoneNumberTiTle>please enter a valid phone number</InputCorrectPhoneNumberTiTle>
+        <InputCorrectEmail>Please fill in the correct email format</InputCorrectEmail>
+        <NetWorkErrorTip>There is currently no network connection, please check the network status</NetWorkErrorTip>
+        <Go>Go</Go>
+	<Login>login/register</Login>
+	<Or>or</Or>
+	<Swich>toggle</Swich>
+	<UnLogin>not logged in</UnLogin>
+	<Association>connect</Association>
+	<SetUp>set up</SetUp>
+	<DataSynchronization>data sync</DataSynchronization>
+	<LoginAccount>login account</LoginAccount>
+	<LoginOut>log out</LoginOut>
+	<NotConnected>not connected</NotConnected>
+	<Connected>connected</Connected>
+	<Appreciate>appreciate</Appreciate>
+	<ProtocolText6>&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;Unregistered users will be automatically registered after logging in AYAid,Registration and login means approval and acceptance&lt;br&gt;&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;「User Agreement」&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt; and&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;「Privacy Policy」&lt;/font&gt;</ProtocolText6>
+    </PopUserRegister>
+
+    <PopExploreAya>
+        <Front>Front</Front>
+        <Back>Back</Back>
+        <Vibration>
+            <Title>Vibration Intensity</Title>
+            <ButtonA>Config</ButtonA>
+            <ViolentAdjustTip>Suitable for most AAA games, experience the most intense vibrations</ViolentAdjustTip>
+            <GentleAdjustTip>Soft, gentle, caress your palms, suitable for more casual players</GentleAdjustTip>
+            <CustomAdjustTip>Choose your own intensity level, save it, make the experience your own</CustomAdjustTip>
+            <Violent>Strong</Violent>
+            <OffTip>Off</OffTip>
+            <SaveSetting>Save</SaveSetting>
+        </Vibration>
+        <Resolution>
+            <Title>Resolution</Title>
+            <ButtonA>Config</ButtonA>
+            <Desc>current：%d*%d</Desc>
+        </Resolution>
+        <Fan>
+            <Title>Fan</Title>
+            <ButtonA>Config</ButtonA>
+            <Desc>current：%s</Desc>
+        </Fan>
+        <PowerLevel>
+            <Title>TDP</Title>
+            <ButtonA>Config</ButtonA>
+            <Desc>current：%s</Desc>
+            <GameTitle>Meeting the demands of most AAA game titles</GameTitle>
+            <BalanceTitle>Factory preset, balanced for most games</BalanceTitle>
+            <PowerSavingTitle>Battery Anxiety Terminator</PowerSavingTitle>
+            <CustomTitle>Custom TDP</CustomTitle>
+            <AdjustValue>Adjust Value</AdjustValue>
+            <PowerUnlock>Unlock 15W TDP</PowerUnlock>
+            <UnlockPowerTips>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#%2x%2x%2x&quot;&gt;Whether to unlock 15W TDP？&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#%2x%2x%2x&quot;&gt;Note that there will be increased heat and noise when unlocked.&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#%2x%2x%2x&quot;&gt;Unlocking takes effect only at this time of booting, and it needs to be unlocked again after rebooting.&lt;/font&gt;&lt;/p&gt;</UnlockPowerTips>
+        </PowerLevel>
+        <QuickKey>
+            <Title>Suck</Title>
+            <QuickKey_Control>Quick opening control</QuickKey_Control>
+            <text>Windows operation shortcuts,can be opened again quickly</text>
+            <DescOn>Current:On</DescOn>
+            <DescOff>Current: Not open</DescOff>
+            <ButtonA>Check</ButtonA>
+            <On>Turn on</On>
+            <Off>closure</Off>
+            <ArrowUp>KB key</ArrowUp>
+            <ArrowLeft>Multitasking</ArrowLeft>
+            <ArrowDown>Task manager</ArrowDown>
+            <ArrowRight>screenshot</ArrowRight>
+            <Gesture>Speed gesture</Gesture>
+            <HoldDown>Hold down</HoldDown>
+        </QuickKey>
+        <Joystick>
+            <BtnTitle>Joystick/Button</BtnTitle>
+            <BtnDesc>Correction</BtnDesc>
+            <ButtonA>Look</ButtonA>
+            <Title>Joystick/Button Calibration instructions</Title>
+            <Desc>You can try the following operations when the joystick and LT/RT are not sensitive:</Desc>
+            <StepText1_1>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Press&lt;/font&gt;</StepText1_1>
+            <StepText1_2>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;simultaneously for&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt; 2 &lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;seconds&lt;/font&gt;</StepText1_2>
+            <StepText1_3>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;and release the buttons when the controller vibrates.&lt;/font&gt;</StepText1_3>
+            <StepText2>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;RS and LS dual joysticks rotate one full circle at the maximum, &lt;br&gt; LT/RT (dual trigger)&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt; is pressed down three times.&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;/font&gt;</StepText2>
+            <StepText3>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;When the calibration is completed, the controller will vibrate and feedback.&lt;/font&gt;</StepText3>
+            <UpdateStep>&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;Please upgrade the controller firmware to the latest version, you can download the controller &lt;br&gt;firmware through AYASpace, and upgrade according to &lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;&lt;u&gt;&lt;b&gt;the upgrade tutorial&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt; .&lt;/font&gt;</UpdateStep>
+            <AirStepText1>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Simultaneously press LB + RB + Dpad Left + B keys.  &lt;/font&gt;</AirStepText1>
+            <AirStepText2>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;When the joystick controller vibrates, release the button, The &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt; LS RS&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt; has a maximum of five revolutions.  &lt;/font&gt;</AirStepText2>
+        </Joystick>
+        <CustomKey>
+            <BtnStart>Save&&apply</BtnStart>
+            <BtnA>Confirm</BtnA>
+            <BtnB>Back</BtnB>
+			
+            <BtnTitle>Custom key</BtnTitle>
+            <BtnDesc>current:</BtnDesc>
+            <ButtonA>Setting</ButtonA>
+            <Title>Custom key</Title>
+            <Desc>Press&&Hold，Enjoy free control。</Desc>
+            <TipTop>The custom ky only takes effect when AYASpace is started. When it is not started, the default button is Press: show desktop / Hold: task manager.</TipTop>
+            <TipBottom>With future version iterations, the function of this module will be changed, please refer to the latest version.</TipBottom>
+            <PressTitle>Press</PressTitle>
+            <HoldTitle>Hold</HoldTitle>
+            <DefaultInfo>Default</DefaultInfo>
+			
+			<FunCurrentFormat>&lt;center&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt;%s%&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;%s%&lt;/font&gt;&lt;center&gt;</FunCurrentFormat>
+            <FunCurrent>current</FunCurrent>
+            <FunShowDesk>Show desktop</FunShowDesk>
+            <FunScreenshot>Screenshot</FunScreenshot>
+            <FunCloseApp>Close the program</FunCloseApp>
+            <FunOsk>On-screen keyboard</FunOsk>
+            <FunEsc>ESC</FunEsc>
+            <FunOpenStream>Open Steam</FunOpenStream>
+            <FunXbox>Xbox button</FunXbox>
+            <FunTaskView>Task View</FunTaskView>
+            <FunTaskMgr>Task Manager</FunTaskMgr>
+			
+            <FunShowDeskDesc>Equivalent to WIn + D display system desktop.</FunShowDeskDesc>
+            <FunScreenshotDesc>Use AYASpace's built-in screenshot function.</FunScreenshotDesc>
+            <FunCloseAppDesc>It is equivalent to the operation of ALT+F4, close the current program.</FunCloseAppDesc>
+            <FunOskDesc>The OSK can be used barely after tuned up.</FunOskDesc>
+            <FunEscDesc>Description: The ESC key of the keyboard.</FunEscDesc>
+            <FunOpenStreamDesc>Quickly start the Steam software.</FunOpenStreamDesc>
+            <FunXboxDesc>Equivalent to the function of Win + G, you can open the xbox assistant after configuration.</FunXboxDesc>
+            <FunTaskViewDesc>Equivalent to Alt + TAB to quickly view the open program.</FunTaskViewDesc>
+            <FunTaskMgrDesc>You can quickly enter the entrance of the task manager, or perform soft shutdown operations.</FunTaskMgrDesc>
+            <ShoulderKey>CustomShoulderKey</ShoulderKey>
+            <ShoulderKeyTitle>Open up more possibilities for refreshing operations。</ShoulderKeyTitle>
+            <ShoulderKeyDesc>The custom shoulder key only takes effect when AYASpace is started. The default key is "LC" when it is not started. Short press: OSK / Long press: Task Manager, "RC" Short press: ESC / Long press: Task view.</ShoulderKeyDesc>
+            <AirCoustomKey>= Button</AirCoustomKey>					
+        </CustomKey>
+		<Reset>Reset</Reset>
+        <FreeButton>
+            <KeyDpad>Select</KeyDpad>
+            <BtnA>ok</BtnA>
+            <BtnB>Cancel</BtnB>
+			
+            <BtnTitle>Free Button</BtnTitle>
+            <BtnDesc>current: </BtnDesc>
+            <ButtonA>Config</ButtonA>
+			
+            <Title>Free Button</Title>
+            <Desc>Let the Button change with your habits.</Desc>
+            <TipBottom>The key configuration will take effect in Windows and the game, and AYASpace will still operate according to the key prompt.</TipBottom>
+			
+            <XYBA>A/B/X/Y</XYBA>
+            <LR>L/R</LR>
+            <Standard>Standard</Standard>
+            <JapanStyle>Japan Style</JapanStyle>
+            <Swap>Swap</Swap>
+			
+            <BtnConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#C14D4E&quot;&gt;Whether to change the button configuration?&lt;/font&gt;&lt;/p&gt;</BtnConfirm>
+        </FreeButton>
+	<RGB>
+		<Title>RGB lighting effect</Title>
+		<OpenRGB>Turn on</OpenRGB>
+		<CloseRGB>Turn off</CloseRGB>
+		<Desc>current:</Desc>
+		<BtnStart>save&&application</BtnStart>
+		<CloseDesc>Open up more possibilities for refreshing operations</CloseDesc>
+		<CloseDesc2>With the iteration of future versions, the function of this module will change, please refer to the latest version.</CloseDesc2>
+		<LoadPreset>Load preset</LoadPreset>
+		<Default>Default</Default>
+		<BreathMonochrome>Breath Monochrome</BreathMonochrome>
+		<BreatheRGBLoop>Breathe RGB Loop</BreatheRGBLoop>
+		<BreatheGoogle>Breathe Google</BreatheGoogle>
+		<Scanning>scanning</Scanning>
+		<Ripple>ripple</Ripple>
+		<MonochromaticAlwaysOn>Monochromatic always on</MonochromaticAlwaysOn>
+		<Color>color</Color>
+		<Brightness>brightness</Brightness>
+		<Hex>hexadecimal color value (Hex)</Hex>
+		<Customize>customize</Customize>
+		<Off>closure</Off>
+		<LightsOut>Lights out at night</LightsOut>
+		<Time>Time: 20:00~06:00</Time>
+	</RGB>
+    </PopExploreAya>
+
+    <PopGameBind>
+        <Title>Current game data</Title>
+        <SearchTitle>Search</SearchTitle>
+        <AiTitle>Intelligent</AiTitle>
+        <UnInstallTitle>Uninstall</UnInstallTitle>
+        <RemoveRecordTitle>Remove Record</RemoveRecordTitle>
+        <GameOpTitle>Data</GameOpTitle>
+        <ButtonStartTitle>Long press to clear data</ButtonStartTitle>
+        <ClearTimerContent>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;6&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;seconds&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;Perform cleanup&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#ACC3CD&quot;&gt;Release the button to cancel&lt;/font&gt;&lt;/p&gt;</ClearTimerContent>
+        <ClearContentFinish>Clear data complete</ClearContentFinish>
+        <Show>Show</Show>
+        <Hide>Hidden</Hide>
+        <UnInstall>
+            <OkTitle>delete</OkTitle>
+            <Tips>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;white&quot;&gt;Confirm to uninstall the game?&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#c14d4e&quot;&gt;This action will delete: %s&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#c14d4e&quot;&gt;all the files in the directory, confirm to delete?&lt;/font&gt;&lt;/p&gt;</Tips>
+            <Loading>Delete the game directory...</Loading>
+            <Finish>Successfully deleted the game directory</Finish>
+        </UnInstall>
+        <GameBindSearch>
+            <Title>Search</Title>
+            <SaveTitle>Do you use this piece of data as game display data?</SaveTitle>
+            <SaveTitle>Whether to use this piece of data as game display data?</SaveTitle>
+            <ButtonBTitle>cancel</ButtonBTitle>
+            <ButtonATitle>confirm</ButtonATitle>
+            <ResultLeftWords>A total of</ResultLeftWords>
+            <ResultRightWords>game data found</ResultRightWords>
+            <SearchStart>searching...</SearchStart>
+            <SearchFinish>Finish</SearchFinish>
+            <SearchExist>The last search is running, please wait...</SearchExist>
+            <BackSpace>BackSpace</BackSpace>
+            <Space>Space</Space>
+            <LinkingGameInfoGameInfo>Linking game information</LinkingGameInfoGameInfo>
+            <LinkingGameInfoFinish>Link game information successfully</LinkingGameInfoFinish>
+            <LinkingGameInfoFail>Failed to link game information</LinkingGameInfoFail>
+            <HasBindedGame>Already own this game</HasBindedGame>		
+            <UseGameInfoFinish>Apply game info successfully</UseGameInfoFinish>
+            <UseGameInfoFail>Failed to apply game info</UseGameInfoFail>
+        </GameBindSearch>
+    </PopGameBind>
+
+    <SystemStatusDetails>
+        <Title>Usage Status</Title>
+        <Processor>Processor</Processor>
+        <NetWork>Network</NetWork>
+        <Battery>Battery</Battery>
+        <Memory>RAM</Memory>
+        <VirtualMemory>Virtual</VirtualMemory>
+        <Fan>Fan</Fan>
+        <FanSpeed>FanSpeed</FanSpeed>
+        <HardDisk>Storage</HardDisk>
+        <LoadFactor>LoadFactor</LoadFactor>
+        <UsageRate>UsageRate</UsageRate>
+        <LocalConnection>LocalConnection</LocalConnection>
+        <Upload>Upload</Upload>
+        <Download>Download</Download>
+        <HardDiskSpaceInfo>%s/%s used</HardDiskSpaceInfo>
+        <Charging>Charging</Charging>
+        <Discharging>Draining</Discharging>
+        <ChargFinsh>Full</ChargFinsh>
+        <EstimatedRunTime>%d hour(s) and %d minutes remaining</EstimatedRunTime>
+        <EstimatedRunTimeMin>%d minutes remaining</EstimatedRunTimeMin>
+        <TimeToFullCharge>%d hour(s) and %d minutes to full charge</TimeToFullCharge>
+        <TimeMinToFullCharge>%d minutes to full charge</TimeMinToFullCharge>
+    </SystemStatusDetails>
+
+    <SystemConfigInfos>
+        <Title>Hardware Information</Title>
+        <System>System</System>
+        <Version>Version:</Version>
+        <Cores>CoreCount:</Cores>
+        <Threads>Threads:</Threads>
+        <VideoMemory>VideoMemory:</VideoMemory>
+        <Motherboard>Motherboard</Motherboard>
+        <Monitor>Monitor</Monitor>
+        <Inch>Inch</Inch>
+        <HardDisk>Storage</HardDisk>
+        <Capacity>Capacity</Capacity>
+        <DisplayFrequency>DisplayFrequency: %dHz</DisplayFrequency>
+        <ScreenSize>ScreenSize:</ScreenSize>
+    </SystemConfigInfos>
+
+    <GameDetail>
+        <RunGame>PLAY</RunGame>
+        <RunGameNoOverLay>Clear Play\n(No InGame Overlay)</RunGameNoOverLay>
+        <Source>From:</Source>
+        <GameDuration>Game time：</GameDuration>
+        <GameDuration1>Game &#x000A;time：</GameDuration1>
+        <GameDataManagement>DATA</GameDataManagement>
+        <MetadataPlugins>Metadata</MetadataPlugins>
+	<NotApplied>Configuration not applied</NotApplied>
+	<Applied>Configuration applied</Applied>
+	<AddConfig>Add new config</AddConfig>
+	<Like>Like </Like>
+        <Hour>Hour(s)</Hour>
+        <Minute>Minute(s)</Minute>
+        <Start>Play</Start>
+        <Back>GoBack</Back>
+	<Enter>Confirm</Enter>
+	<PowerPolicy>Power Policy</PowerPolicy>
+	<TDP>TDP</TDP>
+	<FPS>FPS</FPS>
+	<Shock>Vibration mode</Shock>
+	<Resolution>Resolution</Resolution>
+	<StartupParameters>startup parameter</StartupParameters>
+	<Remove>remove</Remove>
+	<Detail>Detail</Detail>
+	<Application>apply</Application>
+	<Stop>Stop</Stop>
+        <PlayTime>
+            <LessHalfHour>Took a glance</LessHalfHour>
+            <Normal>%0.1f</Normal>
+            <Maximum>9999+</Maximum>
+        </PlayTime>
+    </GameDetail>
+
+    <PopOtherDeviceTipPage>
+        <Title>Dear Gamers</Title>
+        <TipInfo>
+            Thank you for your love of AYANEO's exclusive game
+            management software AYASpace.Unfortunately, our
+            team is currently unable to serve non-AYANEO players.
+            In this software, we have provided many convenient
+            functions for gamersMany of these functions can only
+            be used on AYANEO series.If you would like to
+            experience AYASpace, please purchase AYANEO game
+            console,We are very much looking forward to serving
+            you on your gaming journey.
+        </TipInfo>
+        <Shop>国内玩家可前往官方淘宝店铺</Shop>
+        <Aya>「 AYANEO 亚诺掌机 」</Aya>
+        <AdvisoryBuy>咨询购买</AdvisoryBuy>
+        <Buy>Official Store</Buy>
+    </PopOtherDeviceTipPage>
+
+    <PopMinimize>
+        <SoftMinimize>AYASpace minimized</SoftMinimize>
+        <GameLaunch>Starting game</GameLaunch>
+        <GameRun>Game is currently running</GameRun>
+        <OpenApp>to show AYASpace</OpenApp>
+        <OpenQuickAsst>to open Quicktool</OpenQuickAsst>
+        <PressTitle>Press</PressTitle>
+        <LongPressTitle>Hold</LongPressTitle>
+    </PopMinimize>
+
+    <AyaDeviceInfo>
+        <Founder>AYANEO Founder</Founder>
+        <Formal>AYANEO 2021</Formal>
+        <Formal_Pro>AYANEO 2021 Pro</Formal_Pro>
+        <AYANEO_NEXT>AYANEO NEXT</AYANEO_NEXT>
+        <AYANEO_NEXT_Pro>AYANEO NEXT Pro</AYANEO_NEXT_Pro>
+        <AYANEO_2021_4500u_White>AYANEO 2021 Light Moon</AYANEO_2021_4500u_White>
+        <AYANEO_2021_4500u_Black>AYANEO 2021 Dark Star</AYANEO_2021_4500u_Black>
+        <AYANEO_2021_4800u_White>AYANEO 2021 Pro Light Moon</AYANEO_2021_4800u_White>
+        <AYANEO_2021_4800u_Black>AYANEO 2021 Pro Dark Star</AYANEO_2021_4800u_Black>
+        <AYANEO_2021_4800u_Retro>AYANEO 2021 Pro Retro Power</AYANEO_2021_4800u_Retro>
+        <AYANEO_NEXT_5800u_MetallicGrey>AYANEO NEXT MetallicGrey</AYANEO_NEXT_5800u_MetallicGrey>
+        <AYANEO_NEXT_5800u_DarkBlue>AYANEO NEXT DarkBlue</AYANEO_NEXT_5800u_DarkBlue>
+        <AYANEO_NEXT_5800u_LightBlue>AYANEO NEXT LightBlue</AYANEO_NEXT_5800u_LightBlue>
+        <AYANEO_NEXT_5800u_White>AYANEO NEXT White</AYANEO_NEXT_5800u_White>
+        <AYANEO_NEXT_5800u_BlackGrey>AYANEO NEXT BlackGrey</AYANEO_NEXT_5800u_BlackGrey>
+        <AYANEO_NEXT_5800u_Metal>AYANEO NEXT Metal</AYANEO_NEXT_5800u_Metal>
+        <AYANEO_NEXT_5825u_MetallicGrey>AYANEO NEXT MetallicGrey</AYANEO_NEXT_5825u_MetallicGrey>
+        <AYANEO_NEXT_5825u_DarkBlue>AAYANEO NEXT DarkBlue</AYANEO_NEXT_5825u_DarkBlue>
+        <AYANEO_NEXT_5825u_LightBlue>AYANEO NEXT LightBlue</AYANEO_NEXT_5825u_LightBlue>
+        <AYANEO_NEXT_5825u_White>AAYANEO NEXT White</AYANEO_NEXT_5825u_White>
+        <AYANEO_NEXT_5825u_BlackGrey>AYANEO NEXT BlackGrey</AYANEO_NEXT_5825u_BlackGrey>
+        <AYANEO_NEXT_5825u_Metal>AYANEO NEXT Metal</AYANEO_NEXT_5825u_Metal>
+        <AYANEO_NEXT_5825u_Pro_MetallicGrey>AYANEO NEXT Pro MetallicGrey</AYANEO_NEXT_5825u_Pro_MetallicGrey>
+        <AYANEO_NEXT_5825u_Pro_DarkBlue>AAYANEO NEXT Pro DarkBlue</AYANEO_NEXT_5825u_Pro_DarkBlue>
+        <AYANEO_NEXT_5825u_Pro_LightBlue>AYANEO NEXT Pro LightBlue</AYANEO_NEXT_5825u_Pro_LightBlue>
+        <AYANEO_NEXT_5825u_Pro_White>AAYANEO NEXT Pro White</AYANEO_NEXT_5825u_Pro_White>
+        <AYANEO_NEXT_5825u_Pro_BlackGrey>AYANEO NEXT Pro BlackGrey</AYANEO_NEXT_5825u_Pro_BlackGrey>
+        <AYANEO_NEXT_5825u_Pro_Metal>AYANEO NEXT Pro Metal</AYANEO_NEXT_5825u_Pro_Metal>
+        <AYANEO_AIR_Lite_White>AYANEO AIR Lite Aurora White</AYANEO_AIR_Lite_White>
+        <AYANEO_AIR_Lite_Black>AYANEO AIR Lite Polar Black</AYANEO_AIR_Lite_Black>
+        <AYANEO_AIR_Lite_Silver>AYANEO AIR Lite Bright Silver</AYANEO_AIR_Lite_Silver>
+        <AYANEO_AIR_Lite_Pink>AYANEO AIR Lite Sakura Pink</AYANEO_AIR_Lite_Pink>
+        <AYANEO_AIR_Lite_Duck_Yellow>AYANEO AIR Lite B.Duck Yellow</AYANEO_AIR_Lite_Duck_Yellow>
+        <AYANEO_AIR_Lite_Duck_Grey>AYANEO AIR Lite B.Duck Gray</AYANEO_AIR_Lite_Duck_Grey>
+        <AYANEO_AIR_Lite_Meizu>AYANEO AIR Lite Meizu</AYANEO_AIR_Lite_Meizu>
+        <AYANEO_AIR_Lite_Retro>AYANEO AIR Lite Retro Power</AYANEO_AIR_Lite_Retro>
+        <AYANEO_AIR_White>AYANEO AIR Aurora White</AYANEO_AIR_White>
+        <AYANEO_AIR_Black>AYANEO AIR Polar Black</AYANEO_AIR_Black>
+        <AYANEO_AIR_Silver>AYANEO AIR Bright Silver</AYANEO_AIR_Silver>
+        <AYANEO_AIR_Pink>AYANEO AIR akura Pink</AYANEO_AIR_Pink>
+        <AYANEO_AIR_Duck_Yellow>AYANEO AIR B.Duck Yellow</AYANEO_AIR_Duck_Yellow>
+        <AYANEO_AIR_Duck_Grey>AYANEO AIR  B.Duck Gray</AYANEO_AIR_Duck_Grey>
+        <AYANEO_AIR_Meizu>AYANEO AIR Meizu</AYANEO_AIR_Meizu>
+        <AYANEO_AIR_Retro>AYANEO AIR Retro Power</AYANEO_AIR_Retro>
+        <AYANEO_AIR_Pro_White>AYANEO AIR Pro Aurora White</AYANEO_AIR_Pro_White>
+        <AYANEO_AIR_Pro_Black>AYANEO AIR Pro Polar Black</AYANEO_AIR_Pro_Black>
+        <AYANEO_AIR_Pro_Silver>AYANEO AIR Pro Bright Silver</AYANEO_AIR_Pro_Silver>
+        <AYANEO_AIR_Pro_Pink>AYANEO AIR Pro akura Pink</AYANEO_AIR_Pro_Pink>
+        <AYANEO_AIR_Pro_Duck_Yellow>AYANEO AIR Pro B.Duck Yellow</AYANEO_AIR_Pro_Duck_Yellow>
+        <AYANEO_AIR_Pro_Duck_Grey>AYANEO AIR Pro B.Duck Gray</AYANEO_AIR_Pro_Duck_Grey>
+        <AYANEO_AIR_Pro_Meizu>AYANEO AIR Pro Meizu</AYANEO_AIR_Pro_Meizu>
+        <AYANEO_AIR_Pro_Retro>AYANEO AIR Pro Retro Power</AYANEO_AIR_Pro_Retro>
+        <AYANEO_2_White>AYANEO 2 Sky White</AYANEO_2_White>
+        <AYANEO_2_Black>AYANEO 2 Starry Black</AYANEO_2_Black>	
+        <AYANEO_2_Retro>AYANEO 2 Retro Power</AYANEO_2_Retro>
+        <AYANEO_2_BlueDuck>AYANEO 2 Duck Blue</AYANEO_2_BlueDuck>
+    </AyaDeviceInfo>
+
+    <!-- 升级界面 -->
+    <PopUpdate>
+        <Title>Upgrade to %s version?</Title>
+        <DownloadFailed>Download failed</DownloadFailed>
+        <Force>
+            <ButtonStart>Upgrade</ButtonStart>
+        </Force>
+        <Normal>
+            <ButtonX>Ignore</ButtonX>
+            <ButtonStart>Upgrade</ButtonStart>
+            <ButtonB>Cancel</ButtonB>
+        </Normal>
+        <UpdateContent>Update content</UpdateContent>
+        <ReDownload>ReDownload</ReDownload>
+    </PopUpdate>
+
+   <!-- 插件界面 -->
+    <PopPluginGrid>
+        <Button>
+            <ButtonY>Update Plugins</ButtonY>
+            <ButtonStart>Plugin Config</ButtonStart>
+            <ButtonA>Run</ButtonA>
+            <ButtonB>Cancel</ButtonB>
+        </Button>
+        <UpdateTaskRunningTips>Update task is running</UpdateTaskRunningTips>
+        <UpdateTaskFinish>Update Finish</UpdateTaskFinish>
+    </PopPluginGrid>
+
+    <PopResolutionSetting>
+        <FirstSettingTitle>
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;AYA Space provides you with a convenient function to adjust the display resolution, but this&lt;br&gt;function may cause screen blurring depending on the driving situation.&lt;/br&gt;&lt;br&gt;If you need to use it, please try to change it before entering the game, and ensure that the&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; official AMD driver &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;is installed and the&lt;/font&gt;&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; GPU scaling &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;function is turned on.&lt;/font&gt;&lt;br&gt;&lt;/p&gt;
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;If the&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;screen is blurred&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;，after the change, you can&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; quickly double-click the middle area of ​​the &lt;br&gt;screen with two fingers&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; Or &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; press the B key to return &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; o the resolution before the change。 &lt;/font&gt;&lt;/br&gt;&lt;/p&gt;
+        </FirstSettingTitle>
+        <FirstSettingTitle1>
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;AYA Space provides you with a convenient function to adjust the display resolution, but this&lt;br&gt;function may cause screen blurring depending on the driving situation.&lt;/br&gt;&lt;br&gt;If you need to use it, please try to change it before entering the game, and ensure that the&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt; official AMD driver &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;is installed and the&lt;/font&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt; GPU scaling &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;function is turned on.&lt;/font&gt;&lt;br&gt;&lt;/p&gt;
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;If the&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;screen is blurred&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;，after the change, you can&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt; quickly three-click the middle area of ​​the &lt;br&gt;screen with two fingers&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt; Or &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt; press the B key to return &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt; o the resolution before the change。 &lt;/font&gt;&lt;/br&gt;&lt;/p&gt;
+        </FirstSettingTitle1>
+        <ChangedTitle>&lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;&lt;b&gt;Change to &lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;&lt;b&gt;%s&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;</ChangedTitle>
+        <SettingFinishTitle>
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;Is the current display correct? If you need to restore the resolution,&lt;br&gt;you can double-tap the middle area of&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; the screen three times &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;or &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; press the B key&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;.&lt;/font&gt;&lt;/br&gt;&lt;/p&gt;
+        </SettingFinishTitle>
+        <Know>I know</Know>
+        <Apply>Apply</Apply>
+        <Recovery>Recovery</Recovery>
+    </PopResolutionSetting>
+
+    <PopGameScreenshots>
+        <Title>All screenshots</Title>
+        <ButtonATitle>Open</ButtonATitle>
+        <ButtonXTitle>Delete</ButtonXTitle>
+        <ButtonYTitle>Share</ButtonYTitle>
+        <GameScreenshots>Game screenshots</GameScreenshots>		
+        <AutoSync>Auto sync</AutoSync>
+        <Uploading>Uploading…</Uploading>
+        <UploadFail>upload failed</UploadFail>
+        <Retry>Retry</Retry>
+        <Loading>Loading all game screenshots...</Loading>
+        <InstructionsAndReminders>Instructions and reminders</InstructionsAndReminders>
+        <ScanQRCode>Scan the QR code with your mobile phone</ScanQRCode>
+        <DownloadImage>Download game screenshots</DownloadImage>
+        <InstructionsAndRemindersContent>
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;&lt;/br&gt;You are about to turn on the automatic upload screenshot function, which provides&lt;/br&gt;&lt;br&gt;a better experience for you to share game screenshots.At the same time, the uploaded&lt;/br&gt;&lt;br&gt;screenshot data will be saved in your personal database on the AYANEO server.&lt;/br&gt;&lt;br&gt;Your consent is required for usage data and synchronization functions. Please read the &lt;/br&gt;&lt;br&gt;&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;"Software License Agreement" and "Privacy Policy"&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;，in detail.Turning on the function &lt;/br&gt;&lt;br&gt;will mean that you understandand know our related policies.&lt;/font&gt;
+        </InstructionsAndRemindersContent>	
+        <DeleteTip>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;red&quot;&gt;Are you sure you want to delete the &lt;/br&gt;screenshot of the current game?&lt;/font&gt;&lt;/p&gt;</DeleteTip>		
+    </PopGameScreenshots>
+	
+    <PopInstructionsAndWarn>
+        <SoftwareLicense>《Software License Agreement》</SoftwareLicense>
+        <SoftwareLicenseTitle>Software License Agreement</SoftwareLicenseTitle>
+        <PrivacyPolicy>《Privacy Policy》</PrivacyPolicy>
+        <PrivacyPolicyTitle>Privacy Policy</PrivacyPolicyTitle>
+        <Accept>I understand, turn on this feature</Accept>
+        <Reject>Reject</Reject>
+    </PopInstructionsAndWarn>
+
+    <BindApplet>
+        <Applet>Applet</Applet>
+        <Press>Press</Press>
+        <Config>Config</Config>
+        <LongPress>LongPress</LongPress>
+        <Manage>Manage</Manage>
+        <Remove>Remove</Remove>
+        <Add>Add</Add>
+        <Enable>Enable</Enable>
+        <Disable>Disable</Disable>
+        <UnInstall>UnInstall</UnInstall>
+        <AddApplet>Add applet</AddApplet>
+    </BindApplet>
+
+    <BindBluetooth>
+        <BindAppTitle>Link to AYA Space Mobile</BindAppTitle>
+        <BindDesc>Make your AYANEO easier to use from now on</BindDesc>
+        <DownloadTip>Please search for "AYA Space Mobile" in Apple AppStore, PlayStore or search and download in major application markets</DownloadTip>
+        <BindTip>In the App - Space - Bind Device page, select Scan Code Binding</BindTip>
+        <ConnectSuccess>Connected</ConnectSuccess>
+        <NotConnected>Not connected</NotConnected>
+        <ToBind>To bind</ToBind>	
+        <UnknowApp>Unknown app</UnknowApp>		
+        <ReBind>Rebind</ReBind>
+        <Refresh>Refresh</Refresh>			
+        <BindSuccessTip>This machine is bound to the following devices</BindSuccessTip>	
+        <TurnOnBluetooth>Turn on bluetooth</TurnOnBluetooth>
+        <BleServerDisable>Bluetooth service failed to start</BleServerDisable>
+        <ReStartBluetooth>restart bluetooth service</ReStartBluetooth>
+        <AppScanTip>Open the AYA Space APP and scan to bind the device</AppScanTip>
+        <ZoomQRCode>Click to enlarge QR code</ZoomQRCode>		
+    </BindBluetooth>
+	
+	<FirmwareUpgrade>
+		<FirmwareUpgradeTitle>Controller firmware upgrade</FirmwareUpgradeTitle>
+		<FirmwareUpgradeDesc>The new controller firmware has been downloaded, please follow the instructions below to upgrade the controller firmware.</FirmwareUpgradeDesc>
+		<ShutDown>1、shutdown</ShutDown>
+		<Press>2、&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Hold LS&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt; to power on, enter the system and start AYASpace.</Press>
+		<BtnA>shutdown</BtnA>
+		<BtnB>later</BtnB>
+		<BtnX>Skip</BtnX>
+		<ReadyTitle>Controller firmware upgrade</ReadyTitle>
+		<ReadyDesc>The controller firmware upgrade is being prepared, please do not operate the buttons and wait patiently.</ReadyDesc>
+		<UpTitle>during upgrade…</UpTitle>
+		<UpDesc>The controller firmware is being upgraded, please wait a moment. During the upgrade process, please do not operate the buttons, shut down or hibernate.</UpDesc>
+		<FailTitle>upgrade unsuccessful</FailTitle>
+		<FailDesc>&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Could not find a newer version of firmware locally, please use&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Settings - Update&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt; to see if there is a newer firmware</FailDesc>
+		<SuccessTitle>update completed</SuccessTitle>
+		<SuccessDesc>The controller firmware upgrade has been completed, and your AYANEO has a better experience.</SuccessDesc>
+		<Off>close</Off>
+		<Restart>Restart the activation handle</Restart>
+	</FirmwareUpgrade>
+	<GmaeStrategy>
+		<Strategy>Gaming Strategy</Strategy>
+		<No>No</No>
+		<AskForRaides>Ask for Raiders</AskForRaides>
+		<StrategyNum>Raiders</StrategyNum>
+		<Check>Check</Check>
+	</GmaeStrategy>
+</Root>
