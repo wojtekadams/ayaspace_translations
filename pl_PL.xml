@@ -138,35 +138,35 @@
 	</StepOne>
 	<StepTwo>
 		<Title>G a m e    M a n a g e m e n t && P l a t f o r m</Title>
-		<LongPress>Hold</LongPress>
-		<Next>skip</Next>
-		<NextStep>Next, and download the selected game platform</NextStep>
-		<Press>Press</Press>
-		<Mark>mark</Mark>
-		<Selected>Selected</Selected>
+		<LongPress>Przytrzymaj</LongPress>
+		<Next>Pomiń</Next>
+		<NextStep>(next) Pobierz wybraną platforme z grami</NextStep>
+		<Press>Naciśnij</Press>
+		<Mark>Zaznacz</Mark>
+		<Selected>Zaznaczony</Selected>
 		<Piece></Piece>
-		<TextOne>We are already helping you&#x000A;organize the local game datas </TextOne>
-		<TextTwo>Local game scan</TextTwo>
-		<TextThree>If you still have a game platform that needs&#x000A;to be installed,You can choose from the&#x000A;right side, and we will help you download  </TextThree>
+		<TextOne>Pomożemy Tobie&#x000A; zorgtanizować bazę gier</TextOne>
+		<TextTwo>Skanowanie zainstalowanych gier</TextTwo>
+		<TextThree>Jeśli chcesz doinstalować kolejną platformę z grami,&#x000A;to możesz wybrać ją&#x000A;po prawej stronie. A instalacja rozpocznie się autmatycznie.</TextThree>
 	</StepTwo>
 	<StepThree>
 		<Title>F i n i s h i n g   t h e   f i n a l   w o r k</Title>
-		<LongPress>Hold</LongPress>
-		<Next>skip</Next>
-		<Switch>Switch</Switch>
-		<Finish>completed</Finish>
-		<TextOne>AYA Space is making final&#x000A;preparations for you</TextOne>
-		<TextTwo>Local game scan</TextTwo>
-		<TextThree>Startup optimization</TextThree>
-		<TextFour>Wait a moment, the fun game&#x000A;experience is coming soon </TextFour>
+		<LongPress>Przytrzymaj</LongPress>
+		<Next>Pomiń</Next>
+		<Switch>Przełącz</Switch>
+		<Finish>Zakończone</Finish>
+		<TextOne>AYA Space czyni ostanie&#x000A;przygotowania.</TextOne>
+		<TextTwo>Skanowanie zainstalowanych gier</TextTwo>
+		<TextThree>Rozpoczęto optymalizację</TextThree>
+		<TextFour>Daj nam jeszcze chwilę, a nowe doświdczenie z rozgrywki&#x000A;wkrótce się ropocznie.</TextFour>
 	</StepThree>
 	<StepFour>
 		<Title>E n j o y   y o u r   A Y A N E O</Title>
-		<Switch>Switch</Switch>
-		<Finish>completed</Finish>
-		<TextOne>Enjoy your gamelife！</TextOne>
-		<TextTwo>Local game scan</TextTwo>
-		<TextThree>Startup optimization</TextThree>
+		<Switch>Przełącz</Switch>
+		<Finish>Zakończone</Finish>
+		<TextOne>Ciesz sie nowym doświadczeniem！</TextOne>
+		<TextTwo>Skanowanie zainstalowanych gier</TextTwo>
+		<TextThree>Rozpoczęto optymalizację</TextThree>
 		<TextFour>Finish</TextFour>
 	</StepFour>
         <Title>Welcome ~ Start to explore your AyaSpace</Title>
