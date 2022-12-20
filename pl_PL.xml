@@ -114,25 +114,27 @@
     <!-- 小工具 -->
     <TinyTool>
         <AyaJoyStick>
-            <Enable>Enabled AYANEO joystick successfully</Enable>
-            <DisableStart>Disabling AYANEO joystick ...</DisableStart>
-            <DisableFinish>Disabled AYANEO joystick successfully</DisableFinish>
+            <Enable>AYANEO joystick włączony pomyślnie</Enable>
+            <DisableStart>Wyłączanie AYANEO joystick...</DisableStart>
+            <DisableFinish>AYANEO joystick wyłączony pomyślnie</DisableFinish>
         </AyaJoyStick>
     </TinyTool>
 
     <!-- 首次使用页 -->
     <FirstUse>
 	<StepOne>
-		<Title>F i r s t   m e e t</Title>
-		<LongPress>Hold</LongPress>
-		<Next>skip</Next>
-		<NextStep>Next</NextStep>
-		<TextOne>Hello! AYANEO players</TextOne>
-		<TextTwo>AYA Space is for you PC handheld game content management software</TextTwo>
-		<TextThree>Maybe you are not familiar with it yet, don’t worry Now let’s make some simple settings</TextThree>
-		<Close>closure</Close>
-		<PreviousVersion>previous version</PreviousVersion>
-		<UpdateContent>update content</UpdateContent>
+		<Title>P i e r w s z e    S p o t k a n i e</Title>
+		<LongPress>Przytrzymaj</LongPress>
+		<Next>Pomiń</Next>
+		<NextStep>Następny</NextStep>
+		<TextOne>Witaj! Graczu</TextOne>
+		
+		AYA Space jest dla Ciebie oprogramowaniem do zarządzania zawartością gier na PC.
+		<TextTwo>AYA Space jest oprogramowaniem służącym do zarządzania grami na Twojej konsoli AYANEO</TextTwo>
+		<TextThree>Być może nie jesteś jeszcze zaznajomiony z tą funkcjonalnośćią, ale nie martw się. Teraz dokonamy kilku ustawień.</TextThree>
+		<Close>zamknięcie</Close>
+		<PreviousVersion>poprzednia wersja</PreviousVersion>
+		<UpdateContent>aktualizacja zawartości</UpdateContent>
 	</StepOne>
 	<StepTwo>
 		<Title>G a m e    M a n a g e m e n t && P l a t f o r m</Title>
