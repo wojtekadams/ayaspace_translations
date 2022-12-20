@@ -169,43 +169,44 @@
 		<TextThree>Rozpoczęto optymalizację</TextThree>
 		<TextFour>Finish</TextFour>
 	</StepFour>
-        <Title>Welcome ~ Start to explore your AyaSpace</Title>
-        <QuickAsst>Quick Assistant</QuickAsst>
+        <Title>Witaj ~ Zacznij odkrywać AyaSpace</Title>
+        <QuickAsst>Asystent</QuickAsst>
         <ChoicePlat>
-            <Title>Please install the game plats</Title>
-            <BtnInstallTitle>Install</BtnInstallTitle>
+            <Title>Proszę zainstalować gry</Title>
+            <BtnInstallTitle>Instaluj</BtnInstallTitle>
             <BtnInstallTips>total %d softwares</BtnInstallTips>
-            <FinishTitle>Finished</FinishTitle>
-            <LongPress>Pressed</LongPress>
-            <Next>skip</Next>
+            <FinishTitle>Zakończono</FinishTitle>
+            <LongPress>Naciśnięto</LongPress>
+            <Next>Pomiń</Next>
         </ChoicePlat>
 
         <CardGameScan>
             <Title>Auto Scan, Auto Import</Title>
-            <GameTips>total find %d games</GameTips>
-            <ButtonA>next step</ButtonA>
-            <NotArrivedTitle>Not Arrived</NotArrivedTitle>
-            <FinishTitle>Finished</FinishTitle>
+            <GameTips>Znaleziono %d gier</GameTips>
+            <ButtonA>Następny krok</ButtonA>
+            <NotArrivedTitle>Nie dotarł</NotArrivedTitle>
+            <FinishTitle>Zakończono</FinishTitle>
         </CardGameScan>
 
         <CardStep3>
-            <NotArrivedTitle>Not Arrived</NotArrivedTitle>
-            <FinishTitle>Finished</FinishTitle>
+            <NotArrivedTitle>Nie dotarł</NotArrivedTitle>
+            <FinishTitle>Zakończono</FinishTitle>
         </CardStep3>
     </FirstUse>
 
     <!-- 首页 -->
+    <!-- Strona domowa -->
     <Home>
-        <LastPlay>Most Recent Games</LastPlay>
-        <QuickAsst>Quick Assistant</QuickAsst>
+        <LastPlay>Ostatnie Gry</LastPlay>
+        <QuickAsst>Asystent</QuickAsst>
 
         <!-- 游戏收集卡片 -->
-        <GameCollect>Games</GameCollect>
+        <GameCollect>Gry</GameCollect>
 
         <!-- 随机玩玩卡片 -->
         <RandomPlay>
-            <Title>Random&#x000A;Play</Title>
-            <NoInstallGame>You have no installed game</NoInstallGame>
+            <Title>losowa&#x000A;Gra</Title>
+            <NoInstallGame>Nie masz jeszcze zainstalowanych gier.</NoInstallGame>
         </RandomPlay>
 
         <!-- 一键升级卡片 -->
