@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Root disp="Polish">
     <!-- 导航栏 -->
+    <!-- Pasek nawigacyjny -->
     <NavBar>
-        <Home>Home</Home>
+        <Home>Strona domowa</Home>
         <Game>Gry</Game>
         <Asst>Asystent</Asst>
         <QuitConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#C14D4E&quot;&gt;Czy chcesz zamknąć AYASpace?&lt;/font&gt;&lt;/p&gt;</QuitConfirm>
@@ -20,6 +21,7 @@
     </KeyboardCheckTip>
 
     <!-- 底部状态栏 -->
+    <!-- Dolny pasek statusu -->
     <BottomBar>
         <FirstUse>
             <KeyDpad>Wybierz</KeyDpad>
@@ -34,78 +36,79 @@
         <Game>
             <KeyA>Otwórz</KeyA>
             <KeyB>Anuluj</KeyB>
-            <KeyR3>Filter</KeyR3>
+            <KeyR3>Filtruj</KeyR3>
             <KeyStart>Zarządzaj</KeyStart>
             <Move>Przenieś</Move>
         </Game>
         <Asst>
-            <KeyDpad>Select</KeyDpad>
+            <KeyDpad>Wybierz</KeyDpad>
             <KeyA>Ok</KeyA>
-            <KeyB>Cancel</KeyB>
-            <Replace>Replace</Replace>
-            <Remove>Remove</Remove>
-            <Back>GoBack</Back>
+            <KeyB>Anuluj</KeyB>
+            <Replace>Zastąp</Replace>
+            <Remove>Usuń</Remove>
+            <Back>Wróć</Back>
         </Asst>
     </BottomBar>
 
     <!-- 状态栏 -->
+    <!-- Pasek stanu -->
     <StatusBar>
-        <ExpandTitle>Expand</ExpandTitle>
+        <ExpandTitle>Rozwiń</ExpandTitle>
         <GameLaunch>
-            <Launch>&lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;launching&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;seconds&lt;/font&gt;&lt;/p&gt;</Launch>
-            <Run>&lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;running&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;seconds&lt;/font&gt;&lt;/p&gt;</Run>
-            <KeySelect>Collapse</KeySelect>
-            <KeyX>Close</KeyX>
-            <KeyA>Continue</KeyA>
-            <ReadyToStart>Preparing to start</ReadyToStart>
-            <Later>Later</Later>
-            <Close>Close</Close>
-            <ExitTheGame>Exit</ExitTheGame>
-            <ContinueTheGame>Continue</ContinueTheGame>
-            <SwitchHomePage>HomePage</SwitchHomePage>
-            <GameFail>The game did not launch successfully, please check the game launcher</GameFail>
-            <Press>Press</Press>
-            <OpenTheExe>Open the launcher</OpenTheExe>
-            <Decs>Enjoy your game</Decs>
-            <Running>Game running</Running>
-            <PutAway>Collapse</PutAway>
+            <Launch>&lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;uruchamiam&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;sekund&lt;/font&gt;&lt;/p&gt;</Launch>
+            <Run>&lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;uruchomienie&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;sekund&lt;/font&gt;&lt;/p&gt;</Run>
+            <KeySelect>Zwiń</KeySelect>
+            <KeyX>Zamknij</KeyX>
+            <KeyA>Kontynuuj</KeyA>
+            <ReadyToStart>Przygotowanie do rozpoczęcia</ReadyToStart>
+            <Later>Później</Later>
+            <Close>Zamknij</Close>
+            <ExitTheGame>Wyjdź</ExitTheGame>
+            <ContinueTheGame>Kontynuuj</ContinueTheGame>
+            <SwitchHomePage>Strona domowa</SwitchHomePage>
+            <GameFail>Gra nie została uruchomiona pomyślnie, proszę sprawdzić Game Lancher.</GameFail>
+            <Press>Naciśnij</Press>
+            <OpenTheExe>Otwórz Game Lancher</OpenTheExe>
+            <Decs>Ciesz się grą</Decs>
+            <Running>Gra uruchomiona/Running>
+            <PutAway>Zwiń</PutAway>
             <MasterHandle>Master Controller</MasterHandle>
         </GameLaunch>
         <DownLoad>
-            <Title>Download queue</Title>
-            <ProgressTitle>Downloading</ProgressTitle>
-            <KeySelect>Collapse</KeySelect>
-            <KeyX>Try Again</KeyX>
+            <Title>Kolejka pobierania</Title>
+            <ProgressTitle>Pobieram</ProgressTitle>
+            <KeySelect>Zwiń</KeySelect>
+            <KeyX>Spróbuj ponownie</KeyX>
         </DownLoad>
         <GameScan>
-            <StartScan>game scan ... </StartScan>
-            <LocalDir>scan local game directory</LocalDir>
-            <ImportSteamGames>scan steam games</ImportSteamGames>
-            <ImportXboxPlayedGames>scan played xbox games</ImportXboxPlayedGames>
-            <ImportXboxUwpGames>scan installed xbox games</ImportXboxUwpGames>
+            <StartScan>Skanuję w poszukiwaniu gier... </StartScan>
+            <LocalDir>skanowanie lokalnego katalogu gier</LocalDir>
+            <ImportSteamGames>Zaimportuj gry z Steam</ImportSteamGames>
+            <ImportXboxPlayedGames>Zaimportuj listę zagranych gier z Xbox</ImportXboxPlayedGames>
+            <ImportXboxUwpGames>Zaimportuj listę zainstalowanych gier z Xbox</ImportXboxUwpGames>
             <LocalGameFinishScan>installed game scan finish</LocalGameFinishScan>
-            <FinishScan>%s games scan finish</FinishScan>
-            <LocalProgress>local game %s (%d/%d)</LocalProgress>
-            <SteamOwnedProgress>owned steam games %s (%d/%d)</SteamOwnedProgress>
-            <XboxPlayedProgress>played xbox games %s (%d/%d)</XboxPlayedProgress>
-            <XboxInstalledProgress>installed xbox games %s (%d/%d)</XboxInstalledProgress>
-            <ScanResult>Scan completed, new game: %d, unknow file: %d</ScanResult>
+            <FinishScan>%s poszukiwanie gier zakończone</FinishScan>
+            <LocalProgress>Lokalne gry %s (%d/%d)</LocalProgress>
+            <SteamOwnedProgress>Gry Steam %s (%d/%d)</SteamOwnedProgress>
+            <XboxPlayedProgress>Zagrane gry Xbox %s (%d/%d)</XboxPlayedProgress>
+            <XboxInstalledProgress>Zainstalowane gry Xbox %s (%d/%d)</XboxInstalledProgress>
+            <ScanResult>Skanowane gier, znaleziono: %d, nierozpoznane pliki: %d</ScanResult>
         </GameScan>
         <ImageDownload>
-            <Title>game image download</Title>
-            <Library>library image</Library>
-            <ClearLogo>clear logo</ClearLogo>
-            <Bkgd>background image</Bkgd>
+            <Title>pobranie okładki gry</Title>
+            <Library>obraz galerii</Library>
+            <ClearLogo>wyczyść logo</ClearLogo>
+            <Bkgd>tło</Bkgd>
         </ImageDownload>
         <GameSync>
-            <StartGameSync>Game data synchronization ... </StartGameSync>
+            <StartGameSync>Dane gry zsynchronizowane... </StartGameSync>
         </GameSync>
     </StatusBar>
 
     <!-- 黏贴提示栏 -->
     <SnackBar>
-        <OkTitle>Ok</OkTitle>
-        <CancelTitle>Cancel</CancelTitle>
+        <OkTitle>OK</OkTitle>
+        <CancelTitle>Anuluj</CancelTitle>
     </SnackBar>
 
     <!-- 小工具 -->
