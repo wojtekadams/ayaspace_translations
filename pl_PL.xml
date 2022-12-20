@@ -5,38 +5,38 @@
         <Home>Home</Home>
         <Game>Gry</Game>
         <Asst>Asystent</Asst>
-        <QuitConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#C14D4E&quot;&gt;Are you closing AYASpace?&lt;/font&gt;&lt;/p&gt;</QuitConfirm>
+        <QuitConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#C14D4E&quot;&gt;Czy chcesz zamknąć AYASpace?&lt;/font&gt;&lt;/p&gt;</QuitConfirm>
     </NavBar>
 
     <DisplayChangedTip>
-        <KeyA>Restart</KeyA>
-        <KeyB>Ignore</KeyB>
-        <QuitConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;#C14D4E&quot;&gt;In order to ensure the user experience of AYASpace, &lt;/br&gt; you need to restart the software after switching the resolution&lt;/font&gt;&lt;/p&gt;</QuitConfirm>
+        <KeyA>Zrestartuj</KeyA>
+        <KeyB>Ignoruj</KeyB>
+        <QuitConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;#C14D4E&quot;&gt;W celu zapewnienia lepszego komfortu użytkowania AYASpace, &lt;/br&gt; należy ponownie uruchomić oprogramowanie po zmianie rozdzielczości.&lt;/font&gt;&lt;/p&gt;</QuitConfirm>
     </DisplayChangedTip>
 
     <KeyboardCheckTip>
         <KeyA>Restart</KeyA>
-        <ConfirmText>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;#C14D4E&quot;&gt;The driver updater has been installed, &lt;/br&gt;and the device needs to be restarted to experience full functionality.&lt;/font&gt;&lt;/p&gt;</ConfirmText>
+        <ConfirmText>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;#C14D4E&quot;&gt;Program do aktualizacji sterowników został zainstalowany, &lt;/br&gt;Proszę ponownie uruchomić urządzenie.&lt;/font&gt;&lt;/p&gt;</ConfirmText>
     </KeyboardCheckTip>
 
     <!-- 底部状态栏 -->
     <BottomBar>
         <FirstUse>
-            <KeyDpad>Select</KeyDpad>
+            <KeyDpad>Wybierz</KeyDpad>
             <KeyA>Ok</KeyA>
-            <KeyB>Cancel</KeyB>
+            <KeyB>Anuluj</KeyB>
         </FirstUse>
         <Home>
-            <KeyDpad>Select</KeyDpad>
+            <KeyDpad>Wybierz</KeyDpad>
             <KeyA>Ok</KeyA>
             <KeyB>Anuluj</KeyB>
         </Home>
         <Game>
-            <KeyA>Open</KeyA>
-            <KeyB>Cancel</KeyB>
+            <KeyA>Otwórz</KeyA>
+            <KeyB>Anuluj</KeyB>
             <KeyR3>Filter</KeyR3>
-            <KeyStart>Manage</KeyStart>
-            <Move>Move</Move>
+            <KeyStart>Zarządzaj</KeyStart>
+            <Move>Przenieś</Move>
         </Game>
         <Asst>
             <KeyDpad>Select</KeyDpad>
