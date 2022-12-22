@@ -70,7 +70,7 @@
             <Press>Naciśnij</Press>
             <OpenTheExe>Otwórz Game Lancher</OpenTheExe>
             <Decs>Ciesz się grą</Decs>
-            <Running>Gra uruchomiona/Running>
+            <Running>Gra uruchomiona</Running>
             <PutAway>Zwiń</PutAway>
             <MasterHandle>Master Controller</MasterHandle>
         </GameLaunch>
