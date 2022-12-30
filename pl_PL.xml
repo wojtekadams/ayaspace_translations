@@ -888,16 +888,16 @@
 		<BreathMonochrome>Oddech</BreathMonochrome>
 		<BreatheRGBLoop>Oddecho RGB</BreatheRGBLoop>
 		<BreatheGoogle>Oddecho Google</BreatheGoogle>
-		<Skanowanie>Sonar</Skanowanie>
+		<Scanning>Sonar</Scanning>
 		<Ripple>Fala</Ripple>
 		<MonochromaticAlwaysOn>Wasny kolor</MonochromaticAlwaysOn>
-		<Kolor>Kolor</Kolor>
+		<Color>Kolor</Color>
 		<Jasność>Jasność</Jasność>
 		<Hex>Szesnastkowa wartość joloru (Hex)</Hex>
-		<Dostosuj>Dostosuj</Customize>
-		<Wyłącz>Zamknij</Wyłącz>
+		<Customize>Dostosuj</Customize>
+		<Off>Zamknij</Off>
 		<LightsOut>Światła gasną w nocy</LightsOut>
-		<Czas>między: 20:00 - 06:00</Czas>
+		<Time>między: 20:00 - 06:00</Time>
 	</RGB>
     </PopExploreAya>
 
