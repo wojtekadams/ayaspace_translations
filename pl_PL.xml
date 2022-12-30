@@ -773,85 +773,85 @@
             <Desc>Aktualna： %s</Desc>
             <GameTitle>Spełnia wymagania większości gier AAA</GameTitle>.
             <BalanceTitle>Fabryczne ustawienia, zrównoważone dla większości gier</BalanceTitle>.
-            <PowerSavingTitle>Oszczędzaj baterię</PowerSavingTitle>
+            <PowerSavingTitle>Oszczędza baterię</PowerSavingTitle>
             <CustomTitle>Własne TDP</CustomTitle>
             <AdjustValue>Dostosuj wartość</AdjustValue>
             <PowerUnlock>Odblokowanie 15W TDP</PowerUnlock>.
             <UnlockPowerTips>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#%2x%2x%2x&quot;&gt;;Czy odblokować 15W TDP?&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#%2x%2x%2x&quot;&gt;Należy pamiętać, że po odblokowaniu będzie zwiększona emisja ciepła i hałasu.&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#%2x%2x%2x&quot;&gt;Odblokowanie 15W TDP zaczyna dziłać po ponownym uruchomienia konsoli, a po kolejnym uruchomieniu konsoli trzeba je ponownie odblokować.&lt;/font&gt;&lt;/p&gt;</UnlockPowerTips>
         </PowerLevel>
         <QuickKey>
-			 <Title>Szybkie otwieranie</Title>
-             <QuickKey_Control>Kontrola szybkiego otwierania</QuickKey_Control>
-             <text>Skróty do operacji Windows, można szybko ponownie otworzyć</text>
-             <DescOn>Bieżący: włączony</DescOn>
-             <DescOff>Aktualny: nieotwarty</DescOff>
-             <ButtonA>Sprawdź</ButtonA>
+			 <Title>Szybkie skróty</Title>
+             <QuickKey_Control>Ustawienia szybkich skrótów</QuickKey_Control>
+             <text>Skróty do operacji Windows</text>
+             <DescOn>Włączone</DescOn>
+             <DescOff>Wyłączone</DescOff>
+             <ButtonA>Zmień</ButtonA>
              <On>Włącz</On>
-             <Off>zamknięcie</Off>
+             <Off>Wyłącz</Off>
+<!-- slabe te nazyw -->
              <ArrowUp>Klawisz KB</ArrowUp>
-             <ArrowLeft>Wielozadaniowość</ArrowLeft>
-             <ArrowDown>Menedżer aktywności</ArrowDown>
+             <ArrowLeft>Widok&#x000A;zadań</ArrowLeft>
+             <ArrowDown>Menedżer zadań</ArrowDown>
              <ArrowRight>Zrzut ekranu</ArrowRight>
-			 			<!-- ??? -->
-             <Gesture>Speed gesture</Gesture>
+             <Gesture>Gest</Gesture>
              <Przytrzymaj>Przytrzymaj</Przytrzymaj>
         </QuickKey>
         <Joystick>
-            <BtnTitle>Dżojstik i przyciski</BtnTitle>
-            <BtnDesc>Korekta</BtnDesc>
-            <ButtonA>Patrz</ButtonA>
-            <Title>Instrukcja kalibracji Dżojstika i przycisków</Title>
-            <Desc>You can try the following operations when the joystick and LT/RT are not sensitive:</Desc>
-            <StepText1_1>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Press&lt;/font&gt;</StepText1_1>
-            <StepText1_2>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;simultaneously for&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt; 2 &lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;seconds&lt;/font&gt;</StepText1_2>
-            <StepText1_3>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;and release the buttons when the controller vibrates.&lt;/font&gt;</StepText1_3>
-            <StepText2>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;RS and LS dual joysticks rotate one full circle at the maximum, &lt;br&gt; LT/RT (dual trigger)&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt; is pressed down three times.&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;/font&gt;</StepText2>
-            <StepText3>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;When the calibration is completed, the controller will vibrate and feedback.&lt;/font&gt;</StepText3>
-            <UpdateStep>&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;Please upgrade the controller firmware to the latest version, you can download the controller &lt;br&gt;firmware through AYASpace, and upgrade according to &lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;&lt;u&gt;&lt;b&gt;the upgrade tutorial&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt; .&lt;/font&gt;</UpdateStep>
-            <AirStepText1>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Simultaneously press LB + RB + Dpad Left + B keys.  &lt;/font&gt;</AirStepText1>
-            <AirStepText2>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;When the joystick controller vibrates, release the button, The &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt; LS RS&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt; has a maximum of five revolutions.  &lt;/font&gt;</AirStepText2>
+            <BtnTitle>Gałki i przyciski</BtnTitle>
+            <BtnDesc>Kalibracja</BtnDesc>
+            <ButtonA>Zmień</ButtonA>
+            <Title>Instrukcja kalibracji Gałek i przycisków</Title>
+            <Desc>Możesz spróbować następujących operacji, gdy gałki lub LT/RT nie są czułe:</Desc>
+            <StepText1_1>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Naciśnij&lt;/font&gt;</StepText1_1>
+            <StepText1_2>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;jednocześnie z&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt; 2 &lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;sekund&lt;/font&gt;</StepText1_2>
+            <StepText1_3>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;i zwolnij przyciski, gdy kontroler zawibruje.&lt;/font&gt;</StepText1_3>
+            <StepText2>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Gałki RS i LS obracają się maksymalnie o jedno pełne koło, &lt;br&gt; LT/RT (dual trigger)&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt; jest wciśnięty trzy razy.&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;/font&gt;</StepText2>
+            <StepText3>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Po zakończeniu kalibracji konsola będzie wibrował i przekazywał informację zwrotną.&lt;/font&gt;</StepText3>
+            <UpdateStep>&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;Proszę zaktualizować firmware do najnowszej wersji, można pobrać&lt;br&gt;firmware przez AYASpace i uaktualnić zgodnie z &lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;&lt;u&gt;&lt;b&gt;samouczkiem aktualizacji&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt; .&lt;/font&gt;</UpdateStep>
+            <AirStepText1>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Równocześnie naciśnij klawisze LB + RB + Dpad Left + B.  &lt;/font&gt;</AirStepText1>
+            <AirStepText2>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Gdy kontroler zawibruje, zwolnij przyciski. Gałki &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt; LS i RS&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;  obracają się maksymalnie pięć razy.&lt;/font&gt;</AirStepText2>
         </Joystick>
         <CustomKey>
-            <BtnStart>Save&&apply</BtnStart>
-            <BtnA>Confirm</BtnA>
-            <BtnB>Back</BtnB>
+            <BtnStart>Zapisz& &Zastosuj</BtnStart>
+            <BtnA>Potwierdź</BtnA>
+            <BtnB>Wróć</BtnB>
 			
-            <BtnTitle>Custom key</BtnTitle>
-            <BtnDesc>current:</BtnDesc>
-            <ButtonA>Setting</ButtonA>
-            <Title>Custom key</Title>
-            <Desc>Press&&Hold，Enjoy free control。</Desc>
-            <TipTop>The custom ky only takes effect when AYASpace is started. When it is not started, the default button is Press: show desktop / Hold: task manager.</TipTop>
-            <TipBottom>With future version iterations, the function of this module will be changed, please refer to the latest version.</TipBottom>
-            <PressTitle>Press</PressTitle>
-            <HoldTitle>Hold</HoldTitle>
-            <DefaultInfo>Default</DefaultInfo>
+            <BtnTitle>Dodatkowy przycisk</BtnTitle>
+            <BtnDesc>bieżący: </BtnDesc>
+            <ButtonA>Zmień</ButtonA>
+            <Title>Dodatkowy przycisk</Title>
+            <Desc>Naciśnij i ciesz się swobodną kontrolą.</Desc>
+            <TipTop>Niestandardowy przycisk działa tylko wtedy, gdy aplikacja AYASpace jest uruchomiona. Gdy aplikacja nie jest uruchomiona, domyślnym przyciskiem jest "Pokaż pulpit".</TipTop>
+            <TipBottom>Z przyszłymi iteracjami oprogramowania AYASpace, funkcja tego modułu zostanie zmieniona.</TipBottom>
+            <PressTitle>Naciśnij</PressTitle>
+            <HoldTitle>Przytrzymaj</HoldTitle>
+            <DefaultInfo>Domyślne ustawienie</DefaultInfo>
 			
 			<FunCurrentFormat>&lt;center&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt;%s%&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;%s%&lt;/font&gt;&lt;center&gt;</FunCurrentFormat>
-            <FunCurrent>current</FunCurrent>
-            <FunShowDesk>Show desktop</FunShowDesk>
-            <FunScreenshot>Screenshot</FunScreenshot>
-            <FunCloseApp>Close the program</FunCloseApp>
-            <FunOsk>On-screen keyboard</FunOsk>
+            <FunCurrent>bieżący: </FunCurrent>
+            <FunShowDesk>Pokaż pulpit</FunShowDesk>.
+            <FunScreenshot>Zrzut ekranu</FunScreenshot>.
+            <FunCloseApp>Zamknij program</FunCloseApp>
+            <FunOsk>Klawiatura ekranowa</FunOsk>.
             <FunEsc>ESC</FunEsc>
-            <FunOpenStream>Open Steam</FunOpenStream>
-            <FunXbox>Xbox button</FunXbox>
-            <FunTaskView>Task View</FunTaskView>
-            <FunTaskMgr>Task Manager</FunTaskMgr>
+            <FunOpenStream>Otwórz Steam</FunOpenStream>.
+            <FunXbox>Przycisk Xbox</FunXbox>
+            <FunTaskView>Widok zadań</FunTaskView>.
+            <FunTaskMgr>Menedżer zadań</FunTaskMgr>
 			
-            <FunShowDeskDesc>Equivalent to WIn + D display system desktop.</FunShowDeskDesc>
-            <FunScreenshotDesc>Use AYASpace's built-in screenshot function.</FunScreenshotDesc>
-            <FunCloseAppDesc>It is equivalent to the operation of ALT+F4, close the current program.</FunCloseAppDesc>
-            <FunOskDesc>The OSK can be used barely after tuned up.</FunOskDesc>
-            <FunEscDesc>Description: The ESC key of the keyboard.</FunEscDesc>
-            <FunOpenStreamDesc>Quickly start the Steam software.</FunOpenStreamDesc>
-            <FunXboxDesc>Equivalent to the function of Win + G, you can open the xbox assistant after configuration.</FunXboxDesc>
-            <FunTaskViewDesc>Equivalent to Alt + TAB to quickly view the open program.</FunTaskViewDesc>
-            <FunTaskMgrDesc>You can quickly enter the entrance of the task manager, or perform soft shutdown operations.</FunTaskMgrDesc>
-            <ShoulderKey>CustomShoulderKey</ShoulderKey>
-            <ShoulderKeyTitle>Open up more possibilities for refreshing operations。</ShoulderKeyTitle>
-            <ShoulderKeyDesc>The custom shoulder key only takes effect when AYASpace is started. The default key is "LC" when it is not started. Short press: OSK / Long press: Task Manager, "RC" Short press: ESC / Long press: Task view.</ShoulderKeyDesc>
-            <AirCoustomKey>= Button</AirCoustomKey>					
+            <FunShowDeskDesc>Ekwiwalent przycisków Win + D, aby pokazać pulpit.</FunShowDeskDesc>
+            <FunScreenshotDesc>Użycie wbudowanej w AYASpace funkcji zrzutu ekranu.</FunScreenshotDesc>.
+            <FunCloseAppDesc>Jest to odpowiednik ALT + F4, zamyka bieżący program.</FunCloseAppDesc>
+            <FunOskDesc>OSK może być używany ledwo po dostrojeniu.</FunOskDesc>
+            <FunEscDesc>Klawisz ESC</FunEscDesc>
+            <FunOpenStreamDesc>Szybkie uruchamianie oprogramowania Steam.</FunOpenStreamDesc>
+            <FunXboxDesc>Ekwiwalent przycisków Win + G, można otworzyć asystenta Xboxa po konfiguracji.</FunXboxDesc>
+            <FunTaskViewDesc>Ekwiwalent Alt + TAB, aby szybko wyświetlić listę otwartych programów.</FunTaskViewDesc>
+            <FunTaskMgrDesc>Możesz szybko wejść do menadżera zadań lub wykonać operacje miękkiego wyłączenia.</FunTaskMgrDesc>
+            <ShoulderKey>Dodatkowe przyciski</ShoulderKey>
+            <ShoulderKeyTitle>Otwórz więcej możliwości operacji.</ShoulderKeyTitle>.
+            <ShoulderKeyDesc>Dodatkowe przyciski dziaaj tylko wtedy, gdy aplikacja AYASpace jest uruchomiona.Gdy aplikacja nie jest uruchomiona, domyślnym przyciskiem dla "LC" jest: Krótkie naciśnięcie: OSK / Długie naciśnięcie: Menedżer zadań, a dla "RC" Krótkie naciśnięcie: ESC / Długie naciśnięcie: Widok zadań.</ShoulderKeyDesc>.
+            <AirCoustomKey>= Dodatkowy przycisk</AirCoustomKey>.		
         </CustomKey>
 		<Reset>Reset</Reset>
         <FreeButton>
@@ -859,21 +859,20 @@
             <BtnA>Ok</BtnA>
             <BtnB>Anuluj</BtnB>
 			
-            <BtnTitle>Free Button</BtnTitle>
-            <BtnDesc>current: </BtnDesc>
-            <ButtonA>Config</ButtonA>
-			
-            <Title>Free Button</Title>
-            <Desc>Let the Button change with your habits.</Desc>
-            <TipBottom>The key configuration will take effect in Windows and the game, and AYASpace will still operate according to the key prompt.</TipBottom>
-			
+            <BtnTitle>Wolny Przycisk</BtnTitle>
+            <BtnDesc>bieżący: </BtnDesc>
+            <ButtonA>Konfiguracja</ButtonA>
+		<!-- ??? -->	
+            <Title>Wolny Przycisk</Title>
+            <Desc>Niech Przycisk zmienia się wraz z twoimi nawykami.</Desc>
+            <TipBottom>Konfiguracja klawisza będzie obowiązywać w systemie Windows i grze, a w aplikacji AYASpace nadal będzie działać zgodnie z rolą klawisza.</TipBottom>
             <XYBA>A/B/X/Y</XYBA>
             <LR>L/R</LR>
-            <Standard>Standard</Standard>
-            <JapanStyle>Japan Style</JapanStyle>
-            <Swap>Swap</Swap>
+            <Standard>Standardowy</Standard>
+            <JapanStyle>Japoński styl</JapanStyle>
+            <Swap>Zamień</Swap>
 			
-            <BtnConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#C14D4E&quot;&gt;Whether to change the button configuration?&lt;/font&gt;&lt;/p&gt;</BtnConfirm>
+            <BtnConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#C14D4E&quot;&gt;Czy zmienić konfigurację przycisków?&lt;/font&gt;&lt;/p&gt;</BtnConfirm>
         </FreeButton>
 	<RGB>
 		<Title>RGB lighting effect</Title>
