@@ -150,7 +150,7 @@
 		<TextThree>Jeśli chcesz doinstalować kolejną platformę z grami,&#x000A;to możesz wybrać ją&#x000A;po prawej stronie. A instalacja rozpocznie się autmatycznie.</TextThree>
 	</StepTwo>
 	<StepThree>
-		<Title>F i n i s h i n g   t h e   f i n a l   w o r k</Title>
+		<Title>K O Ń C Z Ę   P R A C Ę</Title>
 		<LongPress>Przytrzymaj</LongPress>
 		<Next>Pomiń</Next>
 		<Switch>Przełącz</Switch>
@@ -161,7 +161,7 @@
 		<TextFour>Daj nam jeszcze chwilę, a nowe doświdczenie z rozgrywki&#x000A;wkrótce się ropocznie.</TextFour>
 	</StepThree>
 	<StepFour>
-		<Title>E n j o y   y o u r   A Y A N E O</Title>
+		<Title>D O B R EJ   Z A B A W Y Z   A Y A N E O</Title>
 		<Switch>Przełącz</Switch>
 		<Finish>Zakończone</Finish>
 		<TextOne>Ciesz sie nowym doświadczeniem！</TextOne>
@@ -222,29 +222,29 @@
         <CardHome>
             <CommSoftBar>
                 <Title>Apps</Title>
-                <NoSelectedTitle>None Added</NoSelectedTitle>
+                <NoSelectedTitle>Nie dodano</NoSelectedTitle>
             </CommSoftBar>
 
             <BatteryCharge>
-                <Quick>Smart</Quick>
+                <Quick>Inteligenty</Quick>
                 <Preserve>Conserve</Preserve>
             </BatteryCharge>
 
             <PadVibration>
-                <PowerTitle>Vibration Intensity</PowerTitle>
-                <Gentle>Slight</Gentle>
-                <Violent>strong</Violent>
-                <Off>off</Off>
+                <PowerTitle>Intensywność wibracji</PowerTitle>
+                <Gentle>Lekka</Gentle>
+                <Violent>Silna</Violent>
+                <Off>Wyłączona</Off>
             </PadVibration>
 
             <Cpu>
-                <Game>Game</Game>
-                <Balance>Balance</Balance>
-                <PowerSaving>PowerSaving</PowerSaving>
-                <Custom>Custom</Custom>
-                <Pro>Pro mode</Pro>
-                <Setup>Setup</Setup>
-                <CustomTDP>Custom TDP</CustomTDP>				
+                <Game>Gra</Game>
+                <Balance>Zbalansowany</Balance>
+                <PowerSaving>Oszczędny</PowerSaving>
+                <Custom>Niestandardowe</Custom>
+                <Pro>Pro</Pro>
+                <Setup>Ustawienia</Setup>
+                <CustomTDP>Niestandardowe TDP</CustomTDP>				
             </Cpu>
 
             <Fan>
@@ -259,46 +259,46 @@
             </Fan>
 
             <Clean>
-                <Title>Optimize</Title>
-                <Succ>Optimization completed successfully</Succ>
+                <Title>Optymalizuj</Title>
+                <Succ>Optymalizacja zakończona sukcesem</Succ>
             </Clean>
 
             <Ota>
-                <Title>OTA Game Config&#x000A;Keep best game status</Title>
+                <Title>Konfiguracja gry OTA&#x000A;Keep best game status</Title>
             </Ota>
 
             <Explore>
-                <Title>Explore More</Title>
+                <Title>Odkryj więcej</Title>
             </Explore>
 
             <WidgetPowerLevel>
-                <CurPowerTitle>current %0.1f W</CurPowerTitle>
+                <CurPowerTitle>aktualne %0.1f W</CurPowerTitle>
             </WidgetPowerLevel>
 
             <Update>
-                <NoUpdateTitle>more</NoUpdateTitle>
-                <UpdateTitle>Updatable</UpdateTitle>
+                <NoUpdateTitle>Więcej</NoUpdateTitle>
+                <UpdateTitle>Możliwość aktualizacji</UpdateTitle>
             </Update>
 
             <TinyTool>
-                <CustomTitle>Add</CustomTitle>
+                <CustomTitle>Dodaj</CustomTitle>
             </TinyTool>
         </CardHome>
     </Home>
 
     <Game>
-        <Title1>The game library seems a bit empty</Title1>
-        <Title2>Why not try what we designed for you</Title2>
-        <EasyToUse>Super easy to use</EasyToUse>
-        <GameMgr> Game management </GameMgr>
-        <Function>features?</Function>
-        <PressTitle>Press</PressTitle>
-        <ButtonBTitle>Start management game</ButtonBTitle>
-        <RemoveAll>Remove&#x000A;all</RemoveAll>
+        <Title1>Biblioteka gier wydaje się być nieco pusta</Title1>
+        <Title2>Dlaczego nie sprbójesz tego, co zaprojektowaliśmy dla Ciebie?</Title2>
+        <EasyToUse>Super łatwy w użyciu</EasyToUse>
+        <GameMgr> Zarządzanie grami </GameMgr>
+        <Function>funkccje?</Function>
+        <PressTitle>Naciśnij</PressTitle>
+        <ButtonBTitle>Rozpocznij zarządzanie grami</ButtonBTitle>
+        <RemoveAll>Usuń&#x000A;wszystkie</RemoveAll>
         <QuickSearch>
-            <KeySelect>Find</KeySelect>
-            <KeySwitch>Switch</KeySwitch>
-            <KeyPutAway>Put away</KeyPutAway>
+            <KeySelect>Znajdź</KeySelect>
+            <KeySwitch>Przełącz</KeySwitch>
+            <KeyPutAway>Odłóż</KeyPutAway>
             <FirstWord>INIT.</FirstWord>
             <Label>TAG</Label>
             <Platform>P.</Platform>
@@ -306,15 +306,15 @@
         <Sort>
             <DisplayColNumber>DisplayColNumber</DisplayColNumber>
             <DisplayOrder>DisplayOrder</DisplayOrder>
-            <PlayTime>Play time</PlayTime>
-            <StorageTime>Create time</StorageTime>
-            <GameName>Game name</GameName>
-            <Ascending>Ascending</Ascending>
-            <Descending>Descending</Descending>
-            <Back>GoBack</Back>
+            <PlayTime>Czas gry</PlayTime>
+            <StorageTime>Dodaj czas</StorageTime>
+            <GameName>Nazwa gry</GameName>
+            <Ascending>Rosnąco</Ascending>
+            <Descending>Malejąco</Descending>
+            <Back>Wróć</Back>
         </Sort>
         <InstructionsAndRemindersContent>
-            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;&lt;/br&gt;You are about to turn on the automatic upload screenshot function, which provides&lt;/br&gt;&lt;br&gt;a better experience for you to share game screenshots.At the same time, the uploaded&lt;/br&gt;&lt;br&gt;screenshot data will be saved in your personal database on the AYANEO server.&lt;/br&gt;&lt;br&gt;Your consent is required for usage data and synchronization functions. Please read the &lt;/br&gt;&lt;br&gt;&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;"Software License Agreement" and "Privacy Policy"&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;，in detail.Turning on the function &lt;/br&gt;&lt;br&gt;will mean that you understandand know our related policies.&lt;/font&gt;
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;&lt;/br&gt;Właśnie włączasz funkcję automatycznego przesyłania zrzutów ekranu, która zapewnia&lt;/br&gt;&lt;br&gt;lepsze doświadczenie w dzieleniu się zrzutami ekranu z gier. Jednocześnie, przesłane&lt;/br&gt;&lt;br&gt;zrzuty ekranu zostaną zapisane w Twojej osobistej bazie danych na serwerze AYANEO.&lt;/br&gt;&lt;br&gt;Twoja zgoda wymagana jest dla włączenia tej funkcji synchronizacji. Prosimy o szczegółowe zapoznanie się z &lt;/br&gt;&lt;br&gt;&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;"Umową licencyjną na oprogramowanie" i "Polityką prywatności"&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;. Włączenie funkcji&lt;/br&gt;&lt;br&gt;będzie oznaczało, że zrozumiałeś i znasz nasze obowiązujące zasady.&lt;/font&gt;
         </InstructionsAndRemindersContent>			
     </Game>
 
