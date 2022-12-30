@@ -883,7 +883,7 @@
 		<BtnStart>Zapisz && zastosuj</BtnStart>
 		<CloseDesc>Otwórz więcej możliwości</CloseDesc>
 		<CloseDesc2>Wraz z kolejnymi wersjami, funkcja tego modułu ulegnie zmianie!</CloseDesc2>
-		<LoadPreset>Załaduj ustawienie wstępnet</LoadPreset>
+		<LoadPreset>Domyślne</LoadPreset>
 		<Default>Domyślne</Default>
 		<BreathMonochrome>Oddech</BreathMonochrome>
 		<BreatheRGBLoop>Oddecho RGB</BreatheRGBLoop>
