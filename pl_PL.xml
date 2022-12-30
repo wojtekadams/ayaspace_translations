@@ -511,21 +511,21 @@
             <Updating>Aktualizowanie</Updating>
             <Installing>Instalowanie...</Installing>
             <ManualInstallation>Instrukcje Instalacji</ManualInstallation>
-            <Restart>Restart to take effect</Restart>
-            <RestartNow>Restart</RestartNow>
-            <PromemoriaImportante>Promemoria importante</PromemoriaImportante>
-            <PleaseWait>Please wait</PleaseWait>
-            <UpdateFinish>Update is complete, please restart</UpdateFinish>
-            <UpdateFail>Update failed, please try again</UpdateFail>
-            <UpdateTipTitle>&lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;The BIOS version of AYANEO is being upgraded. Please make sure that the host&lt;/font&gt;&lt;br&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;is turned on and connected to the power source. &lt;/font&gt;&lt;/br&gt;&lt;br&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;Please do not turn off the power, sleep, or close the software&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;during the upgrade process. &lt;br&gt;Follow the prompts after the upgrade is &lt;/br&gt;&lt;/font&gt;&lt;/br&gt;</UpdateTipTitle>
+            <Restart>Uruchom ponownie, aby uzyskać efekt</Restart>
+            <RestartNow>Uruchom ponownie</RestartNow>
+            <PromemoriaImportante>Ważne przypomnienie</PromemoriaImportante>
+            <PleaseWait>Proszę czekać</PleaseWait>
+            <UpdateFinish>Aktualizacja została zakończona, prosimy o ponowne uruchomienie</UpdateFinish>
+            <UpdateFail>Aktualizacja nie powiodła się, proszę spróbować ponownie</UpdateFail>
+            <UpdateTipTitle>&lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;Wersja BIOS-u AYANEO jest w trakcie aktualizacji. Proszę upewnić się, że konsola&lt;/font&gt;&lt;br&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; jest podłączona do ziasilania. &lt;/font&gt;&lt;/br&gt;&lt;br&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;Proszę nie wyłączać zasilania, nie usypiać ani nie zamykać oprogramowania&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; podczas procesu aktualizacji. &lt;br&gt;Postępuj zgodnie z monitami po zakończeniu aktualizacji &lt;/br&gt;&lt;/font&gt;&lt;/br&gt;</UpdateTipTitle>
             <Soft>Soft</Soft>
             <Driver>Driver</Driver>
             <Config>Config</Config>
             <Bios>BIOS</Bios>
             <TitleStartUp>Start Up</TitleStartUp>
             <StartUp>StartUp</StartUp>
-            <MouseMode>Tryb myszy</MouseMode>
-            <Overlay>Makładka</Overlay>
+            <MouseMode>Mouse Mode</MouseMode>
+            <Overlay>Overlay</Overlay>
             <Hide>Ukryj funkcję</Hide>
             <DebugConsole>Konsola Debugowania</DebugConsole>
             <FullScreen>Pełny ekran</FullScreen>
@@ -535,8 +535,8 @@
             <WaitMore>Wkrótce</WaitMore>
             <LaunchOpt>
                 <Title>Uruchom optymalizację</Title>
-                <Look>Patrz</Look>
-                <Open>Otwórz/Open>
+                <Look>Aktywuj</Look>
+                <Open>Otwórz</Open>
                 <DisableFullScreen>Wyłącz pełny ekran Opt</DisableFullScreen>
                 <GPUScaling>Otwórz skalowanie GPU</GPUScaling>
                 <UsbSuspend>Wyłączenie selektywnego wstrzymania USB</UsbSuspend>
@@ -548,14 +548,14 @@
         </PropertyUpdate>
 
         <PropertyAccountSafety>
-            <Title>Account Safey</Title>
-            <SetPassword>set password</SetPassword>
-	    <Name>Name</Name>
-	    <Phone>Phone</Phone>
+            <Title>Ustawienia konta</Title>
+            <SetPassword>Ustaw hasło</SetPassword>
+	    <Name>Nazwa</Name>
+	    <Phone>Telefon</Phone>
 	    <Avatar>Avatar</Avatar>
-            <Exit>Sign out</Exit>
+            <Exit>Wyloguj się</Exit>
             <ExitTip>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;red&quot;&gt;Czy chcesz się wylogowaać？&lt;/font&gt;&lt;/p&gt;</ExitTip>
-	    <Web>&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;Ustawienia danych osobowych. Przejdź do &lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;https://ayaneo.com/user</Web>
+	    <Web>&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;Ustawienia danych osobowych: przejdź do &lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt; https://ayaneo.com/user</Web>
         </PropertyAccountSafety>
 
         <PropertyData>
@@ -564,7 +564,7 @@
             <Video>Wideo</Video>
             <TitlePackage>Zainstaluj pakiet lub oprogramowanie sprzętowe</TitlePackage>
             <Soft>Oprogramowanie</Soft>
-            <Firmware>Oprogramowanie sprzętowe</Firmware>
+            <Firmware>Oprogr&lt;/br&gt;amowanie sprzętowe</Firmware>
             <Clean>Czyszczenie jednym kliknięciem</Clean>
         </PropertyData>
 
@@ -581,13 +581,13 @@
             <Config>Synch. plik konfiguracyjny</Config>
             <GameList>Synch. listę gier</GameList>
             <LastSyncTime>Ostatnia Synch.</LastSyncTime>
-            <BtnSteam>Połącz ze Steam</BtnSteam>
-            <BtnSteamFinish>Połączono ze Steam</BtnSteamFinish>
+            <BtnSteam>Połącz z kontem Steam</BtnSteam>
+            <BtnSteamFinish>Połączono z kontem Steam</BtnSteamFinish>
             <BtnSteamSave>Zapisz</BtnSteamSave>
             <SteamInvalidId>Podane konto steam nie zostało znalezione, być może platforma Steam nie jest zainstalowana</SteamInvalidId>
             <SteamInvalidKey>nieważny klucz Steam</SteamInvalidKey>
             <SteamTestFailed>Test klucza Steam jest nieprawidłowy, proszę wprowadzić poprawny klucz Steam (apikey).</SteamTestFailed>
-            <BtnXbox>Połącz ze  Xbox</BtnXbox>
+            <BtnXbox>Połącz z kontem Xbox</BtnXbox>
             <BtnXboxFinish>Połączono %s</BtnXboxFinish>
             <BrowserToolbarTitle>Asystent synchronizacji AYANEO</BrowserToolbarTitle>
 	    <WhetherToUnbindXbox>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;Czy odłączyć konto Xbox? &lt;/font&gt;&lt;/p&gt;</WhetherToUnbindXbox>
@@ -630,7 +630,7 @@
                 <Desc>Gry</Desc>
             </BtnRemove>
             <BtnUnknow>
-                <Title>Niznane plik</Title>
+                <Title>Nieznane pliki</Title>
                 <Desc>Jak gra</Desc>
             </BtnUnknow>
             <BtnShowHide>
@@ -655,25 +655,25 @@
         </PropertyGameMgrAdd>
 
         <PropertyGameMgrUnInstall>
-            <Title>Please mark games you would like to delete</Title>
-            <MarkTitle>Mark</MarkTitle>
-            <DeleteTitle>Long press delete</DeleteTitle>
-            <FormatGameCount>Total selected %d games</FormatGameCount>
-            <SelectCount>Total selected</SelectCount>
-            <Games>games</Games>
-            <TimerContent>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;6&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;Seconds&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;Perform uninstall&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#ACC3CD&quot;&gt;Release the button to cancel&lt;/font&gt;&lt;/p&gt;</TimerContent>
-            <Loading>Delete the game directory。。。</Loading>
-            <Finish>Successfully deleted %d game directories</Finish>
+            <Title>Zaznacz gry, które chcesz usunąć</Title>
+            <MarkTitle>Zaznacz</MarkTitle>
+            <DeleteTitle>Przyciśnij, aby usunąć</DeleteTitle>
+            <FormatGameCount>Wybrano łącznie %d gier</FormatGameCount>
+            <SelectCount>Razem wybrano</SelectCount>
+            <Games>gier</Games>
+            <TimerContent>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;6&quot; color=&quot;#FDCA40&quot;&gt;%d &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;sekund&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;Wykonaj dezinstalację&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#ACC3CD&quot;&gt;Zwolnij przycisk, aby anulować&lt;/font&gt;&lt;/p&gt;</TimerContent>
+            <Loading>Usuwanie katalogu gry...</Loading>
+            <Finish>Pomyślnie usunięto %d katalogów gier</Finish>
         </PropertyGameMgrUnInstall>
 
-        <PropertyGameMgrAddManual>
-            <Title>Please select the game startup file</Title>
-            <CommDir>Commonly used directory</CommDir>
-            <GameFile>Which file is Game?</GameFile>
-            <ButtonStart>Add directory</ButtonStart>
-            <ButtonA>Add to game library</ButtonA>
-            <ButtonY>try</ButtonY>
-            <RemoveDir>Remove directory</RemoveDir>
+		<PropertyGameMgrAddManual>
+             <Title>Wybierz plik startowy gry</Title>
+             <CommDir>Często używany katalog</CommDir>
+             <GameFile>Który plik to gra?</GameFile>
+             <ButtonStart>Dodaj katalog</ButtonStart>
+             <ButtonA>Dodaj do biblioteki gier</ButtonA>
+             <ButtonY>Spróbuj</ButtonY>
+             <RemoveDir>Usuń katalog</RemoveDir>
         </PropertyGameMgrAddManual>
 
         <PropertyGameMgrUnknow>
@@ -682,7 +682,7 @@
             <ExcludeTitle>Long press exclude</ExcludeTitle>
             <AddTitle>Append</AddTitle>
             <TryRunTitle>Try a Run</TryRunTitle>
-            <TimerContent>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;6&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;Seconds&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;Perform exclude all&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#ACC3CD&quot;&gt;Release the button to cancel&lt;/font&gt;&lt;/p&gt;</TimerContent>
+            <TimerContent>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;6&quot; color=&quot;#FDCA40&quot;&gt;%d &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;sekund&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;Perform exclude all&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#ACC3CD&quot;&gt;Release the button to cancel&lt;/font&gt;&lt;/p&gt;</TimerContent>
         </PropertyGameMgrUnknow>
     </PopGameMgr>
 
