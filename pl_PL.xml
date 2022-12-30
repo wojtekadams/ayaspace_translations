@@ -649,8 +649,8 @@
                 <Title>Dodaj ręcznie</Title>
             </BtnManual>
             <BtnPlat>
-                <Title>Bind Plat</Title>
-                <BindedWords>Bound</BindedWords>
+                <Title>Połączona platforma</Title>
+                <BindedWords>Połącz</BindedWords>
             </BtnPlat>
         </PropertyGameMgrAdd>
 
