@@ -1,3 +1,5 @@
+<!-- Author of translation: wojtekadams -->
+<!-- Feedbeck: https://github.com/wojtekadams/ayaspace_translations/issues -->
 <?xml version="1.0" encoding="utf-8"?>
 <Root disp="Polski">
     <!-- 导航栏 -->
@@ -349,11 +351,11 @@
             <Install>Zainstaluj</Install>
             <Download>Pobierz</Download>
             <Renew>Odnów</Renew>
-            <Ison>Aktywowny</Ison>
+            <Ison>Aktywny</Ison>
             <Isoff>Nieaktywny</Isoff>
             <RenewAll>Zaktualizuj wszystkie</RenewAll>
             <Manage>Zarządzaj</Manage>
-            <TurnOn>Włącz</TurnOn>
+            <TurnOn>Włącz/Wyłącz</TurnOn>
             <ReleaseDesc>Opis wydanua</ReleaseDesc>
             <UseDesc>Opis zastosowania</UseDesc>
             <More>Więcej</More>
@@ -396,13 +398,14 @@
             <ExploreAya>EVO - Konfiguracja  AYANEO</ExploreAya>
             <PalyAya>Jak uwolnić nieograniczony potencjał &#x000A;AYANEO&#x000A;</PalyAya>
             <GameScreenshots>Galeria Zrzutów ekranu</GameScreenshots>
-            <GameMoments>Keep the wonderful game moments</GameMoments>
+            <GameMoments>Zachowaj wspaniałe momenty z gier</GameMoments>
             <KnowMore>Więcej</KnowMore>
             <Help>Pomoc</Help>
         </CardMaster>
 
         <CardTinyTool>
-            <Title>Homepage control</Title>
+			<!-- ??? -->
+            <Title>Podręczny panel sterowania</Title>
             <QuickTool>AYAQuicktool</QuickTool>
             <CommTool>Quicktool Commonly control</CommTool>
             <Fold>Wysuwane menu</Fold>
@@ -411,18 +414,18 @@
 
         <CardController>
             <Title>Controller&#x000A;Helper</Title>
-            <Connected>Current Connected</Connected>
-            <Switch1P>Switch 1P</Switch1P>
-            <More>More</More>
+            <Connected>Aktualnie podłączony</Connected>
+            <Switch1P>Przełącz 1P</Switch1P>
+            <More>Więcej</More>
         </CardController>
 
         <CardFeedBack>
-            <Title>Have feedback?&#x000A;contact us&#x000A;Please</Title>
+            <Title>Problem?&#x000A;Skontaktuj się z nami&#x000A;Proszę</Title>
         </CardFeedBack>
 
         <CardAsst>
-            <GameToolsTitle>Game Tools</GameToolsTitle>
-            <SystemToolsTitle>System Tools</SystemToolsTitle>
+            <GameToolsTitle>Narzędzia gier</GameToolsTitle>
+            <SystemToolsTitle>Narzędzia systemowe</SystemToolsTitle>
 
             <Fan>
                 <Wild>Dziski</Wild>
