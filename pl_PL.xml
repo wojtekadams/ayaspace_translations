@@ -1,5 +1,5 @@
 <!-- Author of translation: wojtekadams -->
-<!-- Feedbeck: https://github.com/wojtekadams/ayaspace_translations/issues -->
+<!-- Feedbeck: https://github.com/wojtekadams/ayaspace_translations/issues &#x000A;-->
 <?xml version="1.0" encoding="utf-8"?>
 <Root disp="Polski">
     <!-- 导航栏 -->
@@ -562,10 +562,10 @@
             <TitleGameData>Dane gier</TitleGameData>
             <Image>Obrazy</Image>
             <Video>Wideo</Video>
-            <TitlePackage>Zainstaluj pakiet lub oprogramowanie sprzętowe</TitlePackage>
-            <Soft>Oprogramowanie</Soft>
-            <Firmware>Oprogr&lt;/br&gt;amowanie sprzętowe</Firmware>
-            <Clean>Czyszczenie jednym kliknięciem</Clean>
+            <TitlePackage>Zainstaluj pakiet &#x000A;lub Firmware</TitlePackage>
+            <Soft>Soft</Soft>
+            <Firmware>Firmware</Firmware>
+            <Clean>Czyszczenie</Clean>
         </PropertyData>
 
         <PropertyDevice>
@@ -677,71 +677,71 @@
         </PropertyGameMgrAddManual>
 
         <PropertyGameMgrUnknow>
-            <Title>Which file bellow is game?</Title>
-            <FilePath>File Path</FilePath>
-            <ExcludeTitle>Long press exclude</ExcludeTitle>
-            <AddTitle>Append</AddTitle>
-            <TryRunTitle>Try a Run</TryRunTitle>
-            <TimerContent>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;6&quot; color=&quot;#FDCA40&quot;&gt;%d &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;sekund&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;Perform exclude all&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#ACC3CD&quot;&gt;Release the button to cancel&lt;/font&gt;&lt;/p&gt;</TimerContent>
+            <Title>Który z poniższych plików jest grą?</Title>
+            <FilePath>Ścieżka do pliku</FilePath>
+            <ExcludeTitle>Długie naciśnięcie spowoduje wykluczenie</ExcludeTitle>
+            <AddTitle>Dołącz</AddTitle>
+            <TryRunTitle>Spróbuj uruchomić</TryRunTitle>
+            <TimerContent>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;6&quot; color=&quot;#FDCA40&quot;&gt;%d &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;sekund&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;Wyklucz wszystkie&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#ACC3CD&quot;&gt;Zwolnij przycisk, aby anulować&lt;/font&gt;&lt;/p&gt;</TimerContent>
         </PropertyGameMgrUnknow>
     </PopGameMgr>
 
     <PopAppGrid>
-        <LoadingTitle>Load installed soft list ...</LoadingTitle>
-        <ButtonXTitle>Save</ButtonXTitle>
-        <ButtonAdd>Add</ButtonAdd>
+        <LoadingTitle>Załaduj zainstalowaną listę programów...</LoadingTitle>
+        <ButtonXTitle>Zapisz</ButtonXTitle>
+        <ButtonAdd>Dodaj</ButtonAdd>
         <ButtonCancel>Anuluj</ButtonCancel>
     </PopAppGrid>
 
     <PopFileDialog>
-        <ButtonXTitle>Save</ButtonXTitle>
-        <ButtonXTitleDirectory>Save directory</ButtonXTitleDirectory>
-        <ButtonYTitle>Previous directory</ButtonYTitle>
-        <ButtonATitle>Enter</ButtonATitle>
-        <ButtonBTitle>Close</ButtonBTitle>
+        <ButtonXTitle>Zapisz</ButtonXTitle>
+        <ButtonXTitleDirectory>Zapisz katalog</ButtonXTitleDirectory>
+        <ButtonYTitle>Poprzedni katalog</ButtonYTitle>
+        <ButtonATitle>Potwierdź</ButtonATitle>
+        <ButtonBTitle>Zamknij</ButtonBTitle>
     </PopFileDialog>
 
     <PopUserRegister>
-        <Title1>With AYASpace&#8482;</Title1>
-        <Title2>Discover·Explore·Engage</Title2>
-        <Title3>Your Gaming Passion</Title3>
-        <RegisterTitle>Access your</RegisterTitle>
-        <RegisterTitle1>a new gaming experience</RegisterTitle1>
-        <AyaIdTitle>AYAid</AyaIdTitle>
+        <Title1>Z AYASpace&#8482;</Title1>
+        <Title2>Odkryj - Poznaj - Zaangażuj się</Title2>
+        <Title3>Twoja pasja do gier</Title3>
+        <RegisterTitle>Dostęp do swojego</RegisterTitle>
+        <RegisterTitle1>nowe doświadczenie w grach</RegisterTitle1>.
+        <AyaIdTitle>AYA id</AyaIdTitle>
         <EmailTitle>Email</EmailTitle>
         <CodeTiTle>Code</CodeTiTle>
-        <InputPhoneNumberTiTle>Your email address</InputPhoneNumberTiTle>
-        <InputCodeTiTle>Enter code</InputCodeTiTle>
-        <BtnSendCodeTitle>Request Code</BtnSendCodeTitle>
-        <BtnResendTitle>Resend</BtnResendTitle>
-        <PressTitle>Press</PressTitle>
-	<InputEmailTiTle>Enter your usual email address</InputEmailTiTle>
-        <EmailRegister>Email registration</EmailRegister>
-        <PhoneNumberRegister>Phone registration</PhoneNumberRegister>
-        <Next>Next</Next>
-        <Logining>Logging In...</Logining>
-        <CodeSendSucce>Verification code sent</CodeSendSucce>
-        <CodeSendError>Failed to send the verification code, please try again!</CodeSendError>
-        <Countdown>Verification code refresh countdown</Countdown>
-        <VerificationCodeError>Verification code error</VerificationCodeError>
-        <LoginFail>Login failed</LoginFail>
-        <InputCorrectPhoneNumberTiTle>please enter a valid phone number</InputCorrectPhoneNumberTiTle>
-        <InputCorrectEmail>Please fill in the correct email format</InputCorrectEmail>
-        <NetWorkErrorTip>There is currently no network connection, please check the network status</NetWorkErrorTip>
-        <Go>Go</Go>
-	<Login>login/register</Login>
-	<Or>or</Or>
-	<Swich>toggle</Swich>
-	<UnLogin>not logged in</UnLogin>
-	<Association>connect</Association>
-	<SetUp>set up</SetUp>
-	<DataSynchronization>data sync</DataSynchronization>
-	<LoginAccount>login account</LoginAccount>
-	<LoginOut>log out</LoginOut>
-	<NotConnected>not connected</NotConnected>
-	<Connected>connected</Connected>
-	<Appreciate>appreciate</Appreciate>
-	<ProtocolText6>&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;Unregistered users will be automatically registered after logging in AYAid,Registration and login means approval and acceptance&lt;br&gt;&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;「User Agreement」&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt; and&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;「Privacy Policy」&lt;/font&gt;</ProtocolText6>
+        <InputPhoneNumberTiTle>Twój adres e-mail</InputPhoneNumberTiTle>
+        <InputCodeTiTle>Wprowadź kod</InputCodeTiTle>.
+        <BtnSendCodeTitle>Kod żądania</BtnSendCodeTitle>
+        <BtnResendTitle>Wyślij ponownie</BtnResendTitle>
+        <PressTitle>Naciśnij</PressTitle>
+	<InputEmailTiTle> Wpisz swój adres e-mail</InputEmailTiTle>.
+        <EmailRegister>Rejestracja e-mailowa</EmailRegister>
+        <PhoneNumberRegister>Rejestracja telefoniczna</PhoneNumberRegister>.
+        <Next>Następny</Next>
+        <Logining>Logowanie...</Logining>
+        <CodeSendSucce>Weryfikacja kodu wysłana</CodeSendSucce>.
+        <CodeSendError>Nie udało się wysłać kodu weryfikacyjnego, proszę spróbować ponownie! </CodeSendError>
+        <Countdown>Odliczanie odświeżenia kodu weryfikacyjnego</Countdown>.
+        <VerificationCodeError>Błąd kodu weryfikacyjnego</VerificationCodeError>
+        <LoginFail>Logowanie nie powiodło się</LoginFail>.
+        <InputCorrectPhoneNumberTiTle>proszę wpisać prawidłowy numer telefonu</InputCorrectPhoneNumberTiTle>.
+        <InputCorrectEmail>Proszę wpisać poprawny format e-maila</InputCorrectEmail>.
+        <NetWorkErrorTip>Nie ma obecnie połączenia z siecią, proszę sprawdzić status sieci</NetWorkErrorTip>.
+        <Go>Idź</Go>
+	<Login>Logowanie/Rejestracja</Login>
+	<Or>lub</Or>
+	<Swich>przełącz</Swich>
+	<UnLogin>Nie zalogowany</UnLogin>
+	<Association>połącz</Association>
+	<SetUp>ustaw</SetUp>
+	<DataSynchronization>Synch.</DataSynchronization>
+	<LoginAccount>login</LoginAccount>
+	<LoginOut>wyloguj</LoginOut>
+	<NotConnected>nie połączony</NotConnected>
+	<Connected>połączony</Connected>
+	<Appreciate>doceniać</Appreciate>
+	<ProtocolText6>&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;Niezarejestrowani użytkownicy zostaną automatycznie zarejestrowani po zalogowaniu się w AYA id, Rejestracja i logowanie oznacza zatwierdzenie i akceptację&lt;br&gt;&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;「Umowy z użytkownikiem」&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt; and&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;Polityka prywatności」&lt;/font&gt;</ProtocolText6>
     </PopUserRegister>
 
     <PopExploreAya>
