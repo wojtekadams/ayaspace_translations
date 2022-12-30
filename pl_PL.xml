@@ -565,7 +565,7 @@
             <TitlePackage>Zainstaluj pakiet &#x000A;lub Firmware</TitlePackage>
             <Soft>Soft</Soft>
             <Firmware>Firmware</Firmware>
-            <Clean>Czyszczenie</Clean>
+            <Clean>Zaznacz&#x000A;i wyczyść</Clean>
         </PropertyData>
 
         <PropertyDevice>
@@ -745,61 +745,62 @@
     </PopUserRegister>
 
     <PopExploreAya>
-        <Front>Front</Front>
-        <Back>Back</Back>
+        <Front>Przyód</Front>
+        <Back>Tył</Back>
         <Vibration>
-            <Title>Vibration Intensity</Title>
-            <ButtonA>Config</ButtonA>
-            <ViolentAdjustTip>Suitable for most AAA games, experience the most intense vibrations</ViolentAdjustTip>
-            <GentleAdjustTip>Soft, gentle, caress your palms, suitable for more casual players</GentleAdjustTip>
-            <CustomAdjustTip>Choose your own intensity level, save it, make the experience your own</CustomAdjustTip>
-            <Violent>Strong</Violent>
-            <OffTip>Off</OffTip>
-            <SaveSetting>Save</SaveSetting>
+            <Title>Intensywność wibracji</Title>
+            <ButtonA>Konfiguracja</ButtonA>
+            <ViolentAdjustTip>Nadaje się do większości gier AAA, doświadczaj najbardziej intensywnych wibracji</ViolentAdjustTip>.
+            <GentleAdjustTip>Miękkie, delikatne, pieszczące dłonie, odpowiednie dla bardziej swobodnych graczy</GentleAdjustTip>.
+            <CustomAdjustTip>Wybierz swój własny poziom intensywności, zapisz go, spraw, by doświadczenie było jak najbardziej dopasowane do Ciebie</CustomAdjustTip>.
+            <Violent>Silny</Violent>
+            <OffTip>Wyłączony</OffTip>
+            <SaveSetting>Zapisz</SaveSetting>
         </Vibration>
         <Resolution>
-            <Title>Resolution</Title>
-            <ButtonA>Config</ButtonA>
-            <Desc>current：%d*%d</Desc>
+            <Title>Rozdzielczość</Title>
+            <ButtonA>Konfiguracja</ButtonA>
+            <Desc>Aktualna： %d*%d</Desc>
         </Resolution>
         <Fan>
-            <Title>Fan</Title>
-            <ButtonA>Config</ButtonA>
-            <Desc>current：%s</Desc>
+            <Title>Wiatrak</Title>
+            <ButtonA>Konfiguracja</ButtonA>
+            <Desc>Aktualna： %s</Desc>
         </Fan>
         <PowerLevel>
             <Title>TDP</Title>
-            <ButtonA>Config</ButtonA>
-            <Desc>current：%s</Desc>
-            <GameTitle>Meeting the demands of most AAA game titles</GameTitle>
-            <BalanceTitle>Factory preset, balanced for most games</BalanceTitle>
-            <PowerSavingTitle>Battery Anxiety Terminator</PowerSavingTitle>
-            <CustomTitle>Custom TDP</CustomTitle>
-            <AdjustValue>Adjust Value</AdjustValue>
-            <PowerUnlock>Unlock 15W TDP</PowerUnlock>
-            <UnlockPowerTips>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#%2x%2x%2x&quot;&gt;Whether to unlock 15W TDP？&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#%2x%2x%2x&quot;&gt;Note that there will be increased heat and noise when unlocked.&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#%2x%2x%2x&quot;&gt;Unlocking takes effect only at this time of booting, and it needs to be unlocked again after rebooting.&lt;/font&gt;&lt;/p&gt;</UnlockPowerTips>
+            <ButtonA>Konfiguracja</ButtonA>
+            <Desc>Aktualna： %s</Desc>
+            <GameTitle>Spełnia wymagania większości gier AAA</GameTitle>.
+            <BalanceTitle>Fabryczne ustawienia, zrównoważone dla większości gier</BalanceTitle>.
+            <PowerSavingTitle>Oszczędzaj baterię</PowerSavingTitle>
+            <CustomTitle>Własne TDP</CustomTitle>
+            <AdjustValue>Dostosuj wartość</AdjustValue>
+            <PowerUnlock>Odblokowanie 15W TDP</PowerUnlock>.
+            <UnlockPowerTips>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#%2x%2x%2x&quot;&gt;;Czy odblokować 15W TDP?&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#%2x%2x%2x&quot;&gt;Należy pamiętać, że po odblokowaniu będzie zwiększona emisja ciepła i hałasu.&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#%2x%2x%2x&quot;&gt;Odblokowanie 15W TDP zaczyna dziłać po ponownym uruchomienia konsoli, a po kolejnym uruchomieniu konsoli trzeba je ponownie odblokować.&lt;/font&gt;&lt;/p&gt;</UnlockPowerTips>
         </PowerLevel>
         <QuickKey>
-            <Title>Suck</Title>
-            <QuickKey_Control>Quick opening control</QuickKey_Control>
-            <text>Windows operation shortcuts,can be opened again quickly</text>
-            <DescOn>Current:On</DescOn>
-            <DescOff>Current: Not open</DescOff>
-            <ButtonA>Check</ButtonA>
-            <On>Turn on</On>
-            <Off>closure</Off>
-            <ArrowUp>KB key</ArrowUp>
-            <ArrowLeft>Multitasking</ArrowLeft>
-            <ArrowDown>Task manager</ArrowDown>
-            <ArrowRight>screenshot</ArrowRight>
-            <Gesture>Speed gesture</Gesture>
-            <HoldDown>Hold down</HoldDown>
+			 <Title>Szybkie otwieranie</Title>
+             <QuickKey_Control>Kontrola szybkiego otwierania</QuickKey_Control>
+             <text>Skróty do operacji Windows, można szybko ponownie otworzyć</text>
+             <DescOn>Bieżący: włączony</DescOn>
+             <DescOff>Aktualny: nieotwarty</DescOff>
+             <ButtonA>Sprawdź</ButtonA>
+             <On>Włącz</On>
+             <Off>zamknięcie</Off>
+             <ArrowUp>Klawisz KB</ArrowUp>
+             <ArrowLeft>Wielozadaniowość</ArrowLeft>
+             <ArrowDown>Menedżer aktywności</ArrowDown>
+             <ArrowRight>Zrzut ekranu</ArrowRight>
+			 			<!-- ??? -->
+             <Gesture>Speed gesture</Gesture>
+             <Przytrzymaj>Przytrzymaj</Przytrzymaj>
         </QuickKey>
         <Joystick>
-            <BtnTitle>Joystick/Button</BtnTitle>
-            <BtnDesc>Correction</BtnDesc>
-            <ButtonA>Look</ButtonA>
-            <Title>Joystick/Button Calibration instructions</Title>
+            <BtnTitle>Dżojstik i przyciski</BtnTitle>
+            <BtnDesc>Korekta</BtnDesc>
+            <ButtonA>Patrz</ButtonA>
+            <Title>Instrukcja kalibracji Dżojstika i przycisków</Title>
             <Desc>You can try the following operations when the joystick and LT/RT are not sensitive:</Desc>
             <StepText1_1>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Press&lt;/font&gt;</StepText1_1>
             <StepText1_2>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;simultaneously for&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt; 2 &lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;seconds&lt;/font&gt;</StepText1_2>
@@ -854,8 +855,8 @@
         </CustomKey>
 		<Reset>Reset</Reset>
         <FreeButton>
-            <KeyDpad>Select</KeyDpad>
-            <BtnA>ok</BtnA>
+            <KeyDpad>Wybierz</KeyDpad>
+            <BtnA>Ok</BtnA>
             <BtnB>Anuluj</BtnB>
 			
             <BtnTitle>Free Button</BtnTitle>
