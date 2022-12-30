@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Root disp="Polish">
+<Root disp="Polski">
     <!-- 导航栏 -->
     <!-- Pasek nawigacyjny -->
     <NavBar>
@@ -259,7 +259,7 @@
             </Fan>
 
             <Clean>
-                <Title>&lt;font size=&quot;4&quot;&gt;Optymalizujlt;/font&gt;</Title>
+                <Title>&lt;font size=&quot;4&quot;&gt;Optymalizuj&lt;/font&gt;</Title>
                 <Succ>Optymalizacja zakończona sukcesem</Succ>
             </Clean>
 
