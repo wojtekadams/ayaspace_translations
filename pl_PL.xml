@@ -876,28 +876,28 @@
             <BtnConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#C14D4E&quot;&gt;Czy zmienić konfigurację przycisków?&lt;/font&gt;&lt;/p&gt;</BtnConfirm>
         </FreeButton>
 	<RGB>
-		<Title>RGB lighting effect</Title>
-		<OpenRGB>Turn on</OpenRGB>
-		<CloseRGB>Turn off</CloseRGB>
-		<Desc>current:</Desc>
-		<BtnStart>save&&application</BtnStart>
-		<CloseDesc>Open up more possibilities for refreshing operations</CloseDesc>
-		<CloseDesc2>With the iteration of future versions, the function of this module will change, please refer to the latest version.</CloseDesc2>
-		<LoadPreset>Load preset</LoadPreset>
-		<Default>Default</Default>
-		<BreathMonochrome>Breath Monochrome</BreathMonochrome>
-		<BreatheRGBLoop>Breathe RGB Loop</BreatheRGBLoop>
-		<BreatheGoogle>Breathe Google</BreatheGoogle>
-		<Scanning>scanning</Scanning>
-		<Ripple>ripple</Ripple>
-		<MonochromaticAlwaysOn>Monochromatic always on</MonochromaticAlwaysOn>
-		<Color>color</Color>
-		<Brightness>brightness</Brightness>
-		<Hex>hexadecimal color value (Hex)</Hex>
-		<Customize>customize</Customize>
-		<Off>closure</Off>
-		<LightsOut>Lights out at night</LightsOut>
-		<Time>Time: 20:00~06:00</Time>
+		<Title>Oświetlenia RGB</Title>
+		<OpenRGB>Włącz</OpenRGB>
+		<CloseRGB>Wyłącz</CloseRGB>
+		<Desc>bieżące: </Desc>
+		<BtnStart>Zapisz && zastosuj</BtnStart>
+		<CloseDesc>Otwórz więcej możliwości</CloseDesc>
+		<CloseDesc2>Wraz z kolejnymi wersjami, funkcja tego modułu ulegnie zmianie!</CloseDesc2>
+		<LoadPreset>Załaduj ustawienie wstępnet</LoadPreset>
+		<Default>Domyślne</Default>
+		<BreathMonochrome>Oddech</BreathMonochrome>
+		<BreatheRGBLoop>Oddecho RGB</BreatheRGBLoop>
+		<BreatheGoogle>Oddecho Google</BreatheGoogle>
+		<Skanowanie>Sonar</Skanowanie>
+		<Ripple>Fala</Ripple>
+		<MonochromaticAlwaysOn>Wasny kolor</MonochromaticAlwaysOn>
+		<Kolor>Kolor</Kolor>
+		<Jasność>Jasność</Jasność>
+		<Hex>Szesnastkowa wartość joloru (Hex)</Hex>
+		<Dostosuj>Dostosuj</Customize>
+		<Wyłącz>Zamknij</Wyłącz>
+		<LightsOut>Światła gasną w nocy</LightsOut>
+		<Czas>między: 20:00 - 06:00</Czas>
 	</RGB>
     </PopExploreAya>
 
