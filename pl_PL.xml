@@ -525,25 +525,25 @@
             <TitleStartUp>Start Up</TitleStartUp>
             <StartUp>StartUp</StartUp>
             <MouseMode>Tryb myszy</MouseMode>
-            <Overlay>Overlay</Overlay>
-            <Hide>HideFeature</Hide>
-            <DebugConsole>Debug Console</DebugConsole>
-            <FullScreen>Full Screen</FullScreen>
-            <GameSync>Game data sync</GameSync>
+            <Overlay>Makładka</Overlay>
+            <Hide>Ukryj funkcję</Hide>
+            <DebugConsole>Konsola Debugowania</DebugConsole>
+            <FullScreen>Pełny ekran</FullScreen>
+            <GameSync>Sychronizacja danych gier</GameSync>
             <Admin>Admin</Admin>
             <TitleBeta>Beta Test</TitleBeta>
-            <WaitMore>Coming soon</WaitMore>
+            <WaitMore>Wkrótce</WaitMore>
             <LaunchOpt>
-                <Title>Launch Optimization</Title>
-                <Look>Look</Look>
-                <Open>Open</Open>
-                <DisableFullScreen>Disable Full Screen Opt</DisableFullScreen>
-                <GPUScaling>Open GPU Scaling</GPUScaling>
-                <UsbSuspend>Disable USB Selective Suspend</UsbSuspend>
-                <OskReplace>OSK Replace</OskReplace>
-                <HighPower>Ultimate Performance</HighPower>
-                <EmptyClipboard>Empty Clipboard</EmptyClipboard>
-                <EngKeyboardLayout>Switch to English input method</EngKeyboardLayout>
+                <Title>Uruchom optymalizację</Title>
+                <Look>Patrz</Look>
+                <Open>Otwórz/Open>
+                <DisableFullScreen>Wyłącz pełny ekran Opt</DisableFullScreen>
+                <GPUScaling>Otwórz skalowanie GPU</GPUScaling>
+                <UsbSuspend>Wyłączenie selektywnego wstrzymania USB</UsbSuspend>
+                <OskReplace>Wymiana OSK</OskReplace>
+                <HighPower>Najwyższa wydajność</HighPower>
+                <EmptyClipboard>Pusty schowek</EmptyClipboard>
+                <EngKeyboardLayout>Przełącz na angielską metodę wprowadzania</EngKeyboardLayout>
             </LaunchOpt>
         </PropertyUpdate>
 
@@ -554,99 +554,99 @@
 	    <Phone>Phone</Phone>
 	    <Avatar>Avatar</Avatar>
             <Exit>Sign out</Exit>
-            <ExitTip>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;red&quot;&gt;是否确认的退出登录？&lt;/font&gt;&lt;/p&gt;</ExitTip>
-	    <Web>&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;Personal information settings, it is recommended to go to &lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;https://ayaneo.com/user</Web>
+            <ExitTip>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;red&quot;&gt;Czy chcesz się wylogowaać？&lt;/font&gt;&lt;/p&gt;</ExitTip>
+	    <Web>&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;Ustawienia danych osobowych. Przejdź do &lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;https://ayaneo.com/user</Web>
         </PropertyAccountSafety>
 
         <PropertyData>
-            <TitleGameData>Game Data</TitleGameData>
-            <Image>Image</Image>
-            <Video>Video</Video>
-            <TitlePackage>Install Package or Firmware</TitlePackage>
-            <Soft>Soft</Soft>
-            <Firmware>Firmware</Firmware>
-            <Clean>One Click Clean</Clean>
+            <TitleGameData>Dane gier</TitleGameData>
+            <Image>Obrazy</Image>
+            <Video>Wideo</Video>
+            <TitlePackage>Zainstaluj pakiet lub oprogramowanie sprzętowe</TitlePackage>
+            <Soft>Oprogramowanie</Soft>
+            <Firmware>Oprogramowanie sprzętowe</Firmware>
+            <Clean>Czyszczenie jednym kliknięciem</Clean>
         </PropertyData>
 
         <PropertyDevice>
-            <Family>Family: </Family>
+            <Family>Rodzina: </Family>
             <Sku>Sku: </Sku>
-            <SerialNumber>Serial Number: </SerialNumber>
-            <BiosVersion>Bios Version: </BiosVersion>
-            <EcFirmwareVersion>Ec Firmware Version: </EcFirmwareVersion>
-            <AoutDevice>Device</AoutDevice>
+            <SerialNumber>Numer seryjny: </SerialNumber>
+            <BiosVersion>Bios: </BiosVersion>
+            <EcFirmwareVersion>Wersja oprograwmoania Ec: </EcFirmwareVersion>
+            <AoutDevice>Urządzenie</AoutDevice>
         </PropertyDevice>
 
         <PropertySync>
-            <Config>Sync Config File</Config>
-            <GameList>Sync Game List</GameList>
-            <LastSyncTime>Last Sync Time</LastSyncTime>
-            <BtnSteam>Goto Bind Steam</BtnSteam>
-            <BtnSteamFinish>Binded Steam</BtnSteamFinish>
-            <BtnSteamSave>Save</BtnSteamSave>
-            <SteamInvalidId>The provided steam account was not found, it may be that the steam platform is not installed</SteamInvalidId>
-            <SteamInvalidKey>appkey invalid</SteamInvalidKey>
-            <SteamTestFailed>The appkey test is invalid, please enter the correct appkey.</SteamTestFailed>
-            <BtnXbox>Goto Bind Xbox</BtnXbox>
-            <BtnXboxFinish>Binded %s</BtnXboxFinish>
-            <BrowserToolbarTitle>AYANEO sync assistant</BrowserToolbarTitle>
-	    <WhetherToUnbindXbox>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;Whether to unlink the Xbox account? &lt;/font&gt;&lt;/p&gt;</WhetherToUnbindXbox>
-	    <WhetherToUnbindSteam>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;Whether to unbind the Steam account? &lt;/font&gt;&lt;/p&gt;</WhetherToUnbindSteam>
-	    <LongPress>long press to unbind</LongPress>
+            <Config>Synch. plik konfiguracyjny</Config>
+            <GameList>Synch. listę gier</GameList>
+            <LastSyncTime>Ostatnia Synch.</LastSyncTime>
+            <BtnSteam>Połącz ze Steam</BtnSteam>
+            <BtnSteamFinish>Połączono ze Steam</BtnSteamFinish>
+            <BtnSteamSave>Zapisz</BtnSteamSave>
+            <SteamInvalidId>Podane konto steam nie zostało znalezione, być może platforma Steam nie jest zainstalowana</SteamInvalidId>
+            <SteamInvalidKey>nieważny klucz Steam</SteamInvalidKey>
+            <SteamTestFailed>Test klucza Steam jest nieprawidłowy, proszę wprowadzić poprawny klucz Steam (apikey).</SteamTestFailed>
+            <BtnXbox>Połącz ze  Xbox</BtnXbox>
+            <BtnXboxFinish>Połączono %s</BtnXboxFinish>
+            <BrowserToolbarTitle>Asystent synchronizacji AYANEO</BrowserToolbarTitle>
+	    <WhetherToUnbindXbox>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;Czy odłączyć konto Xbox? &lt;/font&gt;&lt;/p&gt;</WhetherToUnbindXbox>
+	    <WhetherToUnbindSteam>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;czy odłączyć konto Steam? &lt;/font&gt;&lt;/p&gt;</WhetherToUnbindSteam>
+	    <LongPress>Przytrzymaj, aby odłączyć konto</LongPress>
         </PropertySync>
 
         <PropertyLanguage>
-            <Title>Language modification takes effect after restart</Title>
-            <Classic>Classic</Classic>
-            <BlackWhite>WhiteBlack</BlackWhite>
-            <Execute>save</Execute>
+            <Title>Zmiana języka zostanie wprowadzona po ponownym uruchomieniu aplikacji</Title>
+            <Classic>Klasyczny</Classic>
+            <BlackWhite>Biało-czarny</BlackWhite>
+            <Execute>Zapisz</Execute>
         </PropertyLanguage>
 
         <PopBindEmail>
-            <Title>AYANEO Account binding</Title>
-            <BindDesc>Bind AYA ID &#x000A;Enjoy your game space</BindDesc>
-            <Bind>Bind</Bind>
-            <InputEmailTip>Please enter your email</InputEmailTip>
-            <InputCodeTip>Please enter Code</InputCodeTip>
-            <InputAreaTip>Please enter area code</InputAreaTip>
-            <InputPhoneTip>Please enter phone number</InputPhoneTip>
+            <Title>Powiązanie konta AYANEO</Title>
+            <BindDesc>Połącz AYA ID &#x000A;Ciesz się swoją przestrzenią do gry</BindDesc>
+            <Bind>Połącz</Bind>
+            <InputEmailTip>Proszę wprowadzić email</InputEmailTip>
+            <InputCodeTip>Wprowadź kod</InputCodeTip>
+            <InputAreaTip>Proszę wprowadzić kod</InputAreaTip>
+            <InputPhoneTip>Proszę wprowadź numer telefonu</InputPhoneTip>
         </PopBindEmail>
 
     </PopSettings>
 
     <PopGameMgr>
-        <Title>Zarz</Title>
+        <Title>Zarządzanie grami</Title>
         <BtnControls>
-            <EmptyDesc>No Data</EmptyDesc>
+            <EmptyDesc>Brak danych</EmptyDesc>
         </BtnControls>
         <PropertyGameMgr>
-            <Title1>With your private game collection</Title1>
-            <Title2>Enjoy the best game management method</Title2>
+            <Title1>Z prywatną kolekcją gier</Title1>
+            <Title2>Ciesz się najlepszą metodą zarządzania grami</Title2>
             <BtnAdd>
-                <Title>Add Game</Title>
+                <Title>Dodaj grę</Title>
             </BtnAdd>
             <BtnRemove>
-                <Title>UnInstall Game</Title>
-                <Desc>Games</Desc>
+                <Title>Odinstaluj grę</Title>
+                <Desc>Gry</Desc>
             </BtnRemove>
             <BtnUnknow>
-                <Title>Unknow File</Title>
-                <Desc>Like a Game</Desc>
+                <Title>Niznane plik</Title>
+                <Desc>Jak gra</Desc>
             </BtnUnknow>
             <BtnShowHide>
-              <Show>Show All</Show>
-              <Hide>Hidden Item</Hide>
+              <Show>Pokaż wszystkie</Show>
+              <Hide>Schowaj element</Hide>
             </BtnShowHide>
         </PropertyGameMgr>
 
         <PropertyGameMgrAdd>
-            <Title>Add New Game</Title>
+            <Title>Dodaj nową grę</Title>
             <BtnScan>
-                <Title>Scan Game</Title>
-                <Desc>New Games</Desc>
+                <Title>Szukaj gier</Title>
+                <Desc>Nowe gry</Desc>
             </BtnScan>
             <BtnManual>
-                <Title>Manual Add</Title>
+                <Title>Dodaj ręcznie</Title>
             </BtnManual>
             <BtnPlat>
                 <Title>Bind Plat</Title>
