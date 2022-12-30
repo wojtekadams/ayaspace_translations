@@ -259,7 +259,8 @@
             </Fan>
 
             <Clean>
-                <Title>Optymalizuj</Title>
+				<!-- Optymalizuj - jest za długie ... -->
+                <Title>Optymal...</Title>
                 <Succ>Optymalizacja zakończona sukcesem</Succ>
             </Clean>
 
@@ -304,10 +305,10 @@
             <Platform>P.</Platform>
         </QuickSearch>
         <Sort>
-            <DisplayColNumber>DisplayColNumber</DisplayColNumber>
-            <DisplayOrder>DisplayOrder</DisplayOrder>
+            <DisplayColNumber>Pozycji w kolumnie</DisplayColNumber>
+            <DisplayOrder>Kolejność</DisplayOrder>
             <PlayTime>Czas gry</PlayTime>
-            <StorageTime>Dodaj czas</StorageTime>
+            <StorageTime>Czas instalacji</StorageTime>
             <GameName>Nazwa gry</GameName>
             <Ascending>Rosnąco</Ascending>
             <Descending>Malejąco</Descending>
@@ -326,49 +327,50 @@
 
         <!-- 平台管理 -->
         <CardPlat>
-            <KeyX>Hide Installed</KeyX>
-            <KeyX2>Show Installed</KeyX2>
+            <KeyX>Ukryj Zainstalowane</KeyX>
+            <KeyX2>Pokaż Zainstalowane</KeyX2>
+			<!-- ??? -->
             <KeyY>Cancel Common Use</KeyY>
-            <BtnInstall>Install</BtnInstall>
-            <InstallStatus>Installed</InstallStatus>
+            <BtnInstall>Instaluj</BtnInstall>
+            <InstallStatus>Zainstalowane</InstallStatus>
         </CardPlat>
 
         <AppletEntrance>
-            <Title>application Center</Title>
-            <Market>application market</Market>
-            <Installed>installed</Installed>
-            <Newest>Recently updated</Newest>
-            <Shared>shared</Shared>
-            <Total>Total</Total>
-            <Open>Open</Open>
-            <Install>Install</Install>
-            <Download>Download</Download>
-            <Renew>Renew</Renew>
-            <Ison>activated</Ison>
-            <Isoff>Not Enabled</Isoff>
-            <RenewAll>Update all</RenewAll>
-            <Manage>manage</Manage>
-            <TurnOn>turn on</TurnOn>
-            <ReleaseDesc>Release description</ReleaseDesc>
-            <UseDesc>Use description</UseDesc>
-            <More>More</More>
-            <Version>Version</Version>
+            <Title>Centrum aplikacji</Title>
+            <Market>Market aplikacji</Market>
+            <Installed>Zainstalowane</Installed>
+            <Newest>Ostatnio zaktualizowane</Newest>
+            <Shared>udostępnione</Shared>
+            <Total>Wszystkie</Total>
+            <Open>Otwórz</Open>
+            <Install>Zainstaluj</Install>
+            <Download>Pobierz</Download>
+            <Renew>Odnów</Renew>
+            <Ison>Aktywowny</Ison>
+            <Isoff>Nieaktywny</Isoff>
+            <RenewAll>Zaktualizuj wszystkie</RenewAll>
+            <Manage>Zarządzaj</Manage>
+            <TurnOn>Włącz</TurnOn>
+            <ReleaseDesc>Opis wydanua</ReleaseDesc>
+            <UseDesc>Opis zastosowania</UseDesc>
+            <More>Więcej</More>
+            <Version>Wersja</Version>
             <Applet>Applet</Applet>
-            <Apply>Apply</Apply>
+            <Apply>Zastosuj</Apply>
         </AppletEntrance>
 		
         <AppletConfig>
-            <Config>Config</Config>
-            <Control>Control configuration</Control>
-            <Library>Library configuration</Library>
-            <Applet>Applet configuration</Applet>
-            <Style>Style</Style>
-            <LongPress>Hold</LongPress>
-            <Close>Close</Close>
-            <Enable>Enable</Enable>
-            <Disable>Disable</Disable>
-            <Uninstall>Uninstall</Uninstall>
-            <UserDesc>Instructions for use</UserDesc>
+            <Config>Konfiguracja</Config>
+            <Control>Konfiguracja Sterowania</Control>
+            <Library>Konfiguracja Biblioteki</Library>
+            <Applet>Konfiguracja Appletu</Applet>
+            <Style>Styl</Style>
+            <LongPress>Przytrzymaj</LongPress>
+            <Close>Zamknmij</Close>
+            <Enable>Włącz</Enable>
+            <Disable>Wyłącz</Disable>
+            <Uninstall>Odinstaluj</Uninstall>
+            <UserDesc>Instrukcja użytkowania</UserDesc>
         </AppletConfig>
         
         <SoftwareCenter>
@@ -605,7 +607,7 @@
     </PopSettings>
 
     <PopGameMgr>
-        <Title>Game management</Title>
+        <Title>Zarz</Title>
         <BtnControls>
             <EmptyDesc>No Data</EmptyDesc>
         </BtnControls>
@@ -1170,16 +1172,16 @@
 
     <BindApplet>
         <Applet>Applet</Applet>
-        <Press>Press</Press>
-        <Config>Config</Config>
-        <LongPress>LongPress</LongPress>
-        <Manage>Manage</Manage>
-        <Remove>Remove</Remove>
-        <Add>Add</Add>
-        <Enable>Enable</Enable>
-        <Disable>Disable</Disable>
-        <UnInstall>UnInstall</UnInstall>
-        <AddApplet>Add applet</AddApplet>
+        <Press>Naciśnij</Press>
+        <Config>Konfiguracja</Config>
+        <LongPress>Przytrzymaj</LongPress>
+        <Manage>Zarządzaj</Manage>
+        <Remove>Usuń</Remove>
+        <Add>Dodaj</Add>
+        <Enable>Włącz</Enable>
+        <Disable>Wyłącz</Disable>
+        <UnInstall>Odinstaluj</UnInstall>
+        <AddApplet>Dodaj applet</AddApplet>
     </BindApplet>
 
     <BindBluetooth>
