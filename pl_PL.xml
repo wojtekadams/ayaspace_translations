@@ -259,7 +259,7 @@
             </Fan>
 
             <Clean>
-                <Title>&lt;font size=&quot;4&quot;&gt;Optymalizuj&lt;/font&gt;</Title>
+                <Title>Optymalizuj</Title>
                 <Succ>Optymalizacja zakończona sukcesem</Succ>
             </Clean>
 
