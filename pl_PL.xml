@@ -242,12 +242,13 @@
             <Cpu>
                 <Game>Tryb Gry</Game>
 				<!-- ??? -->
-                <Balance>Zbalans...</Balance>
+				<!-- Zbilansowany lepiej pasuje ale się nie miesci -->
+                <Balance>Optymalny</Balance>
                 <PowerSaving>Oszczędny</PowerSaving>
                 <Custom>Niestandardowy</Custom>
                 <Pro>Pro</Pro>
                 <Setup>Ustawienia</Setup>
-                <CustomTDP>Niestandardowe TDP</CustomTDP>				
+                <CustomTDP>Niestandardowe TDP (Pro)</CustomTDP>				
             </Cpu>
 
             <Fan>
@@ -264,7 +265,7 @@
 
             <Clean>
 				<!-- Optymalizuj - jest za długie ... -->
-                <Title>Optymal...</Title>
+                <Title>Optymaliz.</Title>
                 <Succ>Optymalizacja zakończona sukcesem</Succ>
             </Clean>
 
@@ -335,7 +336,7 @@
             <KeyX>Ukryj Zainstalowane</KeyX>
             <KeyX2>Pokaż Zainstalowane</KeyX2>
 			<!-- ??? -->
-            <KeyY>Cancel Common Use</KeyY>
+            <KeyY>Anuluj Common Use</KeyY>
             <BtnInstall>Instaluj</BtnInstall>
             <InstallStatus>Zainstalowane</InstallStatus>
         </CardPlat>
@@ -440,24 +441,25 @@
             <Title>AYAQuickTool</Title>
         </PopAsstTitleBar>
         <StatusBar>
-            <NormalApply>Action processed successfully</NormalApply>
-            <Disable>Disabled</Disable>
-            <Enable>Enabled</Enable>
-            <ScreenshotSucc>Screenshot successful</ScreenshotSucc>
-            <FsrTips>Scale frontmost window with FSR after 3 seconds</FsrTips>
-            <Prossimamente>Prossimamente</Prossimamente>
+            <NormalApply>Akcja zakończona pomyślnie</NormalApply>
+            <Disable>Wyłącz</Disable>
+            <Enable>Włącz</Enable>
+            <ScreenshotSucc>Wykonano zrzut ekranu</ScreenshotSucc>
+						<!-- ??? -->
+            <FsrTips>Skalowanie najbardziej wysuniętego do przodu okna z FSR po 3 sekundach</FsrTips>
+            <Prossimamente>Wkrótce</Prossimamente>
         </StatusBar>
         <CommSoftBar>
-            <Title>Select quick launch apps from Home page</Title>
+            <Title>Wybierz aplikacje do szybkiego uruchamiania ze Strony Głównej Panelu</Title>
         </CommSoftBar>
 		<SystemMonitor>
 			<Gpu>GPU</Gpu>
 			<ThreeA>3A</ThreeA>
 			<Auto>Auto</Auto>
 			<BatteryLife>Saving</BatteryLife>
-			<Reboot>Need to restart the computer to take effect</Reboot>
-			<BtnX>Cancel</BtnX>
-			<BtnA>reboot</BtnA>
+			<Reboot>Konieczne jest ponowne uruchomienie komputera, aby uzyskać efekt</Reboot>
+			<BtnX>Anuluj</BtnX>
+			<BtnA>Ponownie uruchomienie komutera</BtnA>
 		</SystemMonitor>
     </PopAsst>
 
@@ -465,50 +467,50 @@
         <Account>Account Safey</Account>
         <StartUp>StartUp Update</StartUp>
         <Data>Data</Data>
-        <Sync>Sync</Sync>
-        <Device>Device</Device>
-        <Language>Language</Language>
-        <Founders>Founders</Founders>
-        <OpenSources>Third Libs</OpenSources>
-        <Minimize>Minimize</Minimize>
-        <Sleep>Goto Sleep</Sleep>
-        <ClientVersionChina>Goto China</ClientVersionChina>
-        <ClientVersionGlobal>Goto Global</ClientVersionGlobal>
-        <SleepConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;Confirm&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;#C14D4E&quot;&gt;go to sleep？&lt;/font&gt;&lt;/p&gt;</SleepConfirm>
-        <Quit>Quit</Quit>
-        <SystemSetting>System setting</SystemSetting>
+        <Sync>Synchronizacja</Sync>
+        <Device>Urządzenie</Device>
+        <Language>Język</Language>
+        <Founders>Fundatorzy</Founders>
+        <OpenSources>Zewnętrzne biblioteki</OpenSources>
+        <Minimize>Minimalizuj</Minimize>
+        <Sleep>Uśpij</Sleep>
+        <ClientVersionChina>Zmień na wersję Chińską</ClientVersionChina>
+        <ClientVersionGlobal>Zmień na wersję Globalną</ClientVersionGlobal>
+        <SleepConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;Confirm&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;#C14D4E&quot;&gt;Zasnąć?&lt;/font&gt;&lt;/p&gt;</SleepConfirm>
+        <Quit>Wyjście</Quit>
+        <SystemSetting>Ustawienia systemu</SystemSetting>
 
         <PropertyMain>
-            <Account>Account&#x000A;security</Account>
-            <StartUp>Startup and Update</StartUp>
-            <Data>installation&#x000A;Datas</Data>
-            <Sync>Synchronize&#x000A;</Sync>
-            <Device>equipment&#x000A;information</Device>
-            <Language>Language Setting</Language>
-            <TitleGameData>Games&#x000A;datas</TitleGameData>
+            <Account>Zabezpieczenie&#x000A;konta</Account>
+            <StartUp>Uruchomienie i aktualizacja</StartUp>
+            <Data>Dane&#x000A;instalacyjne</Data>
+            <Sync>Synchronizacja&#x000A;</Sync>
+            <Device>Informacje&#x000A;o&#x000A;sprzęcie</Device>
+            <Language>Usttawienia języka</Language>
+            <TitleGameData>Dane&#x000A;gier</TitleGameData>
         </PropertyMain>
 
         <PropertyUpdate>
-            <TitleUpdate>System Update</TitleUpdate>
-            <Loading>Checking and updating online...</Loading>
-            <TitleButtonStart>UpdateAll</TitleButtonStart>
-            <NoUpdate>No Update</NoUpdate>
-            <TitleButtonDpad>Move</TitleButtonDpad>
-            <TitleButtonA>Update</TitleButtonA>
-            <TitleButtonB>GoBack</TitleButtonB>
-            <BtnCheckTitle>CheckUpdate</BtnCheckTitle>
-            <Retry>Retry</Retry>
-            <RetryTitle>Retry</RetryTitle>
-            <Finish>Finish</Finish>
-            <updateItems>%d Updatable</updateItems>
-            <updateFailItems>%d Failed</updateFailItems>
-            <WattingDownload>Waiting to download...</WattingDownload>
-            <DownloadingTip>Downloading, please wait</DownloadingTip>
-            <UpdateCloseTip>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;red&quot;&gt;The driver is being updated. Are you sure you want to close it?&lt;/font&gt;&lt;/p&gt;</UpdateCloseTip>
-            <Fail>Update failed</Fail>
-            <Updating>Updating</Updating>
-            <Installing>Installing..</Installing>
-            <ManualInstallation>Installation Instructions</ManualInstallation>
+            <TitleUpdate>Aktualizacja systemu</TitleUpdate>
+            <Loading>Sprawdzanie i aktualizowanie onLine...</Loading>
+            <TitleButtonStart>Uaktualnij wszystko</TitleButtonStart>
+            <NoUpdate>Brak aktualizacji</NoUpdate>
+            <TitleButtonDpad>Przenieś</TitleButtonDpad>
+            <TitleButtonA>Aktualizuj</TitleButtonA>
+            <TitleButtonB>Wróć</TitleButtonB>
+            <BtnCheckTitle>Sprawdź aktualizacje</BtnCheckTitle>
+            <Retry>Spróbój ponownie</Retry>
+            <RetryTitle>Spróbój ponownie</RetryTitle>
+            <Finish>Koniec</Finish>
+            <updateItems>%d do zakualizowania</updateItems>
+            <updateFailItems>%d nie powiodło się</updateFailItems>
+            <WattingDownload>Oczekiwanie na pobranie...</WattingDownload>
+            <DownloadingTip>Pobieranie, proszę czekać.</DownloadingTip>
+            <UpdateCloseTip>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;red&quot;&gt;Trwa aktualizacja sterownika. Czy na pewno chcesz zamknąć?&lt;/font&gt;&lt;/p&gt;</UpdateCloseTip>
+            <Fail>Aktualizacja nieudana</Fail>
+            <Updating>Aktualizowanie</Updating>
+            <Installing>Instalowanie...</Installing>
+            <ManualInstallation>Instrukcje Instalacji</ManualInstallation>
             <Restart>Restart to take effect</Restart>
             <RestartNow>Restart</RestartNow>
             <PromemoriaImportante>Promemoria importante</PromemoriaImportante>
@@ -522,7 +524,7 @@
             <Bios>BIOS</Bios>
             <TitleStartUp>Start Up</TitleStartUp>
             <StartUp>StartUp</StartUp>
-            <MouseMode>MouseMode</MouseMode>
+            <MouseMode>Tryb myszy</MouseMode>
             <Overlay>Overlay</Overlay>
             <Hide>HideFeature</Hide>
             <DebugConsole>Debug Console</DebugConsole>
@@ -688,7 +690,7 @@
         <LoadingTitle>Load installed soft list ...</LoadingTitle>
         <ButtonXTitle>Save</ButtonXTitle>
         <ButtonAdd>Add</ButtonAdd>
-        <ButtonCancel>Cancel</ButtonCancel>
+        <ButtonCancel>Anuluj</ButtonCancel>
     </PopAppGrid>
 
     <PopFileDialog>
@@ -854,7 +856,7 @@
         <FreeButton>
             <KeyDpad>Select</KeyDpad>
             <BtnA>ok</BtnA>
-            <BtnB>Cancel</BtnB>
+            <BtnB>Anuluj</BtnB>
 			
             <BtnTitle>Free Button</BtnTitle>
             <BtnDesc>current: </BtnDesc>
@@ -994,7 +996,7 @@
         <Hour>Hour(s)</Hour>
         <Minute>Minute(s)</Minute>
         <Start>Play</Start>
-        <Back>GoBack</Back>
+        <Back>Wróć</Back>
 	<Enter>Confirm</Enter>
 	<PowerPolicy>Power Policy</PowerPolicy>
 	<TDP>TDP</TDP>
@@ -1111,7 +1113,7 @@
         <Normal>
             <ButtonX>Ignore</ButtonX>
             <ButtonStart>Upgrade</ButtonStart>
-            <ButtonB>Cancel</ButtonB>
+            <ButtonB>Anuluj</ButtonB>
         </Normal>
         <UpdateContent>Update content</UpdateContent>
         <ReDownload>ReDownload</ReDownload>
@@ -1123,7 +1125,7 @@
             <ButtonY>Update Plugins</ButtonY>
             <ButtonStart>Plugin Config</ButtonStart>
             <ButtonA>Run</ButtonA>
-            <ButtonB>Cancel</ButtonB>
+            <ButtonB>Anuluj</ButtonB>
         </Button>
         <UpdateTaskRunningTips>Update task is running</UpdateTaskRunningTips>
         <UpdateTaskFinish>Update Finish</UpdateTaskFinish>
