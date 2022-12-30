@@ -808,9 +808,9 @@
             <StepText1_3>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;i zwolnij przyciski, gdy kontroler zawibruje.&lt;/font&gt;</StepText1_3>
             <StepText2>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Gałki RS i LS obracają się maksymalnie o jedno pełne koło, &lt;br&gt; LT/RT (dual trigger)&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt; jest wciśnięty trzy razy.&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;/font&gt;</StepText2>
             <StepText3>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Po zakończeniu kalibracji konsola będzie wibrował i przekazywał informację zwrotną.&lt;/font&gt;</StepText3>
-            <UpdateStep>&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;Proszę zaktualizować firmware do najnowszej wersji, można pobrać&lt;br&gt;firmware przez AYASpace i uaktualnić zgodnie z &lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;&lt;u&gt;&lt;b&gt;samouczkiem aktualizacji&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt; .&lt;/font&gt;</UpdateStep>
+            <UpdateStep>&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;Proszę zaktualizować firmware do najnowszej wersji, można pobrać&lt;br&gt;firmware przez AYASpace i uaktualnić zgodnie z &lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;&lt;u&gt;&lt;b&gt; samouczkiem aktualizacji&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt; .&lt;/font&gt;</UpdateStep>
             <AirStepText1>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Równocześnie naciśnij klawisze LB + RB + Dpad Left + B.  &lt;/font&gt;</AirStepText1>
-            <AirStepText2>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Gdy kontroler zawibruje, zwolnij przyciski. Gałki &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt; LS i RS&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;  obracają się maksymalnie pięć razy.&lt;/font&gt;</AirStepText2>
+            <AirStepText2>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Gdy kontroler zawibruje, zwolnij przyciski.&#x000A;Gałki &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt; LS i RS&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;  obracają się maksymalnie pięć razy.&lt;/font&gt;</AirStepText2>
         </Joystick>
         <CustomKey>
             <BtnStart>Zapisz& &Zastosuj</BtnStart>
@@ -884,7 +884,7 @@
 		<CloseDesc>Otwórz więcej możliwości</CloseDesc>
 		<CloseDesc2>Wraz z kolejnymi wersjami, funkcja tego modułu ulegnie zmianie!</CloseDesc2>
 		<LoadPreset>Domyślne</LoadPreset>
-		<Default>Domyślne</Default>
+		<Default>Statyczny</Default>
 		<BreathMonochrome>Oddech</BreathMonochrome>
 		<BreatheRGBLoop>Oddecho RGB</BreatheRGBLoop>
 		<BreatheGoogle>Oddecho Google</BreatheGoogle>
@@ -896,7 +896,7 @@
 		<Hex>Szesnastkowa wartość joloru (Hex)</Hex>
 		<Customize>Dostosuj</Customize>
 		<Off>Zamknij</Off>
-		<LightsOut>Światła gasną w nocy</LightsOut>
+		<LightsOut>RGB gaśnie</LightsOut>
 		<Time>między: 20:00 - 06:00</Time>
 	</RGB>
     </PopExploreAya>
