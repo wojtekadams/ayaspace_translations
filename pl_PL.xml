@@ -3,7 +3,7 @@
     <!-- 导航栏 -->
     <!-- Pasek nawigacyjny -->
     <NavBar>
-        <Home>Strona domowa</Home>
+        <Home>Pulpit</Home>
         <Game>Gry</Game>
         <Asst>Asystent</Asst>
         <QuitConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#C14D4E&quot;&gt;Czy chcesz zamknąć AYASpace?&lt;/font&gt;&lt;/p&gt;</QuitConfirm>
