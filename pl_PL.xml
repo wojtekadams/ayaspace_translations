@@ -238,16 +238,18 @@
             </PadVibration>
 
             <Cpu>
-                <Game>Gra</Game>
-                <Balance>Zbalansowany</Balance>
+                <Game>Tryb Gry</Game>
+				<!-- ??? -->
+                <Balance>Zbalans...</Balance>
                 <PowerSaving>Oszczędny</PowerSaving>
-                <Custom>Niestandardowe</Custom>
+                <Custom>Niestandardowy</Custom>
                 <Pro>Pro</Pro>
                 <Setup>Ustawienia</Setup>
                 <CustomTDP>Niestandardowe TDP</CustomTDP>				
             </Cpu>
 
             <Fan>
+				<!-- ??? -->
                 <ProTitle>Pro</ProTitle>
                 <WildTitle>MAX</WildTitle>
                 <SmartTitle>LOW</SmartTitle>
@@ -265,6 +267,7 @@
             </Clean>
 
             <Ota>
+				<!-- ??? -->
                 <Title>Konfiguracja gry OTA&#x000A;Keep best game status</Title>
             </Ota>
 
@@ -374,36 +377,36 @@
         </AppletConfig>
         
         <SoftwareCenter>
-            <Title>Software</Title>
-            <Total>A total of</Total>
-            <Application>software</Application>
-            <Disk>Disk</Disk>
-            <HideSystemSoft>Hide system software</HideSystemSoft>
-	    <Installed>Installed</Installed>
+            <Title>Oprogramowanie</Title>
+            <Total>W sumie</Total>
+            <Application>Programy</Application>
+            <Disk>Dysk</Disk>
+            <HideSystemSoft>Ukryj oprogramowanie systemowe</HideSystemSoft>
+	    <Installed>Zainstalowane</Installed>
         </SoftwareCenter>
 
         <CardMasterPad>
             <Title>Master Controller</Title>
-            <Comment>Unparalleled sense of control</Comment>
-            <Config>Configure your operating mode</Config>
+            <Comment>Niezrównane poczucie kontroli</Comment>
+            <Config>Skonfiguruj tryb pracy</Config>
         </CardMasterPad>
 
         <CardMaster>
-            <NewUpdateTitle>#Update  Added description of joystick calibration</NewUpdateTitle>
-            <ExploreAya>EVO - Configure AYANEO</ExploreAya>
-            <PalyAya>How to unleash the unlimited potential of &#x000A;AYANEO&#x000A;</PalyAya>
-            <GameScreenshots>Screenshot book</GameScreenshots>
+            <NewUpdateTitle>#Aktualizacja - Dodano opis dla kalibracji joysticka</NewUpdateTitle>
+            <ExploreAya>EVO - Konfiguracja  AYANEO</ExploreAya>
+            <PalyAya>Jak uwolnić nieograniczony potencjał &#x000A;AYANEO&#x000A;</PalyAya>
+            <GameScreenshots>Galeria Zrzutów ekranu</GameScreenshots>
             <GameMoments>Keep the wonderful game moments</GameMoments>
-            <KnowMore>More</KnowMore>
-            <Help>QA</Help>
+            <KnowMore>Więcej</KnowMore>
+            <Help>Pomoc</Help>
         </CardMaster>
 
         <CardTinyTool>
             <Title>Homepage control</Title>
             <QuickTool>AYAQuicktool</QuickTool>
             <CommTool>Quicktool Commonly control</CommTool>
-            <Fold>Fold</Fold>
-            <CommonlyUsed>CommonlvUsed</CommonlyUsed>
+            <Fold>Wysuwane menu</Fold>
+            <CommonlyUsed>Często używane</CommonlyUsed>
         </CardTinyTool>
 
         <CardController>
@@ -422,8 +425,8 @@
             <SystemToolsTitle>System Tools</SystemToolsTitle>
 
             <Fan>
-                <Wild>Wild</Wild>
-                <Smart>Saving</Smart>
+                <Wild>Dziski</Wild>
+                <Smart>Oszczędny</Smart>
             </Fan>
         </CardAsst>
     </Asst>
