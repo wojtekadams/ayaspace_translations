@@ -214,12 +214,12 @@
 
         <!-- 一键升级卡片 -->
         <OneClickUpdate>
-            <DriverUpdate>DriverUpdate</DriverUpdate>
-            <Title>OneClickUpdate</Title>
-            <Tips>Wow!&#x000A;Everything is updated</Tips>
-            <NoUpdateTip>Everything is latest</NoUpdateTip>
-            <BtnTitle>Check Update</BtnTitle>
-            <GoGames>go to games</GoGames>
+            <DriverUpdate>Aktualizacja sterownika</DriverUpdate>
+            <Title>Kliknij, aby zaktualizować</Title>
+            <Tips>Łał!&#x000A;Wszystko jest aktualne</Tips>
+            <NoUpdateTip>Wszystko jest aktualne</NoUpdateTip>
+            <BtnTitle>Sprawdź aktualizację</BtnTitle>
+            <GoGames>Idź do gier</GoGames>
         </OneClickUpdate>
 
         <CardHome>
@@ -229,8 +229,8 @@
             </CommSoftBar>
 
             <BatteryCharge>
-                <Quick>Inteligenty</Quick>
-                <Preserve>Conserve</Preserve>
+                <Quick>Inteligente</Quick>
+                <Preserve>Oszczędne</Preserve>
             </BatteryCharge>
 
             <PadVibration>
@@ -902,112 +902,112 @@
     </PopExploreAya>
 
     <PopGameBind>
-        <Title>Current game data</Title>
-        <SearchTitle>Search</SearchTitle>
-        <AiTitle>Intelligent</AiTitle>
-        <UnInstallTitle>Uninstall</UnInstallTitle>
-        <RemoveRecordTitle>Remove Record</RemoveRecordTitle>
-        <GameOpTitle>Data</GameOpTitle>
-        <ButtonStartTitle>Long press to clear data</ButtonStartTitle>
-        <ClearTimerContent>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;6&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;seconds&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;Perform cleanup&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#ACC3CD&quot;&gt;Release the button to cancel&lt;/font&gt;&lt;/p&gt;</ClearTimerContent>
-        <ClearContentFinish>Clear data complete</ClearContentFinish>
-        <Show>Show</Show>
-        <Hide>Hidden</Hide>
+        <Title>Dane o grze</Title>
+        <SearchTitle>Szukaj</SearchTitle>
+        <AiTitle>Inteligentne wyszukiwanie</AiTitle>
+        <UnInstallTitle>Odinstaluj</UnInstallTitle>
+        <RemoveRecordTitle>Usuń zapis</RemoveRecordTitle>
+        <GameOpTitle>Dane</GameOpTitle>
+        <ButtonStartTitle>Przyciśnij, aby usunąć dane</ButtonStartTitle>
+        <ClearTimerContent>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;6&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt; sekund&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;Perform cleanup&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#ACC3CD&quot;&gt;Zwolnij przycisk, aby przerwać&lt;/font&gt;&lt;/p&gt;</ClearTimerContent>
+        <ClearContentFinish>Dane zostały usunięte</ClearContentFinish>
+        <Show>Pokaż</Show>
+        <Hide>Ukryj</Hide>
         <UnInstall>
-            <OkTitle>delete</OkTitle>
-            <Tips>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;white&quot;&gt;Confirm to uninstall the game?&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#c14d4e&quot;&gt;This action will delete: %s&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#c14d4e&quot;&gt;all the files in the directory, confirm to delete?&lt;/font&gt;&lt;/p&gt;</Tips>
-            <Loading>Delete the game directory...</Loading>
-            <Finish>Successfully deleted the game directory</Finish>
+            <OkTitle>Usuń</OkTitle>
+            <Tips>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;white&quot;&gt;Czy potwierdzasz deinstalację gry?&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#c14d4e&quot;&gt;Ta akcja usunie grę: %s&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#c14d4e&quot;&gt;wszystkie pliki w katalogu. Czy potwerdzasz usuwanie?&lt;/font&gt;&lt;/p&gt;</Tips>
+            <Loading>Usuwanie katalogu z grą...</Loading>
+            <Finish>Usunięto katalog z grą</Finish>
         </UnInstall>
         <GameBindSearch>
-            <Title>Search</Title>
-            <SaveTitle>Do you use this piece of data as game display data?</SaveTitle>
-            <SaveTitle>Whether to use this piece of data as game display data?</SaveTitle>
-            <ButtonBTitle>cancel</ButtonBTitle>
-            <ButtonATitle>confirm</ButtonATitle>
-            <ResultLeftWords>A total of</ResultLeftWords>
-            <ResultRightWords>game data found</ResultRightWords>
-            <SearchStart>searching...</SearchStart>
-            <SearchFinish>Finish</SearchFinish>
-            <SearchExist>The last search is running, please wait...</SearchExist>
-            <BackSpace>BackSpace</BackSpace>
-            <Space>Space</Space>
-            <LinkingGameInfoGameInfo>Linking game information</LinkingGameInfoGameInfo>
-            <LinkingGameInfoFinish>Link game information successfully</LinkingGameInfoFinish>
-            <LinkingGameInfoFail>Failed to link game information</LinkingGameInfoFail>
-            <HasBindedGame>Already own this game</HasBindedGame>		
-            <UseGameInfoFinish>Apply game info successfully</UseGameInfoFinish>
-            <UseGameInfoFail>Failed to apply game info</UseGameInfoFail>
+			<Title>Wyszukaj</Title>
+             <SaveTitle>Czy używasz tego fragmentu danych jako danych wyświetlanych w grze?</SaveTitle>
+             <SaveTitle>Czy użyć tego fragmentu danych jako danych wyświetlania gry?</SaveTitle>
+             <ButtonBTitle>Anuluj</ButtonBTitle>
+             <ButtonATitle>Potwierdź</ButtonATitle>
+             <ResultLeftWords>Łącznie</ResultLeftWords>
+             <ResultRightWords>Znaleziono dane gry</ResultRightWords>
+             <SearchStart>Wyszukiwanie...</SearchStart>
+             <SearchFinish>Zakończ</SearchFinish>
+             <SearchExist>Trwa ostatnie wyszukiwanie, proszę czekać...</SearchExist>
+             <BackSpace>BackSpace</BackSpace>
+             <Space>Space</Space>
+             <LinkingGameInfoGameInfo>Łączenie informacji o grze</LinkingGameInfoGameInfo>
+             <LinkingGameInfoFinish>Łączenie informacje o grze zakończone pomyślnie</LinkingGameInfoFinish>
+             <LinkingGameInfoFail>Nie udało się połączyć informacji o grze</LinkingGameInfoFail>
+             <HasBindedGame>Masz już tę grę</HasBindedGame>
+             <UseGameInfoFinish>Zastosowanie informacji o grze zakończone pomyślnie</UseGameInfoFinish>
+             <UseGameInfoFail>Nie udało się zastosować informacji o grze</UseGameInfoFail>
         </GameBindSearch>
     </PopGameBind>
 
     <SystemStatusDetails>
-        <Title>Usage Status</Title>
-        <Processor>Processor</Processor>
-        <NetWork>Network</NetWork>
-        <Battery>Battery</Battery>
+        <Title>Status</Title>
+        <Processor>Procesor</Processor>
+        <NetWork>Sieć</NetWork>
+        <Battery>Bateria</Battery>
         <Memory>RAM</Memory>
-        <VirtualMemory>Virtual</VirtualMemory>
-        <Fan>Fan</Fan>
-        <FanSpeed>FanSpeed</FanSpeed>
-        <HardDisk>Storage</HardDisk>
-        <LoadFactor>LoadFactor</LoadFactor>
+        <VirtualMemory>Wirtualna</VirtualMemory>
+        <Fan>Wętylator</Fan>
+        <FanSpeed>Prędkość</FanSpeed>
+        <HardDisk>Dysk</HardDisk>
+        <LoadFactor>Obciążenie</LoadFactor>
         <UsageRate>UsageRate</UsageRate>
-        <LocalConnection>LocalConnection</LocalConnection>
-        <Upload>Upload</Upload>
-        <Download>Download</Download>
-        <HardDiskSpaceInfo>%s/%s used</HardDiskSpaceInfo>
-        <Charging>Charging</Charging>
-        <Discharging>Draining</Discharging>
-        <ChargFinsh>Full</ChargFinsh>
-        <EstimatedRunTime>%d hour(s) and %d minutes remaining</EstimatedRunTime>
-        <EstimatedRunTimeMin>%d minutes remaining</EstimatedRunTimeMin>
-        <TimeToFullCharge>%d hour(s) and %d minutes to full charge</TimeToFullCharge>
-        <TimeMinToFullCharge>%d minutes to full charge</TimeMinToFullCharge>
+        <LocalConnection>Połączenie</LocalConnection>
+        <Upload>Wysyłanie</Upload>
+        <Download>Pobieranie</Download>
+        <HardDiskSpaceInfo>%s/%s użyte</HardDiskSpaceInfo>
+        <Charging>Ładuję</Charging>
+        <Discharging>Rozładowywanie</Discharging>
+        <ChargFinsh>W pełni naładowana</ChargFinsh>
+        <EstimatedRunTime>Pozostało %d godz. i %d min. czasu pracy na baterii.</EstimatedRunTime>
+        <EstimatedRunTimeMin>Pozostało %d min. czasu pracy na baterii.</EstimatedRunTimeMin>
+        <TimeToFullCharge>%d godz. i %d min. do pełnego nałoadowania</TimeToFullCharge>
+        <TimeMinToFullCharge>%d min. do pełnego nałoadowania</TimeMinToFullCharge>
     </SystemStatusDetails>
 
     <SystemConfigInfos>
-        <Title>Hardware Information</Title>
+        <Title>Informacje o sprzęcie</Title>
         <System>System</System>
-        <Version>Version:</Version>
-        <Cores>CoreCount:</Cores>
-        <Threads>Threads:</Threads>
-        <VideoMemory>VideoMemory:</VideoMemory>
-        <Motherboard>Motherboard</Motherboard>
+        <Version>Wersja: </Version>
+        <Cores>Liczba rdzeni:</Cores>
+        <Threads>&#x000A;Liczba wątków:</Threads>
+        <VideoMemory>Pamięć wideo:</VideoMemory>
+        <Motherboard>Płyta główna</Motherboard>
         <Monitor>Monitor</Monitor>
-        <Inch>Inch</Inch>
-        <HardDisk>Storage</HardDisk>
-        <Capacity>Capacity</Capacity>
-        <DisplayFrequency>DisplayFrequency: %dHz</DisplayFrequency>
-        <ScreenSize>ScreenSize:</ScreenSize>
+        <Inch>"</Inch>
+        <HardDisk>Dysk</HardDisk>
+        <Capacity>Pojemność</Capacity>
+        <DisplayFrequency>Odświeżania ekranu: %dHz</DisplayFrequency>
+        <ScreenSize>Rozmiar ekranu:</ScreenSize>
     </SystemConfigInfos>
 
     <GameDetail>
-        <RunGame>PLAY</RunGame>
-        <RunGameNoOverLay>Clear Play\n(No InGame Overlay)</RunGameNoOverLay>
-        <Source>From:</Source>
-        <GameDuration>Game time：</GameDuration>
-        <GameDuration1>Game &#x000A;time：</GameDuration1>
-        <GameDataManagement>DATA</GameDataManagement>
-        <MetadataPlugins>Metadata</MetadataPlugins>
-	<NotApplied>Configuration not applied</NotApplied>
-	<Applied>Configuration applied</Applied>
-	<AddConfig>Add new config</AddConfig>
-	<Like>Like </Like>
-        <Hour>Hour(s)</Hour>
-        <Minute>Minute(s)</Minute>
+        <RunGame>Graj</RunGame>
+        <RunGameNoOverLay>Tylko Gra (bez nakładek w grze)</RunGameNoOverLay>
+        <Source>Z:</Source>
+        <GameDuration>Czas gry：</GameDuration>
+        <GameDuration1>Czas &#x000A;gry：</GameDuration1>
+        <GameDataManagement>Dane</GameDataManagement>
+        <MetadataPlugins>Meta-dane</MetadataPlugins>
+	<NotApplied>Konfiguracja nie została zastosowana</NotApplied>
+	<Applied>Zastosowana konfiguracja</Applied>
+	<AddConfig>Dodaj nową konfigurację</AddConfig>
+	<Like>Polub </Like>
+        <Hour>Godz.</Hour>
+        <Minute>Min.</Minute>
         <Start>Play</Start>
         <Back>Wróć</Back>
-	<Enter>Confirm</Enter>
-	<PowerPolicy>Power Policy</PowerPolicy>
+	<Enter>Potwierdź</Enter>
+	<PowerPolicy>Profil zasilania</PowerPolicy>
 	<TDP>TDP</TDP>
 	<FPS>FPS</FPS>
-	<Shock>Vibration mode</Shock>
-	<Resolution>Resolution</Resolution>
-	<StartupParameters>startup parameter</StartupParameters>
-	<Remove>remove</Remove>
-	<Detail>Detail</Detail>
-	<Application>apply</Application>
+	<Shock>Typ wibracji</Shock>
+	<Resolution>Rozdzielczość</Resolution>
+	<StartupParameters>Parametry startu</StartupParameters>
+	<Remove>Usuń</Remove>
+	<Detail>Właściwości</Detail>
+	<Application>Zastosuj</Application>
 	<Stop>Stop</Stop>
         <PlayTime>
             <LessHalfHour>Took a glance</LessHalfHour>
@@ -1017,32 +1017,29 @@
     </GameDetail>
 
     <PopOtherDeviceTipPage>
-        <Title>Dear Gamers</Title>
+        <Title>Drogi graczu</Title>
         <TipInfo>
-            Thank you for your love of AYANEO's exclusive game
-            management software AYASpace.Unfortunately, our
-            team is currently unable to serve non-AYANEO players.
-            In this software, we have provided many convenient
-            functions for gamersMany of these functions can only
-            be used on AYANEO series.If you would like to
-            experience AYASpace, please purchase AYANEO game
-            console,We are very much looking forward to serving
-            you on your gaming journey.
+			Dziękujemy za Twoje zaintresowanie oprogramowaniem grami AYANEO - AYASpace.
+			Niestety, nasz zespół nie może obecnie obsługiwać graczy nieposiadających koslsoli AYANEO. 
+			W tym oprogramowaniu udostępniliśmy wiele wygodnych funkcji dla graczy. 
+			Wiele z tych funkcji może być używanych tylko z konsolami z serii AYANEO.
+			Jeśli chcesz doświadczyć AYASpace, prosimy o zakup konsoli do gier AYANEO. 
+			Z niecierpliwością czekamy, aby służyć Ci w Twojej podróży do gier.
         </TipInfo>
         <Shop>国内玩家可前往官方淘宝店铺</Shop>
         <Aya>「 AYANEO 亚诺掌机 」</Aya>
-        <AdvisoryBuy>咨询购买</AdvisoryBuy>
+        <AdvisoryBuy>Zapytaj o zakup</AdvisoryBuy>
         <Buy>Official Store</Buy>
     </PopOtherDeviceTipPage>
 
     <PopMinimize>
-        <SoftMinimize>AYASpace minimized</SoftMinimize>
-        <GameLaunch>Starting game</GameLaunch>
-        <GameRun>Game is currently running</GameRun>
-        <OpenApp>to show AYASpace</OpenApp>
-        <OpenQuickAsst>to open Quicktool</OpenQuickAsst>
-        <PressTitle>Press</PressTitle>
-        <LongPressTitle>Hold</LongPressTitle>
+        <SoftMinimize>Zminimalizowano AYASpace </SoftMinimize>
+        <GameLaunch>Uruchamianie gry</GameLaunch>
+        <GameRun>Gra jest uruchomiona</GameRun>
+        <OpenApp>aby pokazać AYASpace</OpenApp>
+        <OpenQuickAsst>aby otworzyć Quicktool</OpenQuickAsst>
+        <PressTitle>Naciśnij</PressTitle>
+        <LongPressTitle>Przytrzymaj</LongPressTitle>
     </PopMinimize>
 
     <AyaDeviceInfo>
@@ -1106,18 +1103,18 @@
 
     <!-- 升级界面 -->
     <PopUpdate>
-        <Title>Upgrade to %s version?</Title>
-        <DownloadFailed>Download failed</DownloadFailed>
+        <Title>Aktualizacja do %s wersji?</Title>
+        <DownloadFailed>Pobieranie się nie powiodło</DownloadFailed>
         <Force>
-            <ButtonStart>Upgrade</ButtonStart>
+            <ButtonStart>Aktualizacja</ButtonStart>
         </Force>
         <Normal>
-            <ButtonX>Ignore</ButtonX>
-            <ButtonStart>Upgrade</ButtonStart>
+            <ButtonX>Zignoruj</ButtonX>
+            <ButtonStart>Aktualizacja</ButtonStart>
             <ButtonB>Anuluj</ButtonB>
         </Normal>
-        <UpdateContent>Update content</UpdateContent>
-        <ReDownload>ReDownload</ReDownload>
+        <UpdateContent>Aktualizacja zawartości</UpdateContent>
+        <ReDownload>Pobierz ponownie</ReDownload>
     </PopUpdate>
 
    <!-- 插件界面 -->
