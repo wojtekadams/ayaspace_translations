@@ -1120,19 +1120,19 @@
    <!-- 插件界面 -->
     <PopPluginGrid>
         <Button>
-            <ButtonY>Update Plugins</ButtonY>
-            <ButtonStart>Plugin Config</ButtonStart>
-            <ButtonA>Run</ButtonA>
+            <ButtonY>Aktualizacja Wtyczek</ButtonY>
+            <ButtonStart>Konfiguracja wtyczki</ButtonStart>
+            <ButtonA>Uruchom</ButtonA>
             <ButtonB>Anuluj</ButtonB>
         </Button>
-        <UpdateTaskRunningTips>Update task is running</UpdateTaskRunningTips>
-        <UpdateTaskFinish>Update Finish</UpdateTaskFinish>
+        <UpdateTaskRunningTips>Uruchomiono aktualizację</UpdateTaskRunningTips>
+        <UpdateTaskFinish>Aktualizacja zakończona</UpdateTaskFinish>
     </PopPluginGrid>
 
     <PopResolutionSetting>
         <FirstSettingTitle>
-            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;AYA Space provides you with a convenient function to adjust the display resolution, but this&lt;br&gt;function may cause screen blurring depending on the driving situation.&lt;/br&gt;&lt;br&gt;If you need to use it, please try to change it before entering the game, and ensure that the&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; official AMD driver &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;is installed and the&lt;/font&gt;&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; GPU scaling &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;function is turned on.&lt;/font&gt;&lt;br&gt;&lt;/p&gt;
-            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;If the&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;screen is blurred&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;，after the change, you can&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; quickly double-click the middle area of ​​the &lt;br&gt;screen with two fingers&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; Or &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; press the B key to return &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; o the resolution before the change。 &lt;/font&gt;&lt;/br&gt;&lt;/p&gt;
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;AYA Space zapewnia wygodną funkcję zmiany rozdzielczości ekranu, ale to może powodować &lt;br&gt;powodować rozmycie obrazu.&lt;/br&gt;&lt;br&gt;Jeśli musisz z niej skorzystać, spróbuj ją zmienić przed wejściem do gry i upewnij się, że &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; oficjalny sterownik AMD &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;jest zainstalowany i funkcja&lt;/font&gt;&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; skalowania GPU &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;jest włączona.&lt;/font&gt;&lt;br&gt;&lt;/p&gt;
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;Jeśli&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;obraz jest rozmazany&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;，po zmianie rozczelczości, w tedy możesz&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; szybko dwukrotnie kliknąć środkowy obszar&lt;br&gt;ekranu dwoma palcami &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; LUB &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; nacisnąć klawisz B&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;, aby powrócić do rozdzielczości sprzed zmiany.&lt;/font&gt;&lt;/br&gt;&lt;/p&gt;
         </FirstSettingTitle>
         <FirstSettingTitle1>
             &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;AYA Space provides you with a convenient function to adjust the display resolution, but this&lt;br&gt;function may cause screen blurring depending on the driving situation.&lt;/br&gt;&lt;br&gt;If you need to use it, please try to change it before entering the game, and ensure that the&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt; official AMD driver &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;is installed and the&lt;/font&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt; GPU scaling &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;function is turned on.&lt;/font&gt;&lt;br&gt;&lt;/p&gt;
@@ -1142,21 +1142,21 @@
         <SettingFinishTitle>
             &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;Is the current display correct? If you need to restore the resolution,&lt;br&gt;you can double-tap the middle area of&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; the screen three times &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;or &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; press the B key&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;.&lt;/font&gt;&lt;/br&gt;&lt;/p&gt;
         </SettingFinishTitle>
-        <Know>I know</Know>
-        <Apply>Apply</Apply>
-        <Recovery>Recovery</Recovery>
+        <Know>Wiem</Know>
+        <Apply>Zastosuj</Apply>
+        <Recovery>Odzyskaj</Recovery>
     </PopResolutionSetting>
 
     <PopGameScreenshots>
-        <Title>All screenshots</Title>
-        <ButtonATitle>Open</ButtonATitle>
-        <ButtonXTitle>Delete</ButtonXTitle>
-        <ButtonYTitle>Share</ButtonYTitle>
-        <GameScreenshots>Game screenshots</GameScreenshots>		
-        <AutoSync>Auto sync</AutoSync>
-        <Uploading>Uploading…</Uploading>
-        <UploadFail>upload failed</UploadFail>
-        <Retry>Retry</Retry>
+        <Title>Wszystkie zrzuty ekrnaów</Title>
+        <ButtonATitle>Otwórz</ButtonATitle>
+        <ButtonXTitle>Usuń</ButtonXTitle>
+        <ButtonYTitle>Udostępnij</ButtonYTitle>
+        <GameScreenshots>Zrzuty ekranów z gier</GameScreenshots>		
+        <AutoSync>Synchronizacja</AutoSync>
+        <Uploading>Wysyłam…</Uploading>
+        <UploadFail>Wysłanie nie udane</UploadFail>
+        <Retry>Ponów</Retry>
         <Loading>Loading all game screenshots...</Loading>
         <InstructionsAndReminders>Instructions and reminders</InstructionsAndReminders>
         <ScanQRCode>Scan the QR code with your mobile phone</ScanQRCode>
