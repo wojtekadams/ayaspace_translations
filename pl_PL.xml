@@ -1157,23 +1157,23 @@
         <Uploading>Wysyłam…</Uploading>
         <UploadFail>Wysłanie nie udane</UploadFail>
         <Retry>Ponów</Retry>
-        <Loading>Loading all game screenshots...</Loading>
-        <InstructionsAndReminders>Instructions and reminders</InstructionsAndReminders>
-        <ScanQRCode>Scan the QR code with your mobile phone</ScanQRCode>
-        <DownloadImage>Download game screenshots</DownloadImage>
+        <Loading>Ładowanie wszystkich zrzutów ekranu z gier...</Loading>
+        <InstructionsAndReminders>Instrukcje i upomnienia</InstructionsAndReminders>
+        <ScanQRCode>Zeskanuj kod QR za pomocą telefonu komórkowego</ScanQRCode>
+        <DownloadImage>Pobierz zrzuty ekranu z gier</DownloadImage>
         <InstructionsAndRemindersContent>
-            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;&lt;/br&gt;You are about to turn on the automatic upload screenshot function, which provides&lt;/br&gt;&lt;br&gt;a better experience for you to share game screenshots.At the same time, the uploaded&lt;/br&gt;&lt;br&gt;screenshot data will be saved in your personal database on the AYANEO server.&lt;/br&gt;&lt;br&gt;Your consent is required for usage data and synchronization functions. Please read the &lt;/br&gt;&lt;br&gt;&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;"Software License Agreement" and "Privacy Policy"&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;，in detail.Turning on the function &lt;/br&gt;&lt;br&gt;will mean that you understandand know our related policies.&lt;/font&gt;
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;&lt;/br&gt;Masz zamiar włączyć funkcję automatycznego wysyłania zrzutów ekranu, która zapewnia&lt;/br&gt;&lt;br&gt;lepsze doświadczenie dla Ciebie, aby dzielić się zrutami ekranu z gier. W tym samym czasie, przesłane&lt;/br&gt;&lt;br&gt;zrzutów ekranów zostaną zapisane w Twojej osobistej bazie na serwerze AYANEO.&lt;/br&gt;&lt;br&gt;Twoja zgoda jest wymagana dla wtykorzystywania danych i funkcji synchronizacji. Prosimy o zapoznanie się z &lt;/br&gt;&lt;br&gt;&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;"Umowa licencyjna oprogramowania" and "Polityka prywatności"&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;. &lt;/br&gt;&lt;br&gt; Włączenie tej funkcji będzie oznaczało, że rozumiesz,znasz i akcepstujesz obowiązujące zasady.&lt;/font&gt;
         </InstructionsAndRemindersContent>	
-        <DeleteTip>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;red&quot;&gt;Are you sure you want to delete the &lt;/br&gt;screenshot of the current game?&lt;/font&gt;&lt;/p&gt;</DeleteTip>		
+        <DeleteTip>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;red&quot;&gt;Czy na pewno chcesz usunąć &lt;/br&gt;zrzut ekranu z bieżącej gry?&lt;/font&gt;&lt;/p&gt;</DeleteTip>		
     </PopGameScreenshots>
 	
     <PopInstructionsAndWarn>
-        <SoftwareLicense>《Software License Agreement》</SoftwareLicense>
-        <SoftwareLicenseTitle>Software License Agreement</SoftwareLicenseTitle>
-        <PrivacyPolicy>《Privacy Policy》</PrivacyPolicy>
-        <PrivacyPolicyTitle>Privacy Policy</PrivacyPolicyTitle>
-        <Accept>I understand, turn on this feature</Accept>
-        <Reject>Reject</Reject>
+        <SoftwareLicense>《Umowa licencyjna oprogramowania》</SoftwareLicense>
+        <SoftwareLicenseTitle>Umowa licencyjna oprogramowania</SoftwareLicenseTitle>
+        <PrivacyPolicy>《Polityka prywatności》</PrivacyPolicy>
+        <PrivacyPolicyTitle>Polityka prywatności</PrivacyPolicyTitle>
+        <Accept>Zrozumiałem, włącz tę funkcję</Accept>
+        <Reject>Odmawiam</Reject>
     </PopInstructionsAndWarn>
 
     <BindApplet>
@@ -1201,7 +1201,7 @@
         <UnknowApp>Nieznana Aplikacja</UnknowApp>		
         <ReBind>Ponownie powiąż</ReBind>
         <Refresh>Odśwież</Refresh>			
-		<BindSuccessTip>Ta konsola jest powiązana z następującymi urządzeniami</BindSuccessTip>
+	<BindSuccessTip>Ta konsola jest powiązana z następującymi urządzeniami</BindSuccessTip>
         <TurnOnBluetooth>Włącz Bluetooth</TurnOnBluetooth>
         <BleServerDisable>Nie udało się uruchomić Bluetooth</BleServerDisable>
         <ReStartBluetooth>Uruchom ponownie Bluetooth</ReStartBluetooth>
@@ -1222,17 +1222,17 @@
 		<UpTitle>Trwa aktualizacja...</UpTitle>
 		<UpDesc>Aktualizacja oprogramowania kontrolera, proszę chwilę poczekać. Podczas procesu aktualizacji nie należy używać przycisków, wyłączać ani hibernować urządzenia.</UpDesc>
 		<FailTitle>Aktualizacja nie powiodła się.</FailTitle>
-		<FailDesc>&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Could not find a newer version of firmware locally, please use&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Settings - Update&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt; to see if there is a newer firmware</FailDesc>
-		<SuccessTitle>update completed</SuccessTitle>
-		<SuccessDesc>The controller firmware upgrade has been completed, and your AYANEO has a better experience.</SuccessDesc>
-		<Off>close</Off>
-		<Restart>Restart the activation handle</Restart>
+		<FailDesc>&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Nie można znaleźć lokalnie nowszej wersji oprogramowania, proszę użyć&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Ustawienia - aktualizuj&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt; aby sprawdzić czy jest nowszye oprogramowanie.</FailDesc>
+		<SuccessTitle>Aktualizacja zakończona</SuccessTitle>
+		<SuccessDesc>Aktualizacja kontrolera została zakończona. Teraz Twoje AYANEO jest jeszcze lepsze.</SuccessDesc>
+		<Off>Zamknij</Off>
+		<Restart>Uruchom ponownie kontroler</Restart>
 	</FirmwareUpgrade>
 	<GmaeStrategy>
 		<Strategy>Gaming Strategy</Strategy>
-		<No>No</No>
+		<No>Nie</No>
 		<AskForRaides>Ask for Raiders</AskForRaides>
 		<StrategyNum>Raiders</StrategyNum>
-		<Check>Check</Check>
+		<Check>Sprawdź</Check>
 	</GmaeStrategy>
 </Root>
