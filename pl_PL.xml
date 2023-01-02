@@ -131,8 +131,6 @@
 		<Next>Pomiń</Next>
 		<NextStep>Następny</NextStep>
 		<TextOne>Witaj! Graczu</TextOne>
-		
-		AYA Space jest dla Ciebie oprogramowaniem do zarządzania zawartością gier na PC.
 		<TextTwo>AYA Space jest oprogramowaniem służącym do zarządzania grami na Twojej konsoli AYANEO</TextTwo>
 		<TextThree>Być może nie jesteś jeszcze zaznajomiony z tą funkcjonalnośćią, ale nie martw się. Teraz dokonamy kilku ustawień.</TextThree>
 		<Close>zamknięcie</Close>
@@ -707,7 +705,7 @@
         <Title2>Odkryj - Poznaj - Zaangażuj się</Title2>
         <Title3>Twoja pasja do gier</Title3>
         <RegisterTitle>Dostęp do swojego</RegisterTitle>
-        <RegisterTitle1>nowe doświadczenie w grach</RegisterTitle1>.
+        <RegisterTitle1>nowe doświadczenie w grach</RegisterTitle1>
         <AyaIdTitle>AYA id</AyaIdTitle>
         <EmailTitle>Email</EmailTitle>
         <CodeTiTle>Code</CodeTiTle>
@@ -718,17 +716,17 @@
         <PressTitle>Naciśnij</PressTitle>
 	<InputEmailTiTle> Wpisz swój adres e-mail</InputEmailTiTle>.
         <EmailRegister>Rejestracja e-mailowa</EmailRegister>
-        <PhoneNumberRegister>Rejestracja telefoniczna</PhoneNumberRegister>.
+        <PhoneNumberRegister>Rejestracja telefoniczna</PhoneNumberRegister>
         <Next>Następny</Next>
         <Logining>Logowanie...</Logining>
-        <CodeSendSucce>Weryfikacja kodu wysłana</CodeSendSucce>.
+        <CodeSendSucce>Weryfikacja kodu wysłana</CodeSendSucce>
         <CodeSendError>Nie udało się wysłać kodu weryfikacyjnego, proszę spróbować ponownie! </CodeSendError>
         <Countdown>Odliczanie odświeżenia kodu weryfikacyjnego</Countdown>.
         <VerificationCodeError>Błąd kodu weryfikacyjnego</VerificationCodeError>
-        <LoginFail>Logowanie nie powiodło się</LoginFail>.
-        <InputCorrectPhoneNumberTiTle>proszę wpisać prawidłowy numer telefonu</InputCorrectPhoneNumberTiTle>.
-        <InputCorrectEmail>Proszę wpisać poprawny format e-maila</InputCorrectEmail>.
-        <NetWorkErrorTip>Nie ma obecnie połączenia z siecią, proszę sprawdzić status sieci</NetWorkErrorTip>.
+        <LoginFail>Logowanie nie powiodło się</LoginFail>
+        <InputCorrectPhoneNumberTiTle>proszę wpisać prawidłowy numer telefonu</InputCorrectPhoneNumberTiTle>
+        <InputCorrectEmail>Proszę wpisać poprawny format e-maila</InputCorrectEmail>
+        <NetWorkErrorTip>Nie ma obecnie połączenia z siecią, proszę sprawdzić status sieci</NetWorkErrorTip>
         <Go>Idź</Go>
 	<Login>Logowanie/Rejestracja</Login>
 	<Or>lub</Or>
@@ -751,8 +749,8 @@
         <Vibration>
             <Title>Intensywność wibracji</Title>
             <ButtonA>Konfiguracja</ButtonA>
-            <ViolentAdjustTip>Nadaje się do większości gier AAA, doświadczaj najbardziej intensywnych wibracji</ViolentAdjustTip>.
-            <GentleAdjustTip>Miękkie, delikatne, pieszczące dłonie, odpowiednie dla bardziej swobodnych graczy</GentleAdjustTip>.
+            <ViolentAdjustTip>Nadaje się do większości gier AAA, doświadczaj najbardziej intensywnych wibracji</ViolentAdjustTip>
+            <GentleAdjustTip>Miękkie, delikatne, pieszczące dłonie, odpowiednie dla bardziej swobodnych graczy</GentleAdjustTip>
             <CustomAdjustTip>Wybierz swój własny poziom intensywności, zapisz go, spraw, by doświadczenie było jak najbardziej dopasowane do Ciebie</CustomAdjustTip>.
             <Violent>Silny</Violent>
             <OffTip>Wyłączony</OffTip>
@@ -772,12 +770,12 @@
             <Title>TDP</Title>
             <ButtonA>Konfiguracja</ButtonA>
             <Desc>Aktualna： %s</Desc>
-            <GameTitle>Spełnia wymagania większości gier AAA</GameTitle>.
-            <BalanceTitle>Fabryczne ustawienia, zrównoważone dla większości gier</BalanceTitle>.
+            <GameTitle>Spełnia wymagania większości gier AAA</GameTitle>
+            <BalanceTitle>Fabryczne ustawienia, zrównoważone dla większości gier</BalanceTitle>
             <PowerSavingTitle>Oszczędza baterię</PowerSavingTitle>
             <CustomTitle>Własne TDP</CustomTitle>
             <AdjustValue>Dostosuj wartość</AdjustValue>
-            <PowerUnlock>Odblokowanie 15W TDP</PowerUnlock>.
+            <PowerUnlock>Odblokowanie 15W TDP</PowerUnlock>
             <UnlockPowerTips>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#%2x%2x%2x&quot;&gt;;Czy odblokować 15W TDP?&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#%2x%2x%2x&quot;&gt;Należy pamiętać, że po odblokowaniu będzie zwiększona emisja ciepła i hałasu.&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#%2x%2x%2x&quot;&gt;Odblokowanie 15W TDP zaczyna dziłać po ponownym uruchomienia konsoli, a po kolejnym uruchomieniu konsoli trzeba je ponownie odblokować.&lt;/font&gt;&lt;/p&gt;</UnlockPowerTips>
         </PowerLevel>
         <QuickKey>
@@ -830,14 +828,14 @@
 			
 			<FunCurrentFormat>&lt;center&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt;%s%&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;%s%&lt;/font&gt;&lt;center&gt;</FunCurrentFormat>
             <FunCurrent>bieżący: </FunCurrent>
-            <FunShowDesk>Pokaż pulpit</FunShowDesk>.
-            <FunScreenshot>Zrzut ekranu</FunScreenshot>.
+            <FunShowDesk>Pokaż pulpit</FunShowDesk>
+            <FunScreenshot>Zrzut ekranu</FunScreenshot>
             <FunCloseApp>Zamknij program</FunCloseApp>
-            <FunOsk>Klawiatura ekranowa</FunOsk>.
+            <FunOsk>Klawiatura ekranowa</FunOsk>
             <FunEsc>ESC</FunEsc>
-            <FunOpenStream>Otwórz Steam</FunOpenStream>.
+            <FunOpenStream>Otwórz Steam</FunOpenStream>
             <FunXbox>Przycisk Xbox</FunXbox>
-            <FunTaskView>Widok zadań</FunTaskView>.
+            <FunTaskView>Widok zadań</FunTaskView>
             <FunTaskMgr>Menedżer zadań</FunTaskMgr>
 			
             <FunShowDeskDesc>Ekwiwalent przycisków Win + D, aby pokazać pulpit.</FunShowDeskDesc>
@@ -850,9 +848,9 @@
             <FunTaskViewDesc>Ekwiwalent Alt + TAB, aby szybko wyświetlić listę otwartych programów.</FunTaskViewDesc>
             <FunTaskMgrDesc>Możesz szybko wejść do menadżera zadań lub wykonać operacje miękkiego wyłączenia.</FunTaskMgrDesc>
             <ShoulderKey>Dodatkowe przyciski</ShoulderKey>
-            <ShoulderKeyTitle>Otwórz więcej możliwości operacji.</ShoulderKeyTitle>.
-            <ShoulderKeyDesc>Dodatkowe przyciski dziaaj tylko wtedy, gdy aplikacja AYASpace jest uruchomiona.Gdy aplikacja nie jest uruchomiona, domyślnym przyciskiem dla "LC" jest: Krótkie naciśnięcie: OSK / Długie naciśnięcie: Menedżer zadań, a dla "RC" Krótkie naciśnięcie: ESC / Długie naciśnięcie: Widok zadań.</ShoulderKeyDesc>.
-            <AirCoustomKey>= Dodatkowy przycisk</AirCoustomKey>.		
+            <ShoulderKeyTitle>Otwórz więcej możliwości operacji.</ShoulderKeyTitle>
+            <ShoulderKeyDesc>Dodatkowe przyciski dziaaj tylko wtedy, gdy aplikacja AYASpace jest uruchomiona.Gdy aplikacja nie jest uruchomiona, domyślnym przyciskiem dla "LC" jest: Krótkie naciśnięcie: OSK / Długie naciśnięcie: Menedżer zadań, a dla "RC" Krótkie naciśnięcie: ESC / Długie naciśnięcie: Widok zadań.</ShoulderKeyDesc>
+            <AirCoustomKey>= Dodatkowy przycisk</AirCoustomKey>	
         </CustomKey>
 		<Reset>Reset</Reset>
         <FreeButton>
