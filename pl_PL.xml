@@ -1191,37 +1191,37 @@
     </BindApplet>
 
     <BindBluetooth>
-        <BindAppTitle>Link to AYA Space Mobile</BindAppTitle>
-        <BindDesc>Make your AYANEO easier to use from now on</BindDesc>
-        <DownloadTip>Please search for "AYA Space Mobile" in Apple AppStore, PlayStore or search and download in major application markets</DownloadTip>
-        <BindTip>In the App - Space - Bind Device page, select Scan Code Binding</BindTip>
-        <ConnectSuccess>Connected</ConnectSuccess>
-        <NotConnected>Not connected</NotConnected>
-        <ToBind>To bind</ToBind>	
-        <UnknowApp>Unknown app</UnknowApp>		
-        <ReBind>Rebind</ReBind>
-        <Refresh>Refresh</Refresh>			
-        <BindSuccessTip>This machine is bound to the following devices</BindSuccessTip>	
-        <TurnOnBluetooth>Turn on bluetooth</TurnOnBluetooth>
-        <BleServerDisable>Bluetooth service failed to start</BleServerDisable>
-        <ReStartBluetooth>restart bluetooth service</ReStartBluetooth>
-        <AppScanTip>Open the AYA Space APP and scan to bind the device</AppScanTip>
-        <ZoomQRCode>Click to enlarge QR code</ZoomQRCode>		
+        <BindAppTitle>Powiąż z AYA Space Mobile</BindAppTitle>
+        <BindDesc>Spraw, aby Twoje AYANEO było od teraz łatwiejsze w użyciu i zarżdzaniu</BindDesc>
+        <DownloadTip>Wyszukaj „AYA Space Mobile” w Apple AppStore lub PlayStore.</DownloadTip>
+        <BindTip>W aplikacji, przejdź do sekcji Bind Device page i wybierz Scan Code Binding</BindTip>
+        <ConnectSuccess>Powiązany</ConnectSuccess>
+        <NotConnected>Nie powiązany</NotConnected>
+        <ToBind>Powiąż</ToBind>	
+        <UnknowApp>Nieznana Aplikacja</UnknowApp>		
+        <ReBind>Ponownie powiąż</ReBind>
+        <Refresh>Odśwież</Refresh>			
+		<BindSuccessTip>Ta konsola jest powiązana z następującymi urządzeniami</BindSuccessTip>
+        <TurnOnBluetooth>Włącz Bluetooth</TurnOnBluetooth>
+        <BleServerDisable>Nie udało się uruchomić Bluetooth</BleServerDisable>
+        <ReStartBluetooth>Uruchom ponownie Bluetooth</ReStartBluetooth>
+        <AppScanTip>Otwórz aplikację AYA Space i zeskanuj, aby powiązać urządzenie.</AppScanTip>
+        <ZoomQRCode>Kliknij, aby powiększyć kod QR</ZoomQRCode>	
     </BindBluetooth>
 	
 	<FirmwareUpgrade>
-		<FirmwareUpgradeTitle>Controller firmware upgrade</FirmwareUpgradeTitle>
-		<FirmwareUpgradeDesc>The new controller firmware has been downloaded, please follow the instructions below to upgrade the controller firmware.</FirmwareUpgradeDesc>
-		<ShutDown>1、shutdown</ShutDown>
-		<Press>2、&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Hold LS&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt; to power on, enter the system and start AYASpace.</Press>
-		<BtnA>shutdown</BtnA>
-		<BtnB>later</BtnB>
-		<BtnX>Skip</BtnX>
-		<ReadyTitle>Controller firmware upgrade</ReadyTitle>
-		<ReadyDesc>The controller firmware upgrade is being prepared, please do not operate the buttons and wait patiently.</ReadyDesc>
-		<UpTitle>during upgrade…</UpTitle>
-		<UpDesc>The controller firmware is being upgraded, please wait a moment. During the upgrade process, please do not operate the buttons, shut down or hibernate.</UpDesc>
-		<FailTitle>upgrade unsuccessful</FailTitle>
+		<FirmwareUpgradeTitle>Aktualizacja oprogramowania kontrolera</FirmwareUpgradeTitle>
+		<FirmwareUpgradeDesc>Nowe oprogramowanie kontrolera zostało pobrane. Postępuj zgodnie z poniższymi instrukcjami, aby je zaktualizować.</FirmwareUpgradeDesc>
+		<ShutDown>1.Wyłączenie</ShutDown>
+		<Press>2.&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Hold LS&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt; aby włączyć, wejdź do systemu i uruchom AYASpace.</Press>
+		<BtnA>Wyłącz</BtnA>
+		<BtnB>Później</BtnB>
+		<BtnX>Pomiń</BtnX>
+		<ReadyTitle>Aktualizacja oprogramowania kontrolera</ReadyTitle>
+		<ReadyDesc>Trwa przygotowywanie aktualizacji oprogramowania kontrolera, prosimy nie naciskać przycisków i cierpliwie czekać.</ReadyDesc>
+		<UpTitle>Trwa aktualizacja...</UpTitle>
+		<UpDesc>Aktualizacja oprogramowania kontrolera, proszę chwilę poczekać. Podczas procesu aktualizacji nie należy używać przycisków, wyłączać ani hibernować urządzenia.</UpDesc>
+		<FailTitle>Aktualizacja nie powiodła się.</FailTitle>
 		<FailDesc>&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Could not find a newer version of firmware locally, please use&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Settings - Update&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt; to see if there is a newer firmware</FailDesc>
 		<SuccessTitle>update completed</SuccessTitle>
 		<SuccessDesc>The controller firmware upgrade has been completed, and your AYANEO has a better experience.</SuccessDesc>
