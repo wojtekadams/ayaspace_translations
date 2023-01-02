@@ -397,7 +397,7 @@
             <NewUpdateTitle>#Aktualizacja - Dodano opis dla kalibracji joysticka</NewUpdateTitle>
             <ExploreAya>EVO - Konfiguracja  AYANEO</ExploreAya>
             <PalyAya>Jak uwolnić nieograniczony potencjał &#x000A;AYANEO&#x000A;</PalyAya>
-            <GameScreenshots>Galeria Zrzutów ekranu</GameScreenshots>
+            <GameScreenshots>Zrzuty ekranu</GameScreenshots>
             <GameMoments>Zachowaj wspaniałe momenty z gier</GameMoments>
             <KnowMore>Więcej</KnowMore>
             <Help>Pomoc</Help>
@@ -443,7 +443,7 @@
             <NormalApply>Akcja zakończona pomyślnie</NormalApply>
             <Disable>Wyłącz</Disable>
             <Enable>Włącz</Enable>
-            <ScreenshotSucc>Wykonano zrzut ekranu</ScreenshotSucc>
+            <ScreenshotSucc>Zrzut ekranu</ScreenshotSucc>
 						<!-- ??? -->
             <FsrTips>Skalowanie najbardziej wysuniętego do przodu okna z FSR po 3 sekundach</FsrTips>
             <Prossimamente>Wkrótce</Prossimamente>
@@ -787,7 +787,6 @@
              <ButtonA>Zmień</ButtonA>
              <On>Włącz</On>
              <Off>Wyłącz</Off>
-<!-- slabe te nazyw -->
              <ArrowUp>Klawisz KB</ArrowUp>
              <ArrowLeft>Widok&#x000A;zadań</ArrowLeft>
              <ArrowDown>Menedżer zadań</ArrowDown>
@@ -956,7 +955,7 @@
         <Download>Pobieranie</Download>
         <HardDiskSpaceInfo>%s/%s użyte</HardDiskSpaceInfo>
         <Charging>Ładuję</Charging>
-        <Discharging>Rozładowywanie</Discharging>
+        <Discharging>Rozła...</Discharging>
         <ChargFinsh>W pełni naładowana</ChargFinsh>
         <EstimatedRunTime>Pozostało %d godz. i %d min. czasu pracy na baterii.</EstimatedRunTime>
         <EstimatedRunTimeMin>Pozostało %d min. czasu pracy na baterii.</EstimatedRunTimeMin>
@@ -972,7 +971,7 @@
         <Threads>&#x000A;Liczba wątków:</Threads>
         <VideoMemory>Pamięć wideo:</VideoMemory>
         <Motherboard>Płyta główna</Motherboard>
-        <Monitor>Monitor</Monitor>
+        <Monitor>Ekran</Monitor>
         <Inch>"</Inch>
         <HardDisk>Dysk</HardDisk>
         <Capacity>Pojemność</Capacity>
@@ -1155,12 +1154,12 @@
         <Uploading>Wysyłam…</Uploading>
         <UploadFail>Wysłanie nie udane</UploadFail>
         <Retry>Ponów</Retry>
-        <Loading>Ładowanie wszystkich zrzutów ekranu z gier...</Loading>
+        <Loading>Ładowanie zrzutów ekranu...</Loading>
         <InstructionsAndReminders>Instrukcje i upomnienia</InstructionsAndReminders>
         <ScanQRCode>Zeskanuj kod QR za pomocą telefonu komórkowego</ScanQRCode>
         <DownloadImage>Pobierz zrzuty ekranu z gier</DownloadImage>
         <InstructionsAndRemindersContent>
-            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;&lt;/br&gt;Masz zamiar włączyć funkcję automatycznego wysyłania zrzutów ekranu, która zapewnia&lt;/br&gt;&lt;br&gt;lepsze doświadczenie dla Ciebie, aby dzielić się zrutami ekranu z gier. W tym samym czasie, przesłane&lt;/br&gt;&lt;br&gt;zrzutów ekranów zostaną zapisane w Twojej osobistej bazie na serwerze AYANEO.&lt;/br&gt;&lt;br&gt;Twoja zgoda jest wymagana dla wtykorzystywania danych i funkcji synchronizacji. Prosimy o zapoznanie się z &lt;/br&gt;&lt;br&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;"Umowa licencyjna oprogramowania" and "Polityka prywatności"&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;. &lt;/br&gt;&lt;br&gt; Włączenie tej funkcji będzie oznaczało, że rozumiesz,znasz i akcepstujesz obowiązujące zasady.&lt;/font&gt;
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;&lt;/br&gt;Masz zamiar włączyć funkcję automatycznego wysyłania zrzutów ekranu, która zapewnia &lt;/br&gt;&lt;br&gt;lepsze doświadczenie dla Ciebie, aby dzielić się zrutami ekranu z gier. W tym samym czasie, przesłane &lt;/br&gt;&lt;br&gt;zrzutów ekranów zostaną zapisane w Twojej osobistej bazie na serwerze AYANEO. &lt;/br&gt;&lt;br&gt;Twoja zgoda jest wymagana dla wtykorzystywania danych i funkcji synchronizacji. Prosimy o zapoznanie się &lt;/br&gt;&lt;br&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;z "Umową licencyjną oprogramowania" i "Polityką prywatności"&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;. &lt;/br&gt;&lt;br&gt; Włączenie tej funkcji oznacza, że rozumiesz i akcepstujesz obowiązujące zasady.&lt;/font&gt;
         </InstructionsAndRemindersContent>	
         <DeleteTip>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;red&quot;&gt;Czy na pewno chcesz usunąć &lt;/br&gt;zrzut ekranu z bieżącej gry?&lt;/font&gt;&lt;/p&gt;</DeleteTip>		
     </PopGameScreenshots>
