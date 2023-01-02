@@ -463,9 +463,9 @@
     </PopAsst>
 
     <PopSettings>
-        <Account>Account Safey</Account>
-        <StartUp>StartUp Update</StartUp>
-        <Data>Data</Data>
+        <Account>Ustawienia konta</Account>
+        <StartUp>Aktualizacja i autostart</StartUp>
+        <Data>Dane</Data>
         <Sync>Synchronizacja</Sync>
         <Device>Urządzenie</Device>
         <Language>Język</Language>
@@ -1031,7 +1031,7 @@
     </PopOtherDeviceTipPage>
 
     <PopMinimize>
-        <SoftMinimize>Zminimalizowano AYASpace </SoftMinimize>
+        <SoftMinimize>Zminimalizowano</SoftMinimize>
         <GameLaunch>Uruchamianie gry</GameLaunch>
         <GameRun>Gra jest uruchomiona</GameRun>
         <OpenApp>aby pokazać AYASpace</OpenApp>
@@ -1160,9 +1160,9 @@
         <ScanQRCode>Zeskanuj kod QR za pomocą telefonu komórkowego</ScanQRCode>
         <DownloadImage>Pobierz zrzuty ekranu z gier</DownloadImage>
         <InstructionsAndRemindersContent>
-            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;&lt;/br&gt;Masz zamiar włączyć funkcję automatycznego wysyłania zrzutów ekranu, która zapewnia&lt;/br&gt;&lt;br&gt;lepsze doświadczenie dla Ciebie, aby dzielić się zrutami ekranu z gier. W tym samym czasie, przesłane&lt;/br&gt;&lt;br&gt;zrzutów ekranów zostaną zapisane w Twojej osobistej bazie na serwerze AYANEO.&lt;/br&gt;&lt;br&gt;Twoja zgoda jest wymagana dla wtykorzystywania danych i funkcji synchronizacji. Prosimy o zapoznanie się z &lt;/br&gt;&lt;br&gt;&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;"Umowa licencyjna oprogramowania" and "Polityka prywatności"&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;. &lt;/br&gt;&lt;br&gt; Włączenie tej funkcji będzie oznaczało, że rozumiesz,znasz i akcepstujesz obowiązujące zasady.&lt;/font&gt;
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;&lt;/br&gt;Masz zamiar włączyć funkcję automatycznego wysyłania zrzutów ekranu, która zapewnia&lt;/br&gt;&lt;br&gt;lepsze doświadczenie dla Ciebie, aby dzielić się zrutami ekranu z gier. W tym samym czasie, przesłane&lt;/br&gt;&lt;br&gt;zrzutów ekranów zostaną zapisane w Twojej osobistej bazie na serwerze AYANEO.&lt;/br&gt;&lt;br&gt;Twoja zgoda jest wymagana dla wtykorzystywania danych i funkcji synchronizacji. Prosimy o zapoznanie się z &lt;/br&gt;&lt;br&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;"Umowa licencyjna oprogramowania" and "Polityka prywatności"&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;. &lt;/br&gt;&lt;br&gt; Włączenie tej funkcji będzie oznaczało, że rozumiesz,znasz i akcepstujesz obowiązujące zasady.&lt;/font&gt;
         </InstructionsAndRemindersContent>	
-        <DeleteTip>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;red&quot;&gt;Czy na pewno chcesz usunąć &lt;/br&gt;zrzut ekranu z bieżącej gry?&lt;/font&gt;&lt;/p&gt;</DeleteTip>		
+        <DeleteTip>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;red&quot;&gt;Czy na pewno chcesz usunąć &lt;/br&gt;zrzut ekranu z bieżącej gry?&lt;/font&gt;&lt;/p&gt;</DeleteTip>		
     </PopGameScreenshots>
 	
     <PopInstructionsAndWarn>
@@ -1190,9 +1190,9 @@
 
     <BindBluetooth>
         <BindAppTitle>Powiąż z AYA Space Mobile</BindAppTitle>
-        <BindDesc>Spraw, aby Twoje AYANEO było od teraz łatwiejsze w użyciu i zarżdzaniu</BindDesc>
-        <DownloadTip>Wyszukaj „AYA Space Mobile” w Apple AppStore lub PlayStore.</DownloadTip>
-        <BindTip>W aplikacji, przejdź do sekcji Bind Device page i wybierz Scan Code Binding</BindTip>
+        <BindDesc>Spraw, aby Twoje AYANEO było od teraz łatwiejsze w użyciu i zarządzianiu</BindDesc>
+        <DownloadTip>Wyszukaj "AYA Space Mobile" w Apple AppStore lub PlayStore.</DownloadTip>
+        <BindTip>W aplikacji, przejdź do sekcji "Bind Device page" i wybierz "Scan Code Binding".</BindTip>
         <ConnectSuccess>Powiązany</ConnectSuccess>
         <NotConnected>Nie powiązany</NotConnected>
         <ToBind>Powiąż</ToBind>	
