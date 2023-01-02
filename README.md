@@ -1,8 +1,8 @@
 # AYA Space Beta - Translations 
 
-Translation based file comming from version: 1.1.0.7
+Translation based file comming from version: 1.1.0.10
 
-Progress of translation: 30%
+Progress of translation: 100%
 
 1. Download **AYA Space**: https://ayaneo.com/support/download
 2. Install It
