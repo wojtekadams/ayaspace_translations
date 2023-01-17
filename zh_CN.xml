@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root disp="简体中文">
+    <!-- 导航栏 -->
+    <NavBar>
+        <Home>首页</Home>
+        <Game>游戏库</Game>
+        <Asst>游戏助手</Asst>
+        <QuitConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#C14D4E&quot;&gt;是否确认退出 AYASpace？&lt;/font&gt;&lt;/p&gt;</QuitConfirm>
+    </NavBar>
+    
+    <DisplayChangedTip>
+        <KeyA>重启</KeyA>
+        <KeyB>忽略</KeyB>
+        <QuitConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;#C14D4E&quot;&gt;为保证 AYASpace 的使用体验，切换分辨率后需要重新启动软件&lt;/font&gt;&lt;/p&gt;</QuitConfirm>
+    </DisplayChangedTip>
+
+    <KeyboardCheckTip>
+        <KeyA>重启</KeyA>
+        <ConfirmText>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;#C14D4E&quot;&gt;已更新驱动程序，需重新启动掌机才能体验完整功能。&lt;/font&gt;&lt;/p&gt;</ConfirmText>
+    </KeyboardCheckTip>
+
+    <!-- 底部状态栏 -->
+    <BottomBar>
+        <FirstUse>
+            <KeyDpad>选择</KeyDpad>
+            <KeyA>确认</KeyA>
+            <KeyB>取消</KeyB>
+        </FirstUse>
+        <Home>
+            <KeyDpad>选择</KeyDpad>
+            <KeyA>确认</KeyA>
+            <KeyB>取消</KeyB>
+        </Home>
+        <Game>
+            <KeyA>确认</KeyA>
+            <KeyB>取消</KeyB>
+            <KeyR3>排序</KeyR3>
+            <KeyStart>管理</KeyStart>
+            <Move>移动</Move>
+        </Game>
+        <Asst>
+            <KeyDpad>选择</KeyDpad>
+            <KeyA>确认</KeyA>
+            <KeyB>取消</KeyB>
+            <Replace>更换</Replace>
+            <Remove>移除</Remove>
+            <Back>返回</Back>
+        </Asst>
+    </BottomBar>
+
+    <!-- 状态栏 -->
+    <StatusBar>
+        <ExpandTitle>展开</ExpandTitle>
+        <GameLaunch>
+            <Launch>&lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;启动中&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;秒&lt;/font&gt;&lt;/p&gt;</Launch>
+            <Run>&lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;运行中&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;秒&lt;/font&gt;&lt;/p&gt;</Run>
+            <KeySelect>收起</KeySelect>
+            <KeyX>关闭</KeyX>
+            <KeyA>继续</KeyA>
+            <ReadyToStart>正在准备启动 </ReadyToStart>
+            <Later>请稍后</Later>
+            <Close>关闭游戏</Close>
+            <ExitTheGame>退出游戏</ExitTheGame>
+            <ContinueTheGame>继续游戏</ContinueTheGame>
+            <SwitchHomePage>切换到主界面</SwitchHomePage>
+            <GameFail>未成功启动游戏，请检查游戏启动器</GameFail>
+            <Press>按下</Press>
+            <OpenTheExe>打开启动器</OpenTheExe>
+            <Decs>享受你的游戏吧</Decs>
+            <Running>游戏运行中</Running>
+            <PutAway>收起</PutAway>
+            <MasterHandle>Master 手柄</MasterHandle>
+        </GameLaunch>
+        <DownLoad>
+            <Title>下载队列</Title>
+            <ProgressTitle>下载中</ProgressTitle>
+            <KeySelect>收起</KeySelect>
+            <KeyX>重试</KeyX>
+        </DownLoad>
+        <GameScan>
+            <StartScan>游戏扫描中 ... </StartScan>
+            <LocalDir>扫描本地游戏目录</LocalDir>
+            <ImportSteamGames>扫描 Steam 游戏</ImportSteamGames>
+            <ImportXboxPlayedGames>扫描玩过的 Xbox 游戏</ImportXboxPlayedGames>
+            <ImportXboxUwpGames>扫描已安装的 Xbox 游戏</ImportXboxUwpGames>
+            <LocalGameFinishScan>本地已安装游戏扫描完成</LocalGameFinishScan>
+            <FinishScan>%s 游戏扫描完成</FinishScan>
+            <LocalProgress>本地游戏 %s (%d/%d)</LocalProgress>
+            <SteamOwnedProgress>拥有的 steam 游戏 %s (%d/%d)</SteamOwnedProgress>
+            <XboxPlayedProgress>玩过的 xbox 游戏 %s (%d/%d)</XboxPlayedProgress>
+            <XboxInstalledProgress>已安装的 xbox 游戏 %s (%d/%d)</XboxInstalledProgress>
+            <ScanResult>扫描完成, 新增游戏: %d, 未知文件: %d</ScanResult>
+        </GameScan>
+        <ImageDownload>
+            <Title>游戏资源下载</Title>
+            <Library>封面图</Library>
+            <ClearLogo>纯净封面</ClearLogo>
+            <Bkgd>背景图</Bkgd>
+        </ImageDownload>
+        <GameSync>
+            <StartGameSync>游戏数据同步中 ... </StartGameSync>
+        </GameSync>
+    </StatusBar>
+
+    <!-- 黏贴提示栏 -->
+    <SnackBar>
+        <OkTitle>确认</OkTitle>
+        <CancelTitle>取消</CancelTitle>
+    </SnackBar>
+
+    <!-- 小工具 -->
+    <TinyTool>
+        <AyaJoyStick>
+            <Enable>开启 AYANEO 手柄成功</Enable>
+            <DisableStart>禁用 AYANEO 手柄中...</DisableStart>
+            <DisableFinish>禁用 AYANEO 手柄成功</DisableFinish>
+        </AyaJoyStick>
+    </TinyTool>
+
+    <!-- 首次使用页 -->
+    <FirstUse>
+	<StepOne>
+		<Title>第 一 次 见 面</Title>
+		<LongPress>长按</LongPress>
+		<Next>跳过引导</Next>
+		<NextStep>下一步</NextStep>
+		<TextOne>你好！AYANEO 玩家</TextOne>
+		<TextTwo>AYA Space 是你专属的 PC 掌机游戏内容管理软件</TextTwo>
+		<TextThree>可能你还不太熟悉，不用担心 现在我们一起来一些简单的设置</TextThree>
+		<Close>关闭</Close>
+		<PreviousVersion>往期版本</PreviousVersion>
+		<UpdateContent>更新内容</UpdateContent>
+	</StepOne>
+	<StepTwo>
+		<Title>游 戏 管 理 与 游 戏 平 台</Title>
+		<LongPress>长按</LongPress>
+		<Next>跳过引导</Next>
+		<NextStep>下一步，并下载选择的游戏平台</NextStep>
+		<Press>按</Press>
+		<Mark>标记</Mark>
+		<Selected>已选</Selected>
+		<Piece>个</Piece>
+		<TextOne>我们已经在帮你整理本地&#x000A;的游戏资料 </TextOne>
+		<TextTwo>本地游戏扫描</TextTwo>
+		<TextThree>如果你还有需要安装的游戏平台，&#x000A;可以从右侧多选，我们会帮助你下载 </TextThree>
+	</StepTwo>
+	<StepThree>
+		<Title>正 在 完 成 最 后 的 工 作</Title>
+		<LongPress>长按</LongPress>
+		<Next>跳过引导</Next>
+		<Switch>切换</Switch>
+		<Finish>完成</Finish>
+		<TextOne>AYA Space 正在为你进行&#x000A;最后的准备工作 </TextOne>
+		<TextTwo>本地游戏扫描</TextTwo>
+		<TextThree>启动优化中</TextThree>
+		<TextFour>稍等片刻，畅快的游戏体验&#x000A;即可将至</TextFour>
+	</StepThree>
+	<StepFour>
+		<Title>正 在 完 成 最 后 的 工 作</Title>
+		<Switch>切换</Switch>
+		<Finish>完成</Finish>
+		<TextOne>去畅快的游戏吧！</TextOne>
+		<TextTwo>本地游戏扫描</TextTwo>
+		<TextThree>启动优化中</TextThree>
+		<TextFour>完成新手引导</TextFour>
+	</StepFour>
+        <Title>启动！开始装备你的AyaSpace</Title>
+        <QuickAsst>Aya快设</QuickAsst>
+        <ChoicePlat>
+            <Title>请把你的游戏市场装备起来</Title>
+            <BtnInstallTitle>一键安装</BtnInstallTitle>
+            <BtnInstallTips>共 %d 个软件</BtnInstallTips>
+            <FinishTitle>已完成</FinishTitle>
+            <LongPress>长按</LongPress>
+            <Next>跳过</Next>
+        </ChoicePlat>
+
+        <CardGameScan>
+            <Title>自动管理，一键收藏</Title>
+            <GameTips>已发现 %d 款游戏</GameTips>
+            <ButtonA>下一步</ButtonA>
+            <NotArrivedTitle>待开启</NotArrivedTitle>
+            <FinishTitle>已完成</FinishTitle>
+        </CardGameScan>
+
+        <CardStep3>
+            <NotArrivedTitle>未开启</NotArrivedTitle>
+            <FinishTitle>已完成</FinishTitle>
+        </CardStep3>
+    </FirstUse>
+
+    <!-- 首页 -->
+    <Home>
+        <LastPlay>最近常玩</LastPlay>
+        <QuickAsst>AYA 快设</QuickAsst>
+
+        <!-- 游戏收集卡片 -->
+        <GameCollect>游戏</GameCollect>
+
+        <!-- 随机玩玩卡片 -->
+        <RandomPlay>
+            <Title>不妨玩玩</Title>
+            <NoInstallGame>你还没有安装游戏</NoInstallGame>
+        </RandomPlay>
+
+        <!-- 一键升级卡片 -->
+        <OneClickUpdate>
+            <DriverUpdate>驱动更新</DriverUpdate>
+            <Title>一键升级</Title>
+            <Tips>Wow!</Tips>
+            <NoUpdateTip>所有都是最新的</NoUpdateTip>
+            <BtnTitle>检查更新</BtnTitle>
+            <GoGames>前往游戏库</GoGames>
+        </OneClickUpdate>
+
+        <CardHome>
+            <CommSoftBar>
+                <Title>常用&#x000A;apps</Title>
+                <NoSelectedTitle>这里好像有点空</NoSelectedTitle>
+            </CommSoftBar>
+
+            <BatteryCharge>
+                <Quick>智能快充</Quick>
+                <Preserve>养护模式</Preserve>
+            </BatteryCharge>
+
+            <PadVibration>
+                <PowerTitle>震感</PowerTitle>
+                <Gentle>轻柔</Gentle>
+                <Violent>猛烈</Violent>
+                <Off>关闭</Off>
+				<Low>低</Low>
+				<Middle>中</Middle>
+				<High>高</High>
+            </PadVibration>
+
+            <Cpu>
+                <Game>游戏模式</Game>
+                <Balance>均衡模式</Balance>
+                <PowerSaving>省电模式</PowerSaving>
+                <Custom>自定义</Custom>
+                <Pro>Pro 模式</Pro>	
+                <Setup>设置</Setup>	
+                <CustomTDP>自定义TDP</CustomTDP>		
+            </Cpu>
+
+            <Fan>
+                <ProTitle>Pro</ProTitle>
+                <WildTitle>MAX</WildTitle>
+                <SmartTitle>LOW</SmartTitle>
+                <MidTitle>MID</MidTitle>				
+                <Wild>狂飙</Wild>
+                <Smart>省电</Smart>		
+                <Excellent>卓越</Excellent>		
+                <Balanced>平衡</Balanced>		
+            </Fan>
+
+            <Clean>
+                <Title>一键加速</Title>
+                <Succ>清理占用资源程序成功</Succ>
+            </Clean>
+
+            <Ota>
+                <Title>OTA游戏配置&#x000A;保持最佳游戏状态</Title>
+            </Ota>
+
+            <Explore>
+                <Title>探索更多</Title>
+            </Explore>
+
+            <WidgetPowerLevel>
+                <CurPowerTitle>当前 %0.1f W</CurPowerTitle>
+            </WidgetPowerLevel>
+
+            <Update>
+                <NoUpdateTitle>去查看更多</NoUpdateTitle>
+                <UpdateTitle>有更新</UpdateTitle>
+            </Update>
+
+            <TinyTool>
+                <CustomTitle>去配置</CustomTitle>
+            </TinyTool>
+        </CardHome>
+    </Home>
+
+    <Game>
+        <Title1>库里好像有点空</Title1>
+        <Title2>何不试试我们为你设计的</Title2>
+        <EasyToUse>超级好用的</EasyToUse>
+        <GameMgr> 游戏管理 </GameMgr>
+        <Function>功能？</Function>
+        <PressTitle>按</PressTitle>
+        <ButtonBTitle>开始管理游戏</ButtonBTitle>
+        <RemoveAll>移动&#x000A;所有</RemoveAll>
+        <QuickSearch>
+            <KeySelect>快找</KeySelect>
+            <KeySwitch>切换</KeySwitch>
+            <KeyPutAway>收起</KeyPutAway>
+            <FirstWord>首字</FirstWord>
+            <Label>标签</Label>
+            <Platform>平台</Platform>
+        </QuickSearch>
+        <Sort>
+            <DisplayColNumber>展示列数</DisplayColNumber>
+            <DisplayOrder>展示排序</DisplayOrder>
+            <PlayTime>按游玩时长</PlayTime>
+            <StorageTime>按入库时间</StorageTime>
+            <GameName>按游戏名称</GameName>
+            <Ascending>升序</Ascending>
+            <Descending>降序</Descending>
+            <Back>返回</Back>
+        </Sort>
+        <InstructionsAndRemindersContent>
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;&lt;/br&gt;你正在准备开启自动同步游戏库功能，该功能将会同步本地游戏库数据到AYANEO服务器&lt;/br&gt;&lt;br&gt;你的个人数据库中，关于使用数据及同步功能需要你的同意，请详细阅读&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; 《软件许可协议》&lt;/br&gt;&lt;br&gt;及《隐私政策》&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;，开启开功能将代表你了解并知晓我们的相关政策。&lt;/br&gt;&lt;/font&gt;
+        </InstructionsAndRemindersContent>			
+    </Game>
+
+    <!-- 游戏助手页 -->
+    <Asst>
+        <LeftHelper>游戏好帮手</LeftHelper>
+        <MiddleConfig>功能配置</MiddleConfig>
+        <RightQuick>快设管理</RightQuick>
+
+        <!-- 平台管理 -->
+        <CardPlat>
+            <KeyX>隐藏已安装</KeyX>
+            <KeyX2>显示已安装</KeyX2>
+            <KeyY>取消收藏</KeyY>
+            <BtnInstall>一键安装</BtnInstall>
+            <InstallStatus>已安装</InstallStatus>
+        </CardPlat>
+
+        <AppletEntrance>
+            <Title>应用中心</Title>
+            <Market>应用市场</Market>
+            <Installed>已安装</Installed>
+            <Newest>近期上新</Newest>
+            <Shared>共有</Shared>
+            <Total>共有</Total>
+            <Open>打开</Open>
+            <Install>安装</Install>
+            <Download>下载</Download>
+            <Renew>更新</Renew>
+            <Ison>已启用</Ison>
+            <Isoff>未启用</Isoff>
+            <RenewAll>全部更新</RenewAll>
+            <Manage>管理</Manage>
+            <TurnOn>开启</TurnOn>
+            <ReleaseDesc>发布说明</ReleaseDesc>
+            <UseDesc>使用说明</UseDesc>
+            <More>More</More>
+            <Version>Version</Version>
+            <Applet>小应用</Applet>
+            <Apply>适用</Apply>
+        </AppletEntrance>
+		
+        <AppletConfig>
+            <Config>配置</Config>
+            <Control>控件配置</Control>
+            <Library>库配置</Library>
+            <Applet>小应用配置</Applet>
+ 	    <Style>样式</Style>
+            <LongPress>长按</LongPress>
+            <Close>关闭</Close>
+            <Enable>启用</Enable>
+            <Disable>禁用</Disable>
+            <Uninstall>卸载</Uninstall>
+            <UserDesc>使用说明</UserDesc>
+        </AppletConfig>
+
+        <CardMasterPad>
+            <Title>Master 控制器</Title>
+            <Comment>无与伦比的控制感</Comment>
+            <Config>配置你的操作模式</Config>
+        </CardMasterPad>
+        
+        <SoftwareCenter>
+            <Title>软件中心</Title>
+            <Total>共</Total>
+            <Application>款应用</Application>
+            <Disk>盘</Disk>
+            <HideSystemSoft>隐藏系统软件</HideSystemSoft>
+	    <Installed>已安装</Installed>
+        </SoftwareCenter>
+
+        <CardMasterPad>
+            <Title>Master 控制器</Title>
+            <Comment>无与伦比的控制感</Comment>
+            <Config>配置你的操作模式</Config>
+        </CardMasterPad>
+
+        <CardMaster>
+            <NewUpdateTitle>#Update 增加摇杆校正说明 </NewUpdateTitle>
+            <ExploreAya>EVO - 探索AYANEO的无限潜能</ExploreAya>
+            <PalyAya>如何充分发挥&#x000A;AYANEO&#x000A;的无限潜能</PalyAya>
+            <GameScreenshots>游戏截图</GameScreenshots>
+            <GameMoments>留住精彩游戏瞬间</GameMoments>
+            <KnowMore>去了解</KnowMore>
+            <Help>帮助中心</Help>
+        </CardMaster>
+
+        <CardTinyTool>
+            <Title>主页自定义控件</Title>
+            <QuickTool>AYA快设控件</QuickTool>
+            <CommTool>常用控件</CommTool>
+            <Fold>折叠</Fold>
+            <CommonlyUsed>常用</CommonlyUsed>
+        </CardTinyTool>
+
+        <CardController>
+            <Title>控制器&#x000A;助手</Title>
+            <Connected>当前连接</Connected>
+            <Switch1P>切换1P</Switch1P>
+            <More>详细设置</More>
+        </CardController>
+
+        <CardFeedBack>
+            <Title>还有什么期待？&#x000A;请告诉我们&#x000A;拜托啦</Title>
+        </CardFeedBack>
+
+        <CardAsst>
+            <GameToolsTitle>游戏工具</GameToolsTitle>
+            <SystemToolsTitle>系统功能</SystemToolsTitle>
+
+            <Fan>
+                <Wild>狂飙</Wild>
+                <Smart>省电</Smart>
+            </Fan>
+        </CardAsst>
+    </Asst>
+
+    <!-- 快设小窗 -->
+    <PopAsst>
+        <PopAsstTitleBar>
+            <Title>AYA快设</Title>
+        </PopAsstTitleBar>
+        <StatusBar>
+            <NormalApply>该设置已生效</NormalApply>
+            <Disable>已禁用</Disable>
+            <Enable>已启用</Enable>
+            <ScreenshotSucc>截图成功</ScreenshotSucc>
+            <FsrTips>3 秒后用 FSR 缩放最前端窗口</FsrTips>
+            <Prossimamente>即将上线</Prossimamente>
+        </StatusBar>
+        <CommSoftBar>
+            <Title>请在首页配置常用apps</Title>
+        </CommSoftBar>
+		<SystemMonitor>
+			<Gpu>GPU</Gpu>
+			<ThreeA>3A</ThreeA>
+			<Auto>自动</Auto>
+			<BatteryLife>续航</BatteryLife>
+			<Reboot>需要重启计算机才能生效</Reboot>
+			<BtnX>取消</BtnX>
+			<BtnA>重启</BtnA>
+		</SystemMonitor>
+    </PopAsst>
+
+    <PopSettings>
+        <Account>帐号安全</Account>
+        <StartUp>启动更新</StartUp>
+        <Data>安装资料</Data>
+        <Sync>同步管理</Sync>
+        <Device>设备信息</Device>
+        <Language>语言与个性化</Language>
+        <Founders>创始玩家</Founders>
+        <OpenSources>第三方库</OpenSources>
+        <Minimize>最 小 化</Minimize>
+        <Sleep>关闭掌机</Sleep>
+        <ClientVersionChina>切换到国内版</ClientVersionChina>
+        <ClientVersionGlobal>切换到国际版</ClientVersionGlobal>
+        <SleepConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;是否&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;#C14D4E&quot;&gt;关闭掌机？&lt;/font&gt;&lt;/p&gt;</SleepConfirm>
+        <Quit>彻底退出</Quit>
+        <SystemSetting>系统设置</SystemSetting>
+
+        <PropertyMain>
+            <Account>帐号&#x000A;安全</Account>
+            <StartUp>启动与更新</StartUp>
+            <Data>安装&#x000A;资料</Data>
+            <Sync>同步&#x000A;管理</Sync>
+            <Device>设备&#x000A;信息</Device>
+            <Language>语言与个性化</Language>
+            <TitleGameData>游戏&#x000A;资料</TitleGameData>
+        </PropertyMain>
+
+        <PropertyUpdate>
+            <TitleUpdate>更新</TitleUpdate>
+            <Loading>联网检查更新中...</Loading>
+            <TitleButtonStart>更新全部</TitleButtonStart>
+            <NoUpdate>暂无更新</NoUpdate>
+            <TitleButtonDpad>移动</TitleButtonDpad>
+            <TitleButtonA>更新</TitleButtonA>
+            <TitleButtonB>返回</TitleButtonB>
+            <BtnCheckTitle>检测更新</BtnCheckTitle>
+            <Retry>重试</Retry>
+            <RetryTitle>一键重试</RetryTitle>
+            <Finish>完成</Finish>
+            <updateItems>%d项可更新</updateItems>
+            <updateFailItems>%d项失败</updateFailItems>
+            <WattingDownload>等待下载..</WattingDownload>
+            <DownloadingTip>正在下载，请稍后</DownloadingTip>
+            <UpdateCloseTip>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;red&quot;&gt;正在更新驱动中，确定要关闭吗？&lt;/font&gt;&lt;/p&gt;</UpdateCloseTip>
+            <Fail>更新失败</Fail>
+            <Updating>更新中</Updating>
+            <Installing>安装中..</Installing>
+            <ManualInstallation>手动安装说明</ManualInstallation>
+            <Restart>重启生效</Restart>
+            <RestartNow>立即重启</RestartNow>
+            <PromemoriaImportante>重要提醒</PromemoriaImportante>
+            <PleaseWait>请稍等</PleaseWait>
+            <UpdateFinish>更新完成 请重启</UpdateFinish>
+            <UpdateFail>更新失败 请重试</UpdateFail>
+            <UpdateTipTitle>&lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;正在升级 AYANEO 的BIOS 版本，请确保主机开机、连接电源。&lt;/font&gt;&lt;br&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;在升级过程中 &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;请不要关闭电源、睡眠、关闭本软件&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; 。升级完成后按提示进行操作。&lt;/font&gt;&lt;/br&gt;</UpdateTipTitle>
+            <Soft>软件</Soft>
+            <Driver>固件驱动</Driver>
+            <Config>配置文件</Config>
+            <Bios>BIOS</Bios>
+            <TitleStartUp>启动</TitleStartUp>
+            <StartUp>开机启动</StartUp>
+            <MouseMode>鼠标模式</MouseMode>
+            <Overlay>游戏内浮层</Overlay>
+            <Hide>隐藏功能</Hide>
+            <DebugConsole>调试窗口</DebugConsole>
+            <FullScreen>全屏显示</FullScreen>
+            <GameSync>游戏数据同步</GameSync>
+            <Admin>高权限</Admin>
+            <TitleBeta>Beta 测试</TitleBeta>
+            <WaitMore>敬请期待</WaitMore>
+            <LaunchOpt>
+                <Title>启动优化</Title>
+                <Look>查看</Look>
+                <Open>开启</Open>
+                <DisableFullScreen>禁用全屏优化</DisableFullScreen>
+                <GPUScaling>开启GPU缩放</GPUScaling>
+                <UsbSuspend>禁用USB选择性暂停</UsbSuspend>
+                <OskReplace>OSK替换</OskReplace>
+                <HighPower>卓越性能</HighPower>
+                <EmptyClipboard>清空剪切板</EmptyClipboard>
+                <EngKeyboardLayout>切换到英语输入法</EngKeyboardLayout>
+            </LaunchOpt>
+        </PropertyUpdate>
+
+        <PropertyAccountSafety>
+            <Title>帐号安全</Title>
+            <SetPassword>设置密码</SetPassword>
+	    <Name>名称</Name>
+	    <Phone>手机号</Phone>
+	    <Avatar>头像</Avatar>
+            <Exit>登出</Exit>
+            <ExitTip>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;red&quot;&gt;是否确认的退出登录？&lt;/font&gt;&lt;/p&gt;</ExitTip>
+	    <Web>&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;个人信息设置，推荐前往 &lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;https://ayaneo.com.cn/user</Web>
+        </PropertyAccountSafety>
+
+        <PropertyData>
+            <TitleGameData>游戏资料</TitleGameData>
+            <Image>图像</Image>
+            <Video>视频</Video>
+            <TitlePackage>安装包与固件文件</TitlePackage>
+            <Soft>安装包</Soft>
+            <Firmware>固件</Firmware>
+            <Clean>清理</Clean>
+        </PropertyData>
+
+        <PropertyDevice>
+            <Family>系列：</Family>
+            <Sku>SKU：</Sku>
+            <SerialNumber>序列号：</SerialNumber>
+            <BiosVersion>BIOS版本：</BiosVersion>
+            <EcFirmwareVersion>EC固件版本：</EcFirmwareVersion>
+            <AoutDevice>关于设备</AoutDevice>
+        </PropertyDevice>
+
+        <PropertySync>
+            <Config>配置文件同步</Config>
+            <GameList>游戏列表同步</GameList>
+            <LastSyncTime>最后同步时间</LastSyncTime>
+            <BtnSteam>待绑定Steam</BtnSteam>
+            <BtnSteamFinish>%s</BtnSteamFinish>
+            <BtnSteamSave>保存</BtnSteamSave>
+            <SteamInvalidId>未找到steam帐号，可能是没有安装steam平台</SteamInvalidId>
+            <SteamInvalidKey>appkey 无效</SteamInvalidKey>
+            <SteamTestFailed>appkey测试无效，请输入正确的appkey</SteamTestFailed>
+            <BtnXbox>待绑定Xbox</BtnXbox>
+            <BtnXboxFinish>%s</BtnXboxFinish>
+            <BrowserToolbarTitle>AYANEO 游戏同步助手</BrowserToolbarTitle>
+	    <WhetherToUnbindXbox>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;是否解绑Xbox账号? &lt;/font&gt;&lt;/p&gt;</WhetherToUnbindXbox>
+	    <WhetherToUnbindSteam>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;是否解绑Steam账号? &lt;/font&gt;&lt;/p&gt;</WhetherToUnbindSteam>
+	    <LongPress>长按解绑</LongPress>
+        </PropertySync>
+
+        <PropertyLanguage>
+            <Title>选择语言与个性化配置后，请执行「应用」，软件将会重启以使变更生效</Title>
+            <Classic>经典</Classic>
+            <BlackWhite>黑白</BlackWhite>
+            <Execute>应用</Execute>
+        </PropertyLanguage>
+
+        <PopBindAccount>
+            <Title>AYANEO 账号绑定</Title>
+            <BindDesc>绑 定 A Y A I D &#x000A;畅 游 你 的 游 戏 空 间</BindDesc>
+            <Bind>绑定</Bind>
+            <InputEmailTip>请输入您的邮箱</InputEmailTip>
+            <InputCodeTip>请输入验证码</InputCodeTip>
+            <InputAreaTip>请输入区号</InputAreaTip>
+            <InputPhoneTip>请输入您的手机号</InputPhoneTip>
+        </PopBindAccount>
+
+    </PopSettings>
+
+    <PopGameMgr>
+        <Title>游戏管理</Title>
+        <BtnControls>
+            <EmptyDesc>暂无</EmptyDesc>
+        </BtnControls>
+        <PropertyGameMgr>
+            <Title1>属于你的游戏私享库</Title1>
+            <Title2>享受未曾有过的畅快游戏管理吧</Title2>
+            <BtnAdd>
+                <Title>添加游戏</Title>
+            </BtnAdd>
+            <BtnRemove>
+                <Title>卸载游戏</Title>
+                <Desc>款游戏</Desc>
+            </BtnRemove>
+            <BtnUnknow>
+                <Title>未知文件管理</Title>
+                <Desc>疑似游戏</Desc>
+            </BtnUnknow>
+            <BtnShowHide>
+              <Show>显示所有</Show>
+              <Hide>隐藏项目</Hide>
+            </BtnShowHide>
+        </PropertyGameMgr>
+
+        <PropertyGameMgrAdd>
+            <Title>添加游戏</Title>
+            <BtnScan>
+                <Title>急速扫描</Title>
+                <Desc>款新游戏</Desc>
+            </BtnScan>
+            <BtnManual>
+                <Title>手动添加</Title>
+            </BtnManual>
+            <BtnPlat>
+                <Title>绑定平台</Title>
+                <BindedWords>已绑定</BindedWords>
+            </BtnPlat>
+        </PropertyGameMgrAdd>
+
+        <PropertyGameMgrUnInstall>
+            <Title>请标记要卸载的游戏</Title>
+            <MarkTitle>标记</MarkTitle>
+            <DeleteTitle>长按卸载</DeleteTitle>
+            <FormatGameCount>共选中 %d 款游戏</FormatGameCount>
+            <SelectCount>共选中</SelectCount>
+            <Games>款游戏</Games>
+            <TimerContent>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;6&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;秒&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;执行卸载&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#ACC3CD&quot;&gt;松开按键以取消&lt;/font&gt;&lt;/p&gt;</TimerContent>
+            <Loading>删除游戏戏目录中。。。</Loading>
+            <Finish>成功删除 %d 个游戏目录</Finish>
+        </PropertyGameMgrUnInstall>
+
+        <PropertyGameMgrAddManual>
+            <Title>请选择游戏启动文件</Title>
+            <CommDir>常用目录</CommDir>
+            <GameFile>以下哪个是游戏文件？</GameFile>
+            <ButtonStart>添加目录</ButtonStart>
+            <ButtonA>添加到游戏库</ButtonA>
+            <ButtonY>运行试试</ButtonY>
+            <RemoveDir>移除目录</RemoveDir>
+        </PropertyGameMgrAddManual>
+
+        <PropertyGameMgrUnknow>
+            <Title>以下哪些是游戏文件？</Title>
+            <FilePath>文件位置</FilePath>
+            <ExcludeTitle>长按全排除</ExcludeTitle>
+            <AddTitle>添加</AddTitle>
+            <TryRunTitle>运行试试</TryRunTitle>
+			<TimerContent>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;6&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;秒&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;执行全部排除&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#ACC3CD&quot;&gt;松开按键以取消&lt;/font&gt;&lt;/p&gt;</TimerContent>
+        </PropertyGameMgrUnknow>
+    </PopGameMgr>
+
+    <PopAppGrid>
+        <LoadingTitle>正在加载已安装软件列表...</LoadingTitle>
+        <ButtonXTitle>保存</ButtonXTitle>
+        <ButtonAdd>添加</ButtonAdd>
+        <ButtonCancel>取消</ButtonCancel>
+    </PopAppGrid>
+
+    <PopFileDialog>
+        <ButtonXTitle>保存选定文件</ButtonXTitle>
+        <ButtonXTitleDirectory>保存当前目录</ButtonXTitleDirectory>
+        <ButtonYTitle>上一层目录</ButtonYTitle>
+        <ButtonATitle>进入目录</ButtonATitle>
+        <ButtonBTitle>关闭选择框</ButtonBTitle>
+    </PopFileDialog>
+
+    <PopUserRegister>
+        <Title1>发现、探索、感受 PC 掌机的魅力</Title1>
+        <Title2>登录 AYAid 可享受</Title2>
+        <Title3>你的游戏生活</Title3>
+        <RegisterTitle>注册</RegisterTitle>
+        <RegisterTitle1>探索 PC掌机游戏无限可能</RegisterTitle1>
+        <AyaIdTitle>AYAid</AyaIdTitle>
+        <EmailTitle>Email</EmailTitle>
+        <CodeTiTle>验证码</CodeTiTle>
+        <InputPhoneNumberTiTle>请输入你的手机号</InputPhoneNumberTiTle>
+        <InputCodeTiTle>请输入6位数验证码</InputCodeTiTle>
+        <BtnSendCodeTitle>发送验证码</BtnSendCodeTitle>
+        <BtnResendTitle>重新发送</BtnResendTitle>
+        <PressTitle>按</PressTitle>
+        <InputEmailTiTle>输入常用邮箱地址</InputEmailTiTle>
+        <EmailRegister>邮箱注册</EmailRegister>
+        <PhoneNumberRegister>手机注册</PhoneNumberRegister>
+        <Next>下一步</Next>
+        <Logining>正在登录，请稍等...</Logining>
+        <CodeSendSucce>验证码已发送</CodeSendSucce>
+        <CodeSendError>验证码发送失败，请重试！</CodeSendError>
+        <Countdown>验证码刷新倒计时</Countdown>
+        <VerificationCodeError>验证码错误</VerificationCodeError>
+        <LoginFail>登录失败</LoginFail>
+        <InputCorrectPhoneNumberTiTle>你的手机号格式有误，请检查</InputCorrectPhoneNumberTiTle>
+        <InputCorrectEmail>请填写正确的邮箱格式</InputCorrectEmail>
+        <NetWorkErrorTip>当前无网络连接，请检查网络状态</NetWorkErrorTip>
+        <Go>前往</Go>
+		<Login>登入/注册</Login>
+		<Or>或</Or>
+		<Swich>切换</Swich>
+		<UnLogin>未登录</UnLogin>
+		<Association>点击关联</Association>
+		<SetUp>设置</SetUp>
+		<DataSynchronization>数据同步</DataSynchronization>
+		<LoginAccount>登 入 账 号</LoginAccount>
+		<LoginOut>登 出 账 号</LoginOut>
+		<NotConnected>未连接</NotConnected>
+		<Connected>已连接</Connected>
+		<Appreciate>赞赏</Appreciate>
+		<ProtocolText6>&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;未注册用户将在登录后自动注册 AYAid，&lt;br&gt;注册、登录即代表认可及接受&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;「用户协议」&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt; 及&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;「隐私条款」&lt;/font&gt;</ProtocolText6>
+	</PopUserRegister>
+
+    <PopExploreAya>
+        <Front>前面</Front>
+        <Back>背面</Back>
+        <Vibration>
+            <Title>震感</Title>
+            <ButtonA>修改</ButtonA>
+            <ViolentAdjustTip>满足你大部分3A游戏的震动感受</ViolentAdjustTip>
+            <GentleAdjustTip>绵软、温柔，触动掌心，适合不喜欢强烈震感的玩家</GentleAdjustTip>
+            <CustomAdjustTip>探索你喜欢的震感吧</CustomAdjustTip>
+            <Violent>猛烈</Violent>
+            <OffTip>关闭</OffTip>
+            <SaveSetting>保存设置</SaveSetting>
+        </Vibration>
+        <Resolution>
+            <Title>分辨率</Title>
+            <ButtonA>修改</ButtonA>
+            <Desc>当前：%d*%d</Desc>
+        </Resolution>
+        <Fan>
+            <Title>风扇</Title>
+            <ButtonA>修改</ButtonA>
+            <Desc>当前：%s</Desc>
+        </Fan>
+        <PowerLevel>
+            <Title>功耗模式</Title>
+            <ButtonA>修改</ButtonA>
+            <Desc>当前：%s</Desc>
+            <GameTitle>满足你大部分3A游戏的流程运行</GameTitle>
+            <BalanceTitle>出厂预设的均衡之选，应付大多数新游戏绰绰有余</BalanceTitle>
+            <PowerSavingTitle>电量焦虑终结者</PowerSavingTitle>
+            <CustomTitle>定制你自己需要的TDP</CustomTitle>
+            <AdjustValue>调整数值</AdjustValue>
+            <PowerUnlock>解锁 15W TDP</PowerUnlock>
+            <UnlockPowerTips>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#%2x%2x%2x&quot;&gt;是否解锁 15W TDP？&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#%2x%2x%2x&quot;&gt;请注意，解锁后会增加发热和噪音。&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#%2x%2x%2x&quot;&gt;解锁仅本次开机生效，重启后需重新解锁。&lt;/font&gt;&lt;/p&gt;</UnlockPowerTips>
+        </PowerLevel>
+        <QuickKey>
+            <Title>速开</Title>
+            <QuickKey_Control>速开控制</QuickKey_Control>
+            <text>Windows操作捷径，再次速速可开</text>
+            <DescOn>当前:开启</DescOn>
+            <DescOff>当前:未开启</DescOff>
+            <ButtonA>查看</ButtonA>
+            <On>开启</On>
+            <Off>关闭</Off>
+            <ArrowUp>KB键</ArrowUp>
+            <ArrowLeft>多任务</ArrowLeft>
+            <ArrowDown>任务管理器</ArrowDown>
+            <ArrowRight>截图</ArrowRight>
+            <Gesture>速手势</Gesture>
+            <HoldDown>同时按住</HoldDown>
+        </QuickKey>
+        <Joystick>
+            <BtnTitle>摇杆/按键</BtnTitle>
+            <BtnDesc>校正</BtnDesc>
+            <ButtonA>查看</ButtonA>
+            <Title>摇杆/按键 校正说明</Title>
+            <Desc>当你出现 摇杆、LT/RT不灵敏时可以尝试如下操作：</Desc>
+            <StepText1_1>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;同时按下&lt;/font&gt;</StepText1_1>
+            <StepText1_2>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt; 2 &lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;秒&lt;/font&gt;</StepText1_2>
+            <StepText1_3>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;当手柄控制器震动后松开按键。&lt;/font&gt;</StepText1_3>
+            <StepText2>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;RS、LS双摇杆最大限度旋转一圈，LT/RT（双扳机键）&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt; 按到底三次。&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;/font&gt;</StepText2>
+            <StepText3>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;当校准完成，手柄控制器会震动反馈。&lt;/font&gt;</StepText3>
+            <UpdateStep>&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;请将手柄固件升级到最新版本，可通过 AYASpace 下载手柄固件，并根据 &lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;&lt;u&gt;&lt;b&gt;升级教程&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt; 进行升级。&lt;/font&gt;</UpdateStep>
+            <AirStepText1>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;同时按下 LB + RB + Dpad 左 + B 键&lt;/font&gt;</AirStepText1>
+            <AirStepText2>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;当手柄控制器震动后松开按键， &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt; LS RS。&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;最大限度旋转五圈。&lt;/font&gt;</AirStepText2>
+        </Joystick>
+        <CustomKey>
+            <BtnStart>保存&&应用</BtnStart>
+            <BtnA>确认</BtnA>
+            <BtnB>返回</BtnB>
+			
+            <BtnTitle>自定义键</BtnTitle>
+            <BtnDesc>当前：</BtnDesc>
+            <ButtonA>设置</ButtonA>
+            <Title>自定义按键</Title>
+            <Desc>短按、长按，随你喜欢。</Desc>
+            <TipTop>自定义按键仅在 AYASpace 启动时生效，未启动时默认按键为 短按：显示桌面 / 长按：任务管理器。</TipTop>
+            <TipBottom>随着未来版本迭代，该模块功能将会有所改变，请以最新版为准。</TipBottom>
+            <PressTitle>短按</PressTitle>
+            <HoldTitle>长按</HoldTitle>
+            <DefaultInfo>默认</DefaultInfo>
+			
+			<FunCurrentFormat>&lt;center&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt;%s%&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;%s%&lt;/font&gt;&lt;center&gt;</FunCurrentFormat>
+            <FunCurrent>当前</FunCurrent>
+            <FunShowDesk>显示桌面</FunShowDesk>
+            <FunScreenshot>截图</FunScreenshot>
+            <FunCloseApp>关闭程序</FunCloseApp>
+            <FunOsk>屏幕键盘</FunOsk>
+            <FunEsc>ESC</FunEsc>
+            <FunOpenStream>打开Steam</FunOpenStream>
+            <FunXbox>Xbox导航键</FunXbox>
+            <FunTaskView>任务视图</FunTaskView>
+            <FunTaskMgr>任务管理器</FunTaskMgr>
+			
+            <FunShowDeskDesc>相当于 WIn + D 显示系统桌面。</FunShowDeskDesc>
+            <FunScreenshotDesc>使用AYASpace内建截图功能。</FunScreenshotDesc>
+            <FunCloseAppDesc>相当于 ALT+F4 的操作，关闭当前程序。</FunCloseAppDesc>
+            <FunOskDesc>调起OSK，勉强可以用用。</FunOskDesc>
+            <FunEscDesc>键盘的ESC键。</FunEscDesc>
+            <FunOpenStreamDesc>快速启动Steam软件。</FunOpenStreamDesc>
+            <FunXboxDesc>相当于 Win + G 的功能，配置后可以打开xbox小助手。</FunXboxDesc>
+            <FunTaskViewDesc>相当于 Alt + TAB 快速查看打开的程序。</FunTaskViewDesc>
+            <FunTaskMgrDesc>可以快速进入到任务管理器的入口，或者执行软关机的操作。</FunTaskMgrDesc>
+            <ShoulderKey>自定义肩键</ShoulderKey>
+            <ShoulderKeyTitle>开放更多爽快操作的可能。</ShoulderKeyTitle>
+            <ShoulderKeyDesc>自定义肩键仅在 AYASpace 启动时生效，未启动时默认按键为 "LC" 短按：OSK / 长按：任务管理器， "RC" 短按：ESC / 长按：任务视图。</ShoulderKeyDesc>
+            <AirCoustomKey>= 按键</AirCoustomKey>			
+        </CustomKey>
+		<Reset>重置</Reset>
+        <FreeButton>
+            <KeyDpad>选择</KeyDpad>
+            <BtnA>确认</BtnA>
+            <BtnB>返回</BtnB>
+			
+            <BtnTitle>自由按键</BtnTitle>
+            <BtnDesc>当前：</BtnDesc>
+            <ButtonA>修改</ButtonA>
+			
+            <Title>自由按键</Title>
+            <Desc>让按键跟着你的习惯改变。</Desc>
+            <TipBottom>该按键配置将在操作系统及游戏中生效，AYASpace仍旧依照按键提示操作。</TipBottom>
+			
+            <XYBA>A/B/X/Y</XYBA>
+            <LR>L/R</LR>
+            <Standard>标准</Standard>
+            <JapanStyle>日式</JapanStyle>
+            <Swap>对调</Swap>
+			
+            <BtnConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#C14D4E&quot;&gt;是否变更按键配置？&lt;/font&gt;&lt;/p&gt;</BtnConfirm>
+        </FreeButton>
+		<HandleConnection>
+			<Title>连发</Title>
+			<Desc>一键多指令，游戏更轻松。</Desc>
+			<Desc2>随着未来版本迭代，该模块功能将功能将会有所改变，请以最新版为准。</Desc2>
+			<Off>OFF</Off>
+			<Semiautomatic>半自动</Semiautomatic>
+			<Automatic>全自动</Automatic>
+			<Current>当前</Current>
+			<Reset>重置</Reset>
+			<OffDesc>不连发</OffDesc>
+			<SemiautomaticDesc>按住按钮，20次/s 的连发</SemiautomaticDesc>
+			<AutomaticDesc>按一下，自动连发，再按一下停止</AutomaticDesc>
+		</HandleConnection>
+	<RGB>
+		<Title>RGB灯效</Title>
+		<OpenRGB>打开灯效</OpenRGB>
+		<CloseRGB>关闭灯效</CloseRGB>
+		<Desc>当前:</Desc>
+		<BtnStart>保存&&应用</BtnStart>
+		<CloseDesc>开放更多爽快操作的可能</CloseDesc>
+		<CloseDesc2>随着未来版本迭代，该模块功能将会有所改变，请以最新版为准。</CloseDesc2>
+		<LoadPreset>加载预设</LoadPreset>
+		<Default>默认</Default>
+		<BreathMonochrome>呼吸单色</BreathMonochrome>
+		<BreatheRGBLoop>呼吸RGB循环</BreatheRGBLoop>
+		<BreatheGoogle>呼吸Google</BreatheGoogle>
+		<Scanning>扫描</Scanning>
+		<Ripple>波纹</Ripple>
+		<MonochromaticAlwaysOn>单色常亮</MonochromaticAlwaysOn>
+		<Color>颜色</Color>
+		<Brightness>亮度</Brightness>
+		<Hex>16进制色值 (Hex)</Hex>
+		<Customize>自定义</Customize>
+		<Off>关闭</Off>
+		<LightsOut>晚间熄灯</LightsOut>
+		<Time>时间：20:00~06:00</Time>
+	</RGB>
+    </PopExploreAya>
+
+    <PopGameBind>
+        <Title>当前游戏数据</Title>
+        <SearchTitle>手工搜索</SearchTitle>
+        <AiTitle>智能识别</AiTitle>
+        <UnInstallTitle>卸载游戏</UnInstallTitle>
+        <RemoveRecordTitle>移除记录</RemoveRecordTitle>
+        <GameOpTitle>数据</GameOpTitle>
+        <ButtonStartTitle>长按清除数据</ButtonStartTitle>
+        <ClearTimerContent>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;6&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;秒&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;执行清除&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#ACC3CD&quot;&gt;松开按键以取消&lt;/font&gt;&lt;/p&gt;</ClearTimerContent>
+        <ClearContentFinish>清除数据完成</ClearContentFinish>
+        <Show>显示</Show>
+        <Hide>隐藏</Hide>
+        <UnInstall>
+            <OkTitle>删除</OkTitle>
+            <Tips>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;white&quot;&gt;是否卸载该游戏？&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#c14d4e&quot;&gt;该操作会删除：%s&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#c14d4e&quot;&gt;所在目录下所有文件，是否删除？&lt;/font&gt;&lt;/p&gt;</Tips>
+            <Loading>删除游戏戏目录中。。。</Loading>
+            <Finish>成功删除游戏目录</Finish>
+        </UnInstall>
+        <GameBindSearch>
+            <Title>手工搜索</Title>
+            <NoResult>没有找到符合条件的结果</NoResult>
+            <SaveTitle>是否使用这一条数据作为游戏展示数据？</SaveTitle>
+            <ButtonBTitle>取消</ButtonBTitle>
+            <ButtonATitle>确认</ButtonATitle>
+            <ResultLeftWords>共找到</ResultLeftWords>
+            <ResultRightWords>份游戏资料</ResultRightWords>
+            <SearchStart>搜索中...</SearchStart>
+            <SearchFinish>搜索结束</SearchFinish>
+            <SearchExist>上次搜索运行中，请稍等...</SearchExist>
+            <BackSpace>退格</BackSpace>
+            <Space>空格</Space>
+            <LinkingGameInfoGameInfo>正在关联游戏信息</LinkingGameInfoGameInfo>
+            <LinkingGameInfoFinish>关联游戏信息成功</LinkingGameInfoFinish>
+            <LinkingGameInfoFail>关联游戏信息失败</LinkingGameInfoFail>
+            <HasBindedGame>已拥有该款游戏</HasBindedGame>			
+            <UseGameInfoFinish>应用游戏信息成功</UseGameInfoFinish>
+            <UseGameInfoFail>应用游戏信息失败</UseGameInfoFail>
+        </GameBindSearch>
+    </PopGameBind>
+
+    <SystemStatusDetails>
+        <Title>掌机状态</Title>
+        <Processor>处理器</Processor>
+        <NetWork>网络</NetWork>
+        <Battery>电池</Battery>
+        <Memory>内存</Memory>
+        <VirtualMemory>虚拟内存</VirtualMemory>
+        <Fan>风扇</Fan>
+        <FanSpeed>转数</FanSpeed>
+        <HardDisk>硬盘</HardDisk>
+        <LoadFactor>负载率</LoadFactor>
+        <UsageRate>负载率</UsageRate>
+        <LocalConnection>本地连接</LocalConnection>
+        <Upload>上传</Upload>
+        <Download>下载</Download>
+        <HardDiskSpaceInfo>已使用%s/%s</HardDiskSpaceInfo>
+        <Charging>充电中</Charging>
+        <Discharging>放电中</Discharging>
+        <ChargFinsh>已充满</ChargFinsh>
+        <EstimatedRunTime>大约还可以使用%d小时%d分钟</EstimatedRunTime>
+        <EstimatedRunTimeMin>大约还可以使用%d分钟</EstimatedRunTimeMin>
+        <TimeToFullCharge>大约还有%d小时%d分钟充满</TimeToFullCharge>
+        <TimeMinToFullCharge>大约还有%d分钟充满</TimeMinToFullCharge>
+    </SystemStatusDetails>
+
+    <SystemConfigInfos>
+        <Title>配置信息</Title>
+        <System>系统</System>
+        <Version>版本号</Version>
+        <Cores>核心数</Cores>
+        <Threads>线程数</Threads>
+        <VideoMemory>显存</VideoMemory>
+        <Motherboard>主板</Motherboard>
+        <Monitor>显示器</Monitor>
+        <Inch>英寸</Inch>
+        <HardDisk>硬盘</HardDisk>
+        <Capacity>实际容量</Capacity>
+        <DisplayFrequency>刷新率%dHZ</DisplayFrequency>
+        <ScreenSize>屏幕尺寸</ScreenSize>
+    </SystemConfigInfos>
+
+    <GameDetail>
+        <RunGame>开始游戏</RunGame>
+        <RunGameNoOverLay>纯净运行\n(无游戏内浮层)</RunGameNoOverLay>
+        <Source>来自于:</Source>
+        <GameDuration>游戏时长：</GameDuration>
+        <GameDuration1>游戏 &#x000A;时长：</GameDuration1>
+        <GameDataManagement>资料管理</GameDataManagement>
+        <MetadataPlugins>元数据插件</MetadataPlugins>
+	<NotApplied>配置未应用</NotApplied>
+	<Applied>配置已应用</Applied>
+	<AddConfig>添加新配置</AddConfig>
+	<Like>赞赏 </Like>
+        <Hour>小时</Hour>
+        <Minute>分</Minute>
+        <Start>开始</Start>
+        <Back>返回</Back>
+	<Enter>确认</Enter>
+	<PowerPolicy>电源策略</PowerPolicy>
+	<TDP>TDP</TDP>
+	<FPS>FPS</FPS>
+	<Shock>震动模式</Shock>
+	<Resolution>分辨率</Resolution>
+	<StartupParameters>启动参数</StartupParameters>
+	<Remove>移除</Remove>
+	<Detail>配置详情</Detail>
+	<Application>应用</Application>
+	<Stop>停用</Stop>
+        <PlayTime>
+            <LessHalfHour>看了一眼</LessHalfHour>
+            <Normal>%0.1f</Normal>
+            <Maximum>9999+</Maximum>
+        </PlayTime>
+    </GameDetail>
+
+    <PopOtherDeviceTipPage>
+        <Title>致亲爱的玩家</Title>
+        <TipInfo>
+            感谢你对AYANEO专属游戏管理软件AYASpace的喜爱
+            很遗憾，我们团队目前无力为非AYANEO玩家服务。
+            在产品中，我们准备了许多为游戏玩家准备的便利功能
+            许多功能也只能在AYANEO系列主机上使用。
+            如果你希望体验这款产品，请购买AYANEO游戏主机，
+            我们非常期待能为你的游戏体验服务。
+        </TipInfo>
+        <Shop>国内玩家可前往官方淘宝店铺</Shop>
+        <Aya>「 AYANEO 亚诺掌机 」</Aya>
+        <AdvisoryBuy>咨询购买</AdvisoryBuy>
+        <Buy>去官网购买</Buy>
+    </PopOtherDeviceTipPage>
+
+    <PopMinimize>
+        <SoftMinimize>软件已最小化</SoftMinimize>
+        <GameLaunch>游戏启动中</GameLaunch>
+        <GameRun>游戏运行中</GameRun>
+        <OpenApp>键打开软件</OpenApp>
+        <OpenQuickAsst>键打开小窗</OpenQuickAsst>
+        <PressTitle>按下</PressTitle>
+        <LongPressTitle>长按</LongPressTitle>
+    </PopMinimize>
+
+    <AyaDeviceInfo>
+        <Founder>AYANEO 创始人版</Founder>
+        <Formal>AYANEO 2021</Formal>
+        <Formal_Pro>AYANEO 2021 Pro</Formal_Pro>
+        <AYANEO_NEXT>AYANEO NEXT</AYANEO_NEXT>
+        <AYANEO_NEXT_Pro>AYANEO NEXT Pro</AYANEO_NEXT_Pro>
+        <AYANEO_2021_4500u_White>AYANEO 2021 白月</AYANEO_2021_4500u_White>
+        <AYANEO_2021_4500u_Black>AYANEO 2021 黑星</AYANEO_2021_4500u_Black>
+        <AYANEO_2021_4800u_White>AYANEO 2021 Pro 白月</AYANEO_2021_4800u_White>
+        <AYANEO_2021_4800u_Black>AYANEO 2021 Pro 黑星</AYANEO_2021_4800u_Black>
+        <AYANEO_2021_4800u_Retro>AYANEO 2021 Pro Retro Power</AYANEO_2021_4800u_Retro>
+        <AYANEO_NEXT_5800u_MetallicGrey>AYANEO 探索版 深空银</AYANEO_NEXT_5800u_MetallicGrey>
+        <AYANEO_NEXT_5800u_DarkBlue>AYANEO 探索版 深蓝</AYANEO_NEXT_5800u_DarkBlue>
+        <AYANEO_NEXT_5800u_LightBlue>AYANEO 探索版 淡蓝</AYANEO_NEXT_5800u_LightBlue>
+        <AYANEO_NEXT_5800u_White>AYANEO 探索版 白色</AYANEO_NEXT_5800u_White>
+        <AYANEO_NEXT_5800u_BlackGrey>AYANEO 探索版 黑灰</AYANEO_NEXT_5800u_BlackGrey>
+        <AYANEO_NEXT_5800u_Metal>AYANEO 探索版 全金属</AYANEO_NEXT_5800u_Metal>
+        <AYANEO_NEXT_5825u_MetallicGrey>AYANEO 探索版 Pro 深空银</AYANEO_NEXT_5825u_MetallicGrey>
+        <AYANEO_NEXT_5825u_DarkBlue>AYANEO 探索版 Pro 深蓝</AYANEO_NEXT_5825u_DarkBlue>
+        <AYANEO_NEXT_5825u_LightBlue>AYANEO 探索版 Pro 淡蓝</AYANEO_NEXT_5825u_LightBlue>
+        <AYANEO_NEXT_5825u_White>AYANEO 探索版 Pro 白色</AYANEO_NEXT_5825u_White>
+        <AYANEO_NEXT_5825u_BlackGrey>AYANEO 探索版 Pro 黑灰</AYANEO_NEXT_5825u_BlackGrey>
+        <AYANEO_NEXT_5825u_Metal>AYANEO 探索版 Pro 深空银</AYANEO_NEXT_5825u_Metal>
+        <AYANEO_NEXT_5825u_Pro_MetallicGrey>AYANEO NEXT Pro 深空银</AYANEO_NEXT_5825u_Pro_MetallicGrey>
+        <AYANEO_NEXT_5825u_Pro_DarkBlue>AYANEO NEXT Pro 午夜蓝</AYANEO_NEXT_5825u_Pro_DarkBlue>
+        <AYANEO_NEXT_5825u_Pro_LightBlue>AYANEO NEXT Pro 微风蓝</AYANEO_NEXT_5825u_Pro_LightBlue>
+        <AYANEO_NEXT_5825u_Pro_White>AYANEO NEXT Pro 活力白</AYANEO_NEXT_5825u_Pro_White>
+        <AYANEO_NEXT_5825u_Pro_BlackGrey>AYANEO NEXT Pro 石墨黑</AYANEO_NEXT_5825u_Pro_BlackGrey>
+        <AYANEO_NEXT_5825u_Pro_Metal>AYANEO NEXT Pro 深空银</AYANEO_NEXT_5825u_Pro_Metal>
+        <AYANEO_AIR_Lite_White>AYANEO AIR 青春版 极光白</AYANEO_AIR_Lite_White>
+        <AYANEO_AIR_Lite_Black>AYANEO AIR 青春版 极夜黑</AYANEO_AIR_Lite_Black>
+        <AYANEO_AIR_Lite_Silver>AYANEO AIR 青春版 流光银</AYANEO_AIR_Lite_Silver>
+        <AYANEO_AIR_Lite_Pink>AYANEO AIR 青春版 樱花粉</AYANEO_AIR_Lite_Pink>
+        <AYANEO_AIR_Lite_Duck_Yellow>AYANEO AIR 青春版 小黄鸭</AYANEO_AIR_Lite_Duck_Yellow>
+        <AYANEO_AIR_Lite_Duck_Grey>AYANEO AIR 青春版 小黄鸭 灰</AYANEO_AIR_Lite_Duck_Grey>
+        <AYANEO_AIR_Lite_Meizu>AYANEO AIR 青春版 魅族联名</AYANEO_AIR_Lite_Meizu>
+        <AYANEO_AIR_Lite_Retro>AYANEO AIR 青春版 Retro Power</AYANEO_AIR_Lite_Retro>
+        <AYANEO_AIR_White>AYANEO AIR 极光白</AYANEO_AIR_White>
+        <AYANEO_AIR_Black>AYANEO AIR 极夜黑</AYANEO_AIR_Black>
+        <AYANEO_AIR_Silver>AYANEO AIR 流光银</AYANEO_AIR_Silver>
+        <AYANEO_AIR_Pink>AYANEO AIR 樱花粉</AYANEO_AIR_Pink>
+        <AYANEO_AIR_Duck_Yellow>AYANEO AIR 小黄鸭</AYANEO_AIR_Duck_Yellow>
+        <AYANEO_AIR_Duck_Grey>AYANEO AIR 小黄鸭 灰</AYANEO_AIR_Duck_Grey>
+        <AYANEO_AIR_Meizu>AYANEO AIR 魅族联名</AYANEO_AIR_Meizu>
+        <AYANEO_AIR_Retro>AYANEO AIR Retro Power</AYANEO_AIR_Retro>
+        <AYANEO_AIR_Pro_White>AYANEO AIR Pro 极光白</AYANEO_AIR_Pro_White>
+        <AYANEO_AIR_Pro_Black>AYANEO AIR Pro 极夜黑</AYANEO_AIR_Pro_Black>
+        <AYANEO_AIR_Pro_Silver>AYANEO AIR Pro 流光银</AYANEO_AIR_Pro_Silver>
+        <AYANEO_AIR_Pro_Pink>AYANEO AIR Pro 樱花粉</AYANEO_AIR_Pro_Pink>
+        <AYANEO_AIR_Pro_Duck_Yellow>AYANEO AIR Pro 小黄鸭</AYANEO_AIR_Pro_Duck_Yellow>
+        <AYANEO_AIR_Pro_Duck_Grey>AYANEO AIR Pro 小黄鸭 灰</AYANEO_AIR_Pro_Duck_Grey>
+        <AYANEO_AIR_Pro_Meizu>AYANEO AIR Pro 魅族联名</AYANEO_AIR_Pro_Meizu>
+        <AYANEO_AIR_Pro_Retro>AYANEO AIR Pro Retro Power</AYANEO_AIR_Pro_Retro>				
+        <AYANEO_2_White>AYANEO 2 天镜白</AYANEO_2_White>
+        <AYANEO_2_Black>AYANEO 2 星耀黑</AYANEO_2_Black>	
+        <AYANEO_2_Retro>AYANEO 2 Retro Power</AYANEO_2_Retro>
+        <AYANEO_2_BlueDuck>AYANEO 2 小黄鸭粉蓝</AYANEO_2_BlueDuck>
+	<AYANEO_2_Geek_Black>AYANEO Geek 幻黑</AYANEO_2_Geek_Black>
+	<AYANEO_2_Geek_Purple>AYANEO Geek 紫透</AYANEO_2_Geek_Purple>
+    </AyaDeviceInfo>
+
+    <!-- 升级界面 -->
+    <PopUpdate>
+        <Title>是否升级到 %s 版本？</Title>
+        <DownloadFailed>下载失败</DownloadFailed>
+        <Force>
+            <ButtonStart>升级</ButtonStart>
+        </Force>
+        <Normal>
+            <ButtonX>忽略此版本</ButtonX>
+            <ButtonStart>升级</ButtonStart>
+            <ButtonB>取消</ButtonB>
+        </Normal>
+        <UpdateContent>更新内容</UpdateContent>
+        <ReDownload>重新下载</ReDownload>
+    </PopUpdate>
+
+    <!-- 插件界面 -->
+    <PopPluginGrid>
+        <Button>
+            <ButtonY>更新所有插件</ButtonY>
+            <ButtonStart>设置插件</ButtonStart>
+            <ButtonA>运行</ButtonA>
+            <ButtonB>取消</ButtonB>
+        </Button>
+        <UpdateTaskRunningTips>更新任务运行中</UpdateTaskRunningTips>
+        <UpdateTaskFinish>更新完成</UpdateTaskFinish>
+    </PopPluginGrid>
+
+    <PopResolutionSetting>
+        <FirstSettingTitle>
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;AYA Space为你提供了便捷调整显示分辨率的功能，但该功能可能根据驱动情况不同存在导&lt;br&gt;致花屏的可能。&lt;/br&gt;&lt;br&gt;如需使用，请尽量在进入游戏前更改，并保证已安装&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; AMD官方驱动 &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;并开启&lt;/font&gt;&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; GPU缩放 &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;功能。&lt;/font&gt;&lt;/br&gt;&lt;/p&gt;
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;如更改后出现&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;花屏现象&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;，可以通过&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; 双指快速双击 &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; 屏幕中间区域 或 &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; 按 B键返回 &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; 更改前的分辨率。 &lt;/font&gt;&lt;/p&gt;
+        </FirstSettingTitle>
+        <FirstSettingTitle1>
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;AYA Space为你提供了便捷调整显示分辨率的功能，但该功能可能根据驱动情况不同存在导&lt;br&gt;致花屏的可能。&lt;/br&gt;&lt;br&gt;如需使用，请尽量在进入游戏前更改，并保证已安装&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt; AMD官方驱动 &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;并开启&lt;/font&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt; GPU缩放 &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;功能。&lt;/font&gt;&lt;/br&gt;&lt;/p&gt;
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;如更改后出现&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;花屏现象&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;，可以通过&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt; 双指快速双击 &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt; 屏幕中间区域 或 &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt; 按 B键返回 &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt; 更改前的分辨率。 &lt;/font&gt;&lt;/p&gt;
+        </FirstSettingTitle1>
+        <ChangedTitle>&lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;&lt;b&gt;已更改为&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;&lt;b&gt;%s&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;</ChangedTitle>
+        <SettingFinishTitle>
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;当前显示是否正确？如需复原分辨率，可&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; 双指双击 &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;屏幕中间区域 或&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; 按 B 键。&lt;/font&gt;&lt;br&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;长按 菜单键 应用当前设置。&lt;/font&gt;&lt;/br&gt;&lt;/p&gt;
+        </SettingFinishTitle>
+        <Know>我知道了</Know>
+        <Apply>应用</Apply>
+        <Recovery>复原</Recovery>
+    </PopResolutionSetting>
+	
+    <PopGameScreenshots>
+        <Title>所有截图</Title>
+        <ButtonATitle>打开</ButtonATitle> 
+        <ButtonXTitle>删除</ButtonXTitle>
+        <ButtonYTitle>分享</ButtonYTitle>
+        <GameScreenshots>游戏截图</GameScreenshots>		
+        <AutoSync>自动同步</AutoSync>
+        <Uploading>正在上传中…</Uploading>
+        <UploadFail>上传失败</UploadFail>
+        <Retry>重试</Retry>
+        <Loading>正在加载所有截图...</Loading>
+        <InstructionsAndReminders>说明与提醒</InstructionsAndReminders>
+        <ScanQRCode>手机扫描二维码</ScanQRCode>
+        <DownloadImage>下载游戏截图</DownloadImage>
+        <InstructionsAndRemindersContent>
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;&lt;/br&gt;你正在准备开启自动上传截图功能，该功能为你分享游戏截图提供了更良好的体&lt;/br&gt;&lt;br&gt;验，同时上传的截图数据将保存在AYANEO服务器你的个人数据库中，关于使用&lt;/br&gt;&lt;br&gt;数据及同步功能需要你的同意，请详细阅读&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; 《软件许可协议》及《隐私政策》&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;，&lt;/br&gt; &lt;br&gt; 开启开功能将代表你了解并知晓我们的相关政策。&lt;/font&gt;
+        </InstructionsAndRemindersContent>	
+        <DeleteTip>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;red&quot;&gt;确定要删除当前游戏截图吗？&lt;/font&gt;&lt;/p&gt;</DeleteTip>
+    </PopGameScreenshots>
+	
+    <PopInstructionsAndWarn>
+        <SoftwareLicense>《软件许可协议》</SoftwareLicense>
+        <SoftwareLicenseTitle>软件许可协议</SoftwareLicenseTitle>
+        <PrivacyPolicy>《隐私政策》</PrivacyPolicy>
+        <PrivacyPolicyTitle>隐私政策</PrivacyPolicyTitle>
+        <Accept>我了解，开启该功能</Accept>
+        <Reject>不接受</Reject>
+    </PopInstructionsAndWarn>
+
+    <BindApplet>
+        <Applet>小应用</Applet>
+        <Press>按</Press>
+        <Config>配置</Config>
+        <LongPress>长按</LongPress>
+        <Manage>管理</Manage>
+        <Remove>移除</Remove>
+        <Add>添加</Add>
+        <Enable>启用</Enable>
+        <Disable>禁用</Disable>
+        <UnInstall>卸载</UnInstall>
+        <AddApplet>添加小应用</AddApplet>
+    </BindApplet>
+	
+    <BindBluetooth>
+        <BindAppTitle>关联 AYA Space Mobile</BindAppTitle>
+        <BindDesc>让你的AYANEO从此更加好用</BindDesc>
+        <DownloadTip>请在 Apple AppStore、PlayStore 搜索「AYA Space Mobile」 或各大应用市场搜索下载</DownloadTip>
+        <BindTip>在App中 - Space - 绑定设备 页面选择扫码绑定</BindTip>
+        <ConnectSuccess>已连接</ConnectSuccess>
+        <NotConnected>未连接</NotConnected>
+        <ToBind>去绑定</ToBind>		
+        <UnknowApp>未知应用</UnknowApp>		
+        <ReBind>重新绑定</ReBind>	
+        <Refresh>刷新</Refresh>	
+        <BindSuccessTip>本机与下面设备绑定</BindSuccessTip>	
+        <TurnOnBluetooth>开启蓝牙</TurnOnBluetooth>		
+        <BleServerDisable>蓝牙服务开启失败</BleServerDisable>	
+        <ReStartBluetooth>重启蓝牙服务</ReStartBluetooth>
+        <AppScanTip>打开 AYA Space APP 扫一扫 绑定设备</AppScanTip>
+        <ZoomQRCode>点击放大二维码</ZoomQRCode>		
+    </BindBluetooth>
+	
+	<FirmwareUpgrade>
+		<FirmwareUpgradeTitle>手柄固件升级</FirmwareUpgradeTitle>
+		<FirmwareUpgradeDesc>新的手柄固件已经下载完成，请按下图指引升级手柄固件。</FirmwareUpgradeDesc>
+		<ShutDown>1、关机</ShutDown>
+		<Press>2、&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;长按LS&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt; 开机，进入系统后 启动AYASpace。</Press>
+		<BtnA>确认，执行关机</BtnA>
+		<BtnB>稍后再试</BtnB>
+		<BtnX>跳过本次更新</BtnX>
+		<ReadyTitle>手柄固件升级</ReadyTitle>
+		<ReadyDesc>正在准备手柄固件升级，请不要操作按键，耐心等待。</ReadyDesc>
+		<UpTitle>升级中…</UpTitle>
+		<UpDesc>正在升级手柄固件，请稍后，升级过程中请不要操作按键、 关机、休眠。</UpDesc>
+		<FailTitle>升级失败</FailTitle>
+		<FailDesc>&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;未能在本地找到更新版本的固件，请使用&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;设置 - 更新&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt; 查看是否有更新的固件</FailDesc>
+		<SuccessTitle>升级完成</SuccessTitle>
+		<SuccessDesc>手柄固件升级已经完成，你的 AYANEO 拥有了更加优秀的体验。</SuccessDesc>
+		<Off>关闭</Off>
+		<Restart>重启激活手柄</Restart>
+	</FirmwareUpgrade>
+	<GmaeStrategy>
+		<Strategy>游戏攻略</Strategy>
+		<No>暂无</No>
+		<AskForRaides>求攻略</AskForRaides>
+		<StrategyNum>个攻略</StrategyNum>
+		<Check>查看</Check>
+	</GmaeStrategy>
+</Root>

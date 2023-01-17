@@ -1,0 +1,1238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root disp="한국어">
+    <!-- 导航栏 -->
+    <NavBar>
+        <Home>홈 화면</Home>
+        <Game>게임 라이브러리</Game>
+        <Asst>게임 도우미</Asst>
+        <QuitConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#C14D4E&quot;&gt;AYASpace를 나가겠습니까?&lt;/font&gt;&lt;/p&gt;</QuitConfirm>
+    </NavBar>
+
+    <DisplayChangedTip>
+        <KeyA>다시 시작</KeyA>
+        <KeyB>무시</KeyB>
+        <QuitConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;#C14D4E&quot;&gt;AYASpace의 사용자 경험을 보장하기 위해 &lt;/br&gt;은 해상도를 전환한 후 소프트웨어를 다시 시작해야 합니다.&lt;/font&gt;&lt;/p&gt;</QuitConfirm>
+    </DisplayChangedTip>
+
+    <KeyboardCheckTip>
+        <KeyA>재시작</KeyA>
+        <ConfirmText>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;#C14D4E&quot;&gt;드라이버 업데이터가 설치되었으며 &lt;/br&gt;전체 기능을 사용하려면 장치를 다시 시작해야 합니다.&lt;/font&gt;&lt;/p&gt;</ConfirmText>
+    </KeyboardCheckTip>
+
+    <!-- 底部状态栏 -->
+    <BottomBar>
+        <FirstUse>
+            <KeyDpad>선택</KeyDpad>
+            <KeyA>결정</KeyA>
+            <KeyB>취소</KeyB>
+        </FirstUse>
+        <Home>
+            <KeyDpad>선택</KeyDpad>
+            <KeyA>결정</KeyA>
+            <KeyB>취소</KeyB>
+        </Home>
+        <Game>
+            <KeyA>확인</KeyA>
+            <KeyB>취소</KeyB>
+            <KeyR3>필터</KeyR3>
+            <KeyStart>관리</KeyStart>
+            <Move>이동</Move>
+        </Game>
+        <Asst>
+            <KeyDpad>선택</KeyDpad>
+            <KeyA>결정</KeyA>
+            <KeyB>취소</KeyB>
+            <Replace>바꾸다</Replace>
+            <Remove>제거하다</Remove>
+            <Back>반품</Back>
+        </Asst>
+    </BottomBar>
+
+    <!-- 状态栏 -->
+    <StatusBar>
+        <ExpandTitle>확대</ExpandTitle>
+        <GameLaunch>
+            <Launch>&lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;launching&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;seconds&lt;/font&gt;&lt;/p&gt;</Launch>
+            <Run>&lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;running&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;seconds&lt;/font&gt;&lt;/p&gt;</Run>
+            <KeySelect>선택</KeySelect>
+            <KeyX>닫기</KeyX>
+            <KeyA>계속</KeyA>
+            <ReadyToStart>시작 준비 중</ReadyToStart>
+            <Later>나중</Later>
+            <Close>닫다</Close>
+            <ExitTheGame>출구</ExitTheGame>
+            <ContinueTheGame>계속하다</ContinueTheGame>
+            <SwitchHomePage>홈페이지</SwitchHomePage>
+            <GameFail>게임이 성공적으로 실행되지 않았습니다. 게임 런처를 확인하세요.</GameFail>
+            <Press>누르다</Press>
+            <OpenTheExe>런처 열기</OpenTheExe>
+            <Decs>게임을 즐기세요</Decs>
+            <Running>게임 실행</Running>
+            <PutAway>선택</PutAway>
+            <MasterHandle>마스터 컨트롤러</MasterHandle>
+        </GameLaunch>
+        <DownLoad>
+            <Title>다운로드 목록</Title>
+            <ProgressTitle>다운로드 중</ProgressTitle>
+            <KeySelect>선택</KeySelect>
+            <KeyX>재시도</KeyX>
+        </DownLoad>
+        <GameScan>
+            <StartScan>게임 스캔중 ... </StartScan>
+            <LocalDir>로컬 게임 폴더를 스캔합니다</LocalDir>
+            <ImportSteamGames>스팀게임을 스캔합니다.</ImportSteamGames>
+            <ImportXboxPlayedGames>실행한 xbox 게임을 스캔합니다</ImportXboxPlayedGames>
+            <ImportXboxUwpGames>설치된 xbox 게임을 스캔합니다</ImportXboxUwpGames>
+            <LocalGameFinishScan>설치된 게임 스캔이 완료되었습니다</LocalGameFinishScan>
+            <FinishScan>%s 게임 스캔이 완료되었습니다</FinishScan>
+            <LocalProgress>로컬 게임 %s (%d/%d)</LocalProgress>
+            <SteamOwnedProgress>소유한 스팀게임 %s (%d/%d)</SteamOwnedProgress>
+            <XboxPlayedProgress>실행한 xbox 게임 %s (%d/%d)</XboxPlayedProgress>
+            <XboxInstalledProgress>설치된 xbox 게임 %s (%d/%d)</XboxInstalledProgress>
+            <ScanResult>스캔 완료, 새 게임: %d, 알 수 없는 파일: %d</ScanResult>
+        </GameScan>
+        <ImageDownload>
+            <Title>게임 이미지 다운로드</Title>
+            <Library>라이브러리 사진</Library>
+            <ClearLogo>로고 삭제</ClearLogo>
+            <Bkgd>백그라운드 사진</Bkgd>
+        </ImageDownload>
+        <GameSync>
+            <StartGameSync>게임 데이터 동기화 ... </StartGameSync>
+        </GameSync>
+    </StatusBar>
+
+    <!-- 黏贴提示栏 -->
+    <SnackBar>
+        <OkTitle>결정</OkTitle>
+        <CancelTitle>취소</CancelTitle>
+    </SnackBar>
+
+    <!-- 小工具 -->
+    <TinyTool>
+        <AyaJoyStick>
+            <Enable>AYANEO 조이스틱의 활성화가 성공했습니다</Enable>
+            <DisableStart>AYANEO 조이스틱 비활성화 ...</DisableStart>
+            <DisableFinish>AYANEO 조이스틱 비활성화가 성공했습니다</DisableFinish>
+        </AyaJoyStick>
+    </TinyTool>
+
+    <!-- 首次使用页 -->
+    <FirstUse>
+	<StepOne>
+		<Title>첫 만남</Title>
+		<LongPress>누르다</LongPress>
+		<Next>부팅 건너뛰기</Next>
+		<NextStep>다음 단계</NextStep>
+		<TextOne>여보세요! 아야네오 선수들</TextOne>
+		<TextTwo>AYA Space는 전용 PC 핸드헬드 게임 콘텐츠 관리 소프트웨어입니다.</TextTwo>
+		<TextThree>아직 익숙하지 않을 수도 있습니다. 걱정하지 말고 간단한 설정을 함께 합시다.</TextThree>
+		<Close>폐쇄</Close>
+		<PreviousVersion>이전 버전</PreviousVersion>
+		<UpdateContent>콘텐츠 업데이트</UpdateContent>
+	</StepOne>
+	<StepTwo>
+		<Title>게임 관리 및 게임 플랫폼</Title>
+		<LongPress>누르다</LongPress>
+		<Next>부팅 건너뛰기</Next>
+		<NextStep>다음으로 선택한 게임 플랫폼을 다운로드합니다.</NextStep>
+		<Press>에</Press>
+		<Mark>표시</Mark>
+		<Selected>선택된</Selected>
+		<Piece>조각</Piece>
+		<TextOne>우리는 이미 지역 게임 정보를 정리하는 데 도움을 주고 있습니다.</TextOne>
+		<TextTwo>로컬 게임 스캔</TextTwo>
+		<TextThree>아직 설치해야 하는 게임 플랫폼이 있는 경우 오른쪽에서 선택할 수 있으며 다운로드를 도와드리겠습니다.</TextThree>
+	</StepTwo>
+	<StepThree>
+		<Title>최종 작업을 마치고</Title>
+		<LongPress>누르다</LongPress>
+		<Next>부팅 건너뛰기</Next>
+		<Switch>스위치</Switch>
+		<Finish>마치다</Finish>
+		<TextOne>AYA Space가 마지막 준비를 하고 있습니다.</TextOne>
+		<TextTwo>로컬 게임 스캔</TextTwo>
+		<TextThree>최적화 시작</TextThree>
+		<TextFour>잠시만요, 재미있는 게임 경험이 있을 것입니다.</TextFour>
+	</StepThree>
+	<StepFour>
+		<Title>최종 작업을 마치고</Title>
+		<Switch>스위치</Switch>
+		<Finish>마치다</Finish>
+		<TextOne>재미있는 게임을 하러 가세요!</TextOne>
+		<TextTwo>로컬 게임 스캔</TextTwo>
+		<TextThree>최적화 시작</TextThree>
+		<TextFour>초보자 가이드 완료</TextFour>
+	</StepFour>
+        <Title>환영합니다. ~ AyaSpace의 설정을 시작합니다.</Title>
+        <QuickAsst>간편 제어판</QuickAsst>
+        <ChoicePlat>
+            <Title>게임을 설치해 주십시요</Title>
+            <BtnInstallTitle>원스탑 설치</BtnInstallTitle>
+            <BtnInstallTips>총 %d 소프트웨어</BtnInstallTips>
+            <FinishTitle>완료</FinishTitle>
+            <LongPress>누르고 계세요</LongPress>
+            <Next>스킵</Next>
+        </ChoicePlat>
+
+        <CardGameScan>
+            <Title>자동 스캔, 자동 불러오기</Title>
+            <GameTips>총 찾은 %d 게임</GameTips>
+            <ButtonA>다음 단계로</ButtonA>
+            <NotArrivedTitle>불러오지 못했습니다</NotArrivedTitle>
+            <FinishTitle>완료되었습니다</FinishTitle>
+        </CardGameScan>
+
+        <CardStep3>
+            <NotArrivedTitle>불러오지 못했습니다</NotArrivedTitle>
+            <FinishTitle>완료되었습니다</FinishTitle>
+        </CardStep3>
+    </FirstUse>
+
+    <!-- 首页 -->
+    <Home>
+        <LastPlay>지난 기록</LastPlay>
+        <QuickAsst>AYA 어시스턴트 빠른 설정</QuickAsst>
+
+        <!-- 游戏收集卡片 -->
+        <GameCollect>게임</GameCollect>
+
+        <!-- 随机玩玩卡片 -->
+        <RandomPlay>
+            <Title>랜덤&#x000A;재생</Title>
+            <NoInstallGame>설치된 게임이 없습니다</NoInstallGame>
+        </RandomPlay>
+
+        <!-- 一键升级卡片 -->
+        <OneClickUpdate>
+            <DriverUpdate>드라이버 업데이트</DriverUpdate>
+            <Title>원클릭 업데이트</Title>
+            <Tips>와우!&#x000A;업데이트가 완료되었습니다</Tips>
+            <NoUpdateTip>최신 소프트웨어가 설치되어 있습니다</NoUpdateTip>
+            <BtnTitle>업데이트 확인</BtnTitle>
+            <GoGames>게임으로 돌아가기</GoGames>
+        </OneClickUpdate>
+
+        <CardHome>
+            <CommSoftBar>
+                <Title>자주 쓰는&#x000A;Apps</Title>
+                <NoSelectedTitle>추가 파일이 없습니다</NoSelectedTitle>
+            </CommSoftBar>
+
+            <BatteryCharge>
+                <Quick>스마트</Quick>
+                <Preserve>예비모드</Preserve>
+            </BatteryCharge>
+
+            <PadVibration>
+                <PowerTitle>최대</PowerTitle>
+                <Gentle>가벼움</Gentle>
+                <Violent>강하게</Violent>
+                <Off>끄기</Off>
+                <Low>낮은</Low>
+                <Middle>가운데</Middle>
+                <High>높은</High>
+            </PadVibration>
+
+            <Cpu>
+                <Game>게임 모드</Game>
+                <Balance>밸런스 모드</Balance>
+                <PowerSaving>절전 모드</PowerSaving>
+                <Custom>커스텀모드</Custom>
+                <Pro>Pro 모드</Pro>
+                <Setup>설정</Setup>
+                <CustomTDP>커스텀 TDP</CustomTDP>
+            </Cpu>
+
+            <Fan>
+                <ProTitle>Pro</ProTitle>
+                <WildTitle>MAX</WildTitle>
+                <SmartTitle>LOW</SmartTitle>
+                <MidTitle>MID</MidTitle>	
+                <Wild>와일드</Wild>
+                <Smart>절전</Smart>
+                <Excellent>엑셀런트</Excellent>
+                <Balanced>밸런스</Balanced>					
+            </Fan>
+
+            <Clean>
+                <Title>최적화</Title>
+                <Succ>최적화에 성공했습니다</Succ>
+            </Clean>
+
+            <Ota>
+                <Title>OTA 게임 설정&#x000A;최적의 게임 환경을 유지하세요</Title>
+            </Ota>
+
+            <Explore>
+                <Title>좀더 검색</Title>
+            </Explore>
+
+            <WidgetPowerLevel>
+                <CurPowerTitle>현재 %0.1f W</CurPowerTitle>
+            </WidgetPowerLevel>
+
+            <Update>
+                <NoUpdateTitle>재검색</NoUpdateTitle>
+                <UpdateTitle>업데이트</UpdateTitle>
+            </Update>
+
+            <TinyTool>
+                <CustomTitle>설정하기</CustomTitle>
+            </TinyTool>
+        </CardHome>
+    </Home>
+
+    <Game>
+        <Title1>카레가 좀 비어보인다</Title1>
+        <Title2>우리가 당신을 위해 디자인 한 것을 시도해보십시오.</Title2>
+        <EasyToUse>사용이 매우 간편함</EasyToUse>
+        <GameMgr> 게임 관리 </GameMgr>
+        <Function>기능?</Function>
+        <PressTitle>~에 따르면</PressTitle>
+        <ButtonBTitle>관리 게임 시작</ButtonBTitle>
+        <RemoveAll>제거하다x000A;모두</RemoveAll>
+        <QuickSearch>
+            <KeySelect>빠른찾기</KeySelect>
+            <KeySwitch>전환</KeySwitch>
+            <KeyPutAway>접기</KeyPutAway>
+            <FirstWord>이니셜</FirstWord>
+            <Label>태그</Label>
+            <Platform>플랫폼</Platform>
+        </QuickSearch>
+        <Sort>
+            <DisplayColNumber>열 수 표시</DisplayColNumber>
+            <DisplayOrder>디스플레이 순서</DisplayOrder>
+            <PlayTime>플레이 시간</PlayTime>
+            <StorageTime>보관기간에 따라</StorageTime>
+            <GameName>게임명으로</GameName>
+            <Ascending>오름차순</Ascending>
+            <Descending>내림차순</Descending>
+            <Back>반품</Back>
+        </Sort>
+        <InstructionsAndRemindersContent>
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;&lt;/br&gt;로컬 게임 라이브러리 데이터를 AYANEO 서버와 동기화하는 자동 게임 라이브러리&lt;/br&gt;&lt;br&gt;동기화 기능을 활성화할 준비를 하고 있습니다. 귀하의 개인 데이터베이스에서 데이터 &lt;/br&gt;&lt;br&gt;사용 및 동기화 기능을 위해 귀하의 동의가 필요합니다. 자세히 읽어보십시오.&lt;/br&gt;&lt;br&gt;&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; "소프트웨어 라이센스 계약" 및 "개인 정보 보호 정책"&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;, 기능을 켜는 것은 귀하가 당사의 &lt;/br&gt;&lt;br&gt;관련 정책을 이해하고 알고 있음을 의미합니다.&lt;/br&gt;&lt;/font&gt;
+        </InstructionsAndRemindersContent>	
+    </Game>
+
+    <!-- 游戏助手页 -->
+    <Asst>
+        <LeftHelper>게임 도우미</LeftHelper>
+        <MiddleConfig>기능 설정</MiddleConfig>
+        <RightQuick>간편 제어판</RightQuick>
+
+        <!-- 平台管理 -->
+        <CardPlat>
+            <KeyX>설치된 게임을 숨김</KeyX>
+            <KeyX2>설치된 게임을 보여줌</KeyX2>
+            <KeyY>일반 사용을 취소</KeyY>
+            <BtnInstall>원스탑 설치</BtnInstall>
+            <InstallStatus>설치됨</InstallStatus>
+        </CardPlat>
+
+        <AppletEntrance>
+            <Title>지원 센터</Title>
+            <Market>응용 시장</Market>
+            <Installed>설치되었습니다</Installed>
+            <Newest>최근 업데이트됨</Newest>
+	    <Shared>공유</Shared>
+            <Total>총</Total>
+            <Open>열려있는</Open>
+            <Install>설치하다</Install>
+            <Download>다운로드</Download>
+            <Renew>고쳐 쓰다</Renew>
+            <Ison>활성화</Ison>
+            <Isoff>활성화되지 않음</Isoff>
+            <RenewAll>모두 업데이트</RenewAll>
+            <Manage>관리하다</Manage>
+            <TurnOn>켜다</TurnOn>
+            <ReleaseDesc>릴리스 설명</ReleaseDesc>
+            <UseDesc>사용 설명</UseDesc>
+            <More>More</More>
+            <Version>Version</Version>
+            <Applet>애플릿</Applet>
+            <Apply>적용</Apply>
+        </AppletEntrance>
+		
+        <AppletConfig>
+            <Config>구성</Config>
+            <Control>제어 구성</Control>
+            <Library>라이브러리 구성</Library>
+            <Applet>애플릿 구성</Applet>
+            <Style>스타일</Style>
+            <LongPress>누르기</LongPress>
+            <Close>폐쇄</Close>
+            <Enable>켜다</Enable>
+            <Disable>장애가있는</Disable>
+            <UnInstall>제거</UnInstall>
+        </AppletConfig>
+        
+        <SoftwareCenter>
+            <Title>소프트웨어 센터</Title>
+            <Total>총</Total>
+            <Application>개 프로그램</Application>
+            <Disk>디스크</Disk>
+            <HideSystemSoft>시스템 소프트웨어를 숨김</HideSystemSoft>
+	    <Installed>설치 완료</Installed>
+        </SoftwareCenter>
+
+        <CardMasterPad>
+            <Title>마스터 제어기</Title>
+            <Comment>뛰어난 컨트롤</Comment>
+            <Config>조작 방식 구성</Config>
+        </CardMasterPad>
+
+        <CardMaster>
+            <NewUpdateTitle>조이스틱 보정 추가 설명 #Update</NewUpdateTitle>
+            <ExploreAya>EVO-아야네오 구성하기</ExploreAya>
+            <PalyAya>How to unleash the unlimited potential of &#x000A;AYANEO&#x000A;</PalyAya>
+            <GameScreenshots>게임 스샷</GameScreenshots>
+            <GameMoments>멋진 게임 순간을 유지하십시오</GameMoments>
+            <KnowMore>더 알아보기</KnowMore>
+            <Help>QA</Help>
+        </CardMaster>
+
+        <CardTinyTool>
+            <Title>홈페이지 제어</Title>
+            <QuickTool>aya 퀵툴 설정</QuickTool>
+            <CommTool>Quicktool 일반 제어</CommTool>
+            <Fold>폴드</Fold>
+            <CommonlyUsed>자주 쓰는</CommonlyUsed>
+        </CardTinyTool>
+
+        <CardController>
+            <Title>컨트롤러&#x000A;도우미</Title>
+            <Connected>현재 연결됨</Connected>
+            <Switch1P>1P로 전환</Switch1P>
+            <More>더 알아보기</More>
+        </CardController>
+
+        <CardFeedBack>
+            <Title>무엇을 원하십니까?&#x000A;연락해 주세요&#x000A;제발</Title>
+        </CardFeedBack>
+
+        <CardAsst>
+            <GameToolsTitle>게임툴</GameToolsTitle>
+            <SystemToolsTitle>시스템툴</SystemToolsTitle>
+
+            <Fan>
+                <Wild>와일드</Wild>
+                <Smart>절전</Smart>
+            </Fan>
+        </CardAsst>
+    </Asst>
+
+    <!-- 快设小窗 -->
+    <PopAsst>
+        <PopAsstTitleBar>
+            <Title>AYAQuickTool</Title>
+        </PopAsstTitleBar>
+        <StatusBar>
+            <NormalApply>설정이 적용되었습니다</NormalApply>
+            <Disable>비활성화됨</Disable>
+            <Enable>활성화됨</Enable>
+            <ScreenshotSucc>스크린샷 성공</ScreenshotSucc>
+            <FsrTips>3 초 후 FSR로 맨 앞 창 크기 조정</FsrTips>
+            <Prossimamente>출시 예정</Prossimamente>
+        </StatusBar>
+        <CommSoftBar>
+            <Title>홈페이지의 일반앱을 사용하세요</Title>
+        </CommSoftBar>
+		<SystemMonitor>
+			<Gpu>GPU</Gpu>
+			<ThreeA>3A</ThreeA>
+			<Auto>자동</Auto>
+			<BatteryLife>절전</BatteryLife>
+			<Reboot>적용하려면 컴퓨터를 다시 시작해야 합니다.</Reboot>
+			<BtnX>취소</BtnX>
+			<BtnA>재부팅</BtnA>
+		</SystemMonitor>
+    </PopAsst>
+
+    <PopSettings>
+        <Account>계정 보안</Account>
+        <StartUp>업데이트</StartUp>
+        <Data>자료 설치</Data>
+        <Sync>연동 관리</Sync>
+        <Device>기기 정보</Device>
+        <Language>언어와 맞춤화</Language>
+        <Founders>최초 유저</Founders>
+        <OpenSources>제3자 라이브러리</OpenSources>
+        <Minimize>최소화</Minimize>
+        <Sleep>기기 닫기</Sleep>
+        <ClientVersionChina>Goto China</ClientVersionChina>
+        <ClientVersionGlobal>글로벌 버전 전환</ClientVersionGlobal>
+        <SleepConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;확인&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;#C14D4E&quot;&gt;슬립모드로 가겠습니까？&lt;/font&gt;&lt;/p&gt;</SleepConfirm>
+        <Quit>나가기</Quit>
+        <SystemSetting>시스템 설정</SystemSetting>
+
+        <PropertyMain>
+            <Account>계정&#x000A;보안</Account>
+            <StartUp>켜기과 업데이트</StartUp>
+            <Data>설치&#x000A;데이타</Data>
+            <Sync>동기화&#x000A;</Sync>
+            <Device>기기&#x000A;정보</Device>
+            <Language>언어와 맞춤화</Language>
+            <TitleGameData>게임&#x000A;데이터</TitleGameData>
+        </PropertyMain>
+
+        <PropertyUpdate>
+            <TitleUpdate>시스템 업데이트</TitleUpdate>
+            <Loading>온라인으로 업데이트를 체크합니다....</Loading>
+            <NoUpdate>업데이트 없음</NoUpdate>
+            <TitleButtonDpad>이동하다</TitleButtonDpad>
+            <TitleButtonStart>모두 업데이트</TitleButtonStart>
+            <TitleButtonA>모두 업데이트</TitleButtonA>
+            <TitleButtonB>뒤로가기</TitleButtonB>
+            <BtnCheckTitle>업데이트 체크</BtnCheckTitle>
+            <Retry>다시 해 보다</Retry>
+            <RetryTitle>다시 해 보다</RetryTitle>
+            <Finish>마치다</Finish>
+            <updateItems>%d 업데이트</updateItems>
+            <updateFailItems>%d 실패한</updateFailItems>
+            <WattingDownload>다운로드 대기 중...</WattingDownload>
+            <DownloadingTip>다운로드 중입니다. 잠시만 기다려 주십시오.</DownloadingTip>
+            <UpdateCloseTip>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;red&quot;&gt;드라이버를 업데이트하는 중입니다. 정말로 닫으시겠습니까??&lt;/font&gt;&lt;/p&gt;</UpdateCloseTip>
+            <Fail>업데이트가 실패</Fail>
+            <Updating>업데이트</Updating>
+            <Installing>설치..</Installing>
+            <ManualInstallation>설치 참고 사항</ManualInstallation>
+            <Restart>다시 시작하여 적용</Restart>
+            <RestartNow>재시작</RestartNow>
+            <PromemoriaImportante>중요한 알림</PromemoriaImportante>
+            <PleaseWait>기다리세요</PleaseWait>
+            <UpdateFinish>업데이트가 완료되었습니다. 다시 시작하세요.</UpdateFinish>
+            <UpdateFail>업데이트에 실패했습니다. 다시 시도해 주세요.</UpdateFail>
+            <UpdateTipTitle>&lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;AYANEO의 BIOS 버전을 업그레이드하는 중입니다. 호스트가 켜져 있고 전원에 연결 되어 &lt;br&gt;있는지 확인하십시오.&lt;/br&gt;&lt;/font&gt;&lt;br&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;업그레이드 과정에서&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;전원을 끄거나 절전 모드로 전환하거나 소프트웨어를 닫지 마십시오.&lt;/font&gt;&lt;/br&gt;&lt;br&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;업그레이드가 완료된 후 프롬프트를 따릅니다.&lt;/font&gt;&lt;/br&gt;</UpdateTipTitle>
+            <Soft>소프트웨어</Soft>
+            <Driver>펌웨어 드라이브</Driver>
+            <Config>설정 파일</Config>
+            <Bios>Blos</Bios>
+            <TitleStartUp>시작</TitleStartUp>
+            <StartUp>기기 켜기</StartUp>
+            <MouseMode>마우스 모드</MouseMode>
+            <Overlay>Overlay</Overlay>
+            <Hide>HideFeature</Hide>
+            <DebugConsole>Debug Console</DebugConsole>
+            <FullScreen>풀 스크린</FullScreen>
+            <GameSync>게임 데이터 동기화</GameSync>
+            <Admin>관리자</Admin>
+            <TitleBeta>베타테스트</TitleBeta>
+            <WaitMore>곧 시작합니다</WaitMore>
+            <LaunchOpt>
+                <Title>켜기 최적화</Title>
+                <Look>확인하다</Look>
+                <Open>켜다</Open>
+                <DisableFullScreen>풀 스크린 최적화 사용 금지</DisableFullScreen>
+                <GPUScaling>GPU 스케일링 켜기</GPUScaling>
+                <UsbSuspend>USB 선택적 중단 사용 금지</UsbSuspend>
+                <OskReplace>OSK 교체</OskReplace>
+                <HighPower>우수한 성능</HighPower>
+                <EmptyClipboard>클립보드 비우기</EmptyClipboard>
+                <EngKeyboardLayout>영문 입력으로 전환</EngKeyboardLayout>
+            </LaunchOpt>
+        </PropertyUpdate>
+
+        <PropertyAccountSafety>
+            <Title>계정 보안</Title>
+            <SetPassword>암호를 설정하세요</SetPassword>
+	    <Name>명칭</Name>
+	    <Phone>폰번호</Phone>
+	    <Avatar>아바타</Avatar>
+            <Exit>로그아웃</Exit>
+            <ExitTip>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;red&quot;&gt;로그아웃을 하겠습니까?&lt;/font&gt;&lt;/p&gt;</ExitTip>
+	    <Web>&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;개인정보 설정으로 이동하는 것을 권장합니다. &lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;https://ayaneo.com/user</Web>
+        </PropertyAccountSafety>
+
+        <PropertyData>
+            <TitleGameData>게임데이터</TitleGameData>
+            <Image>이미지</Image>
+            <Video>비디오</Video>
+            <TitlePackage>게임이나 펌웨어를 설치하세요</TitlePackage>
+            <Soft>설치 파일</Soft>
+            <Firmware>펌웨어</Firmware>
+            <Clean>삭제</Clean>
+        </PropertyData>
+
+        <PropertyDevice>
+            <Family>기종: </Family>
+            <Sku>모델: </Sku>
+            <SerialNumber>시리얼넘버: </SerialNumber>
+            <BiosVersion>바이오스 버전: </BiosVersion>
+            <EcFirmwareVersion>Ec 펌웨어 버전: </EcFirmwareVersion>
+            <AoutDevice>기기</AoutDevice>
+        </PropertyDevice>
+
+        <PropertySync>
+            <Config>설정 파일 동기화</Config>
+            <GameList>게임 리스트 동기화</GameList>
+            <LastSyncTime>최종 동기화 시간</LastSyncTime>
+            <BtnSteam>Steam 바인딩 대기</BtnSteam>
+            <BtnSteamFinish>스팀 동기화</BtnSteamFinish>
+            <BtnSteamSave>세이브</BtnSteamSave>
+            <SteamInvalidId>스팀계정을 찾울수가 없습니다, 스팀프로그램이 설치되지 않은것 같습니다</SteamInvalidId>
+            <SteamInvalidKey>appkey가 없습니다.</SteamInvalidKey>
+            <SteamTestFailed>appkey 테스트가 실패하였습니다,올바른 appkey를 입력해 주세요.</SteamTestFailed>
+            <BtnXbox>Xbox 바인딩 대기</BtnXbox>
+            <BtnXboxFinish>연동된 %s</BtnXboxFinish>
+            <BrowserToolbarTitle>AYANEO 동기화 매니저</BrowserToolbarTitle>
+	    <WhetherToUnbindXbox>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;Xbox 계정 연결 해제 여부? &lt;/font&gt;&lt;/p&gt;</WhetherToUnbindXbox>
+	    <WhetherToUnbindSteam>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;Steam 계정을 바인딩 해제할지 여부? &lt;/font&gt;&lt;/p&gt;</WhetherToUnbindSteam>
+	    <LongPress>길게 눌러 바인딩 해제</LongPress>
+        </PropertySync>
+
+        <PropertyLanguage>
+            <Title>언어 선택 및 맞춤화 설정 후 【적용】 실행 시 소프트웨어가 재부팅되며 해당 변경이 적용됩니다.</Title>
+            <Classic>클래식</Classic>
+            <BlackWhite>화이트/블랙</BlackWhite>
+            <Execute>세이브</Execute>
+        </PropertyLanguage>
+
+        <PopBindEmail>
+            <Title>AYANEO 계정 바인딩</Title>
+            <BindDesc>묶다 AYA ID &#x000A;게임 공간을 즐기십시오</BindDesc>
+            <Bind>묶다</Bind>
+            <InputEmailTip>이메일을 입력하세요</InputEmailTip>
+            <InputCodeTip>인증 코드를 입력하십시오</InputCodeTip>
+            <InputAreaTip>지역번호를 입력해주세요</InputAreaTip>
+            <InputPhoneTip>휴대폰 번호를 입력해주세요</InputPhoneTip>
+        </PopBindEmail>
+
+    </PopSettings>
+
+    <PopGameMgr>
+        <Title>게임관리</Title>
+        <BtnControls>
+            <EmptyDesc>데이터 없음</EmptyDesc>
+        </BtnControls>
+        <PropertyGameMgr>
+            <Title1>개인 게임 라이브러리를 소유하고</Title1>
+            <Title2>최고의 게임 관리 기능을 맛보세요</Title2>
+            <BtnAdd>
+                <Title>게임추가</Title>
+            </BtnAdd>
+            <BtnRemove>
+                <Title>게임 설치제거</Title>
+                <Desc>게임</Desc>
+            </BtnRemove>
+            <BtnUnknow>
+                <Title>미확인 파일</Title>
+                <Desc>이게임을 좋아합니다</Desc>
+            </BtnUnknow>
+            <BtnShowHide>
+              <Show>전체보기</Show>
+              <Hide>숨겨진 항목</Hide>
+            </BtnShowHide>
+        </PropertyGameMgr>
+
+        <PropertyGameMgrAdd>
+            <Title>새게임 추가</Title>
+            <BtnScan>
+                <Title>게임 스캔</Title>
+                <Desc>새게임</Desc>
+            </BtnScan>
+            <BtnManual>
+                <Title>수동 추가</Title>
+            </BtnManual>
+            <BtnPlat>
+                <Title>플랫폼과 연동</Title>
+                <BindedWords>연동됨</BindedWords>
+            </BtnPlat>
+        </PropertyGameMgrAdd>
+
+        <PropertyGameMgrUnInstall>
+            <Title>삭제를 원하는 게임에 체크해 주세요</Title>
+            <MarkTitle>체크</MarkTitle>
+            <DeleteTitle>누르기 지속시 삭제</DeleteTitle>
+            <FormatGameCount>총 선택된 %d 게임</FormatGameCount>
+            <SelectCount>총 선택된</SelectCount>
+            <Games>게임</Games>
+            <TimerContent>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;6&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;Seconds&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;설치제거를 수행중&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#ACC3CD&quot;&gt;취소하려면 버튼에서 손을 떼주십시요&lt;/font&gt;&lt;/p&gt;</TimerContent>
+            <Loading>게임 디렉토리 삭제중。。。</Loading>
+            <Finish>성공적으로 삭제된 %d 게임 디렉토리</Finish>
+        </PropertyGameMgrUnInstall>
+
+        <PropertyGameMgrAddManual>
+            <Title>게임 스타트 파일을 선택해주세요</Title>
+            <CommDir>자주 사용되는 디렉토리</CommDir>
+            <GameFile>어떤 파일이 게임인가요?</GameFile>
+            <ButtonStart>디렉토리 추가</ButtonStart>
+            <ButtonA>게임 라이브러리 추가</ButtonA>
+            <ButtonY>실행해보기</ButtonY>
+            <RemoveDir>디렉토리 제거</RemoveDir>
+        </PropertyGameMgrAddManual>
+
+        <PropertyGameMgrUnknow>
+            <Title>어떤 파일이 게임인가요?</Title>
+            <FilePath>파일 경로</FilePath>
+            <ExcludeTitle>누르기 지속시 제외</ExcludeTitle>
+            <AddTitle>추가</AddTitle>
+            <TryRunTitle>실행시도</TryRunTitle>
+            <TimerContent>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;6&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;Seconds&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;모든 게임 제외&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#ACC3CD&quot;&gt;취소하려면 버튼에서 손을 떼주십시요&lt;/font&gt;&lt;/p&gt;</TimerContent>
+        </PropertyGameMgrUnknow>
+    </PopGameMgr>
+
+    <PopAppGrid>
+        <LoadingTitle>설치된 게임리스트를 불러옵니다...</LoadingTitle>
+        <ButtonXTitle>저장</ButtonXTitle>
+        <ButtonAdd>추가</ButtonAdd>
+        <ButtonCancel>취소</ButtonCancel>
+    </PopAppGrid>
+
+    <PopFileDialog>
+        <ButtonXTitle>저장</ButtonXTitle>
+        <ButtonXTitleDirectory>디렉토리 저장</ButtonXTitleDirectory>
+        <ButtonYTitle>이전 디렉토리</ButtonYTitle>
+        <ButtonATitle>입력</ButtonATitle>
+        <ButtonBTitle>닫기</ButtonBTitle>
+    </PopFileDialog>
+
+    <PopUserRegister>
+        <Title1>In AYASpace&#8482;</Title1>
+        <Title2>탐색·발견·충돌</Title2>
+        <Title3>당신의 게임 라이프</Title3>
+        <RegisterTitle>등록됨</RegisterTitle>
+        <RegisterTitle1>새로운 게임라이프의 시작</RegisterTitle1>
+        <AyaIdTitle>AYAid</AyaIdTitle>
+        <EmailTitle>Email</EmailTitle>
+        <CodeTiTle>코드</CodeTiTle>
+        <InputPhoneNumberTiTle>당신의 핸드폰번호</InputPhoneNumberTiTle>
+        <InputCodeTiTle>코드를 입력하세요</InputCodeTiTle>
+        <BtnSendCodeTitle>보내기</BtnSendCodeTitle>
+        <BtnResendTitle>재전송</BtnResendTitle>
+        <PressTitle>누르기</PressTitle>
+        <InputEmailTiTle>일반 이메일 주소 입력</InputEmailTiTle>
+        <EmailRegister>이메일 등록</EmailRegister>
+        <PhoneNumberRegister>휴대전화 등록</PhoneNumberRegister>
+        <Next>다음 단계</Next>
+        <Logining>로그인</Logining>
+        <CodeSendSucce>인증 코드 전송됨</CodeSendSucce>
+        <CodeSendError>인증 코드를 보내지 못했습니다. 다시 시도해 주세요!</CodeSendError>
+        <Countdown>인증 코드 새로고침 카운트다운</Countdown>
+        <VerificationCodeError>인증 코드 오류</VerificationCodeError>
+        <LoginFail>로그인 실패</LoginFail>
+        <InputCorrectPhoneNumberTiTle>유효한 전화 번호를 입력하세요</InputCorrectPhoneNumberTiTle>
+        <InputCorrectEmail>정확한 이메일 주소를 입력해주세요</InputCorrectEmail>
+        <NetWorkErrorTip>현재 네트워크에 연결되어 있지 않습니다. 네트워크 상태</NetWorkErrorTip>
+        <Go>가다</Go>
+	<Login>로그인/등록</Login>
+	<Or>또는</Or>
+	<Swich>비녀장</Swich>
+	<UnLogin>로그인하지 않았습니다</UnLogin>
+	<Association>협회</Association>
+	<SetUp>설정</SetUp>
+	<DataSynchronization>데이터 연동</DataSynchronization>
+	<LoginAccount>로그인</LoginAccount>
+	<LoginOut>로그 아웃</LoginOut>
+	<NotConnected>연결되지 않음</NotConnected>
+	<Connected>연결된</Connected>
+	<Appreciate>좋아요</Appreciate>
+	<ProtocolText6>&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;미등록 사용자는 로그인 후 자동으로 AYAid에 등록되며,&lt;br&gt;등록 및 로그인은 승인 및 수락을 의미합니다&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;「사용자 계약」&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt; 그리고&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;&lt;br&gt;「개인 정보 정책」&lt;/font&gt;</ProtocolText6>
+    </PopUserRegister>
+
+    <PopExploreAya>
+        <Front>앞으로</Front>
+        <Back>뒷면</Back>
+        <Vibration>
+            <Title>진동</Title>
+            <ButtonA>설정</ButtonA>
+            <ViolentAdjustTip>대부분의 AAA게임을 만족시킬 수 있는 진동감</ViolentAdjustTip>
+            <GentleAdjustTip>가볍고 부드러운 진동감으로 강한 진동감을 싫어하는 유저에게 적합</GentleAdjustTip>
+            <CustomAdjustTip>사용자 정의: 원하는 진동을 선택하십시오.</CustomAdjustTip>
+            <Violent>강함:</Violent>
+            <OffTip>끄기</OffTip>
+            <SaveSetting>설정저장</SaveSetting>
+        </Vibration>
+        <Resolution>
+            <Title>해상도</Title>
+            <ButtonA>설정</ButtonA>
+            <Desc>현재：%d*%d</Desc>
+        </Resolution>
+        <Fan>
+            <Title>펜속도</Title>
+            <ButtonA>설정</ButtonA>
+            <Desc>현재：%s</Desc>
+        </Fan>
+        <PowerLevel>
+            <Title>전력 모드</Title>
+            <ButtonA>설정</ButtonA>
+            <Desc>현재：%s</Desc>
+            <GameTitle>대부분의 3A게임 원할한 구동을 충족합니다</GameTitle>
+            <BalanceTitle>공장 사전 설정 밸런스 선택만으로 대부분의 새 게임을 충분히 즐길 수 있습니다</BalanceTitle>
+            <PowerSavingTitle>베터리 소모에 대한 문제를 해결해줍니다</PowerSavingTitle>
+            <CustomTitle>당신이 원하는 TDP를 설정하세요</CustomTitle>
+            <AdjustValue>설정값의 조정</AdjustValue>
+            <PowerUnlock>터놓다 15W TDP</PowerUnlock>
+            <UnlockPowerTips>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#%2x%2x%2x&quot;&gt;잠금 해제 여부 15W TDP？&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#%2x%2x%2x&quot;&gt;잠금을 해제하면 열과 소음이 증가합니다.&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#%2x%2x%2x&quot;&gt;잠금 해제는 이 부팅 시점에만 적용되며 재부팅 후 다시 잠금 해제해야 합니다.&lt;/font&gt;&lt;/p&gt;</UnlockPowerTips>
+        </PowerLevel>
+        <QuickKey>
+            <Title>빠른 시작</Title>
+            <QuickKey_Control>빠른 시작 제어</QuickKey_Control>
+            <text>원활한 Windows 조작, 다시 빠른 시작 가능</text>
+            <DescOn>현재: 켜짐</DescOn>
+            <DescOff>현재: 열리지 않음</DescOff>
+            <ButtonA>확인하다</ButtonA>
+            <On>켜다</On>
+            <Off>폐쇄</Off>
+            <ArrowUp>kb키</ArrowUp>
+            <ArrowLeft>다중 작업</ArrowLeft>
+            <ArrowDown>작업 관리자</ArrowDown>
+            <ArrowRight>스크린샷</ArrowRight>
+            <Gesture>빠른 제스처</Gesture>
+            <HoldDown>동시에 누르고</HoldDown>
+        </QuickKey>
+        <Joystick>
+            <BtnTitle>조이스틱/버튼</BtnTitle>
+            <BtnDesc>보정</BtnDesc>
+            <ButtonA>확인하다</ButtonA>
+            <Title>조이스틱/키 보정 설명</Title>
+            <Desc>조이스틱, LT/RT 반응이 떨어질 경우, 다음과 같이 조치하십시오.</Desc>
+            <StepText1_1>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;/font&gt;</StepText1_1>
+            <StepText1_2>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;를 동시에&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt; 2 &lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;초 동안 누르고&lt;/font&gt;</StepText1_2>
+            <StepText1_3>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;있다가 핸들 컨트롤러가 진동하면 버튼에서 손을 뗍니다.&lt;/font&gt;</StepText1_3>
+            <StepText2>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;RS 및 LS 듀얼 조이스틱이 완전히 한 바퀴 회전하고 LT/RT(듀얼 트리거 버튼)를 끝까지&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt; 3 회 누릅니다.&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;/font&gt;</StepText2>
+            <StepText3>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;보정이 완료되면 핸들 컨트롤러가 진동하고 피드백합니다.&lt;/font&gt;</StepText3>
+            <UpdateStep>&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;컨트롤러 펌웨어를 최신 버전으로 업그레이드 하십시오. 컨트롤러 펌웨어는 AYASpace를 통해 다운로드하고&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;&lt;u&gt;&lt;b&gt;"업그레이드 튜토리얼"&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;에 따라 업그레이드할 수 있습니다.&lt;/font&gt;</UpdateStep>
+            <AirStepText1>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;LB+RB+Dpad 좌측+B키를 동시에 클릭합니다.&lt;/font&gt;</AirStepText1>
+            <AirStepText2>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;조이스틱 컨트롤러가 진동하여 버튼을 놓으면&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt; LS RS &lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;가 최대 5바퀴 회전합니다.&lt;/font&gt;</AirStepText2>
+        </Joystick>
+        <CustomKey>
+            <BtnStart>저장&&적용</BtnStart>
+            <BtnA>확인</BtnA>
+            <BtnB>돌아가기</BtnB>
+			
+            <BtnTitle>키 사용자 정의</BtnTitle>
+            <BtnDesc>현재의:</BtnDesc>
+            <ButtonA>설정</ButtonA>
+            <Title>사용자 정의 버튼</Title>
+            <Desc>짧게 누름, 길게 누름, 원하는 대로</Desc>
+            <TipTop>사용자 정의 키는 AYASpace가 켜져 있을 때만 작동하며, 켜져 있지 않을 때 디폴트 키는 짧게 누름은 바탕화면 표시이고, 길게 누름은 작업 관리자입니다.</TipTop>
+            <TipBottom>향후 버전 업데이트에 따라 해당 모듈 기능은 변할 수 있으므로 최신 버전을 기준으로 하십시오.</TipBottom>
+            <PressTitle>개</PressTitle>
+            <HoldTitle>누르다</HoldTitle>
+            <DefaultInfo>기본</DefaultInfo>
+			
+			<FunCurrentFormat>&lt;center&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt;%s%&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;%s%&lt;/font&gt;&lt;center&gt;</FunCurrentFormat>
+            <FunCurrent>현재의</FunCurrent>
+            <FunShowDesk>바탕 화면 표시</FunShowDesk>
+            <FunScreenshot>스크린샷</FunScreenshot>
+            <FunCloseApp>프로그램 닫기</FunCloseApp>
+            <FunOsk>화상 키보드</FunOsk>
+            <FunEsc>ESC</FunEsc>
+            <FunOpenStream>Steam 열기</FunOpenStream>
+            <FunXbox>Xbox 가이드 버튼</FunXbox>
+            <FunTaskView>작업 보기</FunTaskView>
+            <FunTaskMgr>작업 관리자</FunTaskMgr>
+			
+            <FunShowDeskDesc>WIN + D 디스플레이 시스템 데스크탑과 동일합니다.</FunShowDeskDesc>
+            <FunScreenshotDesc>ayaspace 내부 탑재 스샷 기능 사용</FunScreenshotDesc>
+            <FunCloseAppDesc>현재 프로그램을 닫는 ALT+F4 조작과 동일합니다.</FunCloseAppDesc>
+            <FunOskDesc>OSK는 조정 후에 거의 사용할 수 없습니다.</FunOskDesc>
+            <FunEscDesc>키보드의 ESC 키.</FunEscDesc>
+            <FunOpenStreamDesc>Steam 소프트웨어를 빠르게 실행하십시오.</FunOpenStreamDesc>
+            <FunXboxDesc>Win + G의 기능과 동일하게 구성 후 xbox 도우미를 열 수 있습니다.</FunXboxDesc>
+            <FunTaskViewDesc>열려 있는 프로그램을 빠르게 보려면 Alt + TAB와 동일합니다.</FunTaskViewDesc>
+            <FunTaskMgrDesc>작업 관리자의 입구로 빠르게 들어가거나 소프트 종료 작업을 수행할 수 있습니다.</FunTaskMgrDesc>
+            <ShoulderKey>사용자 정의 숄더키 </ShoulderKey>
+            <ShoulderKeyTitle>작업 새로 고침에 대한 더 많은 가능성을 엽니다.</ShoulderKeyTitle>
+            <ShoulderKeyDesc>사용자 지정 어깨 키는 AYASpace가 시작될 때만 적용됩니다. 기본 키는 시작되지 않을 때 "LC"입니다. 짧게 누르기: OSK / 길게 누르기: 작업 관리자, "RC" 짧게 누르기: ESC / 길게 누르기: 작업 보기</ShoulderKeyDesc>
+            <AirCoustomKey>= 단추</AirCoustomKey>
+        </CustomKey>
+		<Reset>초기화</Reset>
+        <FreeButton>
+            <KeyDpad>선택</KeyDpad>
+            <BtnA>확인</BtnA>
+            <BtnB>취소</BtnB>
+			
+            <BtnTitle>무료 버튼</BtnTitle>
+            <BtnDesc>현재의： </BtnDesc>
+            <ButtonA>설정</ButtonA>
+			
+            <Title>무료 버튼</Title>
+            <Desc>버튼이 습관에 따라 바뀌도록 하십시오.</Desc>
+            <TipBottom>이 키 설정은 운영체제와 게임에 적용되며, AYASpace는 여전히 키 알림에 따라 조작됩니다.</TipBottom>
+			
+            <XYBA>A/B/X/Y</XYBA>
+            <LR>L/R</LR>
+            <Standard>기준</Standard>
+            <JapanStyle>일본식</JapanStyle>
+            <Swap>교환</Swap>
+			
+            <BtnConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#C14D4E&quot;&gt;버튼 구성 변경 여부?&lt;/font&gt;&lt;/p&gt;</BtnConfirm>
+        </FreeButton>
+		<HandleConnection>
+			<Title>터지다</Title>
+			<Desc>하나의 키 여러 명령, 게임이 더 쉽습니다.</Desc>
+			<Desc2>향후 버전 반복으로 이 모듈의 기능이 변경되므로 최신 버전을 참조하십시오.</Desc2>
+			<Off>OFF</Off>
+			<Semiautomatic>반자동</Semiautomatic>
+			<Automatic>완전 자동</Automatic>
+			<Current>현재의</Current>
+			<Reset>초기화</Reset>
+			<OffDesc>터지지 않음</OffDesc>
+			<SemiautomaticDesc>버튼 길게 누르기, 20 버스트/초</SemiautomaticDesc>
+			<AutomaticDesc>한 번 누르면 자동으로 파열되고 다시 누르면 중지됩니다.</AutomaticDesc>
+		</HandleConnection>
+	<RGB>
+		<Title>RGB 라이트 효과</Title>
+		<OpenRGB>라이트 효과 시작</OpenRGB>
+		<CloseRGB>조명 끄기</CloseRGB>
+		<Desc>현재의:</Desc>
+		<BtnStart>저장&&신청</BtnStart>
+		<CloseDesc>각종 짜릿한 조작 가능</CloseDesc>
+		<CloseDesc2>향후 버전 업데이트에 따라 해당 모듈 기능은 변할 수 있으므로 최신 버전을 기준으로 하십시오.</CloseDesc2>
+		<LoadPreset>프리셋 로딩</LoadPreset>
+		<Default>디폴트</Default>
+		<BreathMonochrome>단색 깜빡임</BreathMonochrome>
+		<BreatheRGBLoop>RGB 교차 깜빡임</BreatheRGBLoop>
+		<BreatheGoogle>google 깜빡임</BreatheGoogle>
+		<Scanning>스캐닝</Scanning>
+		<Ripple>물결무늬</Ripple>
+		<MonochromaticAlwaysOn>단색 항상 켜짐</MonochromaticAlwaysOn>
+		<Color>컬러</Color>
+		<Brightness>밝기</Brightness>
+		<Hex>16진수 색상 값 (Hex)</Hex>
+		<Customize>사용자 정의</Customize>
+		<Off>폐쇄</Off>
+		<LightsOut>야간 소등</LightsOut>
+		<Time>시간: 20:00~06:00</Time>
+	</RGB>
+    </PopExploreAya>
+
+    <PopGameBind>
+        <Title>현재 게임 데이터</Title>
+        <SearchTitle>검색</SearchTitle>
+        <AiTitle>지능형 검색</AiTitle>
+        <UnInstallTitle>설치제거</UnInstallTitle>
+        <RemoveRecordTitle>레코드 제거</RemoveRecordTitle>
+        <GameOpTitle>데이터</GameOpTitle>
+        <ButtonStartTitle>누르기 유지시 데이터 삭제</ButtonStartTitle>
+        <ClearTimerContent>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;6&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;seconds&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;제거를 수행&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#ACC3CD&quot;&gt;취소하려면 버튼에서 손을 떼십시요&lt;/font&gt;&lt;/p&gt;</ClearTimerContent>
+        <ClearContentFinish>데이터 삭제 완료</ClearContentFinish>
+        <Show>보이기</Show>
+        <Hide>감추기</Hide>
+        <UnInstall>
+            <OkTitle>지우기</OkTitle>
+            <Tips>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;white&quot;&gt;게임설치제거에 동의하십니까?&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#c14d4e&quot;&gt;이 작업을 수행하면 삭제됩니다: %s&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#c14d4e&quot;&gt;디렉토리의 모든파일의 삭제를 하시겠습니까?&lt;/font&gt;&lt;/p&gt;</Tips>
+            <Loading>게임 디렉토리 삭제중...</Loading>
+            <Finish>성공적으로 게임디렉토리가 삭제되었습니다</Finish>
+        </UnInstall>
+        <GameBindSearch>
+            <Title>검색</Title>
+            <SaveTitle>이 데이터를 게임 표시 데이터로 시용하시겠습니까?</SaveTitle>
+            <SaveTitle>이 데이터를 게임 표시 데이터로 시용하시겠습니까?</SaveTitle>
+            <ButtonBTitle>취소</ButtonBTitle>
+            <ButtonATitle>확정</ButtonATitle>
+            <ResultLeftWords>종</ResultLeftWords>
+            <ResultRightWords>게임 데이터 발견</ResultRightWords>
+            <SearchStart>검색중...</SearchStart>
+            <SearchFinish>완료</SearchFinish>
+            <SearchExist>최종 검색이 진행중 입니다. 조금만 기다려 주세요...</SearchExist>
+            <BackSpace>백스페이스</BackSpace>
+            <Space>스페이스</Space>
+            <LinkingGameInfoGameInfo>게임 정보 연결</LinkingGameInfoGameInfo>
+            <LinkingGameInfoFinish>성공적으로 연결된 게임 정보</LinkingGameInfoFinish>
+            <LinkingGameInfoFail>게임 정보를 연결하지 못했습니다.</LinkingGameInfoFail>
+            <HasBindedGame>이미 이 게임을 소유하고 있습니다</HasBindedGame>	
+            <UseGameInfoFinish>게임 정보 적용 성공</UseGameInfoFinish>
+            <UseGameInfoFail>게임 정보 적용 실패</UseGameInfoFail>			
+        </GameBindSearch>
+    </PopGameBind>
+
+    <SystemStatusDetails>
+        <Title>기기 상태</Title>
+        <Processor>프로세서</Processor>
+        <NetWork>네트워크</NetWork>
+        <Battery>배터리</Battery>
+        <Memory>메모리</Memory>
+        <VirtualMemory>가상 메모리</VirtualMemory>
+        <Fan>펜</Fan>
+        <FanSpeed>펜속도</FanSpeed>
+        <HardDisk>하드</HardDisk>
+        <LoadFactor>부하율</LoadFactor>
+        <UsageRate>사용율</UsageRate>
+        <LocalConnection>로컬연결</LocalConnection>
+        <Upload>업로드</Upload>
+        <Download>다운로드</Download>
+        <HardDiskSpaceInfo>%s/%s 사용됨</HardDiskSpaceInfo>
+        <Charging>충전중</Charging>
+        <Discharging>사용중</Discharging>
+        <ChargFinsh>충전완료</ChargFinsh>
+        <EstimatedRunTime>%d시간 %d분 동안 사용이 가능합니다</EstimatedRunTime>
+        <EstimatedRunTimeMin>%d분 동안 사용이 가능합니다</EstimatedRunTimeMin>
+        <TimeToFullCharge>%d시간 %d분 뒤에 충전이 완료됩니다</TimeToFullCharge>
+        <TimeMinToFullCharge>%d분 뒤에 충전이 완료됩니다</TimeMinToFullCharge>
+    </SystemStatusDetails>
+
+    <SystemConfigInfos>
+        <Title>설정 정보</Title>
+        <System>시스템</System>
+        <Version>Version:</Version>
+        <Cores>CoreCount:</Cores>
+        <Threads>Threads:</Threads>
+        <VideoMemory>VideoMemory:</VideoMemory>
+        <Motherboard>메인보드</Motherboard>
+        <Monitor>모니터</Monitor>
+        <Inch>Inch</Inch>
+        <HardDisk>하드</HardDisk>
+        <Capacity>Capacity</Capacity>
+        <DisplayFrequency>DisplayFrequency: %dHz</DisplayFrequency>
+        <ScreenSize>ScreenSize:</ScreenSize>
+    </SystemConfigInfos>
+
+    <GameDetail>
+        <RunGame>실행</RunGame>
+        <RunGameNoOverLay>Clear Play\n(No InGame Overlay)</RunGameNoOverLay>
+        <Source>소스:</Source>
+        <GameDuration>게임 시간：</GameDuration>
+        <GameDuration1>게임 &#x000A;시간：</GameDuration1>
+        <GameDataManagement>데이터</GameDataManagement>
+        <MetadataPlugins>메타데이터</MetadataPlugins>
+	<NotApplied>구성이 적용되지 않음</NotApplied>
+	<Applied>구성 적용됨</Applied>
+	<AddConfig>새 구성 추가</AddConfig>
+	<Like>처럼 </Like>
+        <Hour>시간</Hour>
+        <Minute>분</Minute>
+        <Start>실행</Start>
+        <Back>돌아가기</Back>
+	<Enter>확인하다</Enter>
+	<PowerPolicy>전원 정책</PowerPolicy>
+	<TDP>TDP</TDP>
+	<FPS>FPS</FPS>
+	<Shock>진동 모드</Shock>
+	<Resolution>해결</Resolution>
+	<StartupParameters>시작 매개변수</StartupParameters>
+	<Remove>제거하다</Remove>
+	<Detail>세부 사항</Detail>
+	<Application>적용하다</Application>
+	<Stop>장애를 입히다</Stop>
+        <PlayTime>
+            <LessHalfHour>살펴보기</LessHalfHour>
+            <Normal>%0.1f</Normal>
+            <Maximum>9999+</Maximum>
+        </PlayTime>
+    </GameDetail>
+
+    <PopOtherDeviceTipPage>
+        <Title>게이머 분들에게</Title>
+        <TipInfo>
+            AYANEO의 독점 관리 소프트웨어인 AYASpace를 사용해주셔서
+            감사합니다. 불행히도, AYANEO 사용자가 아닌 분은 사용이
+            제한됩니다. 이 소프트웨어에, AYANEO 시리즈 사용자분들이
+            유용하게 사용하실 수 있는 많은 기능을 담았습니다.AYASpace를
+            경험하시고 싶으시면, AYANEO 게임 콘솔을 구매해 주세요.
+            당신의 게임경험에 되움이 되어드릴것을 기대하고 있습니다.
+        </TipInfo>
+        <Shop>중국 사용자는 타오바오를 이용해 주세요</Shop>
+        <Aya>「 AYANEO 」</Aya>
+        <AdvisoryBuy>구매문의</AdvisoryBuy>
+        <Buy>오피셜 스토어</Buy>
+    </PopOtherDeviceTipPage>
+
+    <PopMinimize>
+        <SoftMinimize>AYASpace가 최소화 됩니다</SoftMinimize>
+        <GameLaunch>게임이 시작됩니다</GameLaunch>
+        <GameRun>게임이 실행중입니다</GameRun>
+        <OpenApp>AYASpace 보이기</OpenApp>
+        <OpenQuickAsst>Quicktool 열기</OpenQuickAsst>
+        <PressTitle>누르기</PressTitle>
+        <LongPressTitle>누르기</LongPressTitle>
+    </PopMinimize>
+
+    <AyaDeviceInfo>
+        <Founder>AYANEO Founder</Founder>
+        <Formal>AYANEO 2021</Formal>
+        <Formal_Pro>AYANEO 2021 Pro</Formal_Pro>
+        <AYANEO_NEXT>AYANEO NEXT</AYANEO_NEXT>
+        <AYANEO_NEXT_Pro>AYANEO NEXT Pro</AYANEO_NEXT_Pro>
+        <AYANEO_2021_4500u_White>AYANEO 2021 Light Moon</AYANEO_2021_4500u_White>
+        <AYANEO_2021_4500u_Black>AYANEO 2021 Dark Star</AYANEO_2021_4500u_Black>
+        <AYANEO_2021_4800u_White>AYANEO 2021 Pro Light Moon</AYANEO_2021_4800u_White>
+        <AYANEO_2021_4800u_Black>AYANEO 2021 Pro Dark Star</AYANEO_2021_4800u_Black>
+        <AYANEO_2021_4800u_Retro>AYANEO 2021 Pro Retro Power</AYANEO_2021_4800u_Retro>
+        <AYANEO_NEXT_5800u_MetallicGrey>AYANEO NEXT MetallicGrey</AYANEO_NEXT_5800u_MetallicGrey>
+        <AYANEO_NEXT_5800u_DarkBlue>AYANEO NEXT DarkBlue</AYANEO_NEXT_5800u_DarkBlue>
+        <AYANEO_NEXT_5800u_LightBlue>AYANEO NEXT LightBlue</AYANEO_NEXT_5800u_LightBlue>
+        <AYANEO_NEXT_5800u_White>AYANEO NEXT White</AYANEO_NEXT_5800u_White>
+        <AYANEO_NEXT_5800u_BlackGrey>AYANEO NEXT BlackGrey</AYANEO_NEXT_5800u_BlackGrey>
+        <AYANEO_NEXT_5800u_Metal>AYANEO NEXT Metal</AYANEO_NEXT_5800u_Metal>
+        <AYANEO_NEXT_5825u_MetallicGrey>AYANEO NEXT MetallicGrey</AYANEO_NEXT_5825u_MetallicGrey>
+        <AYANEO_NEXT_5825u_DarkBlue>AAYANEO NEXT DarkBlue</AYANEO_NEXT_5825u_DarkBlue>
+        <AYANEO_NEXT_5825u_LightBlue>AYANEO NEXT LightBlue</AYANEO_NEXT_5825u_LightBlue>
+        <AYANEO_NEXT_5825u_White>AAYANEO NEXT White</AYANEO_NEXT_5825u_White>
+        <AYANEO_NEXT_5825u_BlackGrey>AYANEO NEXT BlackGrey</AYANEO_NEXT_5825u_BlackGrey>
+        <AYANEO_NEXT_5825u_Metal>AYANEO NEXT Metal</AYANEO_NEXT_5825u_Metal>
+        <AYANEO_NEXT_5825u_Pro_MetallicGrey>AYANEO NEXT Pro MetallicGrey</AYANEO_NEXT_5825u_Pro_MetallicGrey>
+        <AYANEO_NEXT_5825u_Pro_DarkBlue>AAYANEO NEXT Pro DarkBlue</AYANEO_NEXT_5825u_Pro_DarkBlue>
+        <AYANEO_NEXT_5825u_Pro_LightBlue>AYANEO NEXT Pro LightBlue</AYANEO_NEXT_5825u_Pro_LightBlue>
+        <AYANEO_NEXT_5825u_Pro_White>AAYANEO NEXT Pro White</AYANEO_NEXT_5825u_Pro_White>
+        <AYANEO_NEXT_5825u_Pro_BlackGrey>AYANEO NEXT Pro BlackGrey</AYANEO_NEXT_5825u_Pro_BlackGrey>
+        <AYANEO_NEXT_5825u_Pro_Metal>AYANEO NEXT Pro Metal</AYANEO_NEXT_5825u_Pro_Metal>
+        <AYANEO_AIR_Lite_White>AYANEO AIR Lite Aurora White</AYANEO_AIR_Lite_White>
+        <AYANEO_AIR_Lite_Black>AYANEO AIR Lite Polar Black</AYANEO_AIR_Lite_Black>
+        <AYANEO_AIR_Lite_Silver>AYANEO AIR Lite Bright Silver</AYANEO_AIR_Lite_Silver>
+        <AYANEO_AIR_Lite_Pink>AYANEO AIR Lite Sakura Pink</AYANEO_AIR_Lite_Pink>
+        <AYANEO_AIR_Lite_Duck_Yellow>AYANEO AIR Lite B.Duck Yellow</AYANEO_AIR_Lite_Duck_Yellow>
+        <AYANEO_AIR_Lite_Duck_Grey>AYANEO AIR Lite B.Duck Gray</AYANEO_AIR_Lite_Duck_Grey>
+        <AYANEO_AIR_Lite_Meizu>AYANEO AIR Lite Meizu</AYANEO_AIR_Lite_Meizu>
+        <AYANEO_AIR_Lite_Retro>AYANEO AIR Lite Retro Power</AYANEO_AIR_Lite_Retro>
+        <AYANEO_AIR_White>AYANEO AIR Aurora White</AYANEO_AIR_White>
+        <AYANEO_AIR_Black>AYANEO AIR Polar Black</AYANEO_AIR_Black>
+        <AYANEO_AIR_Silver>AYANEO AIR Bright Silver</AYANEO_AIR_Silver>
+        <AYANEO_AIR_Pink>AYANEO AIR akura Pink</AYANEO_AIR_Pink>
+        <AYANEO_AIR_Duck_Yellow>AYANEO AIR B.Duck Yellow</AYANEO_AIR_Duck_Yellow>
+        <AYANEO_AIR_Duck_Grey>AYANEO AIR  B.Duck Gray</AYANEO_AIR_Duck_Grey>
+        <AYANEO_AIR_Meizu>AYANEO AIR Meizu</AYANEO_AIR_Meizu>
+        <AYANEO_AIR_Retro>AYANEO AIR Retro Power</AYANEO_AIR_Retro>
+        <AYANEO_AIR_Pro_White>AYANEO AIR Pro Aurora White</AYANEO_AIR_Pro_White>
+        <AYANEO_AIR_Pro_Black>AYANEO AIR Pro Polar Black</AYANEO_AIR_Pro_Black>
+        <AYANEO_AIR_Pro_Silver>AYANEO AIR Pro Bright Silver</AYANEO_AIR_Pro_Silver>
+        <AYANEO_AIR_Pro_Pink>AYANEO AIR Pro akura Pink</AYANEO_AIR_Pro_Pink>
+        <AYANEO_AIR_Pro_Duck_Yellow>AYANEO AIR Pro B.Duck Yellow</AYANEO_AIR_Pro_Duck_Yellow>
+        <AYANEO_AIR_Pro_Duck_Grey>AYANEO AIR Pro B.Duck Gray</AYANEO_AIR_Pro_Duck_Grey>
+        <AYANEO_AIR_Pro_Meizu>AYANEO AIR Pro Meizu</AYANEO_AIR_Pro_Meizu>
+        <AYANEO_AIR_Pro_Retro>AYANEO AIR Pro Retro Power</AYANEO_AIR_Pro_Retro>
+        <AYANEO_2_White>AYANEO 2 Sky White</AYANEO_2_White>
+        <AYANEO_2_Black>AYANEO 2 Starry Black</AYANEO_2_Black>	
+        <AYANEO_2_Retro>AYANEO 2 Retro Power</AYANEO_2_Retro>
+        <AYANEO_2_BlueDuck>AYANEO 2 Duck Blue</AYANEO_2_BlueDuck>
+	<AYANEO_2_Geek_Black>AYANEO Fantasy Black</AYANEO_2_Geek_Black>
+	<AYANEO_2_Geek_Purple>AYANEO Crystal Purple</AYANEO_2_Geek_Purple>
+    </AyaDeviceInfo>
+
+    <!-- 升级界面 -->
+    <PopUpdate>
+        <Title>%s version으로 업그레이드 하시겠습니까?</Title>
+        <DownloadFailed>다운로드가 실패하였습니다</DownloadFailed>
+        <Force>
+            <ButtonStart>업그레이드</ButtonStart>
+        </Force>
+        <Normal>
+            <ButtonX>무시</ButtonX>
+            <ButtonStart>업그레이드</ButtonStart>
+            <ButtonB>취소</ButtonB>
+        </Normal>
+        <UpdateContent>콘텐츠 업데이트</UpdateContent>
+        <ReDownload>다시 다운로드</ReDownload>
+    </PopUpdate>
+
+    <!-- 插件界面 -->
+    <PopPluginGrid>
+        <Button>
+            <ButtonY>플러그인 업데이트</ButtonY>
+            <ButtonStart>플러그인 구성</ButtonStart>
+            <ButtonA>운영</ButtonA>
+            <ButtonB>취소</ButtonB>
+        </Button>
+        <UpdateTaskRunningTips>업데이트 작업이 실행 중입니다</UpdateTaskRunningTips>
+        <UpdateTaskFinish>업데이트 완료</UpdateTaskFinish>
+    </PopPluginGrid>
+
+    <PopResolutionSetting>
+        <FirstSettingTitle>
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;AYA Space는 디스플레이 해상도를 조절할 수 있는 편리한 기능을 제공하지만, 이 기능은 주행 상황에 따라 화면이 흐려지는 현상이 발생할 수 있습니다.&lt;br&gt;꼭 사용하셔야 하는 경우 게임에 들어가기 전에 변경을 해보고 설치가 되었는지 확인해주세요&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; AMD 공식 드라이버 &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;그리고 켜&lt;/font&gt;&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; GPU 확장 &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;함수.&lt;/font&gt;&lt;/br&gt;&lt;/p&gt;
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;변경 후 나타나는 경우&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;화핑 현상&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;, 통과할 수 있는&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; 두 손가락으로 빠르게 두 번 탭 &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; 화면의 중간 영역 또는 &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; 돌아가려면 B를 누르세요. &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; 변경 전의 해상도입니다. &lt;/font&gt;&lt;/p&gt;
+        </FirstSettingTitle>
+        <FirstSettingTitle1>
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;AYA Space는 디스플레이 해상도를 조절할 수 있는 편리한 기능을 제공하지만, 이 기능은 주행 상황에 따라 화면이 흐려지는 현상이 발생할 수 있습니다.&lt;br&gt;꼭 사용하셔야 하는 경우 게임에 들어가기 전에 변경을 해보고 설치가 되었는지 확인해주세요&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt; AMD 공식 드라이버 &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;그리고 켜&lt;/font&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt; GPU 확장 &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;함수.&lt;/font&gt;&lt;/br&gt;&lt;/p&gt;
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;변경 후 나타나는 경우&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;화핑 현상&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;, 통과할 수 있는&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt; 두 손가락으로 빠르게 두 번 탭 &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt; 화면의 중간 영역 또는 &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt; 돌아가려면 B를 누르세요. &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt; 변경 전의 해상도입니다. &lt;/font&gt;&lt;/p&gt;
+        </FirstSettingTitle1>
+        <ChangedTitle>&lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;&lt;b&gt;바뀌었다 &lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;&lt;b&gt;%s&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;</ChangedTitle>
+        <SettingFinishTitle>
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;현재 표시가 정확합니까? 해상도를 복원해야 하는 경우 다음을 수행할 수 있습니다.&lt;/font&gt;&lt;br&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; 두 손가락으로 두 번 탭 &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;화면의 중간 영역 또는&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; B 키를 누릅니다.&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;메뉴 키를 길게 눌러 &lt;/br&gt;&lt;br&gt;현재 설정을 적용합니다.&lt;/font&gt;&lt;/br&gt;&lt;/p&gt;
+        </SettingFinishTitle>
+        <Know>알 겠어요</Know>
+        <Apply>애플리케이션</Apply>
+        <Recovery>회복</Recovery>
+    </PopResolutionSetting>
+
+    <PopGameScreenshots>
+        <Title>모든 스크린샷</Title>
+        <ButtonATitle>열려있는</ButtonATitle>
+        <ButtonXTitle>삭제</ButtonXTitle>
+        <ButtonYTitle>공유하다</ButtonYTitle>
+        <GameScreenshots>게임 스크린샷</GameScreenshots>		
+        <AutoSync>자동 동기화</AutoSync>
+        <Uploading>업로드 중…</Uploading>
+        <UploadFail>업로드 실패</UploadFail>
+        <Retry>다시 해 보다</Retry>
+        <Loading>모든 스크린샷 로드 중...</Loading>
+        <InstructionsAndReminders>모든 스크린샷 로드 중</InstructionsAndReminders>
+        <ScanQRCode>휴대폰으로 QR코드를 스캔하세요.</ScanQRCode>
+        <DownloadImage>게임 스크린샷 다운로드</DownloadImage>
+        <InstructionsAndRemindersContent>
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;&lt;/br&gt;더 나은 게임 스크린샷 공유 경험을 제공하는 자동 스크린샷 업로드 기능을 켜려고 합니다.&lt;/br&gt;&lt;br&gt;동시에 업로드된 스크린샷 데이터는 AYANEO 서버의 개인 데이터베이스에 저장됩니다.&lt;/br&gt;&lt;br&gt;다음을 위해서는 귀하의 동의가 필요합니다 사용 데이터 및 동기화 기능&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;"소프트웨어 사용권 계약" 및 "개인 정보 보호 정책"&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;，&lt;/br&gt; &lt;br&gt; 을 자세히 읽으십시오. 기능을 켜면 관련 정책을 이해하고 알고 있음을 의미합니다.&lt;/font&gt;
+        </InstructionsAndRemindersContent>
+        <DeleteTip>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;red&quot;&gt;현재 게임의 스크린샷을 삭제하시겠습니까?&lt;/font&gt;&lt;/p&gt;</DeleteTip>		
+    </PopGameScreenshots>
+	
+    <PopInstructionsAndWarn>
+        <SoftwareLicense>《소프트웨어 라이선스 계약》</SoftwareLicense>
+        <SoftwareLicenseTitle>소프트웨어 라이선스 계약</SoftwareLicenseTitle>
+        <PrivacyPolicy>《개인 정보 정책》</PrivacyPolicy>
+        <PrivacyPolicyTitle>개인 정보 정책</PrivacyPolicyTitle>
+        <Accept>알겠습니다. 이 기능을 켜세요.</Accept>
+        <Reject>수락하지 않음</Reject>
+    </PopInstructionsAndWarn>
+
+    <BindApplet>
+        <Applet>애플릿</Applet>
+        <Press>~에 따르면</Press>
+        <Config>구성</Config>
+        <LongPress>누르다</LongPress>	
+        <Manage>관리하다</Manage>
+        <Remove>제거하다</Remove>
+        <Add>에 추가</Add>
+        <Enable>켜다</Enable>
+        <Disable>장애가있는</Disable>
+        <UnInstall>제거</UnInstall>
+        <AddApplet>애플릿 추가</AddApplet>
+    </BindApplet>
+	
+    <BindBluetooth>
+        <BindAppTitle>AYA Space Mobile 바로가기</BindAppTitle>
+        <BindDesc>이제부터 AYANEO를 더 쉽게 사용하세요.</BindDesc>
+        <DownloadTip>Apple AppStore, PlayStore에서 "AYA Space Mobile"을 검색하거나 주요 애플리케이션 마켓에서 검색하여 다운로드하십시오.</DownloadTip>
+        <BindTip>앱 - 공간 - 장치 바인딩 페이지에서 스캔 코드 바인딩을 선택합니다.</BindTip>
+        <ConnectSuccess>연결된</ConnectSuccess>
+        <NotConnected>연결되지 않음</NotConnected>
+        <ToBind>바인딩</ToBind>	
+        <UnknowApp>알 수 없는 앱</UnknowApp>		
+        <ReBind>리바인드</ReBind>
+        <Refresh>새로 고치다</Refresh>			
+        <BindSuccessTip>이 기계는 다음 장치에 바인딩되어 있습니다.</BindSuccessTip>
+        <TurnOnBluetooth>블루투스를 켜</TurnOnBluetooth>	
+        <BleServerDisable>블루투스 서비스 시작 실패</BleServerDisable>
+        <ReStartBluetooth>블루투스 서비스 다시 시작</ReStartBluetooth>
+        <AppScanTip>AYA Space 앱을 열고 스캔하여 장치를 바인딩합니다.</AppScanTip>
+        <ZoomQRCode>QR 코드를 확대하려면 클릭하십시오</ZoomQRCode>		
+    </BindBluetooth>	
+	
+	<FirmwareUpgrade>
+		<FirmwareUpgradeTitle>컨트롤러 펌웨어 업그레이드</FirmwareUpgradeTitle>
+		<FirmwareUpgradeDesc>새 컨트롤러 펌웨어가 다운로드되었습니다. 아래 지침에 따라 컨트롤러 펌웨어를 업그레이드하십시오.</FirmwareUpgradeDesc>
+		<ShutDown>1、일시 휴업</ShutDown>
+		<Press>2、&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;LS&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt; 를 길게 눌러 전원을 켜고 시스템에 들어가 AYASpace를 시작합니다.</Press>
+		<BtnA>확인, 종료 수행</BtnA>
+		<BtnB>나중에 다시 시도</BtnB>
+		<BtnX>이 업데이트 건너뛰기</BtnX>
+		<ReadyTitle>컨트롤러 펌웨어 업그레이드</ReadyTitle>
+		<ReadyDesc>컨트롤러 펌웨어 업그레이드를 준비 중입니다. 버튼을 조작하지 말고 참을성 있게 기다리십시오.</ReadyDesc>
+		<UpTitle>업그레이드 중…</UpTitle>
+		<UpDesc>컨트롤러 펌웨어를 업그레이드하는 중입니다. 잠시만 기다려 주십시오. 업그레이드가 진행되는 동안 버튼 조작, 종료 또는 최대 절전 모드를 하지 마십시오.</UpDesc>
+		<FailTitle>업그레이드 실패</FailTitle>
+		<FailDesc>&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;최신 버전의 펌웨어를 로컬에서 찾을 수 없습니다.&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;설정 - 업데이트를&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt; 사용하여 최신 펌웨어가 있는지 확인하십시오.</FailDesc>
+		<SuccessTitle>업데이트 완료</SuccessTitle>
+		<SuccessDesc>컨트롤러 펌웨어 업그레이드가 완료되었으며 AYANEO가 더 나은 경험을 할 수 있습니다.</SuccessDesc>
+		<Off>폐쇄</Off>
+		<Restart>활성화 핸들 다시 시작</Restart>
+	</FirmwareUpgrade>
+	<GmaeStrategy>
+		<Strategy>게임 전략</Strategy>
+		<No>아니</No>
+		<AskForRaides>레이더스에게 물어봐</AskForRaides>
+		<StrategyNum>레이더스</StrategyNum>
+		<Check>확인하다</Check>
+	</GmaeStrategy>
+</Root>

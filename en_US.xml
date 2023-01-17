@@ -229,6 +229,9 @@
                 <Gentle>Slight</Gentle>
                 <Violent>strong</Violent>
                 <Off>off</Off>
+                <Low>Low</Low>
+                <Middle>Middle</Middle>
+                <High>High</High>
             </PadVibration>
 
             <Cpu>
@@ -764,7 +767,7 @@
             <UnlockPowerTips>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#%2x%2x%2x&quot;&gt;Whether to unlock 15W TDP？&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#%2x%2x%2x&quot;&gt;Note that there will be increased heat and noise when unlocked.&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#%2x%2x%2x&quot;&gt;Unlocking takes effect only at this time of booting, and it needs to be unlocked again after rebooting.&lt;/font&gt;&lt;/p&gt;</UnlockPowerTips>
         </PowerLevel>
         <QuickKey>
-            <Title>Suck</Title>
+            <Title>Hotkeys</Title>
             <QuickKey_Control>Quick opening control</QuickKey_Control>
             <text>Windows operation shortcuts,can be opened again quickly</text>
             <DescOn>Current:On</DescOn>
@@ -858,6 +861,19 @@
 			
             <BtnConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#C14D4E&quot;&gt;Whether to change the button configuration?&lt;/font&gt;&lt;/p&gt;</BtnConfirm>
         </FreeButton>
+		<HandleConnection>
+			<Title>Burst</Title>
+			<Desc>One-key multiple commands, the game is easier.</Desc>
+			<Desc2>With future version iterations, the functions of this module will change, please refer to the latest version.</Desc2>
+			<Off>OFF</Off>
+			<Semiautomatic>Semiautomatic</Semiautomatic>
+			<Automatic>Automatic</Automatic>
+			<Current>Current</Current>
+			<Reset>Reset</Reset>
+			<OffDesc>Normal</OffDesc>
+			<SemiautomaticDesc>Press the button,20 times/s connection</SemiautomaticDesc>
+			<AutomaticDesc>Press the automatic continuous development,then click to stop</AutomaticDesc>
+		</HandleConnection>
 	<RGB>
 		<Title>RGB lighting effect</Title>
 		<OpenRGB>Turn on</OpenRGB>
@@ -1085,6 +1101,8 @@
         <AYANEO_2_Black>AYANEO 2 Starry Black</AYANEO_2_Black>	
         <AYANEO_2_Retro>AYANEO 2 Retro Power</AYANEO_2_Retro>
         <AYANEO_2_BlueDuck>AYANEO 2 Duck Blue</AYANEO_2_BlueDuck>
+	<AYANEO_2_Geek_Black>AYANEO Fantasy Black</AYANEO_2_Geek_Black>
+	<AYANEO_2_Geek_Purple>AYANEO Crystal Purple</AYANEO_2_Geek_Purple>
     </AyaDeviceInfo>
 
     <!-- 升级界面 -->

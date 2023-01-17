@@ -1,0 +1,1239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root disp="日本语">
+    <!-- 导航栏 -->
+    <NavBar>
+        <Home>ホーム</Home>
+        <Game>ゲーム</Game>
+        <Asst>アシスタント</Asst>
+        <QuitConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#C14D4E&quot;&gt;Are you closing AYASpace?&lt;/font&gt;&lt;/p&gt;</QuitConfirm>
+    </NavBar>
+
+    <DisplayChangedTip>
+        <KeyA>再起動</KeyA>
+        <KeyB>無視</KeyB>
+        <QuitConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;#C14D4E&quot;&gt;AYASpace のユーザー エクスペリエンスを確保するために、&lt;/br&gt;解像度を切り替えた後、ソフトウェアを再起動する必要があります。&lt;/font&gt;&lt;/p&gt;</QuitConfirm>
+    </DisplayChangedTip>
+
+    <KeyboardCheckTip>
+        <KeyA>再起動</KeyA>
+        <ConfirmText>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;#C14D4E&quot;&gt;ドライバー アップデーターがインストールされました。&lt;/br&gt;完全な機能を体験するには、デバイスを再起動する必要があります。&lt;/font&gt;&lt;/p&gt;</ConfirmText>
+    </KeyboardCheckTip>
+
+    <!-- 底部状态栏 -->
+    <BottomBar>
+        <FirstUse>
+            <KeyDpad>選択</KeyDpad>
+            <KeyA>OK</KeyA>
+            <KeyB>キャンセル</KeyB>
+        </FirstUse>
+        <Home>
+            <KeyDpad>選択</KeyDpad>
+            <KeyA>OK</KeyA>
+            <KeyB>キャンセル</KeyB>
+        </Home>
+        <Game>
+            <KeyA>開く</KeyA>
+            <KeyB>キャンセル</KeyB>
+            <KeyR3>Filter</KeyR3>
+            <KeyStart>設定</KeyStart>
+            <Move>移動</Move>
+        </Game>
+        <Asst>
+            <KeyDpad>選択</KeyDpad>
+            <KeyA>OK</KeyA>
+            <KeyB>キャンセル</KeyB>
+            <Replace>交換</Replace>
+            <Remove>削除する</Remove>
+            <Back>戻る</Back>
+        </Asst>
+    </BottomBar>
+
+    <!-- 状态栏 -->
+    <StatusBar>
+        <ExpandTitle>Expand</ExpandTitle>
+        <GameLaunch>
+            <Launch>&lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;launching&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;seconds&lt;/font&gt;&lt;/p&gt;</Launch>
+            <Run>&lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;running&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;seconds&lt;/font&gt;&lt;/p&gt;</Run>
+            <KeySelect>Collapse</KeySelect>
+            <KeyX>閉じる</KeyX>
+            <KeyA>Continue</KeyA>
+            <ReadyToStart>開始の準備</ReadyToStart>
+            <Later>後で</Later>
+            <Close>近い</Close>
+            <ExitTheGame>出口</ExitTheGame>
+            <ContinueTheGame>継続する</ContinueTheGame>
+            <SwitchHomePage>ホームページ</SwitchHomePage>
+            <GameFail>ゲームが正常に起動しませんでした。ゲームランチャーを確認してください</GameFail>
+            <Press>プレス</Press>
+            <OpenTheExe>ランチャーを開く</OpenTheExe>
+            <Decs>ゲームをお楽しみください</Decs>
+            <Running>ゲームの実行</Running>
+            <PutAway>Collapse</PutAway>
+            <MasterHandle>マスターコントローラー</MasterHandle>
+        </GameLaunch>
+        <DownLoad>
+            <Title>Download queue</Title>
+            <ProgressTitle>Downloading</ProgressTitle>
+            <KeySelect>Collapse</KeySelect>
+            <KeyX>Try Again</KeyX>
+        </DownLoad>
+        <GameScan>
+            <StartScan>game scan ... </StartScan>
+            <LocalDir>scan local game directory</LocalDir>
+            <ImportSteamGames>scan steam games</ImportSteamGames>
+            <ImportXboxPlayedGames>scan played xbox games</ImportXboxPlayedGames>
+            <ImportXboxUwpGames>scan installed xbox games</ImportXboxUwpGames>
+            <LocalGameFinishScan>installed game scan finish</LocalGameFinishScan>
+            <FinishScan>%s games scan finish</FinishScan>
+            <LocalProgress>local game %s (%d/%d)</LocalProgress>
+            <SteamOwnedProgress>owned steam games %s (%d/%d)</SteamOwnedProgress>
+            <XboxPlayedProgress>played xbox games %s (%d/%d)</XboxPlayedProgress>
+            <XboxInstalledProgress>installed xbox games %s (%d/%d)</XboxInstalledProgress>
+            <ScanResult>Scan completed, new game: %d, unknow file: %d</ScanResult>
+        </GameScan>
+        <ImageDownload>
+            <Title>game image download</Title>
+            <Library>library image</Library>
+            <ClearLogo>clear logo</ClearLogo>
+            <Bkgd>background image</Bkgd>
+        </ImageDownload>
+        <GameSync>
+            <StartGameSync>ゲームデータの同期 ... </StartGameSync>
+        </GameSync>
+    </StatusBar>
+
+    <!-- 黏贴提示栏 -->
+    <SnackBar>
+        <OkTitle>OK</OkTitle>
+        <CancelTitle>キャンセル</CancelTitle>
+    </SnackBar>
+
+    <!-- 小工具 -->
+    <TinyTool>
+        <AyaJoyStick>
+            <Enable>Enabled AYANEO joystick successfully</Enable>
+            <DisableStart>Disabling AYANEO joystick ...</DisableStart>
+            <DisableFinish>Disabled AYANEO joystick successfully</DisableFinish>
+        </AyaJoyStick>
+    </TinyTool>
+
+    <!-- 首次使用页 -->
+    <FirstUse>
+	<StepOne>
+		<Title>初めてのミーティング</Title>
+		<LongPress>押す</LongPress>
+		<Next>ブートをスキップ</Next>
+		<NextStep>次のステップ</NextStep>
+		<TextOne>こんにちは！ あやねお選手</TextOne>
+		<TextTwo>AYA Spaceは、専用のPCハンドヘルドゲームコンテンツ管理ソフトウェアです。</TextTwo>
+		<TextThree>まだ慣れていないかもしれませんが、心配しないで、簡単な設定を一緒に行ってみましょう。</TextThree>
+		<Close>閉鎖</Close>
+		<PreviousVersion>前のバージョン</PreviousVersion>
+		<UpdateContent>コンテンツを更新する</UpdateContent>
+	</StepOne>
+	<StepTwo>
+		<Title>ゲーム管理とゲームプラットフォーム</Title>
+		<LongPress>押す</LongPress>
+		<Next>ブートをスキップ</Next>
+		<NextStep>次に、選択したゲームプラットフォームをダウンロードします</NextStep>
+		<Press>によると</Press>
+		<Mark>マーク</Mark>
+		<Selected>選択</Selected>
+		<Piece></Piece>
+		<TextOne>私たちはすでにあなたがあなたの地元のゲーム情報を整理するのを手伝っています</TextOne>
+		<TextTwo>ローカルゲームスキャン</TextTwo>
+		<TextThree>インストールする必要のあるゲームプラットフォームがまだある場合は、右側から選択できます。ダウンロードのお手伝いをします</TextThree>
+	</StepTwo>
+	<StepThree>
+		<Title>最終作業を終える</Title>
+		<LongPress>押す</LongPress>
+		<Next>ブートをスキップ</Next>
+		<Switch>スイッチ</Switch>
+		<Finish>終了</Finish>
+		<TextOne>AYAスペースはあなたのために最終的な準備をしています</TextOne>
+		<TextTwo>ローカルゲームスキャン</TextTwo>
+		<TextThree>最適化の開始</TextThree>
+		<TextFour>ちょっと待ってください、楽しいゲーム体験がそこにあります</TextFour>
+	</StepThree>
+	<StepFour>
+		<Title>最終作業を終える</Title>
+		<Switch>スイッチ</Switch>
+		<Finish>終了</Finish>
+		<TextOne>楽しいゲームに行きましょう！</TextOne>
+		<TextTwo>ローカルゲームスキャン</TextTwo>
+		<TextThree>最適化の開始</TextThree>
+		<TextFour>初心者ガイドを完了する</TextFour>
+	</StepFour>
+        <Title>Welcome ~ Start to explore your AyaSpace</Title>
+        <QuickAsst>クイック　アシスタント</QuickAsst>
+        <ChoicePlat>
+            <Title>Please install the game plats</Title>
+            <BtnInstallTitle>インストール</BtnInstallTitle>
+            <BtnInstallTips>total %d softwares</BtnInstallTips>
+            <FinishTitle>Finished</FinishTitle>
+            <LongPress>長押し</LongPress>
+            <Next>skip</Next>
+        </ChoicePlat>
+
+        <CardGameScan>
+            <Title>Auto Scan, Auto Import</Title>
+            <GameTips>total find %d games</GameTips>
+            <ButtonA>next step</ButtonA>
+            <NotArrivedTitle>Not Arrived</NotArrivedTitle>
+            <FinishTitle>Finished</FinishTitle>
+        </CardGameScan>
+
+        <CardStep3>
+            <NotArrivedTitle>Not Arrived</NotArrivedTitle>
+            <FinishTitle>Finished</FinishTitle>
+        </CardStep3>
+    </FirstUse>
+
+    <!-- 首页 -->
+    <Home>
+        <LastPlay>最新ゲーム</LastPlay>
+        <QuickAsst>クイック　アシスタント</QuickAsst>
+
+        <!-- 游戏收集卡片 -->
+        <GameCollect>ゲーム</GameCollect>
+
+        <!-- 随机玩玩卡片 -->
+        <RandomPlay>
+            <Title>Random&#x000A;Play</Title>
+            <NoInstallGame>You have no installed game</NoInstallGame>
+        </RandomPlay>
+
+        <!-- 一键升级卡片 -->
+        <OneClickUpdate>
+            <DriverUpdate>DriverUpdate</DriverUpdate>
+            <Title>OneClickUpdate</Title>
+            <Tips>Wow!&#x000A;Everything is updated</Tips>
+            <NoUpdateTip>Everything is latest</NoUpdateTip>
+            <BtnTitle>Check Update</BtnTitle>
+            <GoGames>go to games</GoGames>
+        </OneClickUpdate>
+
+        <CardHome>
+            <CommSoftBar>
+                <Title>Apps</Title>
+                <NoSelectedTitle>なにも追加されていません</NoSelectedTitle>
+            </CommSoftBar>
+
+            <BatteryCharge>
+                <Quick>Smart</Quick>
+                <Preserve>Conserve</Preserve>
+            </BatteryCharge>
+
+            <PadVibration>
+                <PowerTitle>バイブレーションの強さ</PowerTitle>
+                <Gentle>slight</Gentle>
+                <Violent>strong</Violent>
+                <Off>off</Off>
+                <Low>低い</Low>
+                <Middle>真ん中</Middle>
+                <High>高い</High>
+            </PadVibration>
+
+            <Cpu>
+                <Game>ゲーム</Game>
+                <Balance>バランス</Balance>
+                <PowerSaving>省電力</PowerSaving>
+                <Custom>カスタム</Custom>
+                <Pro>プロモード</Pro>
+                <Setup>設定</Setup>
+                <CustomTDP>カスタムTDP</CustomTDP>
+            </Cpu>
+
+            <Fan>
+                <ProTitle>Pro</ProTitle>
+                <WildTitle>MAX</WildTitle>
+                <SmartTitle>LOW</SmartTitle>
+                <MidTitle>MID</MidTitle>	
+                <Wild>暴れる</Wild>
+                <Smart>省電力</Smart>
+                <Excellent>優秀</Excellent>
+                <Balanced>バランス</Balanced>				
+            </Fan>
+
+            <Clean>
+                <Title>最適化</Title>
+                <Succ>Optimization completed successfully</Succ>
+            </Clean>
+
+            <Ota>
+                <Title>OTA Game Config&#x000A;Keep best game status</Title>
+            </Ota>
+
+            <Explore>
+                <Title>Explore More</Title>
+            </Explore>
+
+            <WidgetPowerLevel>
+                <CurPowerTitle>現在 %0.1f W</CurPowerTitle>
+            </WidgetPowerLevel>
+
+            <Update>
+                <NoUpdateTitle>もっと</NoUpdateTitle>
+                <UpdateTitle>更新あり</UpdateTitle>
+            </Update>
+
+            <TinyTool>
+                <CustomTitle>追加</CustomTitle>
+            </TinyTool>
+        </CardHome>
+    </Home>
+
+    <Game>
+        <Title1>The game library seems a bit empty</Title1>
+        <Title2>Why not try what we designed for you</Title2>
+        <EasyToUse>Super easy to use</EasyToUse>
+        <GameMgr> ゲームの管理 </GameMgr>
+        <Function>features?</Function>
+        <PressTitle>Press</PressTitle>
+        <ButtonBTitle>Start management game</ButtonBTitle>
+        <RemoveAll>Rimuovi&#x000A;tutto</RemoveAll>
+        <QuickSearch>
+            <KeySelect>探す</KeySelect>
+            <KeySwitch>スイッチ</KeySwitch>
+            <KeyPutAway>片付け</KeyPutAway>
+            <FirstWord>INIT.</FirstWord>
+            <Label>TAG</Label>
+            <Platform>P.</Platform>
+        </QuickSearch>
+        <Sort>
+            <DisplayColNumber>DisplayColNumber</DisplayColNumber>
+            <DisplayOrder>DisplayOrder</DisplayOrder>
+            <PlayTime>Play time</PlayTime>
+            <StorageTime>Create time</StorageTime>
+            <GameName>Game name</GameName>
+            <Ascending>上昇</Ascending>
+            <Descending>降順</Descending>
+            <Back>戻る</Back>
+        </Sort>
+        <InstructionsAndRemindersContent>
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;&lt;br&gt;ローカルゲームライブラリデータをAYANEOサーバーに同期する自動ゲームライブラリ&lt;/br&gt;&lt;br&gt;同期機能を有効にする準備をしています。個人データベースでは、データおよび同期機&lt;/br&gt;&lt;br&gt;能の使用について同意が必要です。詳細をお読みください&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; 「ソフトウェア使用許諾契約」&lt;/br&gt;&lt;br&gt;および「プライバシーポリシー」&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;，この機能をオンにすると、関連するポリシーを理解&lt;/br&gt;&lt;br&gt;し、理解することになります。&lt;/br&gt;&lt;/font&gt;
+        </InstructionsAndRemindersContent>			
+    </Game>
+
+    <!-- 游戏助手页 -->
+    <Asst>
+        <LeftHelper>Game helper</LeftHelper>
+        <MiddleConfig>Func config</MiddleConfig>
+        <RightQuick>クイック　アシスタント</RightQuick>
+
+        <!-- 平台管理 -->
+        <CardPlat>
+            <KeyX>Hide Installed</KeyX>
+            <KeyX2>Show Installed</KeyX2>
+            <KeyY>Cancel Common Use</KeyY>
+            <BtnInstall>インストール</BtnInstall>
+            <InstallStatus>インストールされたアプリ</InstallStatus>
+        </CardPlat>
+
+        <AppletEntrance>
+            <Title>アプリケーションセンター</Title>
+            <Market>アプリケーション市場</Market>
+            <Installed>インストールされています</Installed>
+            <Newest>最新のアップデート</Newest>
+            <Shared>共有</Shared>
+            <Total>合計</Total>
+            <Open>開ける</Open>
+            <Install>インストール</Install>
+            <Download>ダウンロード</Download>
+            <Renew>更新する</Renew>
+            <Ison>有効化</Ison>
+            <Isoff>有効になっていません</Isoff>
+            <RenewAll>すべて更新</RenewAll>
+            <Manage>管理</Manage>
+            <TurnOn>オンにする</TurnOn>
+            <ReleaseDesc>リリースの説明</ReleaseDesc>
+            <UseDesc>説明を使用</UseDesc>
+            <More>More</More>
+            <Version>Version</Version>
+            <Applet>アプレット</Applet>
+            <Apply>適用</Apply>
+        </AppletEntrance>
+		
+        <AppletConfig>
+            <Config>設定</Config>
+            <Control>制御設定</Control>
+            <Library>ライブラリ設定</Library>
+            <Applet>アプレットの設定</Applet>
+            <Style>スタイル</Style>
+            <LongPress>押す</LongPress>
+            <Close>閉鎖</Close>
+            <Enable>有効</Enable>
+            <Disable>無効</Disable>
+            <UnInstall>アンインストール</UnInstall>
+            <UserDesc>説明を使用</UserDesc>
+        </AppletConfig>
+        
+        <SoftwareCenter>
+            <Title>アプリ</Title>
+            <Total>全てのアプリ</Total>
+            <Application>個</Application>
+            <Disk>Disk</Disk>
+            <HideSystemSoft>Hide system software</HideSystemSoft>
+            <Installed>インストール済み</Installed>
+        </SoftwareCenter>
+
+        <CardMasterPad>
+            <Title>マスターコントローラー</Title>
+            <Comment>比類のないコントロール感</Comment>
+            <Config>動作モードの構成</Config>
+        </CardMasterPad>
+
+        <CardMaster>
+            <NewUpdateTitle>#Update ジョイスティックのキャリブレーションの説明を追加</NewUpdateTitle>
+            <ExploreAya>EVO - AYANEOの設定</ExploreAya>
+            <PalyAya>AYANEO&#x000A;の機能を最大限に引き出す方法 &#x000A;</PalyAya>
+            <GameScreenshots>スクリーンショットブック</GameScreenshots>
+            <GameMoments>素晴らしいゲームの瞬間を保ちましょう</GameMoments>
+            <KnowMore>More</KnowMore>
+            <Help>QA</Help>
+        </CardMaster>
+
+        <CardTinyTool>
+            <Title>Homepage control</Title>
+            <QuickTool>AYAQuicktool</QuickTool>
+            <CommTool>Quicktool Commonly control</CommTool>
+            <Fold>フォールド</Fold>
+            <CommonlyUsed>お気に入り</CommonlyUsed>
+        </CardTinyTool>
+
+        <CardController>
+            <Title>Controller&#x000A;Helper</Title>
+            <Connected>Current Connected</Connected>
+            <Switch1P>Switch 1P</Switch1P>
+            <More>More</More>
+        </CardController>
+
+        <CardFeedBack>
+            <Title>Have feedback?&#x000A;contact us&#x000A;Please</Title>
+        </CardFeedBack>
+
+        <CardAsst>
+            <GameToolsTitle>Game Tools</GameToolsTitle>
+            <SystemToolsTitle>System Tools</SystemToolsTitle>
+
+            <Fan>
+                <Wild>フル稼働</Wild>
+                <Smart>省電力</Smart>
+            </Fan>
+        </CardAsst>
+    </Asst>
+
+    <!-- 快设小窗 -->
+    <PopAsst>
+        <PopAsstTitleBar>
+            <Title>AYAQuickTool</Title>
+        </PopAsstTitleBar>
+        <StatusBar>
+            <NormalApply>この設定は既に有効である</NormalApply>
+            <Disable>無効化されている</Disable>
+            <Enable>使用可能になった</Enable>
+            <ScreenshotSucc>スクリーンショット成功</ScreenshotSucc>
+            <FsrTips>3秒後にFSRで先端ウィンドウをスケーリングする</FsrTips>
+            <Prossimamente>間もなくオンラインになる</Prossimamente>
+        </StatusBar>
+        <CommSoftBar>
+            <Title>Select quick launch apps from Home page</Title>
+        </CommSoftBar>
+		<SystemMonitor>
+			<Gpu>GPU</Gpu>
+			<ThreeA>3A</ThreeA>
+			<Auto>自動</Auto>
+			<BatteryLife>省電力</BatteryLife>
+			<Reboot>有効にするにはコンピュータを再起動する必要があります</Reboot>
+			<BtnX>キャンセル</BtnX>
+			<BtnA>リブート</BtnA>
+		</SystemMonitor>
+    </PopAsst>
+
+    <PopSettings>
+        <Account>アカウントセキュリティー</Account>
+        <StartUp>起動時のアップデート</StartUp>
+        <Data>データ</Data>
+        <Sync>同期</Sync>
+        <Device>機体</Device>
+        <Language>言語</Language>
+        <Founders>開発者</Founders>
+        <OpenSources>サードパーティー&#x000A;ライブラリ</OpenSources>
+        <Minimize>縮小</Minimize>
+        <Sleep>スリープ</Sleep>
+        <ClientVersionChina>Goto China</ClientVersionChina>
+        <ClientVersionGlobal>Goto Global</ClientVersionGlobal>
+        <SleepConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;Confirm&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;#C14D4E&quot;&gt;go to sleep？&lt;/font&gt;&lt;/p&gt;</SleepConfirm>
+        <Quit>Quit</Quit>
+        <SystemSetting>システムセッティング</SystemSetting>
+
+        <PropertyMain>
+            <Account>アカウント&#x000A;セキュリティ</Account>
+            <StartUp>起動時のア&#x000A;ップデート</StartUp>
+            <Data>installation&#x000A;Datas</Data>
+            <Sync>同期&#x000A;</Sync>
+            <Device>equipment&#x000A;information</Device>
+            <Language>言語設定</Language>
+            <TitleGameData>ゲーム&#x000A;データ</TitleGameData>
+        </PropertyMain>
+
+        <PropertyUpdate>
+            <TitleUpdate>システムアップデート</TitleUpdate>
+            <Loading>アップデートの確認中</Loading>
+            <NoUpdate>更新なし</NoUpdate>
+            <TitleButtonDpad>動く</TitleButtonDpad>
+            <TitleButtonStart>全てアップデート</TitleButtonStart>
+            <NoUpdate>No Update</NoUpdate>
+            <TitleButtonA>アップデート</TitleButtonA>
+            <TitleButtonB>戻る</TitleButtonB>
+            <BtnCheckTitle>アップデートの確認</BtnCheckTitle>
+            <Retry>リトライ</Retry>
+            <RetryTitle>リトライ</RetryTitle>
+            <Finish>終了</Finish>
+            <updateItems>%d つの更新</updateItems>
+            <updateFailItems>%d 失敗</updateFailItems>
+            <WattingDownload>ダウンロードを待っています...</WattingDownload>
+            <DownloadingTip>ダウンロード中、お待ちください</DownloadingTip>
+            <UpdateCloseTip>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;red&quot;&gt;ドライバーは更新中です。 閉じてもよろしいですか?&lt;/font&gt;&lt;/p&gt;</UpdateCloseTip>
+            <Fail>更新失敗</Fail>
+            <Updating>更新</Updating>
+            <Installing>インストール..</Installing>
+            <ManualInstallation>インストールに関する注意事項</ManualInstallation>
+            <Restart>再起動して有効にします</Restart>
+            <RestartNow>再起動</RestartNow>
+            <PromemoriaImportante>重要なリマインダー</PromemoriaImportante>
+            <PleaseWait>お待ちください</PleaseWait>
+            <UpdateFinish>更新が完了しました。再起動してください</UpdateFinish>
+            <UpdateFail>更新に失敗しました。再試行してください</UpdateFail>
+            <UpdateTipTitle>&lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;AYANEOのBIOSバージョンがアップグレードされています。ホストの電源がオ&lt;br&gt;ンになっていて、電源に接続されていることを確認してください。&lt;/br&gt;&lt;/font&gt;&lt;br&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;アップグレードプロセス中は &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;電源をオフにしたり、スリープしたり、ソフト&lt;br&gt;ウェアを閉じたりしないでください。&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; アップグレードが完了したら、プロンプト&lt;br&gt;に従います。&lt;/br&gt;&lt;/font&gt;&lt;/br&gt;</UpdateTipTitle>
+            <Soft>アプリ</Soft>
+            <Driver>ドライバー</Driver>
+            <Config>設定</Config>
+            <Bios>BIOS</Bios>
+            <TitleStartUp>起動時のアップデート</TitleStartUp>
+            <StartUp>起動時のアップデート</StartUp>
+            <MouseMode>マウスモード</MouseMode>
+            <Overlay>Overlay</Overlay>
+            <Hide>HideFeature</Hide>
+            <DebugConsole>Debug Console</DebugConsole>
+            <FullScreen>Full Screen</FullScreen>
+            <GameSync>ゲームデータの同期</GameSync>
+            <Admin>Admin</Admin>
+            <TitleBeta>Beta Test</TitleBeta>
+            <WaitMore>Coming soon</WaitMore>
+            <LaunchOpt>
+                <Title>起動時に最適化</Title>
+                <Look>チェック</Look>
+                <Open>オンにする</Open>
+                <DisableFullScreen>全画面最適化を無効にする</DisableFullScreen>
+                <GPUScaling>GPUスケーリングをオンにする</GPUScaling>
+                <UsbSuspend>USB選択的サスペンドを無効にする</UsbSuspend>
+                <OskReplace>OSKの交換</OskReplace>
+                <HighPower>究極のパフォーマンス</HighPower>
+                <EmptyClipboard>クリップボードを空にします</EmptyClipboard>
+                <EngKeyboardLayout>英語の入力方法に切り替える</EngKeyboardLayout>
+            </LaunchOpt>
+        </PropertyUpdate>
+
+        <PropertyAccountSafety>
+            <Title>アカウント &#x000A;セキュリティー</Title>
+            <SetPassword>パスワードを&#x000A;セッティングする</SetPassword>
+	    <Name>名前</Name>
+	    <Phone>電話番号</Phone>
+	    <Avatar>アバター</Avatar>
+            <Exit>サインアウト</Exit>
+            <ExitTip>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;red&quot;&gt;Confirm to logout?&lt;/font&gt;&lt;/p&gt;</ExitTip>
+	    <Web>&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;個人情報の設定は、に行くことをお勧めします &lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;https://ayaneo.com/user</Web>
+        </PropertyAccountSafety>
+
+        <PropertyData>
+            <TitleGameData>Game Data</TitleGameData>
+            <Image>画像</Image>
+            <Video>動画</Video>
+            <TitlePackage>Install Package or Firmware</TitlePackage>
+            <Soft>アプリ</Soft>
+            <Firmware>ファームウェア</Firmware>
+            <Clean>ワンクリッククリーン</Clean>
+        </PropertyData>
+
+        <PropertyDevice>
+            <Family>モデル: </Family>
+            <Sku>Sku: </Sku>
+            <SerialNumber>シリアル番号: </SerialNumber>
+            <BiosVersion>Bios のバージョン: </BiosVersion>
+            <EcFirmwareVersion>Ec Firmware のバージョン: </EcFirmwareVersion>
+            <AoutDevice>機体</AoutDevice>
+        </PropertyDevice>
+
+        <PropertySync>
+            <Config>Sync Config File</Config>
+            <GameList>Sync Game List</GameList>
+            <LastSyncTime>Last Sync Time</LastSyncTime>
+            <BtnSteam>Goto Bind Steam</BtnSteam>
+            <BtnSteamFinish>Binded Steam</BtnSteamFinish>
+            <BtnSteamSave>Save</BtnSteamSave>
+            <SteamInvalidId>The provided steam account was not found, it may be that the steam platform is not installed</SteamInvalidId>
+            <SteamInvalidKey>appkey invalid</SteamInvalidKey>
+            <SteamTestFailed>The appkey test is invalid, please enter the correct appkey.</SteamTestFailed>
+            <BtnXbox>Goto Bind Xbox</BtnXbox>
+            <BtnXboxFinish>Binded %s</BtnXboxFinish>
+            <BrowserToolbarTitle>AYANEO sync assistant</BrowserToolbarTitle>
+	    <WhetherToUnbindXbox>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;Xboxアカウントのリンクを解除しますか？ &lt;/font&gt;&lt;/p&gt;</WhetherToUnbindXbox>
+	    <WhetherToUnbindSteam>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;Steamアカウントのリンクを解除しますか？ &lt;/font&gt;&lt;/p&gt;</WhetherToUnbindSteam>
+	    <LongPress>バインドを解除するには長押しします</LongPress>
+        </PropertySync>
+
+        <PropertyLanguage>
+            <Title>言語設定の変更は再起動後に反映されます</Title>
+            <Classic>Classic</Classic>
+            <BlackWhite>WhiteBlack</BlackWhite>
+            <Execute>保存</Execute>
+        </PropertyLanguage>
+
+        <PopBindAccount>
+            <Title>AYANEO アカウントバインディング</Title>
+            <BindDesc>練る A Y A I D &#x000A;ゲームスペースを探索する</BindDesc>
+            <Bind>練る</Bind>
+            <InputEmailTip>あなたのメールアドレスを入力してください</InputEmailTip>
+            <InputCodeTip>確認コードを入力してください</InputCodeTip>
+            <InputAreaTip>市外局番を入力してください</InputAreaTip>
+            <InputPhoneTip>携帯電話番号を入力してください</InputPhoneTip>
+        </PopBindAccount>
+
+    </PopSettings>
+
+    <PopGameMgr>
+        <Title>ゲームの管理</Title>
+        <BtnControls>
+            <EmptyDesc>No Data</EmptyDesc>
+        </BtnControls>
+        <PropertyGameMgr>
+            <Title1>ゲームコレクションの管理</Title1>
+            <Title2>あなただけのオリジナルコレクションを作りましょう</Title2>
+            <BtnAdd>
+                <Title>ゲームを追加する</Title>
+            </BtnAdd>
+            <BtnRemove>
+                <Title>ゲームをアンインストールする</Title>
+                <Desc>ゲーム</Desc>
+            </BtnRemove>
+            <BtnUnknow>
+                <Title>不明なファイル</Title>
+                <Desc>Like a Game</Desc>
+            </BtnUnknow>
+            <BtnShowHide>
+              <Show>Show All</Show>
+              <Hide>その他アイテム</Hide>
+            </BtnShowHide>
+        </PropertyGameMgr>
+
+        <PropertyGameMgrAdd>
+            <Title>新しいゲームを追加</Title>
+            <BtnScan>
+                <Title>ゲームを読み込む</Title>
+                <Desc>New Games</Desc>
+            </BtnScan>
+            <BtnManual>
+                <Title>手動で追加</Title>
+            </BtnManual>
+            <BtnPlat>
+                <Title>データをバインド</Title>
+                <BindedWords>Bound</BindedWords>
+            </BtnPlat>
+        </PropertyGameMgrAdd>
+
+        <PropertyGameMgrUnInstall>
+            <Title>削除したいゲームを選択してください</Title>
+            <MarkTitle>選択</MarkTitle>
+            <DeleteTitle>長押しで削除</DeleteTitle>
+            <FormatGameCount>選択されたゲーム %d 個</FormatGameCount>
+            <SelectCount>選択されたゲーム</SelectCount>
+            <Games>games</Games>
+            <TimerContent>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;6&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;Seconds&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;Perform uninstall&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#ACC3CD&quot;&gt;Release the button to cancel&lt;/font&gt;&lt;/p&gt;</TimerContent>
+            <Loading>Delete the game directory。。。</Loading>
+            <Finish>Successfully deleted %d game directories</Finish>
+        </PropertyGameMgrUnInstall>
+
+        <PropertyGameMgrAddManual>
+            <Title>ゲームの起動ファイルを選んでください</Title>
+            <CommDir>よく使われているフォルダ</CommDir>
+            <GameFile>ゲームのファイルはどちらですか？</GameFile>
+            <ButtonStart>フォルダを追加</ButtonStart>
+            <ButtonA>ゲームリストに追加</ButtonA>
+            <ButtonY>テスト起動</ButtonY>
+            <RemoveDir>削除する</RemoveDir>
+        </PropertyGameMgrAddManual>
+
+        <PropertyGameMgrUnknow>
+            <Title>ゲームのファイルはどちらですか？</Title>
+            <FilePath>File Path</FilePath>
+            <ExcludeTitle>長押しで除外</ExcludeTitle>
+            <AddTitle>追加</AddTitle>
+            <TryRunTitle>テスト起動</TryRunTitle>
+            <TimerContent>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;6&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;Seconds&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;Perform exclude all&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#ACC3CD&quot;&gt;Release the button to cancel&lt;/font&gt;&lt;/p&gt;</TimerContent>
+        </PropertyGameMgrUnknow>
+    </PopGameMgr>
+
+    <PopAppGrid>
+        <LoadingTitle>Load installed soft list ...</LoadingTitle>
+        <ButtonXTitle>Save</ButtonXTitle>
+        <ButtonAdd>追加</ButtonAdd>
+        <ButtonCancel>キャンセル</ButtonCancel>
+    </PopAppGrid>
+
+    <PopFileDialog>
+        <ButtonXTitle>Save</ButtonXTitle>
+        <ButtonXTitleDirectory>フォルダを保存</ButtonXTitleDirectory>
+        <ButtonYTitle>前のフォルダ</ButtonYTitle>
+        <ButtonATitle>Enter</ButtonATitle>
+        <ButtonBTitle>閉じる</ButtonBTitle>
+    </PopFileDialog>
+
+    <PopUserRegister>
+        <Title1>With AYASpace&#8482;</Title1>
+        <Title2>Discover·Explore·Engage</Title2>
+        <Title3>Your Gaming Passion</Title3>
+        <RegisterTitle>Access your</RegisterTitle>
+        <RegisterTitle1>a new gaming experience</RegisterTitle1>
+        <AyaIdTitle>AYAid</AyaIdTitle>
+        <EmailTitle>Email</EmailTitle>
+        <CodeTiTle>Code</CodeTiTle>
+        <InputPhoneNumberTiTle>Your email address</InputPhoneNumberTiTle>
+        <InputCodeTiTle>Enter code</InputCodeTiTle>
+        <BtnSendCodeTitle>Request Code</BtnSendCodeTitle>
+        <BtnResendTitle>Resend</BtnResendTitle>
+        <PressTitle>Press</PressTitle>
+        <InputEmailTiTle>输入常用邮箱地址</InputEmailTiTle>
+        <EmailRegister>Email registration</EmailRegister>
+        <PhoneNumberRegister>Phone registration</PhoneNumberRegister>
+        <Next>Next</Next>
+        <Logining>Logging In...</Logining>
+        <CodeSendSucce>確認コードが送信されました</CodeSendSucce>
+        <CodeSendError>確認コードの送信に失敗しました。もう一度お試しください。</CodeSendError>
+        <Countdown>検証コード更新カウントダウン</Countdown>
+        <VerificationCodeError>検証コードエラー</VerificationCodeError>
+        <LoginFail>ログインに失敗しました</LoginFail>
+        <InputCorrectPhoneNumberTiTle>有効な電話番号を入力して下さい</InputCorrectPhoneNumberTiTle>
+        <InputCorrectEmail>正しいメールアドレスを入力してください</InputCorrectEmail>
+        <NetWorkErrorTip>現在、ネットワークに接続されていません。ネットワークの状態を確認してください</NetWorkErrorTip>
+        <Go>に移動</Go>
+	<Login>ログイン/登録</Login>
+	<Or>また</Or>
+	<Swich>トグル</Swich>
+	<UnLogin>ログインしていない</UnLogin>
+	<Association>クリックして関連付ける</Association>
+	<SetUp>設定</SetUp>
+	<DataSynchronization>データ同期</DataSynchronization>
+	<LoginAccount>ログインアカウント</LoginAccount>
+	<LoginOut>ログアウト</LoginOut>
+	<NotConnected>接続されていません</NotConnected>
+	<Connected>接続されています</Connected>
+	<Appreciate>感謝する</Appreciate>
+	<ProtocolText6>&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;未登録のユーザーはログイン後に自動的に登録されます AYAid,&lt;br&gt;登録とログインは承認と承認を意味します&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;「ユーザー規約」&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt; と&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;「プライバシーポリシー」&lt;/font&gt;</ProtocolText6>
+    </PopUserRegister>
+
+    <PopExploreAya>
+        <Front>正面</Front>
+        <Back>背面</Back>
+        <Vibration>
+            <Title>バイブレーショ</Title>
+            <ButtonA>設定</ButtonA>
+            <ViolentAdjustTip>Suitable for most AAA games, experience the most intense vibrations</ViolentAdjustTip>
+            <GentleAdjustTip>Soft, gentle, caress your palms, suitable for more casual players</GentleAdjustTip>
+            <CustomAdjustTip>Choose your own intensity level, save it, make the experience your own</CustomAdjustTip>
+            <Violent>Violent</Violent>
+            <OffTip>Off</OffTip>
+            <SaveSetting>Save</SaveSetting>
+        </Vibration>
+        <Resolution>
+            <Title>Resolution</Title>
+            <ButtonA>設定</ButtonA>
+            <Desc>現在:%d*%d</Desc>
+        </Resolution>
+        <Fan>
+            <Title>冷却ファン</Title>
+            <ButtonA>設定</ButtonA>
+            <Desc>現在:%s</Desc>
+        </Fan>
+        <PowerLevel>
+            <Title>TDP</Title>
+            <ButtonA>設定</ButtonA>
+            <Desc>現在:%s</Desc>
+            <GameTitle>Meeting the demands of most AAA game titles</GameTitle>
+            <BalanceTitle>Factory preset, balanced for most games</BalanceTitle>
+            <PowerSavingTitle>Battery Anxiety Terminator</PowerSavingTitle>
+            <CustomTitle>カスタム TDP</CustomTitle>
+            <AdjustValue>Adjust Value</AdjustValue>
+            <PowerUnlock>ロックを解除する 15W TDP</PowerUnlock>
+            <UnlockPowerTips>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#%2x%2x%2x&quot;&gt;ロックを解除するかどうか 15W TDP？&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#%2x%2x%2x&quot;&gt;ロックを解除すると、熱とノイズが増加することに注意してください。&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#%2x%2x%2x&quot;&gt;ロック解除は起動時にのみ有効になり、再起動後に再度ロックを解除する必要があります。&lt;/font&gt;&lt;/p&gt;</UnlockPowerTips>
+        </PowerLevel>
+        <QuickKey>
+            <Title>ファストオープン</Title>
+            <QuickKey_Control>クイックオープニングコントロール</QuickKey_Control>
+            <text>Windows操作のショートカット、すぐに再び開くことができます</text>
+            <DescOn>現在：オン</DescOn>
+            <DescOff>現在：開いていません</DescOff>
+            <ButtonA>チェック</ButtonA>
+            <On>オンにする</On>
+            <Off>閉鎖</Off>
+            <ArrowUp>KBキー</ArrowUp>
+            <ArrowLeft>マルチタスク</ArrowLeft>
+            <ArrowDown>タスクマネージャー</ArrowDown>
+            <ArrowRight>スクリーンショット</ArrowRight>
+            <Gesture>ジェスチャー</Gesture>
+            <HoldDown>押し続ける</HoldDown>
+        </QuickKey>
+        <Joystick>
+            <BtnTitle>ジョイスティック</BtnTitle>
+            <BtnDesc>修正</BtnDesc>
+            <ButtonA>チェック</ButtonA>
+            <Title>ジョイスティック/ボタンのキャリブレーション手順</Title>
+            <Desc>ジョイスティックとLT / RTの感度が低い場合は、次の操作を試すことができます。</Desc>
+            <StepText1_1>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;/font&gt;</StepText1_1>
+            <StepText1_2>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;を同時に&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt; 2 &lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;秒間押し続け、&lt;/font&gt;</StepText1_2>
+            <StepText1_3>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;ハンドルコントローラーが振動したらボタンを離します。&lt;/font&gt;</StepText1_3>
+            <StepText2>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;RSおよびLSデュアルジョイスティックが最大で1回転し、LT / RT（デュアルトリガーボタン）が&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt;最後まで 3 回押されます。&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;/font&gt;</StepText2>
+            <StepText3>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;キャリブレーションが完了すると、ハンドルコントローラーが振動してフィードバックします。&lt;/font&gt;</StepText3>
+            <UpdateStep>&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;コントローラファームウェアを最新バージョンにアップグレードしてください。AYASpaceからコントローラファームウェアをダウンロードして、&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;&lt;u&gt;&lt;b&gt;「アップグレードチュートリアル」&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;に従ってアップグレードできます。&lt;/font&gt;</UpdateStep>
+            <AirStepText1>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;LB + RB + Dpad 左 + B キーを同時に押す&lt;/font&gt;</AirStepText1>
+            <AirStepText2>&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;ジョイスティック コントローラーが振動してボタンを離すと、&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt; LS RS&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;が最大 5 回転します。&lt;/font&gt;</AirStepText2>
+        </Joystick>
+        <CustomKey>
+            <BtnStart>保存して適用</BtnStart>
+            <BtnA>確認</BtnA>
+            <BtnB>戻る</BtnB>
+			
+            <BtnTitle>カスタムキー</BtnTitle>
+            <BtnDesc>現在：</BtnDesc>
+            <ButtonA>設定</ButtonA>
+            <Title>カスタムキー</Title>
+            <Desc>短押し、長押し、お好きなように。</Desc>
+            <TipTop>カスタムボタンは、AYASpaceが起動している場合にのみ有効になります。起動していない場合、デフォルトのボタンは短押し：デスクトップの表示/長押し：タスクマネージャーです。</TipTop>
+            <TipBottom>今後のバージョンの反復で、このモジュールの機能が変更されます。最新バージョンを参照してください。</TipBottom>
+            <PressTitle>短押し</PressTitle>
+            <HoldTitle>長押し</HoldTitle>
+            <DefaultInfo>デフォルト</DefaultInfo>
+			
+			<FunCurrentFormat>&lt;center&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;&lt;b&gt;%s%&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font size=&quot;3&quot; color=&quot;#%X%&quot;&gt;%s%&lt;/font&gt;&lt;center&gt;</FunCurrentFormat>
+            <FunCurrent>現在</FunCurrent>
+            <FunShowDesk>デスクトップを表示する</FunShowDesk>
+            <FunScreenshot>スクリーンショット</FunScreenshot>
+            <FunCloseApp>アプリをオフにする</FunCloseApp>
+            <FunOsk>オンスクリーンキーボード</FunOsk>
+            <FunEsc>ESC</FunEsc>
+            <FunOpenStream>Steamを開く</FunOpenStream>
+            <FunXbox>Xboxキー</FunXbox>
+            <FunTaskView>タスクビュー</FunTaskView>
+            <FunTaskMgr>タスクマネージャー</FunTaskMgr>
+			
+            <FunShowDeskDesc>WIn + Dディスプレイシステムのデスクトップに相当します。</FunShowDeskDesc>
+            <FunScreenshotDesc>AYASpaceの組み込みのスクリーンショット機能を使用します。</FunScreenshotDesc>
+            <FunCloseAppDesc>これは、現在のプログラムを閉じるためのALT + F4の操作と同等です。</FunCloseAppDesc>
+            <FunOskDesc>OSKは、調整後はほとんど使用できません。</FunOskDesc>
+            <FunEscDesc>キーボードのESCキー。</FunEscDesc>
+            <FunOpenStreamDesc>Steamソフトウェアをすばやく起動します。</FunOpenStreamDesc>
+            <FunXboxDesc>Win + Gの機能と同等で、設定後にXboxアシスタントを開くことができます。</FunXboxDesc>
+            <FunTaskViewDesc>開いているプログラムをすばやく表示するためのAlt + TABと同等です。</FunTaskViewDesc>
+            <FunTaskMgrDesc>タスクマネージャの入り口にすばやく入るか、ソフトシャットダウン操作を実行できます。</FunTaskMgrDesc>
+            <ShoulderKey>カスタムショルダーキー</ShoulderKey>
+            <ShoulderKeyTitle>操作を更新するためのより多くの可能性を開きます。</ShoulderKeyTitle>
+            <ShoulderKeyDesc>カスタムショルダーキーは、AYASpaceが起動している場合にのみ有効です。デフォルトのキーは、起動していない場合は「LC」です。短押し：OSK /長押し：タスクマネージャー、「RC」短押し：ESC /長押し：タスクビュー。</ShoulderKeyDesc>
+            <AirCoustomKey>= ボタン</AirCoustomKey>
+        </CustomKey>
+		<Reset>リセット</Reset>
+        <FreeButton>
+            <KeyDpad>選択</KeyDpad>
+            <BtnA>確認</BtnA>
+            <BtnB>戻る</BtnB>
+			
+            <BtnTitle>フリーボタン</BtnTitle>
+            <BtnDesc>現在：</BtnDesc>
+            <ButtonA>設定</ButtonA>
+			
+            <Title>フリーボタン</Title>
+            <Desc>ボタンをあなたの習慣に合わせて変えましょう。</Desc>
+            <TipBottom>このキー構成はオペレーティングシステムおよびゲームで有効になり、AYASpaceはキープロンプトに従って操作します。</TipBottom>
+			
+            <XYBA>A/B/X/Y</XYBA>
+            <LR>L/R</LR>
+            <Standard>標準</Standard>
+            <JapanStyle>ジャパンスタイル</JapanStyle>
+            <Swap>スワップ</Swap>
+			
+            <BtnConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#C14D4E&quot;&gt;ボタンの構成を変更するかどうか&lt;/font&gt;&lt;/p&gt;</BtnConfirm>
+        </FreeButton>
+		<HandleConnection>
+			<Title>バースト</Title>
+			<Desc>ワンキー複数コマンドで、ゲームがより簡単に。</Desc>
+			<Desc2>今後のバージョンアップにより、本モジュールの機能が変更となりますので、最新版をご参照ください。</Desc2>
+			<Off>OFF</Off>
+			<Semiautomatic>半自動</Semiautomatic>
+			<Automatic>全自動</Automatic>
+			<Current>現在</Current>
+			<Reset>リセット</Reset>
+			<OffDesc>バーストしない</OffDesc>
+			<SemiautomaticDesc>ボタンを長押し、20バースト/秒</SemiautomaticDesc>
+			<AutomaticDesc>1 回押すと自動的にバーストし、もう一度押すと停止します</AutomaticDesc>
+		</HandleConnection>
+	<RGB>
+		<Title>RGB照明効果</Title>
+		<OpenRGB>開ける</OpenRGB>
+		<CloseRGB>閉鎖</CloseRGB>
+		<Desc>現在：</Desc>
+		<BtnStart>保存&&応用</BtnStart>
+		<CloseDesc>リフレッシュ操作の可能性を広げます</CloseDesc>
+		<CloseDesc2>今後のバージョンの反復に伴い、このモジュールの機能が変更されます。最新バージョンを参照してください。</CloseDesc2>
+		<LoadPreset>プリセットをロード</LoadPreset>
+		<Default>デフォルト</Default>
+		<BreathMonochrome>ブレスモノクローム</BreathMonochrome>
+		<BreatheRGBLoop>RGBループを呼吸する</BreatheRGBLoop>
+		<BreatheGoogle>グーグルを呼吸する</BreatheGoogle>
+		<Scanning>走査</Scanning>
+		<Ripple>リップル</Ripple>
+		<MonochromaticAlwaysOn>単色常にオン</MonochromaticAlwaysOn>
+		<Color>色</Color>
+		<Brightness>輝度</Brightness>
+		<Hex>16進カラー値 (Hex)</Hex>
+		<Customize>カスタマイズ</Customize>
+		<Off>閉鎖</Off>
+		<LightsOut>夜は消灯</LightsOut>
+		<Time>時間: 20:00~06:00</Time>
+	</RGB>
+    </PopExploreAya>
+
+    <PopGameBind>
+        <Title>Current game data</Title>
+        <SearchTitle>Search</SearchTitle>
+        <AiTitle>Intelligent</AiTitle>
+        <UnInstallTitle>Uninstall</UnInstallTitle>
+        <RemoveRecordTitle>Remove Record</RemoveRecordTitle>
+        <GameOpTitle>データ</GameOpTitle>
+        <ButtonStartTitle>Long press to clear data</ButtonStartTitle>
+        <ClearTimerContent>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;6&quot; color=&quot;#FDCA40&quot;&gt;%d&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;white&quot;&gt;seconds&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#FFFFFF&quot;&gt;Perform cleanup&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#ACC3CD&quot;&gt;Release the button to cancel&lt;/font&gt;&lt;/p&gt;</ClearTimerContent>
+        <ClearContentFinish>Clear data complete</ClearContentFinish>
+        <Show>Show</Show>
+        <Hide>Hidden</Hide>
+        <UnInstall>
+            <OkTitle>delete</OkTitle>
+            <Tips>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;white&quot;&gt;Confirm to uninstall the game?&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#c14d4e&quot;&gt;This action will delete: %s&lt;/font&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#c14d4e&quot;&gt;all the files in the directory, confirm to delete?&lt;/font&gt;&lt;/p&gt;</Tips>
+            <Loading>Delete the game directory...</Loading>
+            <Finish>Successfully deleted the game directory</Finish>
+        </UnInstall>
+        <GameBindSearch>
+            <Title>Search</Title>
+            <SaveTitle>Do you use this piece of data as game display data?</SaveTitle>
+            <SaveTitle>Whether to use this piece of data as game display data?</SaveTitle>
+            <ButtonBTitle>cancel</ButtonBTitle>
+            <ButtonATitle>confirm</ButtonATitle>
+            <ResultLeftWords>A total of</ResultLeftWords>
+            <ResultRightWords>game data found</ResultRightWords>
+            <SearchStart>searching...</SearchStart>
+            <SearchFinish>Finish</SearchFinish>
+            <SearchExist>The last search is running, please wait...</SearchExist>
+            <BackSpace>BackSpace</BackSpace>
+            <Space>Space</Space>
+            <LinkingGameInfoGameInfo>ゲーム情報のリンク</LinkingGameInfoGameInfo>
+            <LinkingGameInfoFinish>関連するゲーム情報が正常に</LinkingGameInfoFinish>
+            <LinkingGameInfoFail>ゲーム情報の関連付けに失敗しました</LinkingGameInfoFail>
+            <HasBindedGame>すでにこのゲームを所有しています</HasBindedGame>
+            <UseGameInfoFinish>ゲーム情報を正常に適用する</UseGameInfoFinish>
+            <UseGameInfoFail>ゲーム情報の適用に失敗しました</UseGameInfoFail>			
+        </GameBindSearch>
+    </PopGameBind>
+
+    <SystemStatusDetails>
+        <Title>リアルタイムモニター</Title>
+        <Processor>プロセッサー</Processor>
+        <NetWork>インターネット</NetWork>
+        <Battery>バッテリー</Battery>
+        <Memory>RAM</Memory>
+        <VirtualMemory>仮想メモリ</VirtualMemory>
+        <Fan>冷却ファン</Fan>
+        <FanSpeed>ファンの速度</FanSpeed>
+        <HardDisk>ストレージ</HardDisk>
+        <LoadFactor>ネットワー&#x000A;ク環境</LoadFactor>
+        <UsageRate>使用率</UsageRate>
+        <LocalConnection>LocalConnection</LocalConnection>
+        <Upload>アップロード</Upload>
+        <Download>ダウンロード</Download>
+        <HardDiskSpaceInfo>%s/%s 使用済み</HardDiskSpaceInfo>
+        <Charging>充電中</Charging>
+        <Discharging>Draining</Discharging>
+        <ChargFinsh>Full</ChargFinsh>
+        <EstimatedRunTime>%d hour(s) and %d minutes remaining</EstimatedRunTime>
+        <EstimatedRunTimeMin>%d minutes remaining</EstimatedRunTimeMin>
+        <TimeToFullCharge>%d hour(s) and %d minutes to full charge</TimeToFullCharge>
+        <TimeMinToFullCharge>フルチャージまで %d 分</TimeMinToFullCharge>
+    </SystemStatusDetails>
+
+    <SystemConfigInfos>
+        <Title>機体情報</Title>
+        <System>システム​</System>
+        <Version>バージョン:</Version>
+        <Cores>コア数:</Cores>
+        <Threads>スレッド:</Threads>
+        <VideoMemory>VRAM:</VideoMemory>
+        <Motherboard>マザーボード</Motherboard>
+        <Monitor>ディスプレイ</Monitor>
+        <Inch>インチ</Inch>
+        <HardDisk>ストレージ</HardDisk>
+        <Capacity>容量</Capacity>
+        <DisplayFrequency>リフレッシュレート: %dHz</DisplayFrequency>
+        <ScreenSize>サイズ:</ScreenSize>
+    </SystemConfigInfos>
+
+    <GameDetail>
+        <RunGame>PLAY</RunGame>
+        <RunGameNoOverLay>Clear Play\n(No InGame Overlay)</RunGameNoOverLay>
+        <Source>From:</Source>
+        <GameDuration>Game time：</GameDuration>
+        <GameDuration1>Game &#x000A;time：</GameDuration1>
+        <GameDataManagement>DATA</GameDataManagement>
+        <MetadataPlugins>Metadata</MetadataPlugins>
+	<NotApplied>構成が適用されていません</NotApplied>
+	<Applied>構成が適用されました</Applied>
+	<AddConfig>新しい構成を追加する</AddConfig>
+	<Like>Like</Like>
+        <Hour>Hour(s)</Hour>
+        <Minute>Minute(s)</Minute>
+        <Start>Play</Start>
+        <Back>戻る</Back>
+	<Enter>確認</Enter>
+	<PowerPolicy>電力ポリシー</PowerPolicy>
+	<TDP>TDP</TDP>
+	<FPS>FPS</FPS>
+	<Shock>バイブレーションモード</Shock>
+	<Resolution>解像度</Resolution>
+	<StartupParameters>起動パラメータ</StartupParameters>
+	<Remove>削除する</Remove>
+	<Detail>詳細</Detail>
+	<Application>申し込み</Application>
+	<Stop>無効にする</Stop>
+        <PlayTime>
+            <LessHalfHour>Took a glance</LessHalfHour>
+            <Normal>%0.1f</Normal>
+            <Maximum>9999+</Maximum>
+        </PlayTime>
+    </GameDetail>
+
+    <PopOtherDeviceTipPage>
+        <Title>Dear Gamers</Title>
+        <TipInfo>
+            AYA Spaceをダウンロードいただきありがとうございます。
+            しかしながら、AYA SpaceはANA NEO本機のみで動作する
+            ように設計されており、AYA NEOの様々な設定や購入し
+            たゲームを一元管理し、Windows を意識することなくゲ
+            ームを楽しめるようになります。
+        </TipInfo>
+        <Shop>国内玩家可前往官方淘宝店铺</Shop>
+        <Aya>「 AYANEO 亚诺掌机 」</Aya>
+        <AdvisoryBuy>咨询购买</AdvisoryBuy>
+        <Buy>Official Store</Buy>
+    </PopOtherDeviceTipPage>
+
+    <PopMinimize>
+        <SoftMinimize>AYASpace minimized</SoftMinimize>
+        <GameLaunch>Starting game</GameLaunch>
+        <GameRun>Game is currently running</GameRun>
+        <OpenApp>to show AYASpace</OpenApp>
+        <OpenQuickAsst>to open Quicktool</OpenQuickAsst>
+        <PressTitle>Press</PressTitle>
+        <LongPressTitle>Hold</LongPressTitle>
+    </PopMinimize>
+
+    <AyaDeviceInfo>
+        <Founder>AYANEO Founder</Founder>
+        <Formal>AYANEO 2021</Formal>
+        <Formal_Pro>AYANEO 2021 Pro</Formal_Pro>
+        <AYANEO_NEXT>AYANEO NEXT</AYANEO_NEXT>
+        <AYANEO_NEXT_Pro>AYANEO NEXT Pro</AYANEO_NEXT_Pro>
+        <AYANEO_2021_4500u_White>AYANEO 2021 Light Moon</AYANEO_2021_4500u_White>
+        <AYANEO_2021_4500u_Black>AYANEO 2021 Dark Star</AYANEO_2021_4500u_Black>
+        <AYANEO_2021_4800u_White>AYANEO 2021 Pro Light Moon</AYANEO_2021_4800u_White>
+        <AYANEO_2021_4800u_Black>AYANEO 2021 Pro Dark Star</AYANEO_2021_4800u_Black>
+        <AYANEO_2021_4800u_Retro>AYANEO 2021 Pro Retro Power</AYANEO_2021_4800u_Retro>
+        <AYANEO_NEXT_5800u_MetallicGrey>AYANEO NEXT MetallicGrey</AYANEO_NEXT_5800u_MetallicGrey>
+        <AYANEO_NEXT_5800u_DarkBlue>AYANEO NEXT DarkBlue</AYANEO_NEXT_5800u_DarkBlue>
+        <AYANEO_NEXT_5800u_LightBlue>AYANEO NEXT LightBlue</AYANEO_NEXT_5800u_LightBlue>
+        <AYANEO_NEXT_5800u_White>AYANEO NEXT White</AYANEO_NEXT_5800u_White>
+        <AYANEO_NEXT_5800u_BlackGrey>AYANEO NEXT BlackGrey</AYANEO_NEXT_5800u_BlackGrey>
+        <AYANEO_NEXT_5800u_Metal>AYANEO NEXT Metal</AYANEO_NEXT_5800u_Metal>
+        <AYANEO_NEXT_5825u_MetallicGrey>AYANEO NEXT MetallicGrey</AYANEO_NEXT_5825u_MetallicGrey>
+        <AYANEO_NEXT_5825u_DarkBlue>AAYANEO NEXT DarkBlue</AYANEO_NEXT_5825u_DarkBlue>
+        <AYANEO_NEXT_5825u_LightBlue>AYANEO NEXT LightBlue</AYANEO_NEXT_5825u_LightBlue>
+        <AYANEO_NEXT_5825u_White>AAYANEO NEXT White</AYANEO_NEXT_5825u_White>
+        <AYANEO_NEXT_5825u_BlackGrey>AYANEO NEXT BlackGrey</AYANEO_NEXT_5825u_BlackGrey>
+        <AYANEO_NEXT_5825u_Metal>AYANEO NEXT Metal</AYANEO_NEXT_5825u_Metal>
+        <AYANEO_NEXT_5825u_Pro_MetallicGrey>AYANEO NEXT Pro MetallicGrey</AYANEO_NEXT_5825u_Pro_MetallicGrey>
+        <AYANEO_NEXT_5825u_Pro_DarkBlue>AAYANEO NEXT Pro DarkBlue</AYANEO_NEXT_5825u_Pro_DarkBlue>
+        <AYANEO_NEXT_5825u_Pro_LightBlue>AYANEO NEXT Pro LightBlue</AYANEO_NEXT_5825u_Pro_LightBlue>
+        <AYANEO_NEXT_5825u_Pro_White>AAYANEO NEXT Pro White</AYANEO_NEXT_5825u_Pro_White>
+        <AYANEO_NEXT_5825u_Pro_BlackGrey>AYANEO NEXT Pro BlackGrey</AYANEO_NEXT_5825u_Pro_BlackGrey>
+        <AYANEO_NEXT_5825u_Pro_Metal>AYANEO NEXT Pro Metal</AYANEO_NEXT_5825u_Pro_Metal>
+        <AYANEO_AIR_Lite_White>AYANEO AIR Lite Aurora White</AYANEO_AIR_Lite_White>
+        <AYANEO_AIR_Lite_Black>AYANEO AIR Lite Polar Black</AYANEO_AIR_Lite_Black>
+        <AYANEO_AIR_Lite_Silver>AYANEO AIR Lite Bright Silver</AYANEO_AIR_Lite_Silver>
+        <AYANEO_AIR_Lite_Pink>AYANEO AIR Lite Sakura Pink</AYANEO_AIR_Lite_Pink>
+        <AYANEO_AIR_Lite_Duck_Yellow>AYANEO AIR Lite B.Duck Yellow</AYANEO_AIR_Lite_Duck_Yellow>
+        <AYANEO_AIR_Lite_Duck_Grey>AYANEO AIR Lite B.Duck Gray</AYANEO_AIR_Lite_Duck_Grey>
+        <AYANEO_AIR_Lite_Meizu>AYANEO AIR Lite Meizu</AYANEO_AIR_Lite_Meizu>
+        <AYANEO_AIR_Lite_Retro>AYANEO AIR Lite Retro Power</AYANEO_AIR_Lite_Retro>
+        <AYANEO_AIR_White>AYANEO AIR Aurora White</AYANEO_AIR_White>
+        <AYANEO_AIR_Black>AYANEO AIR Polar Black</AYANEO_AIR_Black>
+        <AYANEO_AIR_Silver>AYANEO AIR Bright Silver</AYANEO_AIR_Silver>
+        <AYANEO_AIR_Pink>AYANEO AIR akura Pink</AYANEO_AIR_Pink>
+        <AYANEO_AIR_Duck_Yellow>AYANEO AIR B.Duck Yellow</AYANEO_AIR_Duck_Yellow>
+        <AYANEO_AIR_Duck_Grey>AYANEO AIR  B.Duck Gray</AYANEO_AIR_Duck_Grey>
+        <AYANEO_AIR_Meizu>AYANEO AIR Meizu</AYANEO_AIR_Meizu>
+        <AYANEO_AIR_Retro>AYANEO AIR Retro Power</AYANEO_AIR_Retro>
+        <AYANEO_AIR_Pro_White>AYANEO AIR Pro Aurora White</AYANEO_AIR_Pro_White>
+        <AYANEO_AIR_Pro_Black>AYANEO AIR Pro Polar Black</AYANEO_AIR_Pro_Black>
+        <AYANEO_AIR_Pro_Silver>AYANEO AIR Pro Bright Silver</AYANEO_AIR_Pro_Silver>
+        <AYANEO_AIR_Pro_Pink>AYANEO AIR Pro akura Pink</AYANEO_AIR_Pro_Pink>
+        <AYANEO_AIR_Pro_Duck_Yellow>AYANEO AIR Pro B.Duck Yellow</AYANEO_AIR_Pro_Duck_Yellow>
+        <AYANEO_AIR_Pro_Duck_Grey>AYANEO AIR Pro B.Duck Gray</AYANEO_AIR_Pro_Duck_Grey>
+        <AYANEO_AIR_Pro_Meizu>AYANEO AIR Pro Meizu</AYANEO_AIR_Pro_Meizu>
+        <AYANEO_AIR_Pro_Retro>AYANEO AIR Pro Retro Power</AYANEO_AIR_Pro_Retro>
+        <AYANEO_2_White>AYANEO 2 Sky White</AYANEO_2_White>
+        <AYANEO_2_Black>AYANEO 2 Starry Black</AYANEO_2_Black>	
+        <AYANEO_2_Retro>AYANEO 2 Retro Power</AYANEO_2_Retro>
+        <AYANEO_2_BlueDuck>AYANEO 2 Duck Blue</AYANEO_2_BlueDuck>
+	<AYANEO_2_Geek_Black>AYANEO Fantasy Black</AYANEO_2_Geek_Black>
+	<AYANEO_2_Geek_Purple>AYANEO Crystal Purple</AYANEO_2_Geek_Purple>
+    </AyaDeviceInfo>
+
+    <!-- 升级界面 -->
+    <PopUpdate>
+        <Title>Upgrade to %s version?</Title>
+        <DownloadFailed>Download failed</DownloadFailed>
+        <Force>
+            <ButtonStart>Upgrade</ButtonStart>
+        </Force>
+        <Normal>
+            <ButtonX>Ignore</ButtonX>
+            <ButtonStart>Upgrade</ButtonStart>
+            <ButtonB>キャンセル</ButtonB>
+        </Normal>
+        <UpdateContent>Update content</UpdateContent>
+        <ReDownload>ReDownload</ReDownload>
+    </PopUpdate>
+
+    <!-- 插件界面 -->
+    <PopPluginGrid>
+        <Button>
+            <ButtonY>Update Plugins</ButtonY>
+            <ButtonStart>Plugin Config</ButtonStart>
+            <ButtonA>Run</ButtonA>
+            <ButtonB>キャンセル</ButtonB>
+        </Button>
+        <UpdateTaskRunningTips>Update task is running</UpdateTaskRunningTips>
+        <UpdateTaskFinish>Update Finish</UpdateTaskFinish>
+    </PopPluginGrid>
+
+    <PopResolutionSetting>
+        <FirstSettingTitle>
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;AYA Spaceには解像度の調整ができる機能がついています。ただ、こちらの機能は本機の動作状況によって映像が不鮮明になる可&lt;br&gt;能性があります。&lt;/br&gt;&lt;br&gt;解像度の設定をする際はゲームを始める前に&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; AMD公式のドライバー &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;をインストールの上、&lt;/font&gt;&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; GPUスケーリング &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;が有効になっていることを確認ください。​&lt;/font&gt;&lt;/br&gt;&lt;/p&gt;
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;もし解像度設定変更後に&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;映像が不鮮明な場合&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;はディスプレイ中央部を&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; 二本指で素早く2回クリック &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; 又は &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; Bボタンを押して &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; 変更前の解像度を復元してください。&lt;/font&gt;&lt;/p&gt;
+        </FirstSettingTitle>
+        <FirstSettingTitle1>
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;AYA Spaceには解像度の調整ができる機能がついています。ただ、こちらの機能は本機の動作状況によって映像が不鮮明になる可&lt;br&gt;能性があります。&lt;/br&gt;&lt;br&gt;解像度の設定をする際はゲームを始める前&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt; AMD公式のドライバー &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;をインストールの上、&lt;/font&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt; GPUスケーリング &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;が有効になっていることを確認ください。&lt;/font&gt;&lt;/br&gt;&lt;/p&gt;
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;もし解像度設定変更後に&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;映像が不鮮明な場合&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt;，はディスプレイ中央部を&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt; 二本指で素早く2回クリック &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt; 又は &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt; Bボタンを押して &lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;%s&quot;&gt; 変更前の解像度を復元してください&lt;/font&gt;&lt;/p&gt;
+        </FirstSettingTitle1>
+        <ChangedTitle>&lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;&lt;b&gt;解像度&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;&lt;b&gt;%sに変更&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;</ChangedTitle>
+        <SettingFinishTitle>
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;現在ディスプレイは正しく設定されていますでしょうか？変更前の解像度の復元&lt;br&gt;が必要な時は、ディスプレイ中央部を&lt;/br&gt;&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; 二本指で素早く2回クリック &lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;又は&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; Bボタン&lt;/font&gt;&lt;br&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;を押してください​&lt;/font&gt;&lt;/br&gt;&lt;/p&gt;
+        </SettingFinishTitle>
+        <Know>I know</Know>
+        <Apply>適応</Apply>
+        <Recovery>設定を戻す</Recovery>
+    </PopResolutionSetting>
+
+    <PopGameScreenshots>
+        <Title>すべてのスクリーンショット</Title>
+        <ButtonATitle>開ける</ButtonATitle>
+        <ButtonXTitle>消去</ButtonXTitle>
+        <ButtonYTitle>シェア</ButtonYTitle>
+        <GameScreenshots>ゲームのスクリーンショット</GameScreenshots>		
+        <AutoSync>自動同期</AutoSync>
+        <Uploading>アップロード…</Uploading>
+        <UploadFail>アップロードに失敗しました</UploadFail>
+        <Retry>リトライ</Retry>
+        <Loading>すべてのスクリーンショットを読み込んでいます...</Loading>
+        <InstructionsAndReminders>指示とリマインダー</InstructionsAndReminders>
+        <ScanQRCode>携帯電話でQRコードをスキャンする</ScanQRCode>
+        <DownloadImage>ゲームのスクリーンショットをダウンロードする</DownloadImage>
+        <InstructionsAndRemindersContent>
+            &lt;p align=&quot;left&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;&lt;/br&gt;スクリーンショットの自動アップロード機能をオンにしようとしています。 &lt;/br&gt;&lt;br&gt;これにより、ゲームのスクリーンショットを共有しやすくなります。同時に、&lt;/br&gt;&lt;br&gt;アップロードされたスクリーンショットデータは、AYANEOサーバーの個人デ&lt;/br&gt;&lt;br&gt;ータベースに保存されます。使用状況データと同期機能。&lt;/br&gt;&lt;br&gt;&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt; 「ソフトウェアライセンス契約」と「プライバシーポリシー」&lt;/font&gt;&lt;font size=&quot;5&quot; color=&quot;%s&quot;&gt;，を詳しくお読み &lt;/br&gt; &lt;br&gt; ください。この機能をオンにすると、関連するポリシーを理解し、理解すること&lt;/br&gt; &lt;br&gt; ができます。&lt;/font&gt;
+        </InstructionsAndRemindersContent>
+        <DeleteTip>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;red&quot;&gt;現在のゲームのスクリーンショット &lt;/br&gt; を削除してもよろしいですか？&lt;/font&gt;&lt;/p&gt;</DeleteTip>		
+    </PopGameScreenshots>
+	
+    <PopInstructionsAndWarn>
+        <SoftwareLicense>《ソフトウェア使用許諾契約》</SoftwareLicense>
+        <SoftwareLicenseTitle>ソフトウェア使用許諾契約</SoftwareLicenseTitle>
+        <PrivacyPolicy>《プライバシーポリシー》</PrivacyPolicy>
+        <PrivacyPolicyTitle>プライバシーポリシー</PrivacyPolicyTitle>
+        <Accept>わかりました、この機能をオンにしてください</Accept>
+        <Reject>ごみ</Reject>
+    </PopInstructionsAndWarn>
+
+    <BindApplet>
+        <Applet>アプレット</Applet>
+        <Press>によると</Press>
+        <Config>設定</Config>
+        <LongPress>押す</LongPress>
+        <Manage>管理</Manage>
+        <Remove>削除</Remove>
+        <Add>追加</Add>
+        <Enable>有効</Enable>
+        <Disable>無効</Disable>
+        <UnInstall>アンインストール</UnInstall>
+        <AddApplet>アプレットを追加する</AddApplet>
+    </BindApplet>
+	
+    <BindBluetooth>
+        <BindAppTitle>AYAスペースモバイルへのリンク</BindAppTitle>
+        <BindDesc>これからあやねおを使いやすく</BindDesc>
+        <DownloadTip>Apple AppStore、PlayStoreで「AYASpace Mobile」を検索するか、主要なアプリケーション市場で検索してダウンロードしてください</DownloadTip>
+        <BindTip>[アプリ]-[スペース]-[デバイスのバインド]ページで、[スキャンコードのバインド]を選択します</BindTip>
+        <ConnectSuccess>Connected</ConnectSuccess>
+        <NotConnected>NotConnected</NotConnected>
+        <ToBind>縛る</ToBind>
+        <UnknowApp>不明なアプリ</UnknowApp>		
+        <ReBind>再バインド</ReBind>	
+        <Refresh>リフレッシュ</Refresh>	
+        <BindSuccessTip>このマシンは次のデバイスにバインドされています</BindSuccessTip>
+        <TurnOnBluetooth>Bluetoothをオンにします</TurnOnBluetooth>	
+        <BleServerDisable>Bluetoothサービスを開始できませんでした</BleServerDisable>
+        <ReStartBluetooth>Bluetoothサービスを再起動します</ReStartBluetooth>
+        <AppScanTip>AYA Space APPを開き、スキャンしてデバイスをバインドします</AppScanTip>
+        <ZoomQRCode>QRコードを拡大するにはクリックしてください</ZoomQRCode>		
+    </BindBluetooth>	
+	
+	<FirmwareUpgrade>
+		<FirmwareUpgradeTitle>コントローラファームウェアのアップグレード</FirmwareUpgradeTitle>
+		<FirmwareUpgradeDesc>新しいコントローラーファームウェアがダウンロードされました。以下の手順に従って、コントローラーファームウェアをアップグレードしてください。</FirmwareUpgradeDesc>
+		<ShutDown>1、シャットダウン</ShutDown>
+		<Press>2、&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;LSを長押&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt; しして電源を入れ、システムに入り、AYASpaceを起動します。</Press>
+		<BtnA>シャットダウン</BtnA>
+		<BtnB>後で</BtnB>
+		<BtnX>スキップ</BtnX>
+		<ReadyTitle>コントローラファームウェアのアップグレード</ReadyTitle>
+		<ReadyDesc>コントローラのファームウェアのアップグレードが準備されています。ボタンを操作せず、辛抱強く待ってください。</ReadyDesc>
+		<UpTitle>アップグレード中…</UpTitle>
+		<UpDesc>コントローラのファームウェアをアップグレードしています。しばらくお待ちください。アップグレードプロセス中は、ボタンを操作したり、シャットダウンしたり、休止状態にしたりしないでください。</UpDesc>
+		<FailTitle>アップグレードに失敗しました</FailTitle>
+		<FailDesc>&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;ローカルで新しいバージョンのファームウェアが見つかりませんでした。&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;[設定]-[更新]&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt; を使用して、新しいファームウェアがあるかどうかを確認してください</FailDesc>
+		<SuccessTitle>更新が完了しました</SuccessTitle>
+		<SuccessDesc>コントローラのファームウェアのアップグレードが完了し、AYANEOのエクスペリエンスが向上しました。</SuccessDesc>
+		<Off>閉鎖</Off>
+		<Restart>アクティベーションハンドルを再起動します</Restart>
+	</FirmwareUpgrade>
+	<GmaeStrategy>
+		<Strategy>ゲーム戦略</Strategy>
+		<No>いいえ</No>
+		<AskForRaides>ライダーを頼む</AskForRaides>
+		<StrategyNum>レイダース</StrategyNum>
+		<Check>小切手</Check>
+	</GmaeStrategy>
+</Root>
