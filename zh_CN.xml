@@ -1218,7 +1218,7 @@
 	
 	<FirmwareUpgrade>
 		<FirmwareUpgradeTitle>手柄固件升级</FirmwareUpgradeTitle>
-		<FirmwareUpgradeDesc>新的手柄固件已经下载完成，请按下图指引升级手柄固件。</FirmwareUpgradeDesc>
+		<FirmwareUpgradeDesc>新的手柄固件已经下载完成，请按下图指引升级手柄固件。升级手柄过程中不要插电源和任何 usb 设备。</FirmwareUpgradeDesc>
 		<ShutDown>1、关机</ShutDown>
 		<Press>2、&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;长按LS&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt; 开机，进入系统后 启动AYASpace。</Press>
 		<BtnA>确认，执行关机</BtnA>

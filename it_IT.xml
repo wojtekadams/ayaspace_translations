@@ -1215,7 +1215,7 @@
 	
 	<FirmwareUpgrade>
 		<FirmwareUpgradeTitle>Aggiornamento del firmware del controller</FirmwareUpgradeTitle>
-		<FirmwareUpgradeDesc>Il nuovo firmware del controller è stato scaricato, seguire le istruzioni seguenti per aggiornare il firmware del controller.</FirmwareUpgradeDesc>
+		<FirmwareUpgradeDesc>Il nuovo firmware del controller è stato scaricato, seguire le istruzioni seguenti per aggiornare il firmware del controller. Non collegare l'alimentatore e qualsiasi dispositivo USB durante il processo di aggiornamento del controller.</FirmwareUpgradeDesc>
 		<ShutDown>1、spegnimento</ShutDown>
 		<Press>2、&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Tieni premuto LS&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt; per accendere, entrare nel sistema e avviare AYASpace.</Press>
 		<BtnA>spegnimento</BtnA>

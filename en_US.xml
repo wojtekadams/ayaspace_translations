@@ -1215,7 +1215,7 @@
 	
 	<FirmwareUpgrade>
 		<FirmwareUpgradeTitle>Controller firmware upgrade</FirmwareUpgradeTitle>
-		<FirmwareUpgradeDesc>The new controller firmware has been downloaded, please follow the instructions below to upgrade the controller firmware.</FirmwareUpgradeDesc>
+		<FirmwareUpgradeDesc>The new controller firmware has been downloaded, please follow the instructions below to upgrade the controller firmware. Do not plug in the power supply and any usb devices during the process of upgrading the controller. </FirmwareUpgradeDesc>
 		<ShutDown>1、shutdown</ShutDown>
 		<Press>2、&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Hold LS&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt; to power on, enter the system and start AYASpace.</Press>
 		<BtnA>shutdown</BtnA>

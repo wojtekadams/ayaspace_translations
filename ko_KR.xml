@@ -1211,7 +1211,7 @@
 	
 	<FirmwareUpgrade>
 		<FirmwareUpgradeTitle>컨트롤러 펌웨어 업그레이드</FirmwareUpgradeTitle>
-		<FirmwareUpgradeDesc>새 컨트롤러 펌웨어가 다운로드되었습니다. 아래 지침에 따라 컨트롤러 펌웨어를 업그레이드하십시오.</FirmwareUpgradeDesc>
+		<FirmwareUpgradeDesc>새 컨트롤러 펌웨어가 다운로드되었습니다. 아래 지침에 따라 컨트롤러 펌웨어를 업그레이드하십시오. 컨트롤러를 업그레이드하는 동안 전원 공급 장치와 USB 장치를 연결하지 마십시오.</FirmwareUpgradeDesc>
 		<ShutDown>1、일시 휴업</ShutDown>
 		<Press>2、&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;LS&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt; 를 길게 눌러 전원을 켜고 시스템에 들어가 AYASpace를 시작합니다.</Press>
 		<BtnA>확인, 종료 수행</BtnA>

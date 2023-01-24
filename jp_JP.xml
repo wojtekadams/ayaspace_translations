@@ -1212,7 +1212,7 @@
 	
 	<FirmwareUpgrade>
 		<FirmwareUpgradeTitle>コントローラファームウェアのアップグレード</FirmwareUpgradeTitle>
-		<FirmwareUpgradeDesc>新しいコントローラーファームウェアがダウンロードされました。以下の手順に従って、コントローラーファームウェアをアップグレードしてください。</FirmwareUpgradeDesc>
+		<FirmwareUpgradeDesc>新しいコントローラーファームウェアがダウンロードされました。以下の手順に従って、コントローラーファームウェアをアップグレードしてください。コントローラのアップグレード中は、電源や USB デバイスを接続しないでください。</FirmwareUpgradeDesc>
 		<ShutDown>1、シャットダウン</ShutDown>
 		<Press>2、&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;LSを長押&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt; しして電源を入れ、システムに入り、AYASpaceを起動します。</Press>
 		<BtnA>シャットダウン</BtnA>

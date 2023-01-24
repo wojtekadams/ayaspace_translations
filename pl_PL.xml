@@ -237,6 +237,9 @@
                 <Gentle>Lekka</Gentle>
                 <Violent>Silna</Violent>
                 <Off>Wyłączona</Off>
+                <Low>Niski</Low>
+                <Middle>środek</Middle>
+                <High>wysoki</High>
             </PadVibration>
 
             <Cpu>
@@ -1209,7 +1212,7 @@
 	
 	<FirmwareUpgrade>
 		<FirmwareUpgradeTitle>Aktualizacja oprogramowania kontrolera</FirmwareUpgradeTitle>
-		<FirmwareUpgradeDesc>Nowe oprogramowanie kontrolera zostało pobrane. Postępuj zgodnie z poniższymi instrukcjami, aby je zaktualizować.</FirmwareUpgradeDesc>
+		<FirmwareUpgradeDesc>Nowe oprogramowanie kontrolera zostało pobrane. Postępuj zgodnie z poniższymi instrukcjami, aby je zaktualizować. Nie podłączaj zasilacza ani żadnych urządzeń USB podczas procesu aktualizacji kontrolera.</FirmwareUpgradeDesc>
 		<ShutDown>1.Wyłączenie</ShutDown>
 		<Press>2.&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Hold LS&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt; aby włączyć, wejdź do systemu i uruchom AYASpace.</Press>
 		<BtnA>Wyłącz</BtnA>
