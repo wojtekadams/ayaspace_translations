@@ -1,5 +1,5 @@
 <!-- Author of translation: wojtekadams -->
-<!-- Version compatible with: AYASpace 1.1.0.10 -->
+<!-- Version compatible with: AYASpace 1.1.0.18 -->
 <!-- Verison of translation: 0.1 -->
 <!-- Feedbeck: https://github.com/wojtekadams/ayaspace_translations/issues ;-->
 <?xml version="1.0" encoding="utf-8"?>
@@ -237,14 +237,15 @@
                 <Gentle>Lekka</Gentle>
                 <Violent>Silna</Violent>
                 <Off>Wyłączona</Off>
+<!-- ??? -->
                 <Low>Niski</Low>
-                <Middle>środek</Middle>
-                <High>wysoki</High>
+                <Middle>Środek</Middle>
+                <High>Wysoki</High>
             </PadVibration>
 
             <Cpu>
                 <Game>Tryb Gry</Game>
-				<!-- ??? -->
+<!-- ??? -->
 				<!-- Zbilansowany lepiej pasuje ale się nie miesci -->
                 <Balance>Optymalny</Balance>
                 <PowerSaving>Oszczędny</PowerSaving>
@@ -255,7 +256,7 @@
             </Cpu>
 
             <Fan>
-				<!-- ??? -->
+<!-- ??? -->
                 <ProTitle>Pro</ProTitle>
                 <WildTitle>MAX</WildTitle>
                 <SmartTitle>LOW</SmartTitle>
@@ -338,7 +339,7 @@
         <CardPlat>
             <KeyX>Ukryj Zainstalowane</KeyX>
             <KeyX2>Pokaż Zainstalowane</KeyX2>
-			<!-- ??? -->
+<!-- ??? -->
             <KeyY>Anuluj Common Use</KeyY>
             <BtnInstall>Instaluj</BtnInstall>
             <InstallStatus>Zainstalowane</InstallStatus>
@@ -408,8 +409,8 @@
         </CardMaster>
 
         <CardTinyTool>
-			<!-- ??? -->
-            <Title>Podręczny panel sterowania</Title>
+<!-- ??? -->
+            <Title>Podręczny panel</Title>
             <QuickTool>AYAQuicktool</QuickTool>
             <CommTool>Quicktool Commonly control</CommTool>
             <Fold>Wysuwane menu</Fold>
@@ -448,7 +449,7 @@
             <Disable>Wyłącz</Disable>
             <Enable>Włącz</Enable>
             <ScreenshotSucc>Zrzut ekranu</ScreenshotSucc>
-						<!-- ??? -->
+<!-- ??? -->
             <FsrTips>Skalowanie najbardziej wysuniętego do przodu okna z FSR po 3 sekundach</FsrTips>
             <Prossimamente>Wkrótce</Prossimamente>
         </StatusBar>
@@ -796,7 +797,7 @@
              <ArrowDown>Menedżer zadań</ArrowDown>
              <ArrowRight>Zrzut ekranu</ArrowRight>
              <Gesture>Gest</Gesture>
-             <Przytrzymaj>Przytrzymaj</Przytrzymaj>
+             <HoldDown>Przytrzymaj</HoldDown>
         </QuickKey>
         <Joystick>
             <BtnTitle>Gałki i przyciski</BtnTitle>
@@ -864,7 +865,7 @@
             <BtnTitle>Wolny Przycisk</BtnTitle>
             <BtnDesc>bieżący: </BtnDesc>
             <ButtonA>Konfiguracja</ButtonA>
-		<!-- ??? -->	
+<!-- ??? -->
             <Title>Wolny Przycisk</Title>
             <Desc>Niech Przycisk zmienia się wraz z twoimi nawykami.</Desc>
             <TipBottom>Konfiguracja klawisza będzie obowiązywać w systemie Windows i grze, a w aplikacji AYASpace nadal będzie działać zgodnie z rolą klawisza.</TipBottom>
@@ -876,6 +877,21 @@
 			
             <BtnConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#C14D4E&quot;&gt;Czy zmienić konfigurację przycisków?&lt;/font&gt;&lt;/p&gt;</BtnConfirm>
         </FreeButton>
+		<HandleConnection>
+			<Title>Seria</Title>
+			<Desc>Jeden klawisz, wiele komend.</Desc>
+			<Desc2>W kolejnych iteracjach wersji, funkcje tego modułu ulegną zmianie, proszę zapoznać się z najnowszą wersją.</Desc2>
+			<Off>Wyłączone</Off>
+			<Semiautomatic>Półautomatyczny</Semiautomatic>
+			<Automatic>Automatyczny</Automatic>
+			<Current>Aktuyalny</Current>
+			<Reset>Zresetuj</Reset>
+			<OffDesc>Normalny</OffDesc>
+<!-- ??? -->
+			<SemiautomaticDesc>Press the button,20 times/s connection</SemiautomaticDesc>
+<!-- ??? -->
+			<AutomaticDesc>Press the automatic continuous development,then click to stop</AutomaticDesc>
+		</HandleConnection>
 	<RGB>
 		<Title>Oświetlenia RGB</Title>
 		<OpenRGB>Włącz</OpenRGB>
@@ -1040,7 +1056,7 @@
         <OpenApp>aby pokazać AYASpace</OpenApp>
         <OpenQuickAsst>aby otworzyć Quicktool</OpenQuickAsst>
         <PressTitle>Naciśnij</PressTitle>
-        <LongPressTitle>Przytrzymaj</LongPressTitle>
+        <LongPressTitle>Przytrzy- maj</LongPressTitle>
     </PopMinimize>
 
     <AyaDeviceInfo>
@@ -1100,6 +1116,8 @@
         <AYANEO_2_Black>AYANEO 2 Starry Black</AYANEO_2_Black>	
         <AYANEO_2_Retro>AYANEO 2 Retro Power</AYANEO_2_Retro>
         <AYANEO_2_BlueDuck>AYANEO 2 Duck Blue</AYANEO_2_BlueDuck>
+	<AYANEO_2_Geek_Black>AYANEO Fantasy Black</AYANEO_2_Geek_Black>
+	<AYANEO_2_Geek_Purple>AYANEO Crystal Purple</AYANEO_2_Geek_Purple>
     </AyaDeviceInfo>
 
     <!-- 升级界面 -->
@@ -1212,7 +1230,7 @@
 	
 	<FirmwareUpgrade>
 		<FirmwareUpgradeTitle>Aktualizacja oprogramowania kontrolera</FirmwareUpgradeTitle>
-		<FirmwareUpgradeDesc>Nowe oprogramowanie kontrolera zostało pobrane. Postępuj zgodnie z poniższymi instrukcjami, aby je zaktualizować. Nie podłączaj zasilacza ani żadnych urządzeń USB podczas procesu aktualizacji kontrolera.</FirmwareUpgradeDesc>
+		<FirmwareUpgradeDesc>Nowe oprogramowanie kontrolera zostało pobrane. Postępuj zgodnie z poniższymi instrukcjami, aby je zaktualizować. Nie podłączaj zasilacza ani żadnych urządzeń USB podczas procesu aktualizacji.</FirmwareUpgradeDesc>
 		<ShutDown>1.Wyłączenie</ShutDown>
 		<Press>2.&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt;Hold LS&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#%X%&quot;&gt; aby włączyć, wejdź do systemu i uruchom AYASpace.</Press>
 		<BtnA>Wyłącz</BtnA>
