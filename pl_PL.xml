@@ -1,5 +1,5 @@
 <!-- Author of translation: wojtekadams -->
-<!-- Version compatible with: AYASpace 1.1.0.18 -->
+<!-- Version compatible with: AYASpace 1.1.0.19 -->
 <!-- Verison of translation: 0.1 -->
 <!-- Feedbeck: https://github.com/wojtekadams/ayaspace_translations/issues ;-->
 <?xml version="1.0" encoding="utf-8"?>
@@ -361,7 +361,7 @@
             <RenewAll>Zaktualizuj wszystkie</RenewAll>
             <Manage>Zarządzaj</Manage>
             <TurnOn>Włącz/Wyłącz</TurnOn>
-            <ReleaseDesc>Opis wydanua</ReleaseDesc>
+            <ReleaseDesc>Opis wydania</ReleaseDesc>
             <UseDesc>Opis zastosowania</UseDesc>
             <More>Więcej</More>
             <Version>Wersja</Version>
@@ -398,6 +398,7 @@
             <Config>Skonfiguruj tryb pracy</Config>
         </CardMasterPad>
 
+<!-- ??? 1.1.0.19 -->
         <CardMaster>
             <NewUpdateTitle>#Aktualizacja - Dodano opis dla kalibracji joysticka</NewUpdateTitle>
             <ExploreAya>EVO - Konfiguracja  AYANEO</ExploreAya>
@@ -503,8 +504,8 @@
             <TitleButtonA>Aktualizuj</TitleButtonA>
             <TitleButtonB>Wróć</TitleButtonB>
             <BtnCheckTitle>Sprawdź aktualizacje</BtnCheckTitle>
-            <Retry>Spróbój ponownie</Retry>
-            <RetryTitle>Spróbój ponownie</RetryTitle>
+            <Retry>Spróbuj ponownie</Retry>
+            <RetryTitle>Spróbuj ponownie</RetryTitle>
             <Finish>Koniec</Finish>
             <updateItems>%d do zakualizowania</updateItems>
             <updateFailItems>%d nie powiodło się</updateFailItems>
@@ -512,7 +513,7 @@
             <DownloadingTip>Pobieranie, proszę czekać.</DownloadingTip>
             <UpdateCloseTip>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;red&quot;&gt;Trwa aktualizacja sterownika. Czy na pewno chcesz zamknąć?&lt;/font&gt;&lt;/p&gt;</UpdateCloseTip>
             <Fail>Aktualizacja nieudana</Fail>
-            <Updating>Aktualizowanie</Updating>
+            <Updating>Aktualizacja</Updating>
             <Installing>Instalowanie...</Installing>
             <ManualInstallation>Instrukcje Instalacji</ManualInstallation>
             <Restart>Uruchom ponownie, aby uzyskać efekt</Restart>
@@ -892,6 +893,14 @@
 <!-- ??? -->
 			<AutomaticDesc>Press the automatic continuous development,then click to stop</AutomaticDesc>
 		</HandleConnection>
+		<JoystickDeadZone>
+			<Title>Martwa strefa dżojstików</Title>
+			<Desc>Delikatna regulacja, lepsze doświadczenie.</Desc>	
+			<Desc2>>W kolejnych wersjach funkcje tego modułu ulegną zmianie, proszę zapoznać się z najnowszą wersją.</Desc2>
+			<On>Włącz</On>
+			<Off>Wyłącz</Off>
+			<BtnConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#C14D4E&quot;&gt;Czy zmienić konfigurację dżojstika?&lt;/font&gt;&lt;/p&gt;</BtnConfirm>
+		</JoystickDeadZone>
 	<RGB>
 		<Title>Oświetlenia RGB</Title>
 		<OpenRGB>Włącz</OpenRGB>
@@ -1118,6 +1127,10 @@
         <AYANEO_2_BlueDuck>AYANEO 2 Duck Blue</AYANEO_2_BlueDuck>
 	<AYANEO_2_Geek_Black>AYANEO Fantasy Black</AYANEO_2_Geek_Black>
 	<AYANEO_2_Geek_Purple>AYANEO Crystal Purple</AYANEO_2_Geek_Purple>
+        <AYANEO_AIR_Plus_Grey>AYANEO Air Plus Classic Grey</AYANEO_AIR_Plus_Grey>
+        <AYANEO_AIR_Plus_Black>AYANEO Air Plus Starlight Black</AYANEO_AIR_Plus_Black>
+        <AYANEO_AIR_Plus_Blue>AYANEO Air Plus Glacier Blue</AYANEO_AIR_Plus_Blue>
+        <AYANEO_AIR_Plus_White>AYANEO Air Plus Snow White</AYANEO_AIR_Plus_White>
     </AyaDeviceInfo>
 
     <!-- 升级界面 -->
