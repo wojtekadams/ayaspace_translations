@@ -874,6 +874,14 @@
 			<SemiautomaticDesc>Press the button,20 times/s connection</SemiautomaticDesc>
 			<AutomaticDesc>Press the automatic continuous development,then click to stop</AutomaticDesc>
 		</HandleConnection>
+		<JoystickDeadZone>
+			<Title>StickDeadZone</Title>
+			<Desc>Delicate adjustment, ultimate experience.</Desc>	
+			<Desc2>With future version iterations, the functions of this module will change, please refer to the latest version.</Desc2>
+			<On>On</On>
+			<Off>Off</Off>
+			<BtnConfirm>&lt;p align=&quot;center&quot;&gt;&lt;font size=&quot;5&quot; color=&quot;#C14D4E&quot;&gt;Whether to change the joystick configuration？&lt;/font&gt;&lt;/p&gt;</BtnConfirm>
+		</JoystickDeadZone>
 	<RGB>
 		<Title>RGB lighting effect</Title>
 		<OpenRGB>Turn on</OpenRGB>
@@ -1103,6 +1111,10 @@
         <AYANEO_2_BlueDuck>AYANEO 2 Duck Blue</AYANEO_2_BlueDuck>
 	<AYANEO_2_Geek_Black>AYANEO Fantasy Black</AYANEO_2_Geek_Black>
 	<AYANEO_2_Geek_Purple>AYANEO Crystal Purple</AYANEO_2_Geek_Purple>
+        <AYANEO_AIR_Plus_Grey>AYANEO Air Plus Classic Grey</AYANEO_AIR_Plus_Grey>
+        <AYANEO_AIR_Plus_Black>AYANEO Air Plus Starlight Black</AYANEO_AIR_Plus_Black>
+        <AYANEO_AIR_Plus_Blue>AYANEO Air Plus Glacier Blue</AYANEO_AIR_Plus_Blue>
+        <AYANEO_AIR_Plus_White>AYANEO Air Plus Snow White</AYANEO_AIR_Plus_White>
     </AyaDeviceInfo>
 
     <!-- 升级界面 -->
