@@ -1,6 +1,6 @@
 # AYA Space Beta - Polish Translation
 
-Translation based file comming from version: 1.1.0.19
+Translation based file comming from version: 1.1.0.23
 
 Progress of translation: 99%
 
