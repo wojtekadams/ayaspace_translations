@@ -12,3 +12,4 @@ Progress of translation: 99%
 C:\Program Files (x86)\AYASpace\locale\
 ```
 5. Restart of AYA Space
+6. And choose new language in settings ;) 
