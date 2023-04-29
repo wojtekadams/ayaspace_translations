@@ -19,7 +19,7 @@ C:\Program Files (x86)\AYASpace\locale\
 6. And choose new language in settings ;) 
 
 
-# LOGO
+## LOGO in the language settings:
 
 French (fr_FR.png) by Jojodunet.
 
