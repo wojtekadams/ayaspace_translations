@@ -1,12 +1,12 @@
 # AYA Space Beta - Language Translation Community
 
-French (fr_FR.xml) by Jojodunet:
-Translation based file comming from version: 1.1.0.23
-Progress of translation: 99%
+French (fr_FR.xml) by Jojodunet:  
+Translation based file comming from version: 1.1.0.23  
+Progress of translation: 99%  
 
-Polish (pl_PL.xml) by wojtekadams:
-Translation based file comming from version: 1.1.0.23
-Progress of translation: 99%
+Polish (pl_PL.xml) by wojtekadams:  
+Translation based file comming from version: 1.1.0.23  
+Progress of translation: 99%  
 
 1. Download **AYA Space**: https://ayaneo.com/support/download
 2. Install It
@@ -23,7 +23,7 @@ C:\Program Files (x86)\AYASpace\locale\
 
 French (fr_FR.png) by Jojodunet.
 
-You need to add the logo to the following directories, depending on which version of the layout you are using.
+You need to add the logo to the following directories, depending on which version of the layout you are using.  
 Please note that for NEXT & DUCK theme, the logo color may not correspond exactly yet.
 ```
 AYASpace\theme\NEXT\SystemSetting
