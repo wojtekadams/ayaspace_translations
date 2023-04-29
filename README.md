@@ -1,10 +1,10 @@
 # AYA Space Beta - Language Translation Community
 
-French (fr_FR.xml) :
+French (fr_FR.xml) by Jojodunet:
 Translation based file comming from version: 1.1.0.23
 Progress of translation: 99%
 
-Polish (pl_PL.xml) :
+Polish (pl_PL.xml) by wojtekadams:
 Translation based file comming from version: 1.1.0.23
 Progress of translation: 99%
 
