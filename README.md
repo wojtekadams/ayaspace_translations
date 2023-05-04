@@ -18,10 +18,12 @@ C:\Program Files (x86)\AYASpace\locale\
 5. Restart of AYA Space
 6. And choose new language in settings ;) 
 
+---
 
 ## LOGO in the language settings:
 
-French (fr_FR.png) by Jojodunet.
+* French (fr_FR.png) by Jojodunet.
+* Polish (pl_PL.png) by wojtekadams.
 
 You need to add the logo to the following directories, depending on which version of the layout you are using.  
 Please note that for NEXT & DUCK theme, the logo color may not correspond exactly yet.
