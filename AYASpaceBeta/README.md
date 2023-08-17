@@ -1,4 +1,4 @@
-# AYA Space Beta - Language Translations
+# AYASpace Beta - Language Translations
 
 -   French (fr_FR.xml) :fr: by *Jojodunet*:  
      - Translation based file comming from version: 1.1.0.23  
