@@ -1,0 +1,15 @@
+export default {
+  add: "Add",
+  cancel: "Canel",
+  close: "Close",
+  confirm: "Confirm",
+  crossKey: "Select",
+  del: "Del",
+  press: "Press",
+  return: "Go Back",
+  remove: "Remove",
+  share: "Share",
+  toggle: "Toggle",
+  more: "More",
+  saveAndApply: "Save And Apply",
+};
