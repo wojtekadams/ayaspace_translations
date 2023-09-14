@@ -1,0 +1,16 @@
+export default {
+  thanks: "Thank you for choosing",
+  selsectLang: "Language",
+  next: "Next step",
+  enjoy: "Please enjoy the game",
+  selectWifi: "Wifi",
+  WiFiClose: "WiFi is off",
+  WiFiAdapter: "Could not find WiFi",
+  WiFiNetwork: "No Networks",
+  Y: "jump over",
+  R: "scroll",
+  UserAgreement: "Privacy policy",
+  agree: "agree and continue",
+  goEnjoy: "Go enjoy your gaming life",
+  goPlay: "to play",
+};
