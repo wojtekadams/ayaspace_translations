@@ -1,0 +1,41 @@
+export default {
+  home: "Accueil",
+  game: "Jeux installés",
+  retroGame: "Jeux rétro",
+  apps: "Logiciels",
+  assostant: "Assistant",
+  gallery: "Galerie de jeux",
+  Avatar: {
+    appreciate: "apprécier",
+    login: "Connexion",
+    noLogin: "Non connecté",
+    dataSync: "Synchronisation des données",
+    new: "Nouveau",
+    conente: "Contenu de la mise à jour",
+    logoOut: "Déconnexion",
+    old: "Version précédente",
+    power: "Alimentation",
+  },
+  shutdownNemu: {
+    secondConfirm: "Éteindre?",
+    minimize: "Réduire",
+    exit: "Quitter",
+    sleep: "Mettre en veille",
+    reboot: "Redémarrer",
+    shutdown: "Éteindre",
+  },
+  closeWindow: "Confirmer pour quitter AYASpace?",
+  tips: {
+    notice: "Avis",
+    set: "Paramètres",
+    shutdown: "Menu d'arrêt",
+  },
+  drawer: {
+    qa: "FAQ",
+    GameManage: "Gestion des jeux",
+  },
+  newFeatures: {
+    title: "Nouvelles fonctionnalités de AYASpace 2.0",
+    content: "Contenu de la mise à jour",
+  },
+};
